@@ -45,14 +45,24 @@
  "tabs": {
   "about": "RB and WR tabs: 'current' names the current season's players per season (in display order: the first is drawn solid, the second dashed). A season without an entry uses Notre Dame's top 'count' players at 'positions' by yards. Earlier seasons always use that top-by-yards rule. Team tab: Notre Dame's seasons from the QB list above, plus the current AP Top 5.",
   "rb": {
-   "current": {},
+   "current": {
+    "2026": [
+     "Jonaz Walton",
+     "Nolan James, Jr."
+    ]
+   },
    "count": 2,
    "positions": [
     "RB"
    ]
   },
   "wr": {
-   "current": {},
+   "current": {
+    "2026": [
+     "Jordan Faison",
+     "Micah Gilbert"
+    ]
+   },
    "count": 2,
    "positions": [
     "WR",

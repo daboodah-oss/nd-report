@@ -54,6 +54,7 @@ async function run(html, theme) {
     runScripts: "dangerously", pretendToBeVisual: true, url: "https://nd.daboodah.com/", virtualConsole: vc,
     beforeParse(w) {
       w.matchMedia = q => ({ matches: theme === "dark" && /dark/.test(q), media: q, addEventListener() {}, removeEventListener() {}, addListener() {}, removeListener() {} });
+      w.scrollTo = () => {};  // jsdom does not implement scrolling; the page calls it when a tab is opened by the user
       w.addEventListener("error", e => errors.push(`window error: ${e.message}`));
       Object.defineProperty(w.HTMLElement.prototype, "clientWidth", { get() { return 900; } });
       w.SVGElement.prototype.getBoundingClientRect = () => ({ left: 0, top: 0, width: 900, height: 360, right: 900, bottom: 360 });
