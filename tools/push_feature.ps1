@@ -1,5 +1,5 @@
 <#
-Push a branch of daboodah-oss/iu-qb-report from this PC.  Never pushes main.
+Push a branch of daboodah-oss/nd-report from this PC.  Never pushes main.
 Authentication: Git Credential Manager (Windows Credential Manager).  No token is read from or written to any file.
 
   powershell -ExecutionPolicy Bypass -File push_feature.ps1 [-Branch feature/x] [-Patch C:\path\changes.patch] [-Run]
@@ -11,13 +11,13 @@ First push on a new PC: Git shows a GitHub sign-in window.  Choose "Token" and p
 Keep this script in the repo's tools\ folder next to run_workflow.ps1.
 #>
 param(
-  [string]$Branch = "feature/cignetti-qbs",
+  [string]$Branch = "claude/nd-report",
   [string]$Patch = "",
-  [string]$Clone = "$env:USERPROFILE\github\iu-qb-report",
+  [string]$Clone = "$env:USERPROFILE\github\nd-report",
   [switch]$Run
 )
 $ErrorActionPreference = "Stop"
-$Repo = "daboodah-oss/iu-qb-report"
+$Repo = "daboodah-oss/nd-report"
 function Need($ok, $msg) { if (-not $ok) { Write-Host "STOP: $msg" -ForegroundColor Red; exit 1 } }
 
 Need ($Branch -ne "main") "this script never pushes main"

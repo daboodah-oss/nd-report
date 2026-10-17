@@ -9,7 +9,7 @@ or saved) to get the higher API rate limit.  No token file is ever read.
 """
 import argparse, base64, json, os, subprocess, urllib.request
 
-REPO = "https://api.github.com/repos/daboodah-oss/iu-qb-report"
+REPO = "https://api.github.com/repos/daboodah-oss/nd-report"
 
 
 def stored_credential():
@@ -31,7 +31,7 @@ def main():
     ap.add_argument("paths", nargs="*")
     a = ap.parse_args()
     cred = stored_credential()
-    hdr = {"Accept": "application/vnd.github+json", "User-Agent": "iu-qb-report-status"}
+    hdr = {"Accept": "application/vnd.github+json", "User-Agent": "nd-report-status"}
     if cred: hdr["Authorization"] = "Bearer " + cred
     del cred
 

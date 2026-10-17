@@ -10,7 +10,7 @@ Without the PC: GitHub app or website, Actions tab, "Update report", "Run workfl
 #>
 param([string]$Ref = "main", [switch]$SaveRaw)
 $ErrorActionPreference = "Stop"
-$Repo = "daboodah-oss/iu-qb-report"
+$Repo = "daboodah-oss/nd-report"
 $env:GCM_INTERACTIVE = "never"; $env:GIT_TERMINAL_PROMPT = "0"
 $fill = "protocol=https`nhost=github.com`n`n" | git credential fill
 $pw = ($fill | Where-Object { $_ -like "password=*" }) -replace "^password=", ""
