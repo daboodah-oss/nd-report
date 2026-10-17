@@ -1,25 +1,12 @@
 {
- "at": "2026-10-17T19:12-04:00",
+ "at": "2026-10-17T19:14-04:00",
  "failed": [
   "team"
  ],
  "log": [
   "[schedule] 2026: 12 games, 6 played",
   "[schedule] ESPN finals seen: 6, latest 2026-10-10 W 58-7",
-  "[schedule] 2024: 16 games, 16 played",
-  "[backfill] stored Riley Leonard 2024: 16 games",
-  "[schedule] 2025: 12 games, 12 played",
-  "[backfill] stored CJ Carr 2025: 12 games",
-  "[backfill] stored 2024 final opponent pass-D ranks",
-  "[backfill] stored 2025 final opponent pass-D ranks",
-  "[games] added Carr \u201926 2026-09-06 Wisconsin W 41-13",
-  "[games] added Carr \u201926 2026-09-12 Rice W 52-0",
-  "[games] added Carr \u201926 2026-09-19 Michigan State W 27-10",
-  "[games] added Carr \u201926 2026-09-26 Purdue W 49-10",
-  "[games] added Carr \u201926 2026-10-03 North Carolina W 37-26",
-  "[games] added Carr \u201926 2026-10-10 Stanford W 58-7",
   "[games] next game kickoff: {'kickoff': '2026-10-17T19:30-04:00', 'tv': 'ABC'}",
-  "[team] Notre Dame 2025: 12 games; matches cfbstats through 2026-01-19",
   "[team] Notre Dame 2026: 6 games; matches cfbstats through 2026-10-16",
   "[team] Georgia 2026: 7 games; not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
   "[team] Miami 2026: 5 games; matches cfbstats through 2026-10-16",
@@ -28,9 +15,9 @@
   "[team] FAILED: team seasons not stored: Notre Dame 2024 (refused)",
   "[rb] 2024: no Notre Dame box scores stored yet",
   "[wr] 2024: no Notre Dame box scores stored yet",
-  "[natref] qb: 49 players stored (49 game logs fetched, 0 unchanged)",
-  "[natref] rb: 51 players stored (51 game logs fetched, 0 unchanged)",
-  "[natref] wr: 54 players stored (54 game logs fetched, 0 unchanged)",
+  "[natref] qb: 49 players stored (0 game logs fetched, 49 unchanged)",
+  "[natref] rb: 51 players stored (0 game logs fetched, 51 unchanged)",
+  "[natref] wr: 54 players stored (0 game logs fetched, 54 unchanged)",
   "FAILED sections: team"
  ]
 }

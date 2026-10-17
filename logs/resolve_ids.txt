@@ -1,9 +1,4 @@
-leonard (Riley Leonard 2024):
-  roster 2024: no exact match
-  search: no exact match
-  box scores 2024 (4 games): ['4683423']
-  candidate 4683423: PROVEN: 16 games, totals {'cmp': 269, 'att': 403, 'yds': 2861, 'td': 21, 'int': 8} vs final_totals {'cmp': 269, 'att': 403, 'yds': 2861, 'td': 21, 'int': 8}
-  -> leonard espn_id = 4683423
+leonard: espn_id 4683423 already set
 carr25: espn_id 5079369 already set
 carr26: espn_id 5079369 already set
 roster.json written

@@ -66,7 +66,7 @@ PASS  [light] all chips off shows the friendly empty state
 PASS  [light] tap in chart pins the tooltip
 PASS  [light] tooltip stays after pointerleave
 PASS  [light] tap outside any chart dismisses the tooltip
-FAIL  [light] script errors: 4 -> jsdomError: Not implemented: window.scrollTo | jsdomError: Not implemented: window.scrollTo | jsdomError: Not implemented: window.scrollTo | jsdomError: Not implemented: window.scrollTo
+PASS  [light] script errors: 0
 PASS  [dark] theme applied before paint (data-theme=dark)
 PASS  [dark] theme toggle switches to light
 PASS  [dark] QB #h2h-table populated
@@ -133,6 +133,6 @@ PASS  [dark] all chips off shows the friendly empty state
 PASS  [dark] tap in chart pins the tooltip
 PASS  [dark] tooltip stays after pointerleave
 PASS  [dark] tap outside any chart dismisses the tooltip
-FAIL  [dark] script errors: 4 -> jsdomError: Not implemented: window.scrollTo | jsdomError: Not implemented: window.scrollTo | jsdomError: Not implemented: window.scrollTo | jsdomError: Not implemented: window.scrollTo
+PASS  [dark] script errors: 0
 
-SUMMARY: 56/56 sections populated across light and dark (28 per theme), 8 script errors, 2 failed checks
+SUMMARY: 56/56 sections populated across light and dark (28 per theme), 0 script errors, 0 failed checks

@@ -11,28 +11,6 @@ Traceback (most recent call last):
 ValueError: team seasons not stored: Notre Dame 2024 (refused)
 [schedule] 2026: 12 games, 6 played
 [schedule] ESPN finals seen: 6, latest 2026-10-10 W 58-7
-[schedule] 2024: 16 games, 16 played
-BACKFILLED Riley Leonard 2024: 16 games
-[backfill] stored Riley Leonard 2024: 16 games
-[schedule] 2025: 12 games, 12 played
-BACKFILLED CJ Carr 2025: 12 games
-[backfill] stored CJ Carr 2025: 12 games
-UPDATED opponent pass-D ranks
-[backfill] stored 2024 final opponent pass-D ranks
-UPDATED opponent pass-D ranks
-[backfill] stored 2025 final opponent pass-D ranks
-ADDED Carr ’26 game 1: Wisconsin W 41-13
-[games] added Carr ’26 2026-09-06 Wisconsin W 41-13
-ADDED Carr ’26 game 2: Rice W 52-0
-[games] added Carr ’26 2026-09-12 Rice W 52-0
-ADDED Carr ’26 game 3: Michigan State W 27-10
-[games] added Carr ’26 2026-09-19 Michigan State W 27-10
-ADDED Carr ’26 game 4: Purdue W 49-10
-[games] added Carr ’26 2026-09-26 Purdue W 49-10
-ADDED Carr ’26 game 5: North Carolina W 37-26
-[games] added Carr ’26 2026-10-03 North Carolina W 37-26
-ADDED Carr ’26 game 6: Stanford W 58-7
-[games] added Carr ’26 2026-10-10 Stanford W 58-7
 [games] next game kickoff: {'kickoff': '2026-10-17T19:30-04:00', 'tv': 'ABC'}
 UPDATED next game: {'date': '2026-10-17', 'opp': 'BYU', 'site': 'A', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-10-17T19:30-04:00', 'tv': 'ABC'}
 UPDATED national through 2026-10-16 {'yds': 41, 'td': 7, 'pct': 13, 'rating': 5, 'ypa': 10}
@@ -41,8 +19,6 @@ UPDATED cohort: Jeremiah Smith, Darian Mensah, Trinidad Chambliss, Keelon Russel
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-10-11 1 Georgia, 2 Notre Dame, 3 Miami, 4 Ohio State, 5 Indiana
 REFUSED: team-season Notre Dame 2024: ESPN box scores disagree with cfbstats season totals {'third_att': (185, 184)} (ESPN, cfbstats)
-STORED team Notre Dame 2025: 12 games
-[team] Notre Dame 2025: 12 games; matches cfbstats through 2026-01-19
 STORED team Notre Dame 2026: 6 games
 [team] Notre Dame 2026: 6 games; matches cfbstats through 2026-10-16
 STORED team Georgia 2026: 7 games
@@ -60,10 +36,10 @@ STORED rb: Jonaz Walton 2026 (5 g), Nolan James, Jr. 2026 (6 g), Jeremiyah Love 
 STORED wr: Jordan Faison 2026 (6 g), Micah Gilbert 2026 (6 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g)
 STORED rb national boards through 2026-10-16
 STORED wr national boards through 2026-10-16
-[natref] qb: 49 players stored (49 game logs fetched, 0 unchanged)
+[natref] qb: 49 players stored (0 game logs fetched, 49 unchanged)
 STORED natref qb: 49 players through 2026-10-16
-[natref] rb: 51 players stored (51 game logs fetched, 0 unchanged)
+[natref] rb: 51 players stored (0 game logs fetched, 51 unchanged)
 STORED natref rb: 51 players through 2026-10-16
-[natref] wr: 54 players stored (54 game logs fetched, 0 unchanged)
+[natref] wr: 54 players stored (0 game logs fetched, 54 unchanged)
 STORED natref wr: 54 players through 2026-10-16
 FAILED sections: team
