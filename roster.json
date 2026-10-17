@@ -1,0 +1,66 @@
+{
+ "about": "Freeman-era Notre Dame starting quarterbacks, one entry per SEASON (the same person can start more than one season: CJ Carr is carr25 and carr26, with shorts that carry the season so legends, pills, tables and game logs stay unambiguous). The newest season is the current QB; every earlier season is a comparison QB. To start a new season, add one entry (key, name, short, season, espn_id) and the pipeline backfills or tracks everything else. final_totals are the published season totals the stored game log must reconcile to; add them when a season ends.",
+ "team": "Notre Dame",
+ "coach": "Marcus Freeman",
+ "qbs": [
+  {
+   "key": "leonard",
+   "name": "Riley Leonard",
+   "short": "Leonard",
+   "season": 2024,
+   "espn_id": "",
+   "note": "led Notre Dame to the College Football Playoff national championship game (14–2)",
+   "final_totals": {
+    "cmp": 269,
+    "att": 403,
+    "yds": 2861,
+    "td": 21,
+    "int": 8
+   }
+  },
+  {
+   "key": "carr25",
+   "name": "CJ Carr",
+   "short": "Carr ’25",
+   "season": 2025,
+   "espn_id": "",
+   "note": "went 10–2 in his first season as the starter",
+   "final_totals": {
+    "cmp": 195,
+    "att": 293,
+    "yds": 2741,
+    "td": 24,
+    "int": 6
+   }
+  },
+  {
+   "key": "carr26",
+   "name": "CJ Carr",
+   "short": "Carr ’26",
+   "season": 2026,
+   "espn_id": ""
+  }
+ ],
+ "site_title": "Fighting Irish {season}",
+ "tabs": {
+  "about": "RB and WR tabs: 'current' names the current season's players per season (in display order: the first is drawn solid, the second dashed). A season without an entry uses Notre Dame's top 'count' players at 'positions' by yards. Earlier seasons always use that top-by-yards rule. Team tab: Notre Dame's seasons from the QB list above, plus the current AP Top 5.",
+  "rb": {
+   "current": {},
+   "count": 2,
+   "positions": [
+    "RB"
+   ]
+  },
+  "wr": {
+   "current": {},
+   "count": 2,
+   "positions": [
+    "WR",
+    "TE"
+   ]
+  },
+  "team": {
+   "ap_top": 5
+  }
+ }
+}

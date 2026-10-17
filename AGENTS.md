@@ -1,0 +1,101 @@
+# AGENTS.md — working conventions for iu-qb-report
+
+This repo is a self-running pipeline. It must keep working with no human or AI
+in the loop: GitHub Actions does everything on a schedule, and the validation
+in `build_report.py` is the quality gate. Follow these rules so any helper
+(human, Claude, or otherwise) can safely contribute.
+
+## Pipeline
+
+1. `collect.py` pulls ESPN game logs, cfbstats.com leaderboards, and sportsbook
+   Heisman odds into `data/*.json`. The quarterbacks come from `roster.json`
+   (newest season = current QB, earlier seasons = comparison QBs). An earlier
+   QB with no stored season is backfilled once from ESPN and must reconcile to
+   his `final_totals`. Each section is independent; a failed
+   section keeps its last verified data and is recorded in `data/last_run.json`.
+2. `update.py` validates every row before it is stored (e.g. each passer rating
+   must match the NCAA formula).
+3. `build_report.py` recomputes everything from the stored rows and writes
+   `index.html` from `template.html`. **If any validation check fails, nothing
+   is published** — this is the rule that lets strangers contribute safely.
+4. `.github/workflows/update.yml` commits the result back to `main`, which
+   GitHub Pages serves at https://qb.daboodah.com/.
+
+No AI or paid service is involved in the scheduled run. Keep it that way.
+
+## Schedule
+
+- Full refresh: Sunday and Wednesday, 10:47 AM Eastern (plus backups).
+- Game-window quick checks: every 20 minutes, Thu/Fri/Sat 4 PM–2 AM Eastern.
+  Each check exits in seconds unless ESPN shows a new IU final, then runs the
+  full pipeline. A run with no new data changes nothing.
+
+## Rules for contributors
+
+1. **Pull before pushing.** The bot commits on schedule; push with
+   `git pull --rebase` first to avoid collisions.
+2. **Never hand-edit `data/*.json`.** To add a quarterback or season, edit
+   `roster.json` and let the pipeline collect the games. Data comes from `collect.py`. The one
+   exception is Heisman odds snapshots, which are recorded by hand from
+   published reports — each snapshot must carry `book`, `as_of`, `outlet`,
+   and `url`.
+3. **Run the build locally before pushing** template or build changes:
+   `python3 build_report.py --standalone --out /tmp/test.html` must print `OK`.
+4. **Update this file and README.md when behavior changes.** Docs going stale
+   is how multi-helper projects rot; the schedule change of 2026-10-04 was
+   almost missed.
+5. **Do not remove or let any step overwrite the `CNAME` file.** It holds the
+   custom domain (`qb.daboodah.com`). The workflow only stages
+   `data/`, `index.html`, and `logs/` — keep it that way.
+6. **Keep page output deterministic.** No live API calls, no AI-generated
+   text in the scheduled build. Editorial judgment (discrepancy writeups,
+   caveats) is added by a human as data/notes, and the page renders them.
+7. **No secrets in files.** Pushes authenticate through Git Credential
+   Manager on the owner's PC; the scheduled workflow uses its own temporary
+   `GITHUB_TOKEN`. See the Secrets section of README.md.
+8. The output check in `build_report.py` rejects `TODO`, `lorem`,
+   `PLACEHOLDER`, and anything looking like a credential. Don't add those.
+
+## File map
+
+- `roster.json` — Cignetti-era starters, one per season; drives every name on the page
+- `collect.py` — data fetching (network), including the one-time season backfill
+- `collect_tabs.py` — RB, WR and Team tab data (ESPN AP poll and box scores, cfbstats cross-checks and national boards); run by `collect.py`
+- `collect_natref.py` — national reference players for the QB, RB and WR compare charts (cfbstats national boards plus each listed player's linked game log); run by `collect.py`
+- `build_tabs.py` — RB, WR and Team tab models, the national reference model (`natref`) and the site title; run by `build_report.py`
+- `update.py` — row validation before storage
+- `build_report.py` — validation + model + render (no network)
+- `template.html` — page; the model is injected at `/*__MODEL__*/null`
+- `data/` — stored rows: `games.json`, `national.json`, `heisman.json`,
+  `cohort.json`, `freshness.json`, `last_run.json`, `team.json`, `skill.json`,
+  `skill_national.json`, `national_logs.json`
+- `icons/`, `assets/` — PWA icons, trident logo, link-preview card
+- `manifest.webmanifest` — web app manifest (installed-app name, colours, icons); checked by `build_report.py --standalone`
+- `tools/make_icons.py` — draws `icons/icon-512.png` and `icons/icon-maskable-512.png` from the trident SVG (one-time, needs Pillow)
+- `logs/` — per-run logs, force-added to git
+
+## Page behavior notes
+
+- The page is "Hoosiers {season}" (`roster.json` `site_title`) with four tabs: QB, RB, WR, Team.  The tab shows in the URL hash (`#rb`, `#team`; section links are `#rb-h2h` and so on), so links can open a tab directly.  Charts draw only for the visible tab and redraw when a tab opens.
+- RB/WR/Team colors: crimson for the current season (second current player dashed), predecessor slots `--p1`.. newest first (second player dashed), AP Top 5 teams dotted in `--a1`..`--a5` by rank.
+- Compare charts (QB, RB, WR) have three collapsible sections, in order: "IU players" (open), "National Top 3" and "Individual player" (both collapsed).  National Top 3 chips are the first 3 non-Indiana players at the tab's positions on the cfbstats national leaderboard for the viewed stat; they change with the stat and start off (opening the section draws nothing until a chip is tapped; a chip that is on stays on for the new stat's player in that slot).  Individual player searches a pool = union of the top 20 per tracked stat; a pick adds a removable pill (x).  National lines are gray (`--field` for Top 3, `--muted` for picks; solid/dashed/dotted by slot), labeled at the line end, and lined up by each player's own games played.  QB Total TD and INT have no national leaderboard ("No national leaderboard for this stat."); Total TD cannot be drawn for national QBs because the passing log has no rushing TD.
+- National reference data (`data/national_logs.json`, written only by `collect_natref.py` through `update.py natref`): a player is stored only if the game log his leaderboard row links to has exactly his leaderboard G games and sums exactly to his leaderboard line (QBs: every game's listed rating must also match the NCAA formula).  Failures are dropped and named in the run log and in the file's `dropped` list, never estimated; a dropped Top 3 player is named on the page, not replaced by #4.  A stored log is reused until that player's leaderboard line changes.  Each tab is its own section (`natref_qb`, `natref_rb`, `natref_wr`).
+- ESPN game-log passer ratings (collect.py `espn_gamelog`) may differ from the formula by up to 0.15 (ESPN's one-decimal rounding; 2026-10-10 Hoover was 152.7 vs 152.6).  Every other rating check stays at 0.06.
+- New data files: `data/team.json` (box-score rows by ESPN team id and season, plus the AP poll), `data/skill.json` (RB and WR players' game lines), `data/skill_national.json` (RB and WR national boards and weekly rank history).  All written only by `collect_tabs.py` through `update.py`.
+
+- Comparisons always line seasons up by game number through the current QB's
+  game count (N). Completed seasons also show full-season totals. A comparison
+  QB whose season was shorter than N shows his full season, is marked, and is
+  left out of the leader boxes.
+- Data field names `hoover_row`, `hoover_rank` (national.json) and
+  `hoover_opening` (heisman.json, read as `<key>_opening`) are legacy names
+  that mean "the current QB". The national top-5 boards and the Heisman
+  sections are scoped to the current QB only.
+- Colors: CSS slots `--cur` (current QB) and `--p1`..`--p4` (earlier starters,
+  newest first), defined for light and dark themes.
+
+- Theme: the page follows `prefers-color-scheme` unless the reader picks the
+  header sun/moon toggle, which sets `data-theme` on `:root` and persists in
+  localStorage (`qb-theme`). Charts redraw on `data-theme` changes via a
+  MutationObserver. An inline head script applies the saved theme before first
+  paint to avoid a flash.

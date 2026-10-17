@@ -1,0 +1,7 @@
+{
+ "schema_version": 1,
+ "next_game": null,
+ "opp_pass_defense": {
+  "method": "Opponent's national rank in passing yards allowed per game (cfbstats.com, FBS). 2025 opponents use final 2025 ranks. 2026 opponents use the current 2026 rank, which moves every week."
+ }
+}
