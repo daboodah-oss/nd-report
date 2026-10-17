@@ -1,0 +1,16 @@
+leonard (Riley Leonard 2024):
+  roster 2024: no exact match
+  search: no exact match
+  -> NOT RESOLVED (0 candidates proven)
+carr25 (CJ Carr 2025):
+  roster 2025: no exact match
+  search: ['5079369']
+  candidate 5079369: PROVEN: 12 games, totals {'cmp': 195, 'att': 293, 'yds': 2741, 'td': 24, 'int': 6} vs final_totals {'cmp': 195, 'att': 293, 'yds': 2741, 'td': 24, 'int': 6}
+  -> carr25 espn_id = 5079369
+carr26 (CJ Carr 2026):
+  roster 2026: ['5079369']
+  search: ['5079369']
+  candidate 5079369: PROVEN: first 6 of 6 games [102, 144, 1378, 16, 1] vs [102, 144, 1378, 16, 1]; all games [102, 144, 1378, 16, 1]
+  -> carr26 espn_id = 5079369
+roster.json written
+UNRESOLVED: leonard
