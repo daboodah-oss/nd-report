@@ -1,0 +1,334 @@
+200
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-10344841-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-10344841-1');
+</script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>cfbstats.com - Aaron Philo 2026 Player Statistics - Florida Gators</title>
+<link rel="stylesheet" type="text/css" href="/css/cfbstats.css">
+<link rel="stylesheet" type="text/css" href="/css/leader.css">
+<style type="text/css">
+<!--
+table.game-log {width: 100%;}
+table.game-log th.date {width: 8%;}
+table.game-log th.opponent {width: 26%;}
+table.game-log th.surface {width: 8%;}
+table.game-log th.result {width: 8%;}
+table.game-log th.pass-att {width: 6%;}
+table.game-log th.pass-comp {width: 6%;}
+table.game-log th.pass-pct {width: 7%;}
+table.game-log th.pass-yard {width: 6%;}
+table.game-log th.pass-yard-att {width: 8%;}
+table.game-log th.pass-td {width: 5%;}
+table.game-log th.pass-int {width: 5%;}
+table.game-log th.pass-rating {width: 7%;}
+-->
+</style>
+
+<!-- START Drew's Adds -->
+<script type="text/javascript" src="/wp-content/custom-php/jquery/jquery.min.js?version=133"></script>
+<script type="text/javascript" src="/wp-content/custom-php/cfbstats.js"></script>
+<link rel="image_src" type="image/jpeg" href="/wp-content/custom-php/images/socialLogo.png" />
+
+<link rel="stylesheet" href="/wp-content/custom-php/bootstrap/css/bootstrap.min.css?version=1">
+<link rel="stylesheet" href="/wp-content/custom-php/bootstrap/css/bootstrap-theme.min.css?version=1">
+<link rel="stylesheet" href="/wp-content/custom-php/cfbstats.css">
+
+<!-- Start DFP SETUP - Header Tags -->
+<script type='text/javascript'>
+    var gptadslots=[], googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+    (function(){ var gads = document.createElement('script');
+        gads.async = true; gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+<script type='text/javascript' src='https://img.bnqt.com/lib/js/sdpdfphelper.js'></script>
+<script type='text/javascript'>
+    googletag.cmd.push(function() {
+        googletag.pubads().enableAsyncRendering(); googletag.pubads().enableSingleRequest();
+        googletag.pubads().setTargeting('title', sdpTargeting.title)
+            .setTargeting('targetPaths', sdpTargeting.targetPaths)
+            .setTargeting('fullPath', sdpTargeting.fullPath)
+            .setTargeting('queryStr', sdpTargeting.queryStr)
+            .setTargeting('domainName', sdpTargeting.domainName);
+    });
+</script>
+<!-- DFP SETUP end -->
+<!-- END Drew's Adds -->
+</head>
+
+<body>
+<div id="wrapper">
+<div id="breadcrumb">
+  <span class="label">You are here:</span>
+  <a href="/">Home</a>
+  <span class="separator">&gt;</span>
+  <a href="/2026/team/index.html">2026 Teams</a>
+  <span class="separator">&gt;</span>
+  <a href="/2026/team/235/index.html">Florida</a>
+  <span class="separator">&gt;</span>
+  <a href="/2026/team/235/roster.html">Roster</a>
+  <span class="separator">&gt;</span>
+  <a href="/2026/player/235/50217278/index.html">Aaron Philo</a>
+  <span class="separator">&gt;</span>
+  <span class="selected">Passing Game Log</span>
+</div> <!-- breadcrumb -->
+
+<!-- New navbar, added by Drew -->
+<nav class="navbar navbar-default navbar-static-top navbar-inverse navbar-thin" role="navigation" style="margin-bottom:0px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <img src="/wp-content/custom-php/images/__TrackingFootball_Logo_Textmark.svg" style="border:0;margin-top:13px"/>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-nav-thin navbar-right">
+        <li><a href="https://x.com/TrckFootball"><img src="/wp-content/custom-php/images/twitter_icon_24.png" width="14" style="margin-bottom:5px"/> @TrckFootball</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="globalHeader">
+  <a id="imagemap" href="/"></a>
+  <ul id="globalNav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/2026/national/index.html">National</a></li>
+    <li><a href="/2026/conference/index.html">Conferences</a></li>
+    <li><a href="/2026/team/index.html">Teams</a></li>
+    <li><a href="/2026/player/index.html">Players</a></li>
+  </ul>
+</div> <!-- globalHeader -->
+<div id="content">
+<?php include('/home/webadmin/cfbstats.com/html/banner.php'); ?>
+<h1 id="pageTitle">2026 Florida Gators
+Aaron Philo #12
+Passing Game Log
+through 10/16/2026</h1>
+<div id="seasons">
+<ul>
+  <li class="selected">2026</li>
+  <li><a href="/2025/player/255/50217278/passing/gamelog.html">2025</a></li>
+  <li><a href="/2024/player/255/50217278/passing/gamelog.html">2024</a></li>
+</ul>
+</div>
+<div class="game-log">
+<table class="game-log">
+  <tr>
+    <th scope="col" class="date">Date</th>
+    <th scope="col" class="opponent">Opponent</th>
+    <th scope="col" class="surface">Surface</th>
+    <th scope="col" class="result">Result</th>
+    <th scope="col" class="pass-att">Att</th>
+    <th scope="col" class="pass-comp">Comp</th>
+    <th scope="col" class="pass-pct">Pct.</th>
+    <th scope="col" class="pass-yard">Yards</th>
+    <th scope="col" class="pass-yard-att">Yards/Att</th>
+    <th scope="col" class="pass-td">TD</th>
+    <th scope="col" class="pass-int">Int</th>
+    <th scope="col" class="pass-rating">Rating</th>
+  </tr>
+  <tr>
+  <td class="date">09/05/26</td>
+  <td class="opponent"><a href="/2026/team/229/index.html">Florida Atlantic</a></td>
+  <td>Grass</td>
+  <td class="result">W 66-21</td>
+  <td>21</td>
+  <td>16</td>
+  <td>76.2</td>
+  <td>275</td>
+  <td>13.1</td>
+  <td>3</td>
+  <td>1</td>
+  <td>223.81</td>
+  </tr>
+  <tr class="even-row">
+  <td class="date">09/12/26</td>
+  <td class="opponent">Campbell</td>
+  <td>Grass</td>
+  <td class="result">W 52-3</td>
+  <td>21</td>
+  <td>16</td>
+  <td>76.2</td>
+  <td>242</td>
+  <td>11.5</td>
+  <td>2</td>
+  <td>0</td>
+  <td>204.42</td>
+  </tr>
+  <tr>
+  <td class="date">09/19/26</td>
+  <td class="opponent">@ <a href="/2026/team/37/index.html">Auburn</a></td>
+  <td>Grass</td>
+  <td class="result">W 44-39</td>
+  <td>22</td>
+  <td>15</td>
+  <td>68.2</td>
+  <td>204</td>
+  <td>9.3</td>
+  <td>1</td>
+  <td>1</td>
+  <td>151.98</td>
+  </tr>
+  <tr class="even-row">
+  <td class="date">09/26/26</td>
+  <td class="opponent">9 <a href="/2026/team/433/index.html">Ole Miss</a></td>
+  <td>Grass</td>
+  <td class="result">W 52-28</td>
+  <td>23</td>
+  <td>16</td>
+  <td>69.6</td>
+  <td>196</td>
+  <td>8.5</td>
+  <td>1</td>
+  <td>0</td>
+  <td>155.50</td>
+  </tr>
+  <tr>
+  <td class="date">10/03/26</td>
+  <td class="opponent">@ 13 <a href="/2026/team/434/index.html">Missouri</a></td>
+  <td>Turf</td>
+  <td class="result">L 17-45</td>
+  <td>34</td>
+  <td>21</td>
+  <td>61.8</td>
+  <td>197</td>
+  <td>5.8</td>
+  <td>1</td>
+  <td>0</td>
+  <td>120.15</td>
+  </tr>
+  <tr class="even-row">
+  <td class="date">10/10/26</td>
+  <td class="opponent"><a href="/2026/team/648/index.html">South Carolina</a></td>
+  <td>Grass</td>
+  <td class="result">L 19-38</td>
+  <td>28</td>
+  <td>21</td>
+  <td>75.0</td>
+  <td>227</td>
+  <td>8.1</td>
+  <td>1</td>
+  <td>1</td>
+  <td>147.74</td>
+  </tr>
+  <tr>
+  <td class="date totals"></td>
+  <td class="opponent totals" colspan="3"><a href="">Totals</a></td>
+  <td class="totals">149</td>
+  <td class="totals">105</td>
+  <td class="totals">70.5</td>
+  <td class="totals">1341</td>
+  <td class="totals">9.0</td>
+  <td class="totals">9</td>
+  <td class="totals">3</td>
+  <td class="totals">161.97</td>
+  </tr>
+  <tfoot>
+    <tr>
+      <td class="legend" colspan="12">@ : Away, + : Neutral Site</td>
+    </tr>
+  </tfoot>
+</table>
+</div> <!-- game-log -->
+<div id="footer">
+<p>Copyright � 2006-2026 www.cfbstats.com All rights reserved.</p>
+<p><a href="https://www.trackingfootball.com/site-policies/">Terms of Use/Site Policies</a></p>
+<p id="timestamp">10/17/2026 05:02:17</p>
+<!-- SMG_CFBStats/300x250_1a/sports/general -->
+<div id="usmg_ad__general_sports_300x250_1a">
+<script type='text/javascript'>
+googletag.defineSlot('/7103/SMG_CFBStats/300x250_1a/sports/general', [[300,250],[300,600]], 'usmg_ad__general_sports_300x250_1a').addService(googletag.pubads());
+googletag.enableServices();
+googletag.display('usmg_ad__general_sports_300x250_1a');
+</script>
+</div>
+</div> <!-- footer -->
+</div> <!-- content -->
+<div id="leftColumn">
+<div class="section">
+<ul class="">
+  <li class=""><a href="/2026/player/235/50217278/index.html">Player Home</a></li>
+  <li class="header">Passing</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/player/235/50217278/passing/split.html">Split Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/passing/situational.html">Situational Stats</a></li>
+      <li class="sub1 selected">Game Log</li>
+    </ul>
+  </li>
+  <li class="header top">Rushing</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/player/235/50217278/rushing/split.html">Split Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/rushing/situational.html">Situational Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/rushing/gamelog.html">Game Log</a></li>
+    </ul>
+  </li>
+  <li class="header top">Scoring</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/player/235/50217278/scoring/split.html">Split Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/scoring/gamelog.html">Game Log</a></li>
+    </ul>
+  </li>
+  <li class="header top">Total Offense</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/player/235/50217278/total/split.html">Split Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/total/gamelog.html">Game Log</a></li>
+    </ul>
+  </li>
+  <li class="header top">All-Purpose Running</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/player/235/50217278/allpurpose/split.html">Split Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/allpurpose/gamelog.html">Game Log</a></li>
+    </ul>
+  </li>
+  <li class="header top">Yards From Scrimmage</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/player/235/50217278/yardsfromscrim/split.html">Split Stats</a></li>
+      <li class="sub1"><a href="/2026/player/235/50217278/yardsfromscrim/gamelog.html">Game Log</a></li>
+    </ul>
+  </li>
+</ul>
+</div> <!-- section -->
+</div> <!-- leftColumn -->
+<div id="wrapperClear"/>
+</div> <!-- wrapper -->
+<!-- Start of ADS -->
+<div id="usmg_ad__main_sports_skin">
+    <script type='text/javascript'>
+        //googletag.defineSlot('/7103/SMG_CFBStats/skin/sports/main', [1,1], 'usmg_ad__main_sports_skin').addService(googletag.pubads());
+        //googletag.enableServices();
+        //googletag.display('usmg_ad__main_sports_skin');
+    </script>
+</div>
+
+<!-- SMG_CFBStats/skin/sports/general -->
+<div id="usmg_ad__general_sports_skin">
+    <script type='text/javascript'>
+        googletag.defineSlot('/7103/SMG_CFBStats/skin/sports/general', [1,1], 'usmg_ad__general_sports_skin').addService(googletag.pubads());
+        googletag.enableServices();
+        googletag.display('usmg_ad__general_sports_skin');
+    </script>
+</div>
+<br/><br/><br/><br/>
+<!-- End of ADS -->
+</body>
+</html>

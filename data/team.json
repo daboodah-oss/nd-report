@@ -1,0 +1,2486 @@
+{
+ "teams": {
+  "87": {
+   "name": "Notre Dame",
+   "seasons": {
+    "2025": {
+     "games": [
+      {
+       "event": "401754522",
+       "date": "2025-08-31",
+       "opp": "Miami",
+       "opp_id": "2390",
+       "site": "A",
+       "pf": 24,
+       "pa": 27,
+       "result": "L 24-27",
+       "total_yds": 314,
+       "rush_yds": 93,
+       "pass_yds": 221,
+       "to_lost": 2,
+       "to_gained": 0,
+       "third_conv": 4,
+       "third_att": 9,
+       "rush": [
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 6,
+         "yds": 45,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 10,
+         "yds": 33,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 11,
+         "yds": 16,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 5,
+         "yds": 97,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 3,
+         "yds": 48,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 5,
+         "yds": 33,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 4,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 17,
+         "td": 1
+        }
+       ]
+      },
+      {
+       "event": "401752707",
+       "date": "2025-09-13",
+       "opp": "Texas A&M",
+       "opp_id": "245",
+       "site": "H",
+       "pf": 40,
+       "pa": 41,
+       "result": "L 40-41",
+       "total_yds": 429,
+       "rush_yds": 136,
+       "pass_yds": 293,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 15,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 23,
+         "yds": 94,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 12,
+         "yds": 68,
+         "td": 2
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 3,
+         "yds": -15,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 4,
+         "yds": 85,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 5,
+         "yds": 77,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 4,
+         "yds": 53,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 2,
+         "yds": 41,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 17,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 2,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401752848",
+       "date": "2025-09-20",
+       "opp": "Purdue",
+       "opp_id": "2509",
+       "site": "H",
+       "pf": 56,
+       "pa": 30,
+       "result": "W 56-30",
+       "total_yds": 535,
+       "rush_yds": 254,
+       "pass_yds": 281,
+       "to_lost": 1,
+       "to_gained": 2,
+       "third_conv": 6,
+       "third_att": 10,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 19,
+         "yds": 157,
+         "td": 2
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 9,
+         "yds": 74,
+         "td": 3
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 4,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 4,
+         "yds": 10,
+         "td": 0
+        },
+        {
+         "id": "4918099",
+         "name": "Kenny Minchey",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 2,
+         "yds": 0,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 5,
+         "yds": 105,
+         "td": 1
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 2,
+         "yds": 78,
+         "td": 1
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 37,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 2,
+         "yds": 29,
+         "td": 0
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 3,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5146164",
+         "name": "Logan Saldate",
+         "n": 1,
+         "yds": 2,
+         "td": 0
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401752717",
+       "date": "2025-09-27",
+       "opp": "Arkansas",
+       "opp_id": "8",
+       "site": "A",
+       "pf": 56,
+       "pa": 13,
+       "result": "W 56-13",
+       "total_yds": 641,
+       "rush_yds": 210,
+       "pass_yds": 431,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 6,
+       "third_att": 10,
+       "rush": [
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 13,
+         "yds": 86,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 14,
+         "yds": 57,
+         "td": 2
+        },
+        {
+         "id": "4685509",
+         "name": "Gi'Bran Payne",
+         "n": 3,
+         "yds": 27,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 4,
+         "yds": 22,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 20,
+         "td": 1
+        },
+        {
+         "id": "4918099",
+         "name": "Kenny Minchey",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 2,
+         "yds": 0,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 7,
+         "yds": 89,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 3,
+         "yds": 72,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 5,
+         "yds": 70,
+         "td": 2
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 3,
+         "yds": 53,
+         "td": 1
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 2,
+         "yds": 43,
+         "td": 0
+        },
+        {
+         "id": "5218507",
+         "name": "Matt Jeffery",
+         "n": 1,
+         "yds": 37,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": 35,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 2,
+         "yds": 32,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401757165",
+       "date": "2025-10-04",
+       "opp": "Boise State",
+       "opp_id": "68",
+       "site": "H",
+       "pf": 28,
+       "pa": 7,
+       "result": "W 28-7",
+       "total_yds": 389,
+       "rush_yds": 200,
+       "pass_yds": 189,
+       "to_lost": 0,
+       "to_gained": 4,
+       "third_conv": 4,
+       "third_att": 9,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 16,
+         "yds": 103,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 8,
+         "yds": 83,
+         "td": 1
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 3,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 1,
+         "yds": -8,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 6,
+         "yds": 83,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 4,
+         "yds": 44,
+         "td": 1
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 2,
+         "yds": 43,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 2,
+         "yds": 8,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401754562",
+       "date": "2025-10-11",
+       "opp": "NC State",
+       "opp_id": "152",
+       "site": "H",
+       "pf": 36,
+       "pa": 7,
+       "result": "W 36-7",
+       "total_yds": 485,
+       "rush_yds": 143,
+       "pass_yds": 342,
+       "to_lost": 2,
+       "to_gained": 3,
+       "third_conv": 6,
+       "third_att": 14,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 18,
+         "yds": 86,
+         "td": 2
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 15,
+         "yds": 66,
+         "td": 0
+        },
+        {
+         "id": "4431513",
+         "name": "Tyler Buchner",
+         "n": 1,
+         "yds": 3,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 3,
+         "yds": -10,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 7,
+         "yds": 109,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 4,
+         "yds": 105,
+         "td": 1
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 3,
+         "yds": 59,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 49,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 1,
+         "yds": 20,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401752871",
+       "date": "2025-10-18",
+       "opp": "USC",
+       "opp_id": "30",
+       "site": "H",
+       "pf": 34,
+       "pa": 24,
+       "result": "W 34-24",
+       "total_yds": 442,
+       "rush_yds": 306,
+       "pass_yds": 136,
+       "to_lost": 1,
+       "to_gained": 3,
+       "third_conv": 3,
+       "third_att": 11,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 24,
+         "yds": 228,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 13,
+         "yds": 87,
+         "td": 1
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 5,
+         "yds": -7,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 6,
+         "yds": 60,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 5,
+         "yds": 37,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 2,
+         "yds": 16,
+         "td": 1
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401754583",
+       "date": "2025-11-01",
+       "opp": "Boston College",
+       "opp_id": "103",
+       "site": "A",
+       "pf": 25,
+       "pa": 10,
+       "result": "W 25-10",
+       "total_yds": 458,
+       "rush_yds": 159,
+       "pass_yds": 299,
+       "to_lost": 1,
+       "to_gained": 3,
+       "third_conv": 3,
+       "third_att": 10,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 17,
+         "yds": 136,
+         "td": 2
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 2,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 9,
+         "yds": 12,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 82,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 4,
+         "yds": 73,
+         "td": 1
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 3,
+         "yds": 59,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 2,
+         "yds": 52,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 4,
+         "yds": 30,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": 3,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401757166",
+       "date": "2025-11-08",
+       "opp": "Navy",
+       "opp_id": "2426",
+       "site": "H",
+       "pf": 49,
+       "pa": 10,
+       "result": "W 49-10",
+       "total_yds": 502,
+       "rush_yds": 249,
+       "pass_yds": 253,
+       "to_lost": 0,
+       "to_gained": 0,
+       "third_conv": 7,
+       "third_att": 10,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 13,
+         "yds": 94,
+         "td": 2
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 5,
+         "yds": 72,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 10,
+         "yds": 47,
+         "td": 1
+        },
+        {
+         "id": "4685509",
+         "name": "Gi'Bran Payne",
+         "n": 6,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "4918099",
+         "name": "Kenny Minchey",
+         "n": 1,
+         "yds": 13,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 4,
+         "yds": 97,
+         "td": 0
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 2,
+         "yds": 39,
+         "td": 1
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 2,
+         "yds": 29,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 27,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 27,
+         "td": 0
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 1,
+         "yds": 24,
+         "td": 0
+        },
+        {
+         "id": "5164349",
+         "name": "Jerome Bettis Jr.",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 1,
+         "yds": 4,
+         "td": 1
+        }
+       ]
+      },
+      {
+       "event": "401754597",
+       "date": "2025-11-15",
+       "opp": "Pittsburgh",
+       "opp_id": "221",
+       "site": "A",
+       "pf": 37,
+       "pa": 15,
+       "result": "W 37-15",
+       "total_yds": 387,
+       "rush_yds": 175,
+       "pass_yds": 212,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 4,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 23,
+         "yds": 147,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 8,
+         "yds": 21,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 5,
+         "yds": 7,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 7,
+         "yds": 99,
+         "td": 2
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 6,
+         "yds": 67,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 2,
+         "yds": 20,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 3,
+         "yds": 6,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401754604",
+       "date": "2025-11-22",
+       "opp": "Syracuse",
+       "opp_id": "183",
+       "site": "H",
+       "pf": 70,
+       "pa": 7,
+       "result": "W 70-7",
+       "total_yds": 396,
+       "rush_yds": 329,
+       "pass_yds": 67,
+       "to_lost": 0,
+       "to_gained": 3,
+       "third_conv": 4,
+       "third_att": 7,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 8,
+         "yds": 171,
+         "td": 3
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 4,
+         "yds": 70,
+         "td": 1
+        },
+        {
+         "id": "4918099",
+         "name": "Kenny Minchey",
+         "n": 2,
+         "yds": 59,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 39,
+         "td": 1
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 4,
+         "yds": 2,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 1,
+         "yds": -10,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 21,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 1,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "5081704",
+         "name": "Leo Scheidler",
+         "n": 2,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 10,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 1,
+         "yds": 6,
+         "td": 1
+        },
+        {
+         "id": "5079645",
+         "name": "Cam Williams",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401754614",
+       "date": "2025-11-29",
+       "opp": "Stanford",
+       "opp_id": "24",
+       "site": "A",
+       "pf": 49,
+       "pa": 20,
+       "result": "W 49-20",
+       "total_yds": 524,
+       "rush_yds": 187,
+       "pass_yds": 337,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 11,
+       "third_att": 18,
+       "rush": [
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 10,
+         "yds": 83,
+         "td": 2
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 14,
+         "yds": 66,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 6,
+         "yds": 15,
+         "td": 1
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 4,
+         "yds": 15,
+         "td": 0
+        },
+        {
+         "id": "4918099",
+         "name": "Kenny Minchey",
+         "n": 2,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 2,
+         "yds": 2,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5121819",
+         "name": "Luke Talich",
+         "n": 1,
+         "yds": 84,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 3,
+         "yds": 68,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 3,
+         "yds": 40,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 40,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 22,
+         "td": 0
+        },
+        {
+         "id": "4682648",
+         "name": "Malachi Fields",
+         "n": 3,
+         "yds": 22,
+         "td": 0
+        },
+        {
+         "id": "5198104",
+         "name": "Elijah Burress",
+         "n": 3,
+         "yds": 21,
+         "td": 0
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 2,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4683114",
+         "name": "Will Pauling",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        }
+       ]
+      }
+     ],
+     "complete": true,
+     "retrieved_at": "2026-10-17T23:10+00:00",
+     "check": "cfbstats season totals matched through 2026-01-19",
+     "cfbstats_url": "https://cfbstats.com/2025/team/513/index.html"
+    },
+    "2026": {
+     "games": [
+      {
+       "event": "401858438",
+       "date": "2026-09-06",
+       "opp": "Wisconsin",
+       "opp_id": "275",
+       "site": "N",
+       "pf": 41,
+       "pa": 13,
+       "result": "W 41-13",
+       "total_yds": 350,
+       "rush_yds": 111,
+       "pass_yds": 239,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 3,
+       "third_att": 9,
+       "rush": [
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 20,
+         "yds": 90,
+         "td": 2
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 7,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 3,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 2,
+         "yds": -6,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 81,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 4,
+         "yds": 67,
+         "td": 1
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 3,
+         "yds": 34,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 2,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5142596",
+         "name": "James Flanigan",
+         "n": 2,
+         "yds": 10,
+         "td": 1
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401859184",
+       "date": "2026-09-12",
+       "opp": "Rice",
+       "opp_id": "242",
+       "site": "H",
+       "pf": 52,
+       "pa": 0,
+       "result": "W 52-0",
+       "total_yds": 478,
+       "rush_yds": 118,
+       "pass_yds": 360,
+       "to_lost": 0,
+       "to_gained": 4,
+       "third_conv": 7,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 8,
+         "yds": 48,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 6,
+         "yds": 29,
+         "td": 2
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 9,
+         "yds": 29,
+         "td": 0
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 4,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "5160472",
+         "name": "Javian Osborne",
+         "n": 5,
+         "yds": 4,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5164349",
+         "name": "Jerome Bettis Jr.",
+         "n": 2,
+         "yds": 61,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 54,
+         "td": 2
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 3,
+         "yds": 48,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 47,
+         "td": 1
+        },
+        {
+         "id": "5146164",
+         "name": "Logan Saldate",
+         "n": 3,
+         "yds": 36,
+         "td": 0
+        },
+        {
+         "id": "5198104",
+         "name": "Elijah Burress",
+         "n": 3,
+         "yds": 33,
+         "td": 0
+        },
+        {
+         "id": "5218507",
+         "name": "Matt Jeffery",
+         "n": 2,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "5079444",
+         "name": "Mylan Graham",
+         "n": 2,
+         "yds": 24,
+         "td": 0
+        },
+        {
+         "id": "5271466",
+         "name": "Devin Fitzgerald",
+         "n": 1,
+         "yds": 20,
+         "td": 0
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 1,
+         "yds": 2,
+         "td": 1
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 1,
+         "yds": -1,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401858453",
+       "date": "2026-09-19",
+       "opp": "Michigan State",
+       "opp_id": "127",
+       "site": "H",
+       "pf": 27,
+       "pa": 10,
+       "result": "W 27-10",
+       "total_yds": 395,
+       "rush_yds": 161,
+       "pass_yds": 234,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 4,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 26,
+         "yds": 121,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 9,
+         "yds": 25,
+         "td": 1
+        },
+        {
+         "id": "5159080",
+         "name": "Brayden Robinson",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 3,
+         "yds": 9,
+         "td": 1
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 1,
+         "yds": -1,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 8,
+         "yds": 170,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 5,
+         "yds": 38,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5079444",
+         "name": "Mylan Graham",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 2,
+         "yds": 7,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401858467",
+       "date": "2026-09-26",
+       "opp": "Purdue",
+       "opp_id": "2509",
+       "site": "A",
+       "pf": 49,
+       "pa": 10,
+       "result": "W 49-10",
+       "total_yds": 444,
+       "rush_yds": 177,
+       "pass_yds": 267,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 3,
+       "third_att": 8,
+       "rush": [
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 14,
+         "yds": 80,
+         "td": 1
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 7,
+         "yds": 61,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 7,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 3,
+         "yds": 10,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 83,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 66,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 2,
+         "yds": 36,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 2,
+         "yds": 29,
+         "td": 1
+        },
+        {
+         "id": "5164349",
+         "name": "Jerome Bettis Jr.",
+         "n": 1,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "5142596",
+         "name": "James Flanigan",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 2,
+         "yds": 8,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "5218507",
+         "name": "Matt Jeffery",
+         "n": 1,
+         "yds": 4,
+         "td": 1
+        }
+       ]
+      },
+      {
+       "event": "401858250",
+       "date": "2026-10-03",
+       "opp": "North Carolina",
+       "opp_id": "153",
+       "site": "A",
+       "pf": 37,
+       "pa": 26,
+       "result": "W 37-26",
+       "total_yds": 475,
+       "rush_yds": 241,
+       "pass_yds": 234,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 4,
+       "third_att": 11,
+       "rush": [
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 23,
+         "yds": 120,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 9,
+         "yds": 65,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 8,
+         "yds": 42,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 4,
+         "yds": 15,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 8,
+         "yds": 132,
+         "td": 2
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 3,
+         "yds": 34,
+         "td": 0
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 2,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 2,
+         "yds": 18,
+         "td": 1
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 1,
+         "yds": 6,
+         "td": 1
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401858257",
+       "date": "2026-10-10",
+       "opp": "Stanford",
+       "opp_id": "24",
+       "site": "H",
+       "pf": 58,
+       "pa": 7,
+       "result": "W 58-7",
+       "total_yds": 598,
+       "rush_yds": 361,
+       "pass_yds": 237,
+       "to_lost": 0,
+       "to_gained": 3,
+       "third_conv": 8,
+       "third_att": 13,
+       "rush": [
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 13,
+         "yds": 181,
+         "td": 2
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 10,
+         "yds": 73,
+         "td": 2
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 5,
+         "yds": 41,
+         "td": 0
+        },
+        {
+         "id": "5160472",
+         "name": "Javian Osborne",
+         "n": 6,
+         "yds": 31,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 7,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 3,
+         "yds": 13,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 70,
+         "td": 1
+        },
+        {
+         "id": "5198104",
+         "name": "Elijah Burress",
+         "n": 1,
+         "yds": 30,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 3,
+         "yds": 30,
+         "td": 1
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 2,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 2,
+         "yds": 21,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 3,
+         "yds": 16,
+         "td": 0
+        },
+        {
+         "id": "5210543",
+         "name": "Ian Premer",
+         "n": 1,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 1,
+         "yds": 10,
+         "td": 0
+        },
+        {
+         "id": "5164349",
+         "name": "Jerome Bettis Jr.",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5271466",
+         "name": "Devin Fitzgerald",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5079444",
+         "name": "Mylan Graham",
+         "n": 2,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5142596",
+         "name": "James Flanigan",
+         "n": 1,
+         "yds": 3,
+         "td": 0
+        }
+       ]
+      }
+     ],
+     "complete": false,
+     "retrieved_at": "2026-10-17T23:10+00:00",
+     "check": "cfbstats season totals matched through 2026-10-16",
+     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
+    }
+   }
+  },
+  "61": {
+   "name": "Georgia",
+   "seasons": {
+    "2026": {
+     "games": [
+      {
+       "event": "401856658",
+       "date": "2026-09-05",
+       "opp": "Tennessee State",
+       "opp_id": "2634",
+       "site": "H",
+       "pf": 63,
+       "pa": 3,
+       "result": "W 63-3",
+       "total_yds": 660,
+       "rush_yds": 272,
+       "pass_yds": 388,
+       "to_lost": 0,
+       "to_gained": 0,
+       "third_conv": 4,
+       "third_att": 6
+      },
+      {
+       "event": "401856673",
+       "date": "2026-09-12",
+       "opp": "Western Kentucky",
+       "opp_id": "98",
+       "site": "H",
+       "pf": 70,
+       "pa": 20,
+       "result": "W 70-20",
+       "total_yds": 493,
+       "rush_yds": 234,
+       "pass_yds": 259,
+       "to_lost": 2,
+       "to_gained": 4,
+       "third_conv": 7,
+       "third_att": 12
+      },
+      {
+       "event": "401856686",
+       "date": "2026-09-19",
+       "opp": "Arkansas",
+       "opp_id": "8",
+       "site": "A",
+       "pf": 45,
+       "pa": 17,
+       "result": "W 45-17",
+       "total_yds": 464,
+       "rush_yds": 254,
+       "pass_yds": 210,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 11
+      },
+      {
+       "event": "401856700",
+       "date": "2026-09-26",
+       "opp": "Oklahoma",
+       "opp_id": "201",
+       "site": "H",
+       "pf": 41,
+       "pa": 13,
+       "result": "W 41-13",
+       "total_yds": 306,
+       "rush_yds": 129,
+       "pass_yds": 177,
+       "to_lost": 2,
+       "to_gained": 4,
+       "third_conv": 3,
+       "third_att": 12
+      },
+      {
+       "event": "401856705",
+       "date": "2026-10-03",
+       "opp": "Vanderbilt",
+       "opp_id": "238",
+       "site": "H",
+       "pf": 38,
+       "pa": 14,
+       "result": "W 38-14",
+       "total_yds": 471,
+       "rush_yds": 176,
+       "pass_yds": 295,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 10
+      },
+      {
+       "event": "401856712",
+       "date": "2026-10-10",
+       "opp": "Alabama",
+       "opp_id": "333",
+       "site": "A",
+       "pf": 20,
+       "pa": 17,
+       "result": "W 20-17",
+       "total_yds": 455,
+       "rush_yds": 206,
+       "pass_yds": 249,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 13
+      },
+      {
+       "event": "401856719",
+       "date": "2026-10-17",
+       "opp": "Auburn",
+       "opp_id": "2",
+       "site": "H",
+       "pf": 24,
+       "pa": 27,
+       "result": "L 24-27",
+       "total_yds": 440,
+       "rush_yds": 113,
+       "pass_yds": 327,
+       "to_lost": 3,
+       "to_gained": 0,
+       "third_conv": 6,
+       "third_att": 12
+      }
+     ],
+     "complete": false,
+     "retrieved_at": "2026-10-17T23:10+00:00",
+     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
+     "cfbstats_url": null
+    }
+   }
+  },
+  "2390": {
+   "name": "Miami",
+   "seasons": {
+    "2026": {
+     "games": [
+      {
+       "event": "401858206",
+       "date": "2026-09-04",
+       "opp": "Stanford",
+       "opp_id": "24",
+       "site": "A",
+       "pf": 45,
+       "pa": 6,
+       "result": "W 45-6",
+       "total_yds": 549,
+       "rush_yds": 121,
+       "pass_yds": 428,
+       "to_lost": 1,
+       "to_gained": 0,
+       "third_conv": 8,
+       "third_att": 11
+      },
+      {
+       "event": "401858213",
+       "date": "2026-09-10",
+       "opp": "Florida A&M",
+       "opp_id": "50",
+       "site": "H",
+       "pf": 77,
+       "pa": 7,
+       "result": "W 77-7",
+       "total_yds": 856,
+       "rush_yds": 430,
+       "pass_yds": 426,
+       "to_lost": 1,
+       "to_gained": 0,
+       "third_conv": 1,
+       "third_att": 3
+      },
+      {
+       "event": "401858226",
+       "date": "2026-09-18",
+       "opp": "Wake Forest",
+       "opp_id": "154",
+       "site": "A",
+       "pf": 33,
+       "pa": 20,
+       "result": "W 33-20",
+       "total_yds": 378,
+       "rush_yds": 158,
+       "pass_yds": 220,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 5,
+       "third_att": 13
+      },
+      {
+       "event": "401858238",
+       "date": "2026-09-26",
+       "opp": "Central Michigan",
+       "opp_id": "2117",
+       "site": "H",
+       "pf": 52,
+       "pa": 3,
+       "result": "W 52-3",
+       "total_yds": 572,
+       "rush_yds": 201,
+       "pass_yds": 371,
+       "to_lost": 0,
+       "to_gained": 3,
+       "third_conv": 6,
+       "third_att": 9
+      },
+      {
+       "event": "401858249",
+       "date": "2026-10-03",
+       "opp": "Clemson",
+       "opp_id": "228",
+       "site": "A",
+       "pf": 41,
+       "pa": 13,
+       "result": "W 41-13",
+       "total_yds": 419,
+       "rush_yds": 192,
+       "pass_yds": 227,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 4,
+       "third_att": 11
+      }
+     ],
+     "complete": false,
+     "retrieved_at": "2026-10-17T23:10+00:00",
+     "check": "cfbstats season totals matched through 2026-10-16",
+     "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
+    }
+   }
+  },
+  "194": {
+   "name": "Ohio State",
+   "seasons": {
+    "2026": {
+     "games": [
+      {
+       "event": "401858432",
+       "date": "2026-09-05",
+       "opp": "Ball State",
+       "opp_id": "2050",
+       "site": "H",
+       "pf": 56,
+       "pa": 3,
+       "result": "W 56-3",
+       "total_yds": 671,
+       "rush_yds": 237,
+       "pass_yds": 434,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 5,
+       "third_att": 11
+      },
+      {
+       "event": "401856682",
+       "date": "2026-09-12",
+       "opp": "Texas",
+       "opp_id": "251",
+       "site": "A",
+       "pf": 23,
+       "pa": 24,
+       "result": "L 23-24",
+       "total_yds": 372,
+       "rush_yds": 94,
+       "pass_yds": 278,
+       "to_lost": 1,
+       "to_gained": 2,
+       "third_conv": 6,
+       "third_att": 14
+      },
+      {
+       "event": "401858454",
+       "date": "2026-09-19",
+       "opp": "Kent State",
+       "opp_id": "2309",
+       "site": "H",
+       "pf": 59,
+       "pa": 3,
+       "result": "W 59-3",
+       "total_yds": 527,
+       "rush_yds": 145,
+       "pass_yds": 382,
+       "to_lost": 2,
+       "to_gained": 3,
+       "third_conv": 1,
+       "third_att": 8
+      },
+      {
+       "event": "401858465",
+       "date": "2026-09-26",
+       "opp": "Illinois",
+       "opp_id": "356",
+       "site": "H",
+       "pf": 42,
+       "pa": 19,
+       "result": "W 42-19",
+       "total_yds": 518,
+       "rush_yds": 151,
+       "pass_yds": 367,
+       "to_lost": 0,
+       "to_gained": 0,
+       "third_conv": 8,
+       "third_att": 12
+      },
+      {
+       "event": "401858473",
+       "date": "2026-10-03",
+       "opp": "Iowa",
+       "opp_id": "2294",
+       "site": "A",
+       "pf": 31,
+       "pa": 14,
+       "result": "W 31-14",
+       "total_yds": 484,
+       "rush_yds": 160,
+       "pass_yds": 324,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 8,
+       "third_att": 15
+      },
+      {
+       "event": "401858483",
+       "date": "2026-10-10",
+       "opp": "Maryland",
+       "opp_id": "120",
+       "site": "H",
+       "pf": 45,
+       "pa": 16,
+       "result": "W 45-16",
+       "total_yds": 449,
+       "rush_yds": 207,
+       "pass_yds": 242,
+       "to_lost": 2,
+       "to_gained": 0,
+       "third_conv": 5,
+       "third_att": 13
+      },
+      {
+       "event": "401858488",
+       "date": "2026-10-17",
+       "opp": "Indiana",
+       "opp_id": "84",
+       "site": "A",
+       "pf": 19,
+       "pa": 15,
+       "result": "W 19-15",
+       "total_yds": 313,
+       "rush_yds": 78,
+       "pass_yds": 235,
+       "to_lost": 2,
+       "to_gained": 2,
+       "third_conv": 6,
+       "third_att": 15
+      }
+     ],
+     "complete": false,
+     "retrieved_at": "2026-10-17T23:10+00:00",
+     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
+     "cfbstats_url": null
+    }
+   }
+  },
+  "84": {
+   "name": "Indiana",
+   "seasons": {
+    "2026": {
+     "games": [
+      {
+       "event": "401858425",
+       "date": "2026-09-05",
+       "opp": "North Texas",
+       "opp_id": "249",
+       "site": "H",
+       "pf": 52,
+       "pa": 16,
+       "result": "W 52-16",
+       "total_yds": 365,
+       "rush_yds": 134,
+       "pass_yds": 231,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 5,
+       "third_att": 9
+      },
+      {
+       "event": "401858439",
+       "date": "2026-09-12",
+       "opp": "Howard",
+       "opp_id": "47",
+       "site": "H",
+       "pf": 55,
+       "pa": 0,
+       "result": "W 55-0",
+       "total_yds": 505,
+       "rush_yds": 296,
+       "pass_yds": 209,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 10
+      },
+      {
+       "event": "401858449",
+       "date": "2026-09-19",
+       "opp": "Western Kentucky",
+       "opp_id": "98",
+       "site": "H",
+       "pf": 38,
+       "pa": 0,
+       "result": "W 38-0",
+       "total_yds": 513,
+       "rush_yds": 233,
+       "pass_yds": 280,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 2,
+       "third_att": 10
+      },
+      {
+       "event": "401858461",
+       "date": "2026-09-25",
+       "opp": "Northwestern",
+       "opp_id": "77",
+       "site": "H",
+       "pf": 29,
+       "pa": 23,
+       "result": "W 29-23",
+       "total_yds": 472,
+       "rush_yds": 271,
+       "pass_yds": 201,
+       "to_lost": 0,
+       "to_gained": 0,
+       "third_conv": 9,
+       "third_att": 15
+      },
+      {
+       "event": "401858477",
+       "date": "2026-10-03",
+       "opp": "Rutgers",
+       "opp_id": "164",
+       "site": "A",
+       "pf": 47,
+       "pa": 15,
+       "result": "W 47-15",
+       "total_yds": 593,
+       "rush_yds": 329,
+       "pass_yds": 264,
+       "to_lost": 0,
+       "to_gained": 0,
+       "third_conv": 5,
+       "third_att": 10
+      },
+      {
+       "event": "401858481",
+       "date": "2026-10-10",
+       "opp": "Nebraska",
+       "opp_id": "158",
+       "site": "A",
+       "pf": 20,
+       "pa": 17,
+       "result": "W 20-17",
+       "total_yds": 328,
+       "rush_yds": 65,
+       "pass_yds": 263,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 1,
+       "third_att": 10
+      },
+      {
+       "event": "401858488",
+       "date": "2026-10-17",
+       "opp": "Ohio State",
+       "opp_id": "194",
+       "site": "H",
+       "pf": 15,
+       "pa": 19,
+       "result": "L 15-19",
+       "total_yds": 369,
+       "rush_yds": 73,
+       "pass_yds": 296,
+       "to_lost": 2,
+       "to_gained": 2,
+       "third_conv": 8,
+       "third_att": 16
+      }
+     ],
+     "complete": false,
+     "retrieved_at": "2026-10-17T23:10+00:00",
+     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
+     "cfbstats_url": null
+    }
+   }
+  }
+ },
+ "ap": {
+  "poll": "AP Top 25",
+  "week": "Week 7",
+  "headline": "2026 NCAA Football Rankings - AP Poll Week 7",
+  "date": "2026-10-11",
+  "season": 2026,
+  "top": [
+   {
+    "rank": 1,
+    "team_id": "61",
+    "name": "Georgia",
+    "nickname": "Bulldogs",
+    "abbr": "UGA",
+    "record": "6-0",
+    "first_place": 66
+   },
+   {
+    "rank": 2,
+    "team_id": "87",
+    "name": "Notre Dame",
+    "nickname": "Fighting Irish",
+    "abbr": "ND",
+    "record": "6-0",
+    "first_place": 1
+   },
+   {
+    "rank": 3,
+    "team_id": "2390",
+    "name": "Miami",
+    "nickname": "Hurricanes",
+    "abbr": "MIA",
+    "record": "5-0",
+    "first_place": 2
+   },
+   {
+    "rank": 4,
+    "team_id": "194",
+    "name": "Ohio State",
+    "nickname": "Buckeyes",
+    "abbr": "OSU",
+    "record": "5-1",
+    "first_place": 0
+   },
+   {
+    "rank": 5,
+    "team_id": "84",
+    "name": "Indiana",
+    "nickname": "Hoosiers",
+    "abbr": "IU",
+    "record": "6-0",
+    "first_place": 1
+   }
+  ],
+  "source_url": "https://www.espn.com/college-football/rankings",
+  "retrieved_at": "2026-10-17T23:10+00:00"
+ }
+}
