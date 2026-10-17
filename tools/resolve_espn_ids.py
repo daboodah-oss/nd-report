@@ -3,9 +3,10 @@
 
     python3 tools/resolve_espn_ids.py [--write] [--current-first N:CMP/ATT/YDS/TD/INT]
 
-Candidates come only from ESPN itself: the Notre Dame roster for that season
-(site API, teams/87/roster?season=YYYY) and ESPN's player search, keeping exact
-name matches.  A candidate is accepted only if his ESPN game log for that season
+Candidates come only from ESPN itself, exact name matches: the Notre Dame roster
+for that season (site API, teams/87/roster?season=YYYY; empty for past seasons),
+ESPN's player search, and the passing tables of ESPN's box scores of Notre Dame's
+first games that season.  A candidate is accepted only if his ESPN game log for that season
 (collect.espn_gamelog, so every row also passes the passer-rating check) proves it:
   - a completed season must sum exactly to the entry's final_totals;
   - the current season's first N games must sum exactly to --current-first, when given.
@@ -49,6 +50,30 @@ def search_ids(name):
     return out
 
 
+def boxscore_ids(season, name, games=4):
+    """ESPN box scores of Notre Dame's first completed games that season: passers whose name matches exactly.
+    Used because ESPN's roster endpoint returns empty lists for past seasons."""
+    import collect_tabs as CT
+    out = set()
+    try:
+        done = CT.espn_completed(C, C.ND_ESPN, season)[:games]
+    except Exception as e:
+        print(f"  box scores {season}: schedule not available ({e})"); return out
+    for g in done:
+        try:
+            j = C.get(f"{CT.ESPN}/summary?event={g['event']}").json()
+        except Exception as e:
+            print(f"  box score {g['date']}: not available ({e})"); continue
+        for side in j.get("boxscore", {}).get("players", []):
+            if str(side.get("team", {}).get("id")) != C.ND_ESPN: continue
+            for st in side.get("statistics", []):
+                if st.get("name") != "passing": continue
+                for a in st.get("athletes", []):
+                    if a["athlete"].get("displayName", "").lower() == name.lower(): out.add(str(a["athlete"]["id"]))
+    print(f"  box scores {season} ({len(done)} games): {sorted(out) or 'no exact match'}")
+    return out
+
+
 def proves(q, pid, first):
     try:
         rows = C.espn_gamelog(pid, season=q["season"])
@@ -82,7 +107,7 @@ def main():
     for q in roster["qbs"]:
         if q.get("espn_id"): print(f"{q['key']}: espn_id {q['espn_id']} already set"); continue
         print(f"{q['key']} ({q['name']} {q['season']}):")
-        cands = roster_ids(q["season"], q["name"]) | search_ids(q["name"])
+        cands = roster_ids(q["season"], q["name"]) | search_ids(q["name"]) | boxscore_ids(q["season"], q["name"])
         ok = []
         for pid in sorted(cands):
             good, why = proves(q, pid, first if q["season"] == cur_season else None)
