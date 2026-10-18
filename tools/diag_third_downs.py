@@ -124,8 +124,10 @@ def official(season):
         except Exception as e:
             print(f"  {u}: not available ({e})"); continue
         txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t))
-        hits = re.findall(r"(3rd|Third)[- ][Dd]own [Cc]onversions?[^0-9]{0,40}(\d+)\s*[-/]\s*(\d+)[^0-9]{0,40}(\d+)\s*[-/]\s*(\d+)", txt)
-        print(f"  {u.rsplit('/', 3)[-3:]}: " + ("; ".join(f"{h[1]}-{h[2]} | {h[3]}-{h[4]}" for h in hits[:2]) if hits else "no third-down row found"))
+        hits = re.findall(r"(3rd\.?|Third)[- ][Dd]own [Cc]onv(?:ersions?|\.)?[^0-9]{0,40}(\d+)\s*(?:-|/|of)\s*(\d+)[^0-9]{0,40}(\d+)\s*(?:-|/|of)\s*(\d+)", txt)
+        head = re.search(r"Team Score By Quarter Team 1 1st 2 2nd 3 3rd 4 4th F Total Winner (\w+) (.+?) \d", txt)
+        cols = f"{head.group(1)} first" if head else "visitor first"
+        print(f"  {u.rsplit('/', 3)[-3:]}: " + ("; ".join(f"{h[1]} of {h[2]} | {h[3]} of {h[4]} ({cols})" for h in hits[:1]) if hits else "no third-down row found"))
 
 
 if __name__ == "__main__":
