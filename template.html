@@ -87,6 +87,12 @@ section{padding-top:40px;scroll-margin-top:48px}
 .panel{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:16px}
 .notices{margin:16px 0 0;background:var(--surface);border:1px solid var(--rule);border-left:4px solid #c98500;border-radius:4px;padding:12px 16px}
 .notices ul{margin:8px 0 0;padding-left:18px;display:grid;gap:6px;color:var(--ink-2);font-size:14px}
+.site-id{display:flex;align-items:center;gap:14px;min-width:0}
+.site-logo{height:62px;width:62px;flex:none}
+@media (max-width:820px){.site-logo{height:46px;width:46px}}
+.notices{position:relative;padding-right:44px}
+.notices-x{position:absolute;top:4px;right:6px;background:none;border:none;color:var(--ink-2);font-size:20px;line-height:1;padding:6px 8px;cursor:pointer;font-family:inherit}
+.notices-x:hover{color:var(--ink)}
 
 /* head to head */
 .h2h{width:100%;border-collapse:collapse}
@@ -245,7 +251,7 @@ footer{margin-top:36px;padding-top:14px;border-top:3px solid var(--ink);font-siz
 :root{--tabs-h:46px}
 .site{padding-top:4px}
 .site-top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
-.site h1{font-size:clamp(36px,8vw,60px);text-transform:uppercase;line-height:.95;color:var(--cur);margin-top:2px}
+.site h1{font-size:clamp(36px,8vw,60px);text-transform:uppercase;line-height:.95;color:#AE9142;margin-top:2px}
 .tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bg);display:flex;margin:10px -16px 0;padding:0 16px;border-bottom:3px solid var(--ink)}
 .tabs button{font:700 17px/1 var(--display);text-transform:uppercase;letter-spacing:.1em;background:none;border:0;border-bottom:4px solid transparent;margin-bottom:-3px;padding:13px 6px 10px;color:var(--muted);cursor:pointer;flex:1 1 0;max-width:150px}
 .tabs button:hover{color:var(--ink)}
@@ -287,7 +293,7 @@ details.logd .tscroll{padding:0 14px 14px}
 <div class="wrap">
   <header class="site">
     <div class="site-top">
-      <div><div class="eyebrow">ND Football Report · Freeman era</div><h1 id="site-title">Fighting Irish</h1></div>
+      <div class="site-id"><img class="site-logo" src="nd-logo.png" alt="Notre Dame Fighting Irish logo" width="500" height="500"><div><div class="eyebrow">ND Football Report · Freeman era</div><h1 id="site-title">Fighting Irish</h1></div></div>
       <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode"></button>
     </div>
   </header>
@@ -491,8 +497,17 @@ paintThemeBtn();
   const ns = M.notices || [];
   if (ns.length) {
     const box = $("#notices");
-    box.hidden = false;
-    box.innerHTML = `<div class="eyebrow">Data notes</div><ul>${ns.map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`;
+    const sig = ns.join("\n");
+    let dismissed = null;
+    try { dismissed = localStorage.getItem("nd-notices-dismissed"); } catch (e) {}
+    if (dismissed !== sig) {
+      box.hidden = false;
+      box.innerHTML = `<button class="notices-x" type="button" aria-label="Dismiss data notes">&times;</button><div class="eyebrow">Data notes</div><ul>${ns.map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`;
+      box.querySelector(".notices-x").addEventListener("click", () => {
+        box.hidden = true;
+        try { localStorage.setItem("nd-notices-dismissed", sig); } catch (e) {}
+      });
+    }
   }
 }
 
