@@ -184,6 +184,13 @@ def ap_poll(C, U):
                "source_url": "https://www.espn.com/college-football/rankings"})
 
 
+# This run's Notre Dame box-score rows by season, kept even when the team season is refused (a team-total
+# disagreement with cfbstats, such as third-down attempts).  The RB and WR player lines are checked on their own
+# (box-score player lines must add up to the box-score totals, each game must match the player's cfbstats game log,
+# and the season must match his cfbstats season row), so a team-stat disagreement must not blank the player tabs.
+BOX = {}
+
+
 def team_seasons(C, U):
     seasons = sorted({q["season"] for q in U.roster()["qbs"]})
     d = U.load_or("team.json", {"teams": {}, "ap": None})
@@ -216,6 +223,7 @@ def team_job(C, U, d, keep, tid, name, season, cfb):
         old = have.get(g["event"])
         rows.append(old if old and (tid != ND_ESPN or "rush" in old) else box_row(C, g, tid, with_players=(tid == ND_ESPN)))
     if not rows: C.log(f"[team] {name} {season}: no completed games yet"); return
+    if tid == ND_ESPN: BOX[str(season)] = rows  # player lines stand on their own checks, even if the team totals are refused below
     cf, note = None, "not cross-checked: no cfbstats page found for this team"
     if cfb:
         try:
@@ -238,6 +246,9 @@ def players(C, U):
         tc = cfg.get(tab, {}); key = spec["count_key"]; out = []
         for season in seasons:
             games = (nd.get(str(season)) or {}).get("games", [])
+            if not games and BOX.get(str(season)):
+                games = BOX[str(season)]
+                C.log(f"[{tab}] {season}: {team} team season not stored; using this run's ESPN box scores for the player lines")
             if not games: C.log(f"[{tab}] {season}: no {team} box scores stored yet"); continue
             rows, through, url = cfb_players(C, season, spec["page"])
             named = (tc.get("current") or {}).get(str(season))

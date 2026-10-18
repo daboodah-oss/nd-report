@@ -116,6 +116,7 @@ No AI or paid service is involved in the scheduled run. Keep it that way.
 - Chart tooltips are sticky: a tap or click in a chart pins the pop-up; a tap outside any chart dismisses it (one shared tip element and a guide registry in `lineChart()`; pointerleave does not hide it).
 - National reference data (`data/national_logs.json`, written only by `collect_natref.py` through `update.py natref`): a player is stored only if the game log his leaderboard row links to has exactly his leaderboard G games and sums exactly to his leaderboard line (QBs: every game's listed rating must also match the NCAA formula).  Failures are dropped and named in the run log and in the file's `dropped` list, never estimated; a dropped Top 3 player is named on the page, not replaced by #4.  A stored log is reused until that player's leaderboard line changes.  Each tab is its own section (`natref_qb`, `natref_rb`, `natref_wr`).
 - ESPN game-log passer ratings (collect.py `espn_gamelog`) may differ from the formula by up to 0.15 (ESPN's one-decimal rounding, found on the IU page 2026-10-10: 152.7 vs 152.6).  Every other rating check stays at 0.06.  Do not widen any other check.
+- RB/WR player lines are decoupled from the team-season cross-check (`collect_tabs.BOX`): a Notre Dame team season refused for a team-total disagreement with cfbstats (2024 third-down attempts, 185 vs 184) still supplies that run's box scores to `players()`.  Player checks are unchanged and no tolerance was widened.  The team season stays refused, so the `team` section fails and the run is marked failed on every full refresh until the sources agree.  Not yet ported to the IU repo.
 - `data/team.json` (box-score rows by ESPN team id and season, plus the AP poll), `data/skill.json` (RB and WR players' game lines), `data/skill_national.json` (RB and WR national boards and weekly rank history) are written only by `collect_tabs.py` through `update.py`.
 - Comparisons always line seasons up by game number through the current QB's
   game count (N). Completed seasons also show full-season totals. A comparison
@@ -143,7 +144,7 @@ Football Report", short "ND Football", theme #0C2340; CNAME nd.daboodah.com;
 workflow bot "nd-report bot"; `final_totals` include completions and attempts;
 the build fixture is Carr's first 6 games of 2026; icons are drawn from an "ND"
 monogram, not a logo file; `cur_row`/`cur_rank` field names;
-`.gitattributes` keeps data byte-exact; the head carries the iOS
+`.gitattributes` keeps data byte-exact; RB/WR player lines do not depend on the team-season cross-check; the head carries the iOS
 `apple-mobile-web-app-status-bar-style` tag (ai-build-standards v5.3).
 
 ## Lessons learned the hard way (inherited from the IU repo)
