@@ -1,0 +1,138 @@
+PASS  TDZ scan: 226 const/let definitions, 34 function declarations; first-call before definition: none
+PASS  manifest link present in <head>
+PASS  [light] theme applied before paint (data-theme=light)
+PASS  [light] theme toggle switches to dark
+PASS  [light] QB #h2h-table populated
+PASS  [light] QB #pace-tiles populated
+PASS  [light] QB #cmp-chart populated
+PASS  [light] QB #cmp-legend populated
+PASS  [light] QB #logs populated
+PASS  [light] QB #boards populated
+PASS  [light] QB #fd-chart populated
+PASS  [light] QB #fd-legend populated
+PASS  [light] QB #odds-table populated
+PASS  [light] QB #trail populated
+PASS  [light] QB #notes populated
+PASS  [light] QB #sources populated
+PASS  [light] QB #scorecard populated
+PASS  [light] QB #verdict populated
+PASS  [light] QB compare chart drew an SVG
+PASS  [light] Heisman field chart drew an SVG
+PASS  [light] Heisman field includes Carr (5 players: CJ Carr, Notre Dame · QB | Jeremiah Smith, Ohio State · WR | Darian Mensah, Miami · QB | Trinidad Chambliss, Ole Miss · QB | Keelon Russell, Alabama · QB)
+PASS  [light] QB chip groups: ND players, National Top 3, Individual player
+PASS  [light] QB leaderboards (5) in rank order, unranked last
+PASS  [light] rb tab opens
+PASS  [light] rb #rb-h2h populated
+PASS  [light] rb #rb-compare populated
+PASS  [light] rb #rb-national populated
+PASS  [light] rb #rb-games populated
+PASS  [light] rb #rb-method populated
+PASS  [light] rb compare chart drew an SVG
+PASS  [light] rb chip groups: ND players, National Top 3, Individual player
+PASS  [light] rb leaderboards (4) in rank order, unranked last
+PASS  [light] rb ND-player chip toggles
+PASS  [light] rb National Top 3 chips present
+PASS  [light] rb National Top 3 chip adds a line
+PASS  [light] rb Individual player search present
+PASS  [light] rb search finds pool players
+PASS  [light] rb pick adds a removable pill
+PASS  [light] wr tab opens
+PASS  [light] wr #wr-h2h populated
+PASS  [light] wr #wr-compare populated
+PASS  [light] wr #wr-national populated
+PASS  [light] wr #wr-games populated
+PASS  [light] wr #wr-method populated
+PASS  [light] wr compare chart drew an SVG
+PASS  [light] wr chip groups: ND players, National Top 3, Individual player
+PASS  [light] wr leaderboards (5) in rank order, unranked last
+PASS  [light] wr ND-player chip toggles
+PASS  [light] wr National Top 3 chips present
+PASS  [light] wr National Top 3 chip adds a line
+PASS  [light] wr Individual player search present
+PASS  [light] wr search finds pool players
+PASS  [light] wr pick adds a removable pill
+PASS  [light] team tab opens
+PASS  [light] team #team-h2h populated
+PASS  [light] team #team-compare populated
+PASS  [light] team #team-games populated
+PASS  [light] team #team-method populated
+PASS  [light] team compare chart drew an SVG
+PASS  [light] team chips: Notre Dame 2026 (AP #2) | Notre Dame 2025 | #1 Georgia | #3 Miami | #4 Ohio State | #5 Indiana
+PASS  [light] team tab labels the AP poll week and release date
+PASS  [light] QB ND-player chip toggles off
+PASS  [light] QB National Top 3 chips present
+PASS  [light] QB National Top 3 chip adds a line
+PASS  [light] all chips off shows the friendly empty state
+PASS  [light] tap in chart pins the tooltip
+PASS  [light] tooltip stays after pointerleave
+PASS  [light] tap outside any chart dismisses the tooltip
+PASS  [light] script errors: 0
+PASS  [dark] theme applied before paint (data-theme=dark)
+PASS  [dark] theme toggle switches to light
+PASS  [dark] QB #h2h-table populated
+PASS  [dark] QB #pace-tiles populated
+PASS  [dark] QB #cmp-chart populated
+PASS  [dark] QB #cmp-legend populated
+PASS  [dark] QB #logs populated
+PASS  [dark] QB #boards populated
+PASS  [dark] QB #fd-chart populated
+PASS  [dark] QB #fd-legend populated
+PASS  [dark] QB #odds-table populated
+PASS  [dark] QB #trail populated
+PASS  [dark] QB #notes populated
+PASS  [dark] QB #sources populated
+PASS  [dark] QB #scorecard populated
+PASS  [dark] QB #verdict populated
+PASS  [dark] QB compare chart drew an SVG
+PASS  [dark] Heisman field chart drew an SVG
+PASS  [dark] Heisman field includes Carr (5 players: CJ Carr, Notre Dame · QB | Jeremiah Smith, Ohio State · WR | Darian Mensah, Miami · QB | Trinidad Chambliss, Ole Miss · QB | Keelon Russell, Alabama · QB)
+PASS  [dark] QB chip groups: ND players, National Top 3, Individual player
+PASS  [dark] QB leaderboards (5) in rank order, unranked last
+PASS  [dark] rb tab opens
+PASS  [dark] rb #rb-h2h populated
+PASS  [dark] rb #rb-compare populated
+PASS  [dark] rb #rb-national populated
+PASS  [dark] rb #rb-games populated
+PASS  [dark] rb #rb-method populated
+PASS  [dark] rb compare chart drew an SVG
+PASS  [dark] rb chip groups: ND players, National Top 3, Individual player
+PASS  [dark] rb leaderboards (4) in rank order, unranked last
+PASS  [dark] rb ND-player chip toggles
+PASS  [dark] rb National Top 3 chips present
+PASS  [dark] rb National Top 3 chip adds a line
+PASS  [dark] rb Individual player search present
+PASS  [dark] rb search finds pool players
+PASS  [dark] rb pick adds a removable pill
+PASS  [dark] wr tab opens
+PASS  [dark] wr #wr-h2h populated
+PASS  [dark] wr #wr-compare populated
+PASS  [dark] wr #wr-national populated
+PASS  [dark] wr #wr-games populated
+PASS  [dark] wr #wr-method populated
+PASS  [dark] wr compare chart drew an SVG
+PASS  [dark] wr chip groups: ND players, National Top 3, Individual player
+PASS  [dark] wr leaderboards (5) in rank order, unranked last
+PASS  [dark] wr ND-player chip toggles
+PASS  [dark] wr National Top 3 chips present
+PASS  [dark] wr National Top 3 chip adds a line
+PASS  [dark] wr Individual player search present
+PASS  [dark] wr search finds pool players
+PASS  [dark] wr pick adds a removable pill
+PASS  [dark] team tab opens
+PASS  [dark] team #team-h2h populated
+PASS  [dark] team #team-compare populated
+PASS  [dark] team #team-games populated
+PASS  [dark] team #team-method populated
+PASS  [dark] team compare chart drew an SVG
+PASS  [dark] team chips: Notre Dame 2026 (AP #2) | Notre Dame 2025 | #1 Georgia | #3 Miami | #4 Ohio State | #5 Indiana
+PASS  [dark] team tab labels the AP poll week and release date
+PASS  [dark] QB ND-player chip toggles off
+PASS  [dark] QB National Top 3 chips present
+PASS  [dark] QB National Top 3 chip adds a line
+PASS  [dark] all chips off shows the friendly empty state
+PASS  [dark] tap in chart pins the tooltip
+PASS  [dark] tooltip stays after pointerleave
+PASS  [dark] tap outside any chart dismisses the tooltip
+PASS  [dark] script errors: 0
+
+SUMMARY: 56/56 sections populated across light and dark (28 per theme), 0 script errors, 0 failed checks

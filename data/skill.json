@@ -1,0 +1,1619 @@
+{
+ "rb": {
+  "players": [
+   {
+    "name": "Jonaz Walton",
+    "season": 2026,
+    "role": "current",
+    "espn_id": "5159087",
+    "games": [
+     {
+      "date": "2026-09-12",
+      "event": "401859184",
+      "opp": "Rice",
+      "site": "H",
+      "result": "W 52-0",
+      "att": 8,
+      "yds": 48,
+      "td": 0
+     },
+     {
+      "date": "2026-09-19",
+      "event": "401858453",
+      "opp": "Michigan State",
+      "site": "H",
+      "result": "W 27-10",
+      "att": 1,
+      "yds": -1,
+      "td": 0
+     },
+     {
+      "date": "2026-09-26",
+      "event": "401858467",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 49-10",
+      "att": 7,
+      "yds": 61,
+      "td": 0
+     },
+     {
+      "date": "2026-10-03",
+      "event": "401858250",
+      "opp": "North Carolina",
+      "site": "A",
+      "result": "W 37-26",
+      "att": 23,
+      "yds": 120,
+      "td": 0
+     },
+     {
+      "date": "2026-10-10",
+      "event": "401858257",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 58-7",
+      "att": 13,
+      "yds": 181,
+      "td": 2
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jonaz Walton",
+     "pos": "RB",
+     "g": 5,
+     "att": 52,
+     "yds": 409,
+     "td": 2,
+     "cfb_id": "50304155"
+    },
+    "cfbstats_through": "2026-10-16",
+    "cfbstats_url": "https://cfbstats.com/2026/team/513/rushing/index.html",
+    "chosen": "named in roster.json",
+    "check_diff": []
+   },
+   {
+    "name": "Nolan James, Jr.",
+    "season": 2026,
+    "role": "current",
+    "espn_id": "5189515",
+    "games": [
+     {
+      "date": "2026-09-06",
+      "event": "401858438",
+      "opp": "Wisconsin",
+      "site": "N",
+      "result": "W 41-13",
+      "att": 7,
+      "yds": 19,
+      "td": 0
+     },
+     {
+      "date": "2026-09-12",
+      "event": "401859184",
+      "opp": "Rice",
+      "site": "H",
+      "result": "W 52-0",
+      "att": 6,
+      "yds": 29,
+      "td": 2
+     },
+     {
+      "date": "2026-09-19",
+      "event": "401858453",
+      "opp": "Michigan State",
+      "site": "H",
+      "result": "W 27-10",
+      "att": 26,
+      "yds": 121,
+      "td": 1
+     },
+     {
+      "date": "2026-09-26",
+      "event": "401858467",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 49-10",
+      "att": 7,
+      "yds": 28,
+      "td": 0
+     },
+     {
+      "date": "2026-10-03",
+      "event": "401858250",
+      "opp": "North Carolina",
+      "site": "A",
+      "result": "W 37-26",
+      "att": 9,
+      "yds": 65,
+      "td": 0
+     },
+     {
+      "date": "2026-10-10",
+      "event": "401858257",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 58-7",
+      "att": 10,
+      "yds": 73,
+      "td": 2
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Nolan James, Jr.",
+     "pos": "RB",
+     "g": 6,
+     "att": 65,
+     "yds": 335,
+     "td": 5,
+     "cfb_id": "50303818"
+    },
+    "cfbstats_through": "2026-10-16",
+    "cfbstats_url": "https://cfbstats.com/2026/team/513/rushing/index.html",
+    "chosen": "named in roster.json",
+    "check_diff": []
+   },
+   {
+    "name": "Jeremiyah Love",
+    "season": 2025,
+    "role": "comparison",
+    "espn_id": "4870808",
+    "games": [
+     {
+      "date": "2025-08-31",
+      "event": "401754522",
+      "opp": "Miami",
+      "site": "A",
+      "result": "L 24-27",
+      "att": 10,
+      "yds": 33,
+      "td": 0
+     },
+     {
+      "date": "2025-09-13",
+      "event": "401752707",
+      "opp": "Texas A&M",
+      "site": "H",
+      "result": "L 40-41",
+      "att": 23,
+      "yds": 94,
+      "td": 1
+     },
+     {
+      "date": "2025-09-20",
+      "event": "401752848",
+      "opp": "Purdue",
+      "site": "H",
+      "result": "W 56-30",
+      "att": 19,
+      "yds": 157,
+      "td": 2
+     },
+     {
+      "date": "2025-09-27",
+      "event": "401752717",
+      "opp": "Arkansas",
+      "site": "A",
+      "result": "W 56-13",
+      "att": 14,
+      "yds": 57,
+      "td": 2
+     },
+     {
+      "date": "2025-10-04",
+      "event": "401757165",
+      "opp": "Boise State",
+      "site": "H",
+      "result": "W 28-7",
+      "att": 16,
+      "yds": 103,
+      "td": 1
+     },
+     {
+      "date": "2025-10-11",
+      "event": "401754562",
+      "opp": "NC State",
+      "site": "H",
+      "result": "W 36-7",
+      "att": 18,
+      "yds": 86,
+      "td": 2
+     },
+     {
+      "date": "2025-10-18",
+      "event": "401752871",
+      "opp": "USC",
+      "site": "H",
+      "result": "W 34-24",
+      "att": 24,
+      "yds": 228,
+      "td": 1
+     },
+     {
+      "date": "2025-11-01",
+      "event": "401754583",
+      "opp": "Boston College",
+      "site": "A",
+      "result": "W 25-10",
+      "att": 17,
+      "yds": 136,
+      "td": 2
+     },
+     {
+      "date": "2025-11-08",
+      "event": "401757166",
+      "opp": "Navy",
+      "site": "H",
+      "result": "W 49-10",
+      "att": 13,
+      "yds": 94,
+      "td": 2
+     },
+     {
+      "date": "2025-11-15",
+      "event": "401754597",
+      "opp": "Pittsburgh",
+      "site": "A",
+      "result": "W 37-15",
+      "att": 23,
+      "yds": 147,
+      "td": 1
+     },
+     {
+      "date": "2025-11-22",
+      "event": "401754604",
+      "opp": "Syracuse",
+      "site": "H",
+      "result": "W 70-7",
+      "att": 8,
+      "yds": 171,
+      "td": 3
+     },
+     {
+      "date": "2025-11-29",
+      "event": "401754614",
+      "opp": "Stanford",
+      "site": "A",
+      "result": "W 49-20",
+      "att": 14,
+      "yds": 66,
+      "td": 1
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jeremiyah Love",
+     "pos": "RB",
+     "g": 12,
+     "att": 199,
+     "yds": 1372,
+     "td": 18,
+     "cfb_id": "2001340"
+    },
+    "cfbstats_through": "2026-01-19",
+    "cfbstats_url": "https://cfbstats.com/2025/team/513/rushing/index.html",
+    "chosen": "top 2 by rushing yards",
+    "check_diff": []
+   },
+   {
+    "name": "Jadarian Price",
+    "season": 2025,
+    "role": "comparison",
+    "espn_id": "4685512",
+    "games": [
+     {
+      "date": "2025-08-31",
+      "event": "401754522",
+      "opp": "Miami",
+      "site": "A",
+      "result": "L 24-27",
+      "att": 6,
+      "yds": 45,
+      "td": 0
+     },
+     {
+      "date": "2025-09-13",
+      "event": "401752707",
+      "opp": "Texas A&M",
+      "site": "H",
+      "result": "L 40-41",
+      "att": 12,
+      "yds": 68,
+      "td": 2
+     },
+     {
+      "date": "2025-09-20",
+      "event": "401752848",
+      "opp": "Purdue",
+      "site": "H",
+      "result": "W 56-30",
+      "att": 9,
+      "yds": 74,
+      "td": 3
+     },
+     {
+      "date": "2025-09-27",
+      "event": "401752717",
+      "opp": "Arkansas",
+      "site": "A",
+      "result": "W 56-13",
+      "att": 13,
+      "yds": 86,
+      "td": 1
+     },
+     {
+      "date": "2025-10-04",
+      "event": "401757165",
+      "opp": "Boise State",
+      "site": "H",
+      "result": "W 28-7",
+      "att": 8,
+      "yds": 83,
+      "td": 1
+     },
+     {
+      "date": "2025-10-11",
+      "event": "401754562",
+      "opp": "NC State",
+      "site": "H",
+      "result": "W 36-7",
+      "att": 15,
+      "yds": 66,
+      "td": 0
+     },
+     {
+      "date": "2025-10-18",
+      "event": "401752871",
+      "opp": "USC",
+      "site": "H",
+      "result": "W 34-24",
+      "att": 13,
+      "yds": 87,
+      "td": 1
+     },
+     {
+      "date": "2025-11-01",
+      "event": "401754583",
+      "opp": "Boston College",
+      "site": "A",
+      "result": "W 25-10",
+      "att": 9,
+      "yds": 12,
+      "td": 0
+     },
+     {
+      "date": "2025-11-08",
+      "event": "401757166",
+      "opp": "Navy",
+      "site": "H",
+      "result": "W 49-10",
+      "att": 10,
+      "yds": 47,
+      "td": 1
+     },
+     {
+      "date": "2025-11-15",
+      "event": "401754597",
+      "opp": "Pittsburgh",
+      "site": "A",
+      "result": "W 37-15",
+      "att": 8,
+      "yds": 21,
+      "td": 0
+     },
+     {
+      "date": "2025-11-22",
+      "event": "401754604",
+      "opp": "Syracuse",
+      "site": "H",
+      "result": "W 70-7",
+      "att": 4,
+      "yds": 70,
+      "td": 1
+     },
+     {
+      "date": "2025-11-29",
+      "event": "401754614",
+      "opp": "Stanford",
+      "site": "A",
+      "result": "W 49-20",
+      "att": 6,
+      "yds": 15,
+      "td": 1
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jadarian Price",
+     "pos": "RB",
+     "g": 12,
+     "att": 113,
+     "yds": 674,
+     "td": 11,
+     "cfb_id": "1175080"
+    },
+    "cfbstats_through": "2026-01-19",
+    "cfbstats_url": "https://cfbstats.com/2025/team/513/rushing/index.html",
+    "chosen": "top 2 by rushing yards",
+    "check_diff": []
+   },
+   {
+    "name": "Jeremiyah Love",
+    "season": 2024,
+    "role": "comparison",
+    "espn_id": "4870808",
+    "games": [
+     {
+      "date": "2024-08-31",
+      "event": "401628332",
+      "opp": "Texas A&M",
+      "site": "A",
+      "result": "W 23-13",
+      "att": 14,
+      "yds": 91,
+      "td": 1
+     },
+     {
+      "date": "2024-09-07",
+      "event": "401628977",
+      "opp": "Northern Illinois",
+      "site": "H",
+      "result": "L 14-16",
+      "att": 11,
+      "yds": 79,
+      "td": 1
+     },
+     {
+      "date": "2024-09-14",
+      "event": "401628978",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 66-7",
+      "att": 10,
+      "yds": 109,
+      "td": 1
+     },
+     {
+      "date": "2024-09-21",
+      "event": "401628979",
+      "opp": "Miami (OH)",
+      "site": "H",
+      "result": "W 28-3",
+      "att": 11,
+      "yds": 60,
+      "td": 1
+     },
+     {
+      "date": "2024-09-28",
+      "event": "401628980",
+      "opp": "Louisville",
+      "site": "H",
+      "result": "W 31-24",
+      "att": 11,
+      "yds": 34,
+      "td": 1
+     },
+     {
+      "date": "2024-10-12",
+      "event": "401628981",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 49-7",
+      "att": 6,
+      "yds": 53,
+      "td": 1
+     },
+     {
+      "date": "2024-10-19",
+      "event": "401628982",
+      "opp": "Georgia Tech",
+      "site": "N",
+      "result": "W 31-13",
+      "att": 14,
+      "yds": 36,
+      "td": 1
+     },
+     {
+      "date": "2024-10-26",
+      "event": "401628983",
+      "opp": "Navy",
+      "site": "N",
+      "result": "W 51-14",
+      "att": 12,
+      "yds": 102,
+      "td": 2
+     },
+     {
+      "date": "2024-11-09",
+      "event": "401628984",
+      "opp": "Florida State",
+      "site": "H",
+      "result": "W 52-3",
+      "att": 9,
+      "yds": 19,
+      "td": 1
+     },
+     {
+      "date": "2024-11-16",
+      "event": "401628985",
+      "opp": "Virginia",
+      "site": "H",
+      "result": "W 35-14",
+      "att": 16,
+      "yds": 137,
+      "td": 2
+     },
+     {
+      "date": "2024-11-23",
+      "event": "401640959",
+      "opp": "Army",
+      "site": "N",
+      "result": "W 49-14",
+      "att": 7,
+      "yds": 130,
+      "td": 2
+     },
+     {
+      "date": "2024-11-30",
+      "event": "401628571",
+      "opp": "USC",
+      "site": "A",
+      "result": "W 49-35",
+      "att": 13,
+      "yds": 99,
+      "td": 1
+     },
+     {
+      "date": "2024-12-20",
+      "event": "401677179",
+      "opp": "Indiana",
+      "site": "H",
+      "result": "W 27-17",
+      "att": 8,
+      "yds": 108,
+      "td": 1
+     },
+     {
+      "date": "2025-01-02",
+      "event": "401677184",
+      "opp": "Georgia",
+      "site": "N",
+      "result": "W 23-10",
+      "att": 6,
+      "yds": 19,
+      "td": 0
+     },
+     {
+      "date": "2025-01-09",
+      "event": "401677189",
+      "opp": "Penn State",
+      "site": "N",
+      "result": "W 27-24",
+      "att": 11,
+      "yds": 46,
+      "td": 1
+     },
+     {
+      "date": "2025-01-20",
+      "event": "401677192",
+      "opp": "Ohio State",
+      "site": "N",
+      "result": "L 23-34",
+      "att": 4,
+      "yds": 3,
+      "td": 0
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jeremiyah Love",
+     "pos": "RB",
+     "g": 16,
+     "att": 163,
+     "yds": 1125,
+     "td": 17,
+     "cfb_id": "2001340"
+    },
+    "cfbstats_through": "2025-01-20",
+    "cfbstats_url": "https://cfbstats.com/2024/team/513/rushing/index.html",
+    "chosen": "top 2 by rushing yards",
+    "check_diff": []
+   },
+   {
+    "name": "Jadarian Price",
+    "season": 2024,
+    "role": "comparison",
+    "espn_id": "4685512",
+    "games": [
+     {
+      "date": "2024-08-31",
+      "event": "401628332",
+      "opp": "Texas A&M",
+      "site": "A",
+      "result": "W 23-13",
+      "att": 8,
+      "yds": 44,
+      "td": 1
+     },
+     {
+      "date": "2024-09-07",
+      "event": "401628977",
+      "opp": "Northern Illinois",
+      "site": "H",
+      "result": "L 14-16",
+      "att": 4,
+      "yds": 24,
+      "td": 0
+     },
+     {
+      "date": "2024-09-14",
+      "event": "401628978",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 66-7",
+      "att": 8,
+      "yds": 86,
+      "td": 1
+     },
+     {
+      "date": "2024-09-21",
+      "event": "401628979",
+      "opp": "Miami (OH)",
+      "site": "H",
+      "result": "W 28-3",
+      "att": 6,
+      "yds": 39,
+      "td": 0
+     },
+     {
+      "date": "2024-09-28",
+      "event": "401628980",
+      "opp": "Louisville",
+      "site": "H",
+      "result": "W 31-24",
+      "att": 3,
+      "yds": 18,
+      "td": 0
+     },
+     {
+      "date": "2024-10-12",
+      "event": "401628981",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 49-7",
+      "att": 12,
+      "yds": 49,
+      "td": 1
+     },
+     {
+      "date": "2024-10-19",
+      "event": "401628982",
+      "opp": "Georgia Tech",
+      "site": "N",
+      "result": "W 31-13",
+      "att": 8,
+      "yds": 69,
+      "td": 0
+     },
+     {
+      "date": "2024-10-26",
+      "event": "401628983",
+      "opp": "Navy",
+      "site": "N",
+      "result": "W 51-14",
+      "att": 5,
+      "yds": 19,
+      "td": 0
+     },
+     {
+      "date": "2024-11-09",
+      "event": "401628984",
+      "opp": "Florida State",
+      "site": "H",
+      "result": "W 52-3",
+      "att": 7,
+      "yds": 95,
+      "td": 1
+     },
+     {
+      "date": "2024-11-16",
+      "event": "401628985",
+      "opp": "Virginia",
+      "site": "H",
+      "result": "W 35-14",
+      "att": 6,
+      "yds": 44,
+      "td": 0
+     },
+     {
+      "date": "2024-11-23",
+      "event": "401640959",
+      "opp": "Army",
+      "site": "N",
+      "result": "W 49-14",
+      "att": 10,
+      "yds": 53,
+      "td": 2
+     },
+     {
+      "date": "2024-11-30",
+      "event": "401628571",
+      "opp": "USC",
+      "site": "A",
+      "result": "W 49-35",
+      "att": 12,
+      "yds": 111,
+      "td": 1
+     },
+     {
+      "date": "2024-12-20",
+      "event": "401677179",
+      "opp": "Indiana",
+      "site": "H",
+      "result": "W 27-17",
+      "att": 11,
+      "yds": 32,
+      "td": 0
+     },
+     {
+      "date": "2025-01-02",
+      "event": "401677184",
+      "opp": "Georgia",
+      "site": "N",
+      "result": "W 23-10",
+      "att": 10,
+      "yds": 37,
+      "td": 0
+     },
+     {
+      "date": "2025-01-09",
+      "event": "401677189",
+      "opp": "Penn State",
+      "site": "N",
+      "result": "W 27-24",
+      "att": 7,
+      "yds": 13,
+      "td": 0
+     },
+     {
+      "date": "2025-01-20",
+      "event": "401677192",
+      "opp": "Ohio State",
+      "site": "N",
+      "result": "L 23-34",
+      "att": 3,
+      "yds": 13,
+      "td": 0
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jadarian Price",
+     "pos": "RB",
+     "g": 16,
+     "att": 120,
+     "yds": 746,
+     "td": 7,
+     "cfb_id": "1175080"
+    },
+    "cfbstats_through": "2025-01-20",
+    "cfbstats_url": "https://cfbstats.com/2024/team/513/rushing/index.html",
+    "chosen": "top 2 by rushing yards",
+    "check_diff": []
+   }
+  ],
+  "retrieved_at": "2026-10-18T02:25+00:00",
+  "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 RB by rushing yards (cfbstats.com)."
+ },
+ "wr": {
+  "players": [
+   {
+    "name": "Jordan Faison",
+    "season": 2026,
+    "role": "current",
+    "espn_id": "5150424",
+    "games": [
+     {
+      "date": "2026-09-06",
+      "event": "401858438",
+      "opp": "Wisconsin",
+      "site": "N",
+      "result": "W 41-13",
+      "rec": 4,
+      "yds": 81,
+      "td": 0
+     },
+     {
+      "date": "2026-09-12",
+      "event": "401859184",
+      "opp": "Rice",
+      "site": "H",
+      "result": "W 52-0",
+      "rec": 4,
+      "yds": 54,
+      "td": 2
+     },
+     {
+      "date": "2026-09-19",
+      "event": "401858453",
+      "opp": "Michigan State",
+      "site": "H",
+      "result": "W 27-10",
+      "rec": 5,
+      "yds": 38,
+      "td": 0
+     },
+     {
+      "date": "2026-09-26",
+      "event": "401858467",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 49-10",
+      "rec": 4,
+      "yds": 66,
+      "td": 0
+     },
+     {
+      "date": "2026-10-03",
+      "event": "401858250",
+      "opp": "North Carolina",
+      "site": "A",
+      "result": "W 37-26",
+      "rec": 8,
+      "yds": 132,
+      "td": 2
+     },
+     {
+      "date": "2026-10-10",
+      "event": "401858257",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 58-7",
+      "rec": 3,
+      "yds": 16,
+      "td": 0
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jordan Faison",
+     "pos": "WR",
+     "g": 6,
+     "rec": 28,
+     "yds": 387,
+     "td": 4,
+     "cfb_id": "1205334"
+    },
+    "cfbstats_through": "2026-10-16",
+    "cfbstats_url": "https://cfbstats.com/2026/team/513/receiving/index.html",
+    "chosen": "named in roster.json",
+    "check_diff": []
+   },
+   {
+    "name": "Micah Gilbert",
+    "season": 2026,
+    "role": "current",
+    "espn_id": "5079475",
+    "games": [
+     {
+      "date": "2026-09-06",
+      "event": "401858438",
+      "opp": "Wisconsin",
+      "site": "N",
+      "result": "W 41-13",
+      "rec": 3,
+      "yds": 34,
+      "td": 0
+     },
+     {
+      "date": "2026-09-12",
+      "event": "401859184",
+      "opp": "Rice",
+      "site": "H",
+      "result": "W 52-0",
+      "rec": 2,
+      "yds": 47,
+      "td": 1
+     },
+     {
+      "date": "2026-09-19",
+      "event": "401858453",
+      "opp": "Michigan State",
+      "site": "H",
+      "result": "W 27-10",
+      "rec": 8,
+      "yds": 170,
+      "td": 0
+     },
+     {
+      "date": "2026-09-26",
+      "event": "401858467",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 49-10",
+      "rec": 2,
+      "yds": 83,
+      "td": 1
+     },
+     {
+      "date": "2026-10-03",
+      "event": "401858250",
+      "opp": "North Carolina",
+      "site": "A",
+      "result": "W 37-26",
+      "rec": 3,
+      "yds": 34,
+      "td": 0
+     },
+     {
+      "date": "2026-10-10",
+      "event": "401858257",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 58-7",
+      "rec": 1,
+      "yds": 10,
+      "td": 0
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Micah Gilbert",
+     "pos": "WR",
+     "g": 6,
+     "rec": 19,
+     "yds": 378,
+     "td": 2,
+     "cfb_id": "50312208"
+    },
+    "cfbstats_through": "2026-10-16",
+    "cfbstats_url": "https://cfbstats.com/2026/team/513/receiving/index.html",
+    "chosen": "named in roster.json",
+    "check_diff": []
+   },
+   {
+    "name": "Jordan Faison",
+    "season": 2025,
+    "role": "comparison",
+    "espn_id": "5150424",
+    "games": [
+     {
+      "date": "2025-08-31",
+      "event": "401754522",
+      "opp": "Miami",
+      "site": "A",
+      "result": "L 24-27",
+      "rec": 5,
+      "yds": 33,
+      "td": 1
+     },
+     {
+      "date": "2025-09-13",
+      "event": "401752707",
+      "opp": "Texas A&M",
+      "site": "H",
+      "result": "L 40-41",
+      "rec": 2,
+      "yds": 17,
+      "td": 0
+     },
+     {
+      "date": "2025-09-20",
+      "event": "401752848",
+      "opp": "Purdue",
+      "site": "H",
+      "result": "W 56-30",
+      "rec": 5,
+      "yds": 105,
+      "td": 1
+     },
+     {
+      "date": "2025-09-27",
+      "event": "401752717",
+      "opp": "Arkansas",
+      "site": "A",
+      "result": "W 56-13",
+      "rec": 7,
+      "yds": 89,
+      "td": 0
+     },
+     {
+      "date": "2025-10-04",
+      "event": "401757165",
+      "opp": "Boise State",
+      "site": "H",
+      "result": "W 28-7",
+      "rec": 6,
+      "yds": 83,
+      "td": 0
+     },
+     {
+      "date": "2025-10-11",
+      "event": "401754562",
+      "opp": "NC State",
+      "site": "H",
+      "result": "W 36-7",
+      "rec": 4,
+      "yds": 49,
+      "td": 0
+     },
+     {
+      "date": "2025-10-18",
+      "event": "401752871",
+      "opp": "USC",
+      "site": "H",
+      "result": "W 34-24",
+      "rec": 6,
+      "yds": 60,
+      "td": 0
+     },
+     {
+      "date": "2025-11-01",
+      "event": "401754583",
+      "opp": "Boston College",
+      "site": "A",
+      "result": "W 25-10",
+      "rec": 4,
+      "yds": 82,
+      "td": 0
+     },
+     {
+      "date": "2025-11-08",
+      "event": "401757166",
+      "opp": "Navy",
+      "site": "H",
+      "result": "W 49-10",
+      "rec": 4,
+      "yds": 27,
+      "td": 1
+     },
+     {
+      "date": "2025-11-15",
+      "event": "401754597",
+      "opp": "Pittsburgh",
+      "site": "A",
+      "result": "W 37-15",
+      "rec": 1,
+      "yds": 6,
+      "td": 0
+     },
+     {
+      "date": "2025-11-22",
+      "event": "401754604",
+      "opp": "Syracuse",
+      "site": "H",
+      "result": "W 70-7",
+      "rec": 2,
+      "yds": 21,
+      "td": 0
+     },
+     {
+      "date": "2025-11-29",
+      "event": "401754614",
+      "opp": "Stanford",
+      "site": "A",
+      "result": "W 49-20",
+      "rec": 3,
+      "yds": 68,
+      "td": 1
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jordan Faison",
+     "pos": "WR",
+     "g": 12,
+     "rec": 49,
+     "yds": 640,
+     "td": 4,
+     "cfb_id": "1205334"
+    },
+    "cfbstats_through": "2026-01-19",
+    "cfbstats_url": "https://cfbstats.com/2025/team/513/receiving/index.html",
+    "chosen": "top 2 by receiving yards",
+    "check_diff": []
+   },
+   {
+    "name": "Malachi Fields",
+    "season": 2025,
+    "role": "comparison",
+    "espn_id": "4682648",
+    "games": [
+     {
+      "date": "2025-08-31",
+      "event": "401754522",
+      "opp": "Miami",
+      "site": "A",
+      "result": "L 24-27",
+      "rec": 3,
+      "yds": 48,
+      "td": 0
+     },
+     {
+      "date": "2025-09-13",
+      "event": "401752707",
+      "opp": "Texas A&M",
+      "site": "H",
+      "result": "L 40-41",
+      "rec": 5,
+      "yds": 77,
+      "td": 0
+     },
+     {
+      "date": "2025-09-20",
+      "event": "401752848",
+      "opp": "Purdue",
+      "site": "H",
+      "result": "W 56-30",
+      "rec": 2,
+      "yds": 78,
+      "td": 1
+     },
+     {
+      "date": "2025-09-27",
+      "event": "401752717",
+      "opp": "Arkansas",
+      "site": "A",
+      "result": "W 56-13",
+      "rec": 3,
+      "yds": 72,
+      "td": 0
+     },
+     {
+      "date": "2025-10-04",
+      "event": "401757165",
+      "opp": "Boise State",
+      "site": "H",
+      "result": "W 28-7",
+      "rec": 4,
+      "yds": 44,
+      "td": 1
+     },
+     {
+      "date": "2025-10-11",
+      "event": "401754562",
+      "opp": "NC State",
+      "site": "H",
+      "result": "W 36-7",
+      "rec": 1,
+      "yds": 20,
+      "td": 0
+     },
+     {
+      "date": "2025-10-18",
+      "event": "401752871",
+      "opp": "USC",
+      "site": "H",
+      "result": "W 34-24",
+      "rec": 1,
+      "yds": 9,
+      "td": 0
+     },
+     {
+      "date": "2025-11-01",
+      "event": "401754583",
+      "opp": "Boston College",
+      "site": "A",
+      "result": "W 25-10",
+      "rec": 2,
+      "yds": 52,
+      "td": 1
+     },
+     {
+      "date": "2025-11-08",
+      "event": "401757166",
+      "opp": "Navy",
+      "site": "H",
+      "result": "W 49-10",
+      "rec": 4,
+      "yds": 97,
+      "td": 0
+     },
+     {
+      "date": "2025-11-15",
+      "event": "401754597",
+      "opp": "Pittsburgh",
+      "site": "A",
+      "result": "W 37-15",
+      "rec": 7,
+      "yds": 99,
+      "td": 2
+     },
+     {
+      "date": "2025-11-22",
+      "event": "401754604",
+      "opp": "Syracuse",
+      "site": "H",
+      "result": "W 70-7",
+      "rec": 1,
+      "yds": 12,
+      "td": 0
+     },
+     {
+      "date": "2025-11-29",
+      "event": "401754614",
+      "opp": "Stanford",
+      "site": "A",
+      "result": "W 49-20",
+      "rec": 3,
+      "yds": 22,
+      "td": 0
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Malachi Fields",
+     "pos": "WR",
+     "g": 12,
+     "rec": 36,
+     "yds": 630,
+     "td": 5,
+     "cfb_id": "1125510"
+    },
+    "cfbstats_through": "2026-01-19",
+    "cfbstats_url": "https://cfbstats.com/2025/team/513/receiving/index.html",
+    "chosen": "top 2 by receiving yards",
+    "check_diff": []
+   },
+   {
+    "name": "Jaden Greathouse",
+    "season": 2024,
+    "role": "comparison",
+    "espn_id": "4870768",
+    "games": [
+     {
+      "date": "2024-08-31",
+      "event": "401628332",
+      "opp": "Texas A&M",
+      "site": "A",
+      "result": "W 23-13",
+      "rec": 3,
+      "yds": 26,
+      "td": 0
+     },
+     {
+      "date": "2024-09-07",
+      "event": "401628977",
+      "opp": "Northern Illinois",
+      "site": "H",
+      "result": "L 14-16",
+      "rec": 5,
+      "yds": 41,
+      "td": 0
+     },
+     {
+      "date": "2024-09-14",
+      "event": "401628978",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 66-7",
+      "rec": 0,
+      "yds": 0,
+      "td": 0,
+      "no_stat": true
+     },
+     {
+      "date": "2024-09-21",
+      "event": "401628979",
+      "opp": "Miami (OH)",
+      "site": "H",
+      "result": "W 28-3",
+      "rec": 1,
+      "yds": 12,
+      "td": 0
+     },
+     {
+      "date": "2024-09-28",
+      "event": "401628980",
+      "opp": "Louisville",
+      "site": "H",
+      "result": "W 31-24",
+      "rec": 4,
+      "yds": 61,
+      "td": 1
+     },
+     {
+      "date": "2024-10-12",
+      "event": "401628981",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 49-7",
+      "rec": 1,
+      "yds": 19,
+      "td": 0
+     },
+     {
+      "date": "2024-10-19",
+      "event": "401628982",
+      "opp": "Georgia Tech",
+      "site": "N",
+      "result": "W 31-13",
+      "rec": 3,
+      "yds": 43,
+      "td": 0
+     },
+     {
+      "date": "2024-10-26",
+      "event": "401628983",
+      "opp": "Navy",
+      "site": "N",
+      "result": "W 51-14",
+      "rec": 1,
+      "yds": 42,
+      "td": 0
+     },
+     {
+      "date": "2024-11-09",
+      "event": "401628984",
+      "opp": "Florida State",
+      "site": "H",
+      "result": "W 52-3",
+      "rec": 5,
+      "yds": 66,
+      "td": 0
+     },
+     {
+      "date": "2024-11-16",
+      "event": "401628985",
+      "opp": "Virginia",
+      "site": "H",
+      "result": "W 35-14",
+      "rec": 1,
+      "yds": 17,
+      "td": 0
+     },
+     {
+      "date": "2024-11-23",
+      "event": "401640959",
+      "opp": "Army",
+      "site": "N",
+      "result": "W 49-14",
+      "rec": 1,
+      "yds": 12,
+      "td": 0
+     },
+     {
+      "date": "2024-11-30",
+      "event": "401628571",
+      "opp": "USC",
+      "site": "A",
+      "result": "W 49-35",
+      "rec": 1,
+      "yds": 6,
+      "td": 0
+     },
+     {
+      "date": "2024-12-20",
+      "event": "401677179",
+      "opp": "Indiana",
+      "site": "H",
+      "result": "W 27-17",
+      "rec": 1,
+      "yds": 8,
+      "td": 0
+     },
+     {
+      "date": "2025-01-02",
+      "event": "401677184",
+      "opp": "Georgia",
+      "site": "N",
+      "result": "W 23-10",
+      "rec": 2,
+      "yds": 6,
+      "td": 0
+     },
+     {
+      "date": "2025-01-09",
+      "event": "401677189",
+      "opp": "Penn State",
+      "site": "N",
+      "result": "W 27-24",
+      "rec": 7,
+      "yds": 105,
+      "td": 1
+     },
+     {
+      "date": "2025-01-20",
+      "event": "401677192",
+      "opp": "Ohio State",
+      "site": "N",
+      "result": "L 23-34",
+      "rec": 6,
+      "yds": 128,
+      "td": 2
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Jaden Greathouse",
+     "pos": "WR",
+     "g": 16,
+     "rec": 42,
+     "yds": 592,
+     "td": 4,
+     "cfb_id": "2002481"
+    },
+    "cfbstats_through": "2025-01-20",
+    "cfbstats_url": "https://cfbstats.com/2024/team/513/receiving/index.html",
+    "chosen": "top 2 by receiving yards",
+    "check_diff": []
+   },
+   {
+    "name": "Beaux Collins",
+    "season": 2024,
+    "role": "comparison",
+    "espn_id": "4431210",
+    "games": [
+     {
+      "date": "2024-08-31",
+      "event": "401628332",
+      "opp": "Texas A&M",
+      "site": "A",
+      "result": "W 23-13",
+      "rec": 5,
+      "yds": 62,
+      "td": 0
+     },
+     {
+      "date": "2024-09-07",
+      "event": "401628977",
+      "opp": "Northern Illinois",
+      "site": "H",
+      "result": "L 14-16",
+      "rec": 5,
+      "yds": 45,
+      "td": 0
+     },
+     {
+      "date": "2024-09-14",
+      "event": "401628978",
+      "opp": "Purdue",
+      "site": "A",
+      "result": "W 66-7",
+      "rec": 2,
+      "yds": 9,
+      "td": 0
+     },
+     {
+      "date": "2024-09-21",
+      "event": "401628979",
+      "opp": "Miami (OH)",
+      "site": "H",
+      "result": "W 28-3",
+      "rec": 4,
+      "yds": 60,
+      "td": 1
+     },
+     {
+      "date": "2024-09-28",
+      "event": "401628980",
+      "opp": "Louisville",
+      "site": "H",
+      "result": "W 31-24",
+      "rec": 1,
+      "yds": 5,
+      "td": 0
+     },
+     {
+      "date": "2024-10-12",
+      "event": "401628981",
+      "opp": "Stanford",
+      "site": "H",
+      "result": "W 49-7",
+      "rec": 4,
+      "yds": 85,
+      "td": 0
+     },
+     {
+      "date": "2024-10-19",
+      "event": "401628982",
+      "opp": "Georgia Tech",
+      "site": "N",
+      "result": "W 31-13",
+      "rec": 5,
+      "yds": 51,
+      "td": 0
+     },
+     {
+      "date": "2024-10-26",
+      "event": "401628983",
+      "opp": "Navy",
+      "site": "N",
+      "result": "W 51-14",
+      "rec": 2,
+      "yds": 42,
+      "td": 1
+     },
+     {
+      "date": "2024-11-09",
+      "event": "401628984",
+      "opp": "Florida State",
+      "site": "H",
+      "result": "W 52-3",
+      "rec": 1,
+      "yds": 15,
+      "td": 0
+     },
+     {
+      "date": "2024-11-16",
+      "event": "401628985",
+      "opp": "Virginia",
+      "site": "H",
+      "result": "W 35-14",
+      "rec": 1,
+      "yds": 16,
+      "td": 0
+     },
+     {
+      "date": "2024-11-23",
+      "event": "401640959",
+      "opp": "Army",
+      "site": "N",
+      "result": "W 49-14",
+      "rec": 4,
+      "yds": 37,
+      "td": 0
+     },
+     {
+      "date": "2024-11-30",
+      "event": "401628571",
+      "opp": "USC",
+      "site": "A",
+      "result": "W 49-35",
+      "rec": 0,
+      "yds": 0,
+      "td": 0,
+      "no_stat": true
+     },
+     {
+      "date": "2024-12-20",
+      "event": "401677179",
+      "opp": "Indiana",
+      "site": "H",
+      "result": "W 27-17",
+      "rec": 2,
+      "yds": 18,
+      "td": 0
+     },
+     {
+      "date": "2025-01-02",
+      "event": "401677184",
+      "opp": "Georgia",
+      "site": "N",
+      "result": "W 23-10",
+      "rec": 1,
+      "yds": 13,
+      "td": 1
+     },
+     {
+      "date": "2025-01-09",
+      "event": "401677189",
+      "opp": "Penn State",
+      "site": "N",
+      "result": "W 27-24",
+      "rec": 0,
+      "yds": 0,
+      "td": 0,
+      "no_stat": true
+     },
+     {
+      "date": "2025-01-20",
+      "event": "401677192",
+      "opp": "Ohio State",
+      "site": "N",
+      "result": "L 23-34",
+      "rec": 4,
+      "yds": 32,
+      "td": 0
+     }
+    ],
+    "cfbstats_row": {
+     "name": "Beaux Collins",
+     "pos": "WR",
+     "g": 16,
+     "rec": 41,
+     "yds": 490,
+     "td": 3,
+     "cfb_id": "1121622"
+    },
+    "cfbstats_through": "2025-01-20",
+    "cfbstats_url": "https://cfbstats.com/2024/team/513/receiving/index.html",
+    "chosen": "top 2 by receiving yards",
+    "check_diff": []
+   }
+  ],
+  "retrieved_at": "2026-10-18T02:25+00:00",
+  "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 WR/TE by receiving yards (cfbstats.com)."
+ }
+}

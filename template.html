@@ -1,0 +1,1092 @@
+<title>ND Football Report</title>
+<script>try{var t=localStorage.getItem("qb-theme");if(t==="light"||t==="dark")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --bg:#f3f4f6; --surface:#ffffff; --surface-2:#eceef2; --ink:#16181d; --ink-2:#4a4f5c; --muted:#6a7080;
+  --rule:#d8dbe2; --grid:#e6e8ed;
+  /* QB color slots: cur = current season (ND navy); p1..p4 = earlier starters, newest first; accent = ND metallic gold */
+  --cur:#0C2340; --cur-soft:#e3e8f2; --p1:#b42318; --p1-soft:#fbe4e1; --p2:#b86e00; --p2-soft:#fbefd9;
+  --p3:#12806e; --p3-soft:#dcf1ec; --p4:#7a4fc0; --p4-soft:#ece5f8; --field:#8d93a1; --accent:#AE9142;
+  /* AP Top 5 comparison teams (dotted lines), by poll rank */
+  --a1:#0f7f86; --a1-soft:#d9f0f1; --a2:#6d4bc2; --a2-soft:#e9e3f7; --a3:#3b7d2e; --a3-soft:#e1efdc; --a4:#56606f; --a4-soft:#e6e8ec; --a5:#b0359f; --a5-soft:#f5e0f2;
+  --good:#1f7a4d;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#111216; --surface:#1a1c22; --surface-2:#22252d; --ink:#eceef2; --ink-2:#c3c7d1; --muted:#9aa0ae;
+    --rule:#2e313b; --grid:#262932;
+    --cur:#8fb0ea; --cur-soft:#1b2740; --p1:#f07167; --p1-soft:#3d1c1a; --p2:#e0a33a; --p2-soft:#3a2c14;
+    --p3:#3bb9a0; --p3-soft:#143a33; --p4:#a685e8; --p4-soft:#2a2140; --field:#7a808e; --accent:#c9ad62;
+    --a1:#3cc1c8; --a1-soft:#113538; --a2:#a68af0; --a2-soft:#2a2245; --a3:#7cc46a; --a3-soft:#1d3318; --a4:#a3abb8; --a4-soft:#2a2e36; --a5:#e478d4; --a5-soft:#3d1a38;
+    --good:#4cc38a;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#111216; --surface:#1a1c22; --surface-2:#22252d; --ink:#eceef2; --ink-2:#c3c7d1; --muted:#9aa0ae;
+  --rule:#2e313b; --grid:#262932;
+  --cur:#8fb0ea; --cur-soft:#1b2740; --p1:#f07167; --p1-soft:#3d1c1a; --p2:#e0a33a; --p2-soft:#3a2c14;
+  --p3:#3bb9a0; --p3-soft:#143a33; --p4:#a685e8; --p4-soft:#2a2140; --field:#7a808e; --accent:#c9ad62;
+  --a1:#3cc1c8; --a1-soft:#113538; --a2:#a68af0; --a2-soft:#2a2245; --a3:#7cc46a; --a3-soft:#1d3318; --a4:#a3abb8; --a4-soft:#2a2e36; --a5:#e478d4; --a5-soft:#3d1a38;
+  --good:#4cc38a;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:16px;padding-block:20px 56px}
+a{color:inherit;text-decoration-color:var(--rule);text-underline-offset:3px}
+a:hover{text-decoration-color:currentColor}
+:focus-visible{outline:2px solid var(--p1);outline-offset:2px;border-radius:3px}
+.num{font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--display);font-weight:700;letter-spacing:.01em;text-wrap:balance;margin:0;line-height:1.05}
+h2{font-size:30px;text-transform:uppercase}
+h3{font-size:19px;text-transform:uppercase;letter-spacing:.04em}
+.eyebrow{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.14em;font-size:13px;color:var(--muted)}
+.lede{color:var(--ink-2);max-width:66ch;margin:6px 0 0}
+.small{font-size:13px;color:var(--muted)}
+.h{color:var(--cur)}
+
+/* masthead */
+.mast{display:grid;grid-template-columns:1.35fr 1fr;gap:0 28px;align-items:end;padding-bottom:22px;border-bottom:3px solid var(--ink)}
+.mast>*{min-width:0}
+.mast .mast-head{grid-column:1/-1}
+.mast-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.theme-toggle{flex:none;width:34px;height:34px;border-radius:50%;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;padding:0}
+.theme-toggle:hover{color:var(--ink);border-color:var(--ink-2)}
+.theme-toggle:focus-visible{outline:2px solid var(--p1);outline-offset:2px}
+.theme-toggle svg{width:17px;height:17px}
+.mast .mast-title{font-size:clamp(30px,6.5vw,54px);line-height:.95;margin-top:4px}
+.mast-sub{margin:10px 0 0;font-size:15px;color:var(--ink-2);display:flex;flex-wrap:wrap;gap:4px 14px}
+.mast-sub span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.stamp{display:inline-flex;gap:10px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.pill{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:13px;padding:3px 9px;border-radius:3px;background:var(--ink);color:var(--bg)}
+.pill.ghost{background:transparent;color:var(--ink-2);border:1px solid var(--rule)}
+.verdict{font-size:18px;line-height:1.45;margin:14px 0 0;max-width:60ch}
+.scorecard{background:var(--surface);border:1px solid var(--rule);border-top:4px solid var(--cur);padding:14px 16px;display:grid;gap:10px}
+.scorecard .score{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.scorecard .score b{font-family:var(--display);font-size:40px;line-height:1;white-space:nowrap}
+.statline{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;border-top:1px solid var(--rule);padding-top:10px}
+.statline div{display:grid}
+.statline b{font-family:var(--display);font-size:24px;line-height:1.1}
+.statline span{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+
+nav.jump{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--rule);margin:0 -16px;padding:8px 16px;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+nav.jump a{font-family:var(--display);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:14px;text-decoration:none;color:var(--ink-2);padding:4px 10px;border-radius:3px;white-space:nowrap}
+nav.jump a:hover{background:var(--surface-2);color:var(--ink)}
+
+section{padding-top:40px;scroll-margin-top:48px}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:16px;border-bottom:1px solid var(--rule);padding-bottom:10px}
+.fresh{font-size:12.5px;color:var(--muted);margin:6px 0 0}
+.fresh::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--good);margin-right:6px;vertical-align:1px}
+.fresh.stale::before{background:#c98500}
+.panel{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:16px}
+.notices{margin:16px 0 0;background:var(--surface);border:1px solid var(--rule);border-left:4px solid #c98500;border-radius:4px;padding:12px 16px}
+.notices ul{margin:8px 0 0;padding-left:18px;display:grid;gap:6px;color:var(--ink-2);font-size:14px}
+
+/* head to head */
+.h2h{width:100%;border-collapse:collapse}
+.h2h th,.h2h td{padding:9px 8px;border-bottom:1px solid var(--grid);vertical-align:middle}
+.h2h thead th{font-family:var(--display);text-transform:uppercase;letter-spacing:.08em;font-size:13px;color:var(--muted);font-weight:600;text-align:right}
+.h2h thead th:first-child{text-align:left}
+.h2h td.v{text-align:right;font-family:var(--display);font-size:24px;font-weight:600;width:110px;white-space:nowrap}
+.h2h td.v.win{font-weight:700}
+.h2h td.v span{display:inline-block;padding:1px 8px;border-radius:4px}
+.h2h td.v.lose span{opacity:.55}
+.h2h td.v.win span{opacity:1;box-shadow:inset 0 0 0 1.5px currentColor}
+.h2h thead th small{display:block;font-family:var(--body);text-transform:none;letter-spacing:0;font-weight:400;color:var(--muted)}
+.h2h td.v.short span{font-style:italic}
+.keychip{display:inline-block;padding:0 6px;border-radius:3px;box-shadow:inset 0 0 0 1.5px var(--ink-2);background:var(--surface-2);color:var(--ink);font-weight:600}
+.h2h td.lab{font-weight:600}
+.h2h td.bars{width:38%}
+.barpair{display:grid;gap:3px}
+.barpair i{display:block;height:8px;border-radius:0 4px 4px 0;min-width:2px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--ink-2)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.cat{border:1px solid var(--rule);border-radius:12px;background:var(--surface);margin:0 0 12px}
+.cat>summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:8px;padding:10px 14px;font:600 13px/1.2 var(--body);color:var(--ink)}
+.cat>summary::-webkit-details-marker{display:none}
+.cat>summary .chev{margin-left:auto;color:var(--muted);font-size:11px;transition:transform .15s}
+.cat[open]>summary .chev{transform:rotate(180deg)}
+.pills{display:flex;flex-wrap:wrap;gap:8px;padding:2px 14px 12px}
+.pc{font:500 13px/1.3 var(--body);color:var(--ink);background:var(--surface-2);border:1px solid var(--rule);border-radius:999px;padding:7px 14px;cursor:pointer}
+.pc .pu{border-bottom:3px solid;padding-bottom:1px}
+.pc[aria-pressed="false"]{opacity:.4}
+#cmp-legend{display:block}
+/* national reference lines (National Top 3, Individual player) */
+.nrnote{margin:0;padding:0 14px 10px;max-width:75ch}
+.nrsearch{display:block;font:400 14px/1.3 var(--body);width:calc(100% - 28px);max-width:340px;margin:0 14px 8px;padding:8px 14px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink)}
+.nrres{display:flex;flex-wrap:wrap;gap:6px;padding:0 14px 8px}
+.nrres:empty{display:none}
+.nrhit{font:500 13px/1.3 var(--body);color:var(--ink);background:var(--surface);border:1px dashed var(--rule);border-radius:999px;padding:6px 12px;cursor:pointer}
+.nrhit .small{margin-left:4px}
+.pc.nrpick{display:inline-flex;align-items:center;gap:2px;padding:0 4px 0 0}
+.nrpick button{border:0;background:none;font:inherit;color:inherit;cursor:pointer;padding:7px 4px 7px 14px}
+.nrpick .nr-x{padding:4px 8px;color:var(--muted);font-size:16px;line-height:1}
+.sw{width:14px;height:4px;border-radius:2px;display:inline-block}
+.sw.thick{height:6px}
+
+/* pace */
+.pace{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tile{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:14px;display:grid;gap:6px;align-content:start}
+.tile .big{font-family:var(--display);font-size:38px;font-weight:700;line-height:1}
+.tile .row{display:flex;justify-content:space-between;font-size:13px;color:var(--ink-2)}
+.meter{height:8px;background:var(--surface-2);border-radius:4px;overflow:hidden;position:relative}
+.meter{overflow:visible;margin:4px 0}
+.meter i{position:absolute;inset:0 auto 0 0;background:var(--cur);border-radius:4px}
+.meter s{position:absolute;inset:0 auto 0 0;background:var(--cur);opacity:.28;border-radius:4px}
+.meter u{position:absolute;top:-4px;bottom:-4px;width:3px;margin-left:-1px;border-radius:1px;box-shadow:0 0 0 1px var(--surface)}
+.tile .finals{display:grid;gap:2px;font-size:13px;color:var(--ink-2)}
+.tile .finals div{display:flex;justify-content:space-between;gap:6px}
+.tile .finals div span{white-space:nowrap}
+@media (max-width:420px){.tile .finals{font-size:12.5px}}
+.tile .finals i{display:inline-block;width:3px;height:11px;border-radius:1px;margin-right:6px;vertical-align:-1px}
+
+/* controls + charts */
+.controls{display:flex;gap:6px;flex-wrap:wrap;align-items:center;min-width:0;max-width:100%}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--rule);border-radius:4px;overflow:hidden;background:var(--surface);max-width:100%}
+.seg button{font:600 13px/1 var(--body);border:0;background:transparent;color:var(--ink-2);padding:8px 11px;cursor:pointer;border-right:1px solid var(--rule)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+/* view toggle (scope) vs stat tabs: different shapes so they never read as one control */
+.controls.stack{flex-direction:column;align-items:flex-start;gap:10px;min-width:0;max-width:100%}
+.seg.toggle{border:0;border-radius:999px;padding:3px;background:var(--surface-2);gap:2px;flex-wrap:nowrap}
+.seg.toggle button{border:0;border-radius:999px;padding:7px 16px;font-size:13px}
+.seg.toggle button[aria-pressed="true"]{background:var(--ink);color:var(--bg);box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.seg.chips{border:0;border-radius:0;background:transparent;gap:2px 16px;overflow:visible}
+.seg.chips button{border:0;border-bottom:2px solid transparent;border-radius:0;padding:6px 1px;background:transparent;color:var(--muted);font-weight:600}
+.seg.chips button:hover{color:var(--ink)}
+.seg.chips button[aria-pressed="true"]{background:transparent;color:var(--ink);border-bottom-color:var(--accent)}
+@media (max-width:820px){
+  .controls.stack{align-items:stretch;width:100%}
+  .seg.toggle{display:flex;width:100%}
+  .seg.toggle button{flex:1}
+  .seg.chips{flex-wrap:wrap;gap:2px 18px}
+  .seg.chips button{white-space:nowrap;padding:8px 1px}
+}
+.chart{position:relative;margin-top:12px}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart .ax{fill:var(--muted);font:12px var(--body)}
+.chart .gl{stroke:var(--grid);stroke-width:1}
+.chart .base{stroke:var(--rule);stroke-width:1}
+.chart .lbl,.spark .lbl{font:600 12px var(--body);paint-order:stroke;stroke:var(--surface);stroke-width:3px;stroke-linejoin:round}
+.spark .ax{fill:var(--muted);font:12px var(--body)} .spark .gl{stroke:var(--grid);stroke-width:1}
+.tip{position:absolute;pointer-events:none;background:var(--surface);border:1px solid var(--rule);box-shadow:0 4px 14px rgba(0,0,0,.12);border-radius:4px;padding:8px 10px;font-size:13px;min-width:150px;z-index:3}
+.tip b{font-family:var(--display);font-size:15px;letter-spacing:.04em;text-transform:uppercase}
+.tip .r{display:flex;justify-content:space-between;gap:14px}
+.caption{font-size:13px;color:var(--muted);margin-top:8px;max-width:75ch}
+
+/* tables */
+.tscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table.log{width:100%;border-collapse:collapse;font-size:14px;min-width:640px}
+table.log th,table.log td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap}
+table.log th{font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;font-size:12.5px;color:var(--muted);font-weight:600}
+table.log th:nth-child(-n+3),table.log td:nth-child(-n+3){text-align:left}
+table.log tfoot td{font-weight:700;border-top:2px solid var(--ink);border-bottom:0}
+table.log tr.future td{color:var(--muted)}
+table.log tr.cut td{border-bottom:2px dashed var(--ink-2)}
+.lvl{font-size:11px;font-weight:700;letter-spacing:.06em;padding:1px 5px;border-radius:3px;border:1px solid var(--rule);color:var(--ink-2)}
+.logs{display:grid;gap:18px;margin-top:18px}
+.logs>*,.notes>*,.pace>*{min-width:0}
+.logs h3{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+
+/* national */
+.boards{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.board{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:12px 14px;display:grid;gap:8px;align-content:start}
+.board table{width:100%;border-collapse:collapse;font-size:14px}
+.board td{padding:5px 4px;border-bottom:1px solid var(--grid)}
+.board td.rk{width:34px;color:var(--muted);font-variant-numeric:tabular-nums}
+.board td.val{text-align:right;font-weight:600;font-variant-numeric:tabular-nums}
+.board td .tm{color:var(--muted);font-size:12.5px;margin-left:4px}
+.board tr.hv td{background:var(--cur-soft);font-weight:700}
+.board tr.hv td.rk{color:var(--cur)}
+.board tr.gap td{border-bottom:0;padding:0;height:6px}
+.board .foot{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:12.5px;color:var(--muted)}
+.rankchip{font-family:var(--display);font-weight:700;font-size:20px;color:var(--cur)}
+
+/* heisman */
+table.odds{width:100%;border-collapse:collapse;font-size:14px;min-width:600px}
+table.odds th,table.odds td{padding:7px 8px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap}
+table.odds th{font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;font-size:12.5px;color:var(--muted);font-weight:600;vertical-align:bottom}
+table.odds th small{display:block;font-family:var(--body);text-transform:none;letter-spacing:0;font-weight:400}
+table.odds td:nth-child(-n+2),table.odds th:nth-child(-n+2){text-align:left}
+table.odds tr.hv td{background:var(--cur-soft);font-weight:700}
+.probbar{display:inline-block;height:6px;border-radius:0 3px 3px 0;background:var(--field);vertical-align:middle;margin-right:8px}
+tr.hv .probbar{background:var(--cur)}
+.trail{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.trail .step{background:var(--surface);border:1px solid var(--rule);border-radius:4px;padding:8px 10px;display:grid;font-size:12.5px;color:var(--muted)}
+.trail .step b{font-family:var(--display);font-size:22px;color:var(--ink)}
+
+.notes{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.notes ul{margin:8px 0 0;padding-left:18px;display:grid;gap:6px;color:var(--ink-2);font-size:14px}
+footer{margin-top:36px;padding-top:14px;border-top:3px solid var(--ink);font-size:12.5px;color:var(--muted);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:820px){
+  .mast{grid-template-columns:minmax(0,1fr)}
+  .mast .scorecard{margin-top:28px}
+  .pace{grid-template-columns:1fr 1fr}
+  .notes{grid-template-columns:1fr}
+  .h2h .bars{display:none}
+}
+@media (max-width:420px){
+  .statline b{font-size:21px}
+  .scorecard .score b{font-size:32px}
+  .h2h td.v{font-size:18px;width:auto}
+  .h2h th,.h2h td{padding:8px 3px}
+  .h2h td.lab{font-size:13.5px}
+  .h2h td.v span{padding:1px 4px}
+  .tile .big{font-size:32px}
+}
+/* site header + tabs */
+:root{--tabs-h:46px}
+.site{padding-top:4px}
+.site-top{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+.site h1{font-size:clamp(36px,8vw,60px);text-transform:uppercase;line-height:.95;color:var(--cur);margin-top:2px}
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:6;background:var(--bg);display:flex;margin:10px -16px 0;padding:0 16px;border-bottom:3px solid var(--ink)}
+.tabs button{font:700 17px/1 var(--display);text-transform:uppercase;letter-spacing:.1em;background:none;border:0;border-bottom:4px solid transparent;margin-bottom:-3px;padding:13px 6px 10px;color:var(--muted);cursor:pointer;flex:1 1 0;max-width:150px}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.tabpanel>.mast{margin-top:22px}
+.tabpanel nav.jump{top:calc(env(safe-area-inset-top,0px) + var(--tabs-h))}
+.tabpanel section{scroll-margin-top:100px}
+.tabhead{padding:22px 0 18px;border-bottom:3px solid var(--ink)}
+.tabhead h2{font-size:clamp(30px,6.5vw,54px);line-height:.95;margin-top:4px}
+.tabhead .lede{font-size:16.5px;max-width:70ch;margin-top:12px;color:var(--ink)}
+.lsw{display:inline-block;vertical-align:middle;flex:none}
+.un{border-bottom:3px solid;padding-bottom:1px}
+.legend.big{font-size:14px;gap:6px 18px;margin-top:12px}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px}
+table.cmp th,table.cmp td{padding:8px 8px;border-bottom:1px solid var(--grid);text-align:right;white-space:nowrap;vertical-align:middle}
+table.cmp th{font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;font-size:12.5px;color:var(--muted);font-weight:600}
+table.cmp th:first-child,table.cmp td:first-child{text-align:left;position:sticky;left:0;background:var(--surface);z-index:1}
+table.cmp td.who{font-weight:600}
+table.cmp td.who .yr{color:var(--muted);font-weight:400;margin-left:4px}
+table.cmp td.v span{display:inline-block;padding:1px 6px;border-radius:4px;font-family:var(--display);font-size:20px;font-weight:600}
+table.cmp td.v.win span{box-shadow:inset 0 0 0 1.5px currentColor;font-weight:700}
+table.cmp td.v.lose span{opacity:.62}
+table.cmp td.v.short span{font-style:italic}
+table.cmp tr.sep td{border-top:2px solid var(--rule)}
+details.logd{background:var(--surface);border:1px solid var(--rule);border-radius:4px;margin-top:10px}
+details.logd summary{cursor:pointer;padding:11px 14px;font:700 17px/1.2 var(--display);text-transform:uppercase;letter-spacing:.04em;display:flex;align-items:center;gap:8px;list-style:none}
+details.logd summary::-webkit-details-marker{display:none}
+details.logd summary::after{content:"+";margin-left:auto;color:var(--muted);font-size:20px}
+details.logd[open] summary::after{content:"–"}
+details.logd .tscroll{padding:0 14px 14px}
+.swipe{display:none}
+@media (max-width:820px){ .swipe{display:inline} }
+.poll{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.poll span{font-size:13px;border:1px solid var(--rule);border-radius:3px;padding:2px 8px;background:var(--surface)}
+@media (max-width:420px){ table.cmp td.v span{font-size:17px;padding:1px 4px} table.cmp th,table.cmp td{padding:7px 5px} }
+@media (prefers-reduced-motion:no-preference){ .seg button{transition:background .15s} }
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <div class="site-top">
+      <div><div class="eyebrow">ND Football Report · Freeman era</div><h1 id="site-title">Fighting Irish</h1></div>
+      <button id="theme-toggle" class="theme-toggle" aria-pressed="false" aria-label="Switch to dark mode"></button>
+    </div>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="Position">
+    <button role="tab" data-tab="qb" aria-controls="tab-qb" aria-selected="true">QB</button><button role="tab" data-tab="rb" aria-controls="tab-rb" aria-selected="false">RB</button><button role="tab" data-tab="wr" aria-controls="tab-wr" aria-selected="false">WR</button><button role="tab" data-tab="team" aria-controls="tab-team" aria-selected="false">Team</button>
+  </nav>
+  <div class="notices" id="notices" hidden></div>
+
+  <div class="tabpanel" id="tab-qb" role="tabpanel" aria-label="Quarterbacks">
+  <header class="mast">
+    <div class="mast-head">
+      <div class="eyebrow mast-top"><span id="mast-eyebrow">ND Report · Notre Dame football</span></div>
+      <h2 class="mast-title"><span id="h1-cur"></span> vs the Freeman era</h2>
+    </div>
+    <div>
+      <p class="mast-sub" id="mast-sub"></p>
+      <div class="stamp" id="stamp"></div>
+      <p class="verdict" id="verdict"></p>
+    </div>
+    <aside class="scorecard" id="scorecard" aria-label="Latest game"></aside>
+  </header>
+
+  <nav class="jump" aria-label="Sections">
+    <a href="#h2h">Head to head</a><a href="#pace">Season pace</a><a href="#compare">Compare</a><a href="#games">Game logs</a><a href="#national">National</a><a href="#field">Heisman field</a><a href="#odds">Odds</a><a href="#method">Method</a>
+  </nav>
+
+  <section id="h2h">
+    <div class="sec-head">
+      <div><div class="eyebrow">Same number of games</div><h2>Head to head</h2>
+      <p class="fresh" data-fresh="games"></p></div>
+      <div class="legend"><span class="small"><span class="keychip">Boxed</span> = leader; when everyone is level, nothing is boxed</span></div>
+    </div>
+    <div class="panel tscroll"><table class="h2h" id="h2h-table"></table></div>
+  </section>
+
+  <section id="pace">
+    <div class="sec-head">
+      <div><div class="eyebrow" id="pace-eyebrow">Against the full seasons before him</div><h2>Season pace</h2>
+      <p class="lede" id="pace-lede"></p>
+      </div>
+    </div>
+    <div class="pace" id="pace-tiles"></div>
+  </section>
+
+  <section id="compare">
+    <div class="sec-head">
+      <div><div class="eyebrow">Running total or each game, any stat</div><h2>Compare chart</h2>
+      <p class="lede" id="cmp-lede"></p>
+      <p class="fresh" data-fresh="games"></p></div>
+      <div class="controls stack">
+        <div class="seg toggle" id="cmp-mode" role="group" aria-label="View: running total or per game"></div>
+        <div class="seg chips" id="cmp-seg" role="group" aria-label="Stat"></div>
+      </div>
+    </div>
+    <div class="panel"><div class="legend" id="cmp-legend"></div>
+      <div class="chart" id="cmp-chart"></div><p class="caption" id="cmp-cap"></p></div>
+  </section>
+
+  <section id="games">
+    <div class="sec-head">
+      <div><div class="eyebrow">Every game, every season</div><h2>Game logs</h2>
+      </div>
+    </div>
+    <div class="logs" id="logs" style="margin-top:0"></div>
+    <p class="caption" id="oppd-note"></p>
+  </section>
+
+  <section id="national">
+    <div class="sec-head">
+      <div><div class="eyebrow">All FBS quarterbacks</div><h2>National leaderboards</h2>
+      <p class="lede" id="nat-lede"></p>
+      <p class="fresh" data-fresh="national"></p></div>
+    </div>
+    <div class="boards" id="boards"></div>
+  </section>
+
+  <section id="field">
+    <div class="sec-head">
+      <div><div class="eyebrow" id="field-eyebrow">Against the Heisman favorites</div><h2>The Heisman field</h2>
+      <p class="lede" id="field-lede"></p>
+      <p class="fresh" data-fresh="field"></p></div>
+      <div class="controls stack">
+        <div class="seg toggle" id="fd-mode" role="group" aria-label="View: running total or per game"></div>
+        <div class="seg chips" id="fd-seg" role="group" aria-label="Stat"></div>
+      </div>
+    </div>
+    <div class="panel"><div class="legend" id="fd-legend"></div><div class="chart" id="fd-chart"></div><p class="caption" id="fd-note"></p></div>
+  </section>
+
+  <section id="odds">
+    <div class="sec-head">
+      <div><div class="eyebrow">Reported sportsbook odds</div><h2>Heisman odds</h2>
+      <p class="lede" id="odds-lede"></p>
+      <p class="fresh" data-fresh="heisman"></p></div>
+    </div>
+    <div class="panel tscroll"><table class="odds" id="odds-table"></table></div>
+    <h3 style="margin-top:20px" id="trail-head">Odds trail</h3>
+    <div class="trail" id="trail"></div>
+  </section>
+
+  <section id="method">
+    <div class="sec-head"><div><div class="eyebrow">How the numbers are built</div><h2>Method and sources</h2></div></div>
+    <div class="notes">
+      <div>
+        <h3>Notes</h3>
+        <ul id="notes"></ul>
+      </div>
+      <div>
+        <h3>Sources</h3>
+        <ul id="sources"></ul>
+      </div>
+    </div>
+  </section>
+
+  </div><!-- /tab-qb -->
+  <div class="tabpanel" id="tab-rb" role="tabpanel" aria-label="Running backs" hidden></div>
+  <div class="tabpanel" id="tab-wr" role="tabpanel" aria-label="Wide receivers" hidden></div>
+  <div class="tabpanel" id="tab-team" role="tabpanel" aria-label="Team" hidden></div>
+
+  <footer><span id="foot-l"></span><span>Built from stored game rows; every figure is computed from them.</span></footer>
+</div>
+
+<script>
+const MODEL = /*__MODEL__*/null;
+(function(){
+const M = MODEL, $ = s => document.querySelector(s);
+const fmt = (v, dp=0) => v==null ? "–" : Number(v).toLocaleString("en-US",{minimumFractionDigits:dp,maximumFractionDigits:dp});
+const odds = o => o==null ? "–" : (o>0?"+":"")+o;
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+const SVGNS = "http://www.w3.org/2000/svg";
+const dateFmt = d => { const [y,m,dd] = d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString("en-US",{month:"short",day:"numeric"}); };
+const dateFmtY = d => { const [y,m,dd] = d.split("-").map(Number); return new Date(y,m-1,dd).toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}); };
+const CUR = M.cur, PREV = M.prev, ALL = [CUR, ...PREV];   // current QB first, then earlier starters newest first
+const qvar = q => `var(--${q.slot})`, qcol = q => css("--"+q.slot), qlab = q => `${q.short} ${q.season}`;
+const un = (slot, dash, inner) => `<span class="un" style="border-bottom-color:var(--${slot})${dash?";border-bottom-style:dashed":""}">${inner}</span>`;
+const legendHTML = () => ALL.map(q => `<span>${un(q.slot, "", `${esc(q.name)} ${q.season}`)}</span>`).join("");
+const N = M.N, ord = n => n+(["th","st","nd","rd"][(n%100-20)%10]||["th","st","nd","rd"][n%100]||"th");
+
+
+/* ---------- data freshness ---------- */
+function fmtWhen(iso){ if(!iso) return "unknown"; const d=new Date(iso);
+  return d.toLocaleDateString("en-US",{timeZone:"America/New_York",month:"short",day:"numeric"})+", "+d.toLocaleTimeString("en-US",{timeZone:"America/New_York",hour:"numeric",minute:"2-digit"})+" ET"; }
+function drawFresh(){
+  document.querySelectorAll("[data-fresh]").forEach(el => {
+    const f = M.fresh[el.dataset.fresh]; if (!f) return;
+    el.textContent = `${f.what}. Last checked ${fmtWhen(f.checked)}.`;
+    if (f.stale) el.classList.add("stale");
+  });
+}
+drawFresh();
+
+/* ---------- masthead ---------- */
+$("#mast-eyebrow").textContent = `Quarterbacks · ${M.team} football ${CUR.season}`;
+$("#h1-cur").textContent = CUR.short.replace(/\s*[’']\d{2}$/, "");  // title drops a season tag like "Carr ’26"
+$("#mast-sub").innerHTML = legendHTML();
+const asof = new Date(M.as_of);
+const TZ = {timeZone:"America/New_York"};
+$("#stamp").innerHTML = `<span class="pill">Through game ${N}</span><span class="pill ghost">Data checked ${fmtWhen(M.fresh.checked_any)}</span>`
+  + (M.next_game ? `<span class="pill ghost">Next: ${M.next_game.site==="A"?"at ":"vs "}${esc(M.next_game.opp)}, ${dateFmt(M.next_game.date)}, ${M.next_game.kickoff ? new Date(M.next_game.kickoff).toLocaleTimeString("en-US",{...TZ,hour:"numeric",minute:"2-digit"})+" ET" : "time TBA"}${M.next_game.tv ? " · "+esc(M.next_game.tv) : ""}</span>` : "");
+$("#verdict").textContent = M.verdict;
+const L = M.latest;
+const [wl, sc] = L.result.split(" ");
+$("#scorecard").innerHTML = `
+  <div class="eyebrow">Latest final · Game ${L.n} · ${dateFmtY(L.date)}</div>
+  <div class="score"><span style="font-weight:600;font-size:17px">${L.site==="A"?"at ":"vs "}${esc(L.opp)}</span><b class="num">${wl==="W"?"W":"L"} ${sc}</b></div>
+  <div class="statline num">
+    <div><b>${L.cmp}/${L.att}</b><span>Cmp/Att</span></div>
+    <div><b>${L.yds}</b><span>Pass yds</span></div>
+    <div><b>${L.td}</b><span>Pass TD</span></div>
+    <div><b>${L.int}</b><span>INT</span></div>
+    <div><b>${fmt(L.rating,1)}</b><span>Rating</span></div>
+  </div>
+  <div class="small">Rushing: ${L.rush_att} for ${L.rush_yds} yds, ${L.rush_td} TD${L.sacks!=null?` · Sacked ${L.sacks}×`:""}</div>`;
+
+/* ---------- theme toggle ---------- */
+const ICON_MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>';
+const ICON_SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>';
+const themeBtn = $("#theme-toggle");
+function effectiveTheme(){
+  const a = document.documentElement.getAttribute("data-theme");
+  if (a === "light" || a === "dark") return a;
+  return matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+function paintThemeBtn(){
+  const dark = effectiveTheme() === "dark";
+  themeBtn.setAttribute("aria-pressed", String(dark));
+  themeBtn.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+  themeBtn.innerHTML = dark ? ICON_SUN : ICON_MOON;
+}
+themeBtn.addEventListener("click", () => {
+  const next = effectiveTheme() === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", next);
+  try { localStorage.setItem("qb-theme", next); } catch(e){}
+  paintThemeBtn();
+});
+paintThemeBtn();
+
+/* ---------- data notices ---------- */
+{
+  const ns = M.notices || [];
+  if (ns.length) {
+    const box = $("#notices");
+    box.hidden = false;
+    box.innerHTML = `<div class="eyebrow">Data notes</div><ul>${ns.map(n=>`<li>${esc(n)}</li>`).join("")}</ul>`;
+  }
+}
+
+/* ---------- head to head ---------- */
+{
+  const rows = M.h2h.map(r => {
+    const mx = Math.max(...ALL.map(q => Math.abs(r.values[q.key]))) || 1;
+    const cells = ALL.map(q => {
+      const st = r.leaders.includes(q.key) ? "win" : r.leaders.length ? "lose" : "";
+      return `<td class="v num ${st}${q.short_of_n?" short":""}" style="color:${qvar(q)}"><span${st==="win"?` style="background:var(--${q.slot}-soft)"`:""}>${fmt(r.values[q.key],r.dp)}</span></td>`;
+    }).join("");
+    const bars = `<td class="bars"><div class="barpair" aria-hidden="true">${ALL.map(q=>`<i style="width:${Math.max(0, r.values[q.key])/mx*100}%;background:${qvar(q)}"></i>`).join("")}</div></td>`;
+    return `<tr><td class="lab">${r.label}${r.higher_better?"":' <span class="small">(fewer is better)</span>'}</td>${cells}${bars}</tr>`;
+  }).join("");
+  $("#h2h-table").innerHTML = `<thead><tr><th>Through ${N} games</th>${ALL.map(q=>`<th style="color:${qvar(q)}">${esc(q.short)}<small>${q.short_of_n?`${q.season}, all ${q.games} games`:q.season}</small></th>`).join("")}<th class="bars"></th></tr></thead><tbody>${rows}</tbody>`;
+}
+
+/* ---------- pace ---------- */
+{
+  const G = M.pace_games, B = PREV.find(q => q.key === M.pace_basis);
+  $("#pace-eyebrow").textContent = PREV.length > 1 ? "Against the full seasons before him" : PREV.length ? "Against the full season before him" : "Full-season pace";
+  const hist = PREV.map(q => `${q.short} played ${q.games} games in ${q.season}${q.note ? ` and ${q.note}` : ""}`);
+  $("#pace-lede").textContent = (B ? `Pace is ${CUR.short}'s per-game average so far, stretched over ${G} games, the length of ${B.short}'s ${B.season} season. ` : "") + (hist.length ? hist.join("; ") + "." : "");
+  $("#pace-tiles").innerHTML = M.pace.map(p => {
+    const scale = Math.max(p.to_date, p.pace, ...p.finals.map(f => f.value)) || 1;
+    const fq = f => PREV.find(q => q.key === f.key);
+    return `<div class="tile">
+      <div class="eyebrow">${p.label}</div>
+      <div class="big num h">${fmt(p.pace)}</div>
+      <div class="small">${G}-game pace</div>
+      <div class="meter" role="img" aria-label="${esc(CUR.short)} has ${fmt(p.to_date)} so far and is on pace for ${fmt(p.pace)}. ${p.finals.map(f=>`${esc(fq(f).short)} finished ${fq(f).season} with ${fmt(f.value)}`).join(". ")}."><s style="width:${p.pace/scale*100}%"></s><i style="width:${p.to_date/scale*100}%"></i>${p.finals.map(f=>`<u style="left:${f.value/scale*100}%;background:${qvar(fq(f))}"></u>`).join("")}</div>
+      <div class="row num"><span>So far <b class="h">${fmt(p.to_date)}</b></span></div>
+      <div class="finals num">${p.finals.length?'<span class="small">Full-season finals</span>':""}${p.finals.map(f=>`<div><span><i style="background:${qvar(fq(f))}"></i>${esc(fq(f).short)} ${fq(f).season}</span><b style="color:${qvar(fq(f))}">${fmt(f.value)}</b></div>`).join("")}</div>
+    </div>`;
+  }).join("");
+  if (PREV.length) $("#pace-tiles").insertAdjacentHTML("afterend", `<p class="caption">The solid navy bar is ${esc(CUR.short)}'s total so far; the lighter bar runs to his ${G}-game pace. Each colored tick is an earlier starter's final season total, so a lighter bar past a tick means ${esc(CUR.short)} is on pace to pass it.</p>`);
+}
+
+/* ---------- chart engine ---------- */
+const tip = (() => { const d = document.createElement("div"); d.className="tip"; d.hidden=true; return d; })();
+/* sticky tooltip: a tap/click in a chart pins the tip; it stays until a tap/click lands outside any chart */
+const tipGuides = new Set();
+function hideTip(){ tip.hidden = true; tipGuides.forEach(g => g.setAttribute("opacity",0)); }
+document.addEventListener("pointerdown", ev => { if (!ev.target.closest || !ev.target.closest("[data-hit]")) hideTip(); });
+function el(tag, attrs, parent){ const e = document.createElementNS(SVGNS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function niceMax(v){ if (v<=0) return 1; const p = Math.pow(10, Math.floor(Math.log10(v))); for (const m of [1,1.2,1.5,2,2.5,3,4,5,6,8,10]) if (m*p >= v) return m*p; return 10*p; }
+function ticks(max, n=4){ const step = max/n; return Array.from({length:n+1},(_,i)=>i*step); }
+
+function frame(host, opts){
+  host.innerHTML = ""; tip.hidden = true;
+  const W = Math.max(320, host.clientWidth), H = opts.height || Math.round(Math.min(360, Math.max(240, W*0.42)));
+  const pad = {l:opts.padL||46, r:opts.padR||16, t:14, b:26};
+  const svg = el("svg", {viewBox:`0 0 ${W} ${H}`, role:"img", "aria-label":opts.aria}, host);
+  return {svg, W, H, pad, iw:W-pad.l-pad.r, ih:H-pad.t-pad.b};
+}
+function yAxis(f, ymax, fmtY, invert, ymin=0){
+  const ts = invert ? rankTicks(ymin, ymax) : (ymin ? Array.from({length:5},(_,i)=>ymin+i*(ymax-ymin)/4) : ticks(ymax));
+  const y = v => invert ? f.pad.t + (v-ymin)/(ymax-ymin||1)*f.ih : f.pad.t + f.ih - (v-ymin)/(ymax-ymin||1)*f.ih;
+  ts.forEach(t => {
+    el("line",{x1:f.pad.l,x2:f.W-f.pad.r,y1:y(t),y2:y(t),class:"gl"},f.svg);
+    const tx = el("text",{x:f.pad.l-8,y:y(t)+4,"text-anchor":"end",class:"ax"},f.svg); tx.textContent = fmtY(t);
+  });
+  return y;
+}
+function rankTicks(lo, hi){ const span = hi-lo; const step = span<=6?1:span<=12?2:span<=30?5:10; const out=[lo]; for(let v=Math.ceil((lo+1)/step)*step; v<=hi; v+=step) out.push(v); return out; }
+function showTip(host, x, y, html){
+  if (tip.parentNode!==host) host.appendChild(tip);
+  tip.innerHTML = html; tip.hidden = false;
+  const hw = host.clientWidth, tw = tip.offsetWidth;
+  let left = x + 14; if (left + tw > hw) left = x - tw - 14; if (left < 0) left = 0;
+  tip.style.left = left+"px"; tip.style.top = Math.max(0, y - 20)+"px";
+}
+
+/* line chart: series [{name, color, width, points:[{x,y,label?}], faded?}] */
+function lineChart(host, o){
+  const f = frame(host, o);
+  const xs = o.xMax, x = n => f.pad.l + (n-1)/(Math.max(1,xs-1))*f.iw;
+  const ymax = o.yMax ?? niceMax(Math.max(...o.series.flatMap(s=>s.points.map(p=>p.y))) * 1.02);
+  const ymin = o.yMin ?? 0;
+  const y = yAxis(f, ymax, o.fmtY || (v=>fmt(v)), o.invert, ymin);
+  el("line",{x1:f.pad.l,x2:f.W-f.pad.r,y1:f.pad.t+f.ih,y2:f.pad.t+f.ih,class:"base"},f.svg);
+  const step = xs>12 ? 2 : 1;
+  for (let n=1;n<=xs;n++){ if ((n-1)%step) continue; const t = el("text",{x:x(n),y:f.H-12,"text-anchor":"middle",class:"ax"},f.svg); t.textContent = o.xLabel ? o.xLabel(n) : n; }
+  if (o.marker){ el("line",{x1:x(o.marker),x2:x(o.marker),y1:f.pad.t,y2:f.pad.t+f.ih,stroke:css("--ink-2"),"stroke-dasharray":"3 4","stroke-width":1},f.svg); }
+  const order = [...o.series].sort((a,b)=>(a.z||0)-(b.z||0)), labels = [];
+  order.forEach(s => {
+    const col = s.color;
+    // segments broken at null
+    let seg = [];
+    const flush = () => { if (seg.length>1) el("path",{d:seg.map((p,i)=>(i?"L":"M")+x(p.x)+" "+y(p.y)).join(""),fill:"none",stroke:col,"stroke-width":s.width||2,"stroke-linejoin":"round","stroke-linecap":"round",opacity:s.opacity||1,"stroke-dasharray":s.dash||"none"},f.svg); seg=[]; };
+    s.points.forEach(p => { if (p.y==null) flush(); else seg.push(p); }); flush();
+    s.points.forEach(p => { if (p.y==null) return; el("circle",{cx:x(p.x),cy:y(p.y),r:s.r||(s.width>2?4.5:3.5),fill:s.hollow?css("--surface"):col,stroke:s.hollow?col:css("--surface"),"stroke-width":2,opacity:s.opacity||1},f.svg); });
+    if (s.endLabel){ const last = [...s.points].reverse().find(p=>p.y!=null); if (last) labels.push({x:x(last.x)+8, y:y(last.y)+4, s}); }
+  });
+  // spread end labels that sit in the same column so none overlap
+  // push apart any labels that would overlap, including labels at different game numbers
+  labels.sort((a,b)=>a.y-b.y);
+  const placed = [];
+  labels.forEach(l => { for (const q of placed) if (Math.abs(q.x-l.x) < 110 && l.y-q.y < 14) l.y = q.y+14; placed.push(l); });
+  const bottom = f.pad.t+f.ih+4, over = placed.length ? Math.max(...placed.map(l=>l.y))-bottom : 0;
+  if (over>0) placed.forEach(l=>l.y-=over);
+  labels.forEach(l => { const t = el("text",{x:l.x,y:l.y,class:"lbl",fill:l.s.labelColor||css("--ink-2")},f.svg); t.textContent = l.s.endLabel; if (l.s.width>2) t.setAttribute("font-weight","700"); });
+  // hover
+  const hit = el("rect",{x:f.pad.l-10,y:f.pad.t,width:f.iw+20,height:f.ih,fill:"transparent"},f.svg);
+  const guide = el("line",{y1:f.pad.t,y2:f.pad.t+f.ih,stroke:css("--muted"),"stroke-width":1,opacity:0},f.svg);
+  const move = ev => {
+    tipGuides.forEach(g => { if (g!==guide) g.setAttribute("opacity",0); });
+    const r = f.svg.getBoundingClientRect(), sx = (ev.clientX - r.left)/r.width*f.W;
+    const n = Math.min(xs, Math.max(1, Math.round((sx - f.pad.l)/f.iw*(xs-1))+1));
+    guide.setAttribute("x1",x(n)); guide.setAttribute("x2",x(n)); guide.setAttribute("opacity",.6);
+    const lines = o.series.map(s => { const p = s.points.find(q=>q.x===n); return p&&p.y!=null ? `<div class="r"><span><span class="un" style="border-bottom-color:${s.color}${s.dash?";border-bottom-style:dashed":""}">${esc(s.name)}</span></span><b class="num" style="font-family:var(--body);font-size:13px">${o.fmtTip(p)}</b></div>` : ""; }).join("");
+    if (!lines) { tip.hidden = true; return; }
+    showTip(host, x(n)/f.W*r.width, (ev.clientY-r.top), `<b>${o.xLabel?o.xLabel(n):"Game "+n}</b>${lines}`);
+  };
+  hit.setAttribute("data-hit","1"); tipGuides.add(guide);
+  hit.addEventListener("pointermove", move); hit.addEventListener("pointerdown", move);
+}
+
+function seg(host, items, current, onPick, label){
+  host.innerHTML = items.map(([k,t]) => `<button type="button" data-k="${k}" aria-pressed="${k===current}">${t}</button>`).join("");
+  host.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; host.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed", x===b)); onPick(b.dataset.k); });
+}
+
+/* ---------- national reference lines: National Top 3 + Individual player (QB, RB, WR compare charts) ---------- */
+const NR = M.natref || {}, NRST = {}, NRDASH = ["", "7 4", "1.5 4"], NRBORDER = ["solid", "dashed", "dotted"];
+const NRLAB = {qb:{yds:"pass yards", td:"pass TD", rating:"passer rating", pct:"completion %", att:"pass attempts", int:"interceptions", total_td:"total TD"},
+  rb:{yds:"rushing yards", td:"rushing TD", ypc:"yards per carry", ypg:"rushing yards per game", att:"carries"},
+  wr:{yds:"receiving yards", rec:"receptions", td:"receiving TD", ypr:"yards per catch", ypg:"receiving yards per game"}};
+const nrPill = (R, pid, i, on) => `<button type="button" class="pc" data-nrtop="${i}" aria-pressed="${on}" title="${esc(R.players[pid].name)}, ${esc(R.players[pid].team)}"><span class="pu" style="border-bottom-color:var(--field);border-bottom-style:${NRBORDER[i%3]}">${esc(R.players[pid].name)}</span></button>`;
+function nrHTML(tab){
+  NRST[tab] = {top: new Set(), picks: [], off: new Set()};
+  const R = NR[tab] || {};
+  const pend = R.status!=="ok" ? `<p class="small nrnote">${esc(R.message || "National players have not been collected yet.")}</p>` : "";
+  return `<details class="cat" id="${tab}-nrtop"><summary>National Top 3<span class="chev">▾</span></summary>${pend || `<div class="pills" id="${tab}-nrtop-pills"></div><p class="small nrnote" id="${tab}-nrtop-note"></p>`}</details>
+    <details class="cat" id="${tab}-nrind"><summary>Individual player<span class="chev">▾</span></summary>${pend || `<input type="search" class="nrsearch" id="${tab}-nrq" placeholder="Search ${R.pool.length} national ${esc(R.label)}" aria-label="Search national ${esc(R.label)} by name or team" autocomplete="off"><div class="nrres" id="${tab}-nrres"></div><div class="pills" id="${tab}-nrpicks"></div><p class="small nrnote">Gray lines.  The pool is the top 20 ${esc(R.positions.join("/"))} on each cfbstats.com national leaderboard this chart tracks (${esc(M.team)} players excluded; they are already on the chart in color), refreshed with every update.  Each player is lined up by his own games played.</p>`}</details>`;
+}
+function nrRefresh(tab, key){
+  const R = NR[tab]; if (!R || R.status!=="ok") return;
+  const st = NRST[tab], b = R.stats[key], host = document.getElementById(`${tab}-nrtop-pills`), note = document.getElementById(`${tab}-nrtop-note`);
+  if (!b) { host.innerHTML = ""; note.textContent = "No national leaderboard for this stat."; return; }
+  host.innerHTML = b.top.map((pid,i) => nrPill(R, pid, i, st.top.has(i))).join("");
+  note.innerHTML = `Gray lines.  The top ${b.top.length===3?"three":b.top.length} ${esc(R.positions.join("/"))} in ${esc(NRLAB[tab][key])} on the <a href="${b.source_url}" target="_blank" rel="noopener">cfbstats.com national leaderboard</a> through ${dateFmtY(R.data_through)}, ${esc(M.team)} players excluded (they are already on the chart in color).  Tap a name to draw his line; each is lined up by his own games played.`
+    + (b.top_dropped.length ? `  Not shown: ${b.top_dropped.map(esc).join(", ")} (game log could not be verified against the leaderboard).` : "")
+    + (R.draw.includes(key) ? "" : "  This stat cannot be drawn for national players.");
+}
+function nrPicks(tab){
+  const st = NRST[tab]; document.getElementById(`${tab}-nrpicks`).innerHTML = st.picks.map((pid,i) => {
+    const p = NR[tab].players[pid];
+    return `<span class="pc nrpick" aria-pressed="${!st.off.has(pid)}"><button type="button" data-nrpick="${esc(pid)}" title="${esc(p.name)}, ${esc(p.team)}"><span class="pu" style="border-bottom-color:var(--muted);border-bottom-style:${NRBORDER[i%3]}">${esc(p.name)}</span></button><button type="button" class="nr-x" data-nrx="${esc(pid)}" aria-label="Remove ${esc(p.name)}">×</button></span>`; }).join("");
+}
+function nrWire(tab, getKey, redraw){
+  const R = NR[tab]; if (!R || R.status!=="ok") return;
+  const st = NRST[tab], q = document.getElementById(`${tab}-nrq`), res = document.getElementById(`${tab}-nrres`);
+  nrRefresh(tab, getKey());
+  document.getElementById(`${tab}-nrtop`).addEventListener("click", e => {
+    const b = e.target.closest("[data-nrtop]"); if (!b) return;
+    const i = +b.dataset.nrtop, on = st.top.has(i);
+    on ? st.top.delete(i) : st.top.add(i); b.setAttribute("aria-pressed", String(!on)); redraw();
+  });
+  const search = () => {
+    const v = q.value.trim().toLowerCase();
+    if (!v) { res.innerHTML = ""; return; }
+    const hits = R.pool.filter(pid => { const p = R.players[pid]; return (p.name+" "+p.team).toLowerCase().includes(v); }).slice(0, 8);
+    res.innerHTML = hits.length ? hits.map(pid => `<button type="button" class="nrhit" data-nradd="${esc(pid)}">${esc(R.players[pid].name)}<span class="small">${esc(R.players[pid].team)}</span></button>`).join("")
+      : `<span class="small">No match in the pool.</span>`;
+  };
+  q.addEventListener("input", search);
+  document.getElementById(`${tab}-nrind`).addEventListener("click", e => {
+    const add = e.target.closest("[data-nradd]"), x = e.target.closest("[data-nrx]"), t = e.target.closest("[data-nrpick]");
+    if (add) { const pid = add.dataset.nradd; if (!st.picks.includes(pid)) st.picks.push(pid); st.off.delete(pid); q.value = ""; search(); }
+    else if (x) { st.picks = st.picks.filter(p => p!==x.dataset.nrx); st.off.delete(x.dataset.nrx); }
+    else if (t) { const pid = t.dataset.nrpick; st.off.has(pid) ? st.off.delete(pid) : st.off.add(pid); }
+    else return;
+    nrPicks(tab); redraw();
+  });
+}
+function nrPoints(tab, rows, key, mode){
+  const c = {n:0, att:0, cmp:0, yds:0, td:0, int:0, rec:0};
+  return rows.map((r,i) => {
+    for (const k in c) if (k!=="n") c[k] += r[k]||0;
+    const g = i+1, n = tab==="wr" ? r.rec : r.att, cn = tab==="wr" ? c.rec : c.att, src = mode==="cum" ? c : r;
+    let y;
+    if (tab==="qb") y = key==="pct" ? (src.att ? 100*src.cmp/src.att : null) : key==="rating" ? (src.att ? (8.4*src.yds+330*src.td+100*src.cmp-200*src.int)/src.att : null) : src[key];
+    else if (key==="ypc" || key==="ypr") y = mode==="cum" ? (cn ? c.yds/cn : null) : (n ? r.yds/n : null);
+    else if (key==="ypg") y = mode==="cum" ? c.yds/g : r.yds;
+    else y = src[key];
+    return {x:g, opp:r.opp, y};
+  });
+}
+function nrSeries(tab, key, mode){
+  const R = NR[tab]; if (!R || R.status!=="ok" || !R.draw.includes(key)) return [];
+  const st = NRST[tab], b = R.stats[key], out = [], seen = new Set();
+  const add = (pid, i, slot) => { if (seen.has(pid)) return; seen.add(pid); const p = R.players[pid], pts = nrPoints(tab, p.rows, key, mode), last = pts[pts.length-1];
+    out.push({nr:true, p, name:`${p.name} (${p.team})`, color:css("--"+slot), width:1.75, z:0, dash:NRDASH[i%3], r:2.5, points:pts,
+      endLabel:`${p.name.split(" ").filter(w=>!/^(jr\.?|sr\.?|ii|iii|iv)$/i.test(w)).slice(-1)[0]} ${last && last.y!=null ? fmt(last.y, key==="ypc"||key==="ypr"?2:key==="ypg"||key==="rating"||key==="pct"?1:0) : ""}`, labelColor:css("--ink-2")}); };
+  if (b) b.top.forEach((pid,i) => { if (st.top.has(i)) add(pid, i, "field"); });
+  st.picks.forEach((pid,i) => { if (!st.off.has(pid)) add(pid, i, "muted"); });
+  return out;
+}
+const nrCap = X => X.length ? `  Gray: ${X.map(s=>esc(s.p.name)).join(", ")} (national, by each player's own games played).` : "";
+
+/* ---------- compare chart (running total or per game) ---------- */
+const CMP = {
+  yds:{t:"Pass yards",dp:0}, td:{t:"Pass TD",dp:0}, total_td:{t:"Total TD",dp:0},
+  int:{t:"INT",dp:0,cap:"interceptions"}, rating:{t:"Rating",dp:1}, pct:{t:"Comp %",dp:1}, att:{t:"Attempts",dp:0}
+};
+let cmpKey = "yds", cmpMode = "cum";
+function cmpSeries(rows){
+  let c={cmp:0,att:0,yds:0,td:0,int:0,rtd:0};
+  return rows.map(r => {
+    c.cmp+=r.cmp; c.att+=r.att; c.yds+=r.yds; c.td+=r.td; c.int+=r.int; c.rtd+=(r.rush_td||0);
+    const cum = {yds:c.yds, td:c.td, total_td:c.td+c.rtd, att:c.att, int:c.int,
+      pct: c.att?100*c.cmp/c.att:null, rating: c.att?(8.4*c.yds+330*c.td+100*c.cmp-200*c.int)/c.att:null};
+    const pg = {yds:r.yds, td:r.td, total_td:r.td+(r.rush_td||0), att:r.att, int:r.int, pct:r.pct, rating:r.rating};
+    return {x:r.n, opp:r.opp, y:(cmpMode==="cum"?cum:pg)[cmpKey]};
+  });
+}
+$("#cmp-lede").textContent = `One chart for every view, lined up by game number.  Earlier seasons run their full length; the dashed marker is ${CUR.short}'s latest game.`;
+$("#cmp-legend").innerHTML = `<details class="cat" open><summary>ND players<span class="chev">▾</span></summary><div class="pills">${
+  ALL.map((q,i)=>`<button type="button" class="pc" data-i="${i}" aria-pressed="true"><span class="pu" style="border-bottom-color:${qvar(q)}">${esc(q.name)} ${q.season}</span></button>`).join("")
+}</div></details>${nrHTML("qb")}`;
+const offQ = new Set();
+$("#cmp-legend").addEventListener("click", e => {
+  const b = e.target.closest(".pc[data-i]"); if (!b) return;
+  const i = +b.dataset.i, on = b.getAttribute("aria-pressed")==="true";
+  b.setAttribute("aria-pressed", String(!on));
+  on ? offQ.add(i) : offQ.delete(i);
+  drawCompare();
+});
+function drawCompare(){
+  const d = CMP[cmpKey], S = ALL.map((q,i) => ({q, i})).filter(({i}) => !offQ.has(i)).map(({q}) => ({q, pts: cmpSeries(q.rows)}));
+  const X = nrSeries("qb", cmpKey, cmpMode);
+  if (!S.length && !X.length) { $("#cmp-chart").innerHTML = `<p class="caption" style="padding:20px 4px">All players are toggled off — turn one back on above to see the chart.</p>`; $("#cmp-cap").textContent = ""; return; }
+  const all = [...S.flatMap(s => s.pts), ...X.flatMap(s => s.points)].map(p=>p.y).filter(v=>v!=null);
+  const rate = cmpKey==="rating" || cmpKey==="pct";
+  const lo = rate ? Math.floor(Math.min(...all)/20)*20 : 0; let hi = rate ? Math.ceil(Math.max(...all)/20)*20 : undefined; if (rate) hi = lo + Math.ceil((hi-lo)/20)*20;
+  if (!rate) { const m = Math.max(...all); if (m <= 40) hi = Math.max(4, Math.ceil(m/4)*4); }  // whole-number ticks for small counts like INT
+  lineChart($("#cmp-chart"), {
+    aria:`${d.t}, ${cmpMode==="cum"?"running total":"per game"}, ${S.map(({q})=>qlab(q)).join(" versus ")}`,
+    xMax: Math.max(...ALL.map(q=>q.rows.length), ...X.map(s=>s.points.length)), marker: N, yMin: lo, yMax: hi, padR: X.length?96:44,
+    fmtY: v => fmt(v,0), fmtTip: p => fmt(p.y, d.dp) + (p.opp?` <span class="small">${esc(p.opp)}</span>`:""),
+    series: S.map(({q, pts}) => ({name: qlab(q), color: qcol(q), width: q===CUR?3.5:2, z: q===CUR?2:1, points: pts,
+      endLabel: fmt(pts[pts.length-1].y, d.dp), labelColor: qcol(q)})).concat(X)});
+  const what = cmpMode==="cum" ? (rate ? `Season ${d.t.toLowerCase()} on totals after each game` : `Total ${d.cap||d.t.toLowerCase()} after each game`) : `${d.cap ? d.cap[0].toUpperCase()+d.cap.slice(1) : d.t} in each game`;
+  $("#cmp-cap").innerHTML = esc(`${what}.`) + (S.length ? esc(`  Game ${N}: ` + S.map(({q, pts}) => `${q.short} ${pts[N-1] ? fmt(pts[N-1].y, d.dp) : `n/a (${q.games}-game season)`}`).join(", ") + ".") : "") + nrCap(X);
+}
+seg($("#cmp-mode"), [["cum","Running total"],["pg","Per game"]], cmpMode, k=>{cmpMode=k; drawCompare();});
+seg($("#cmp-seg"), Object.entries(CMP).map(([k,v])=>[k,v.t]), cmpKey, k=>{cmpKey=k; nrRefresh("qb", k); drawCompare();});
+nrWire("qb", () => cmpKey, () => drawCompare());
+
+
+/* ---------- game logs ---------- */
+function logTable(q){
+  const rows = q.rows, upto = N;
+  const head = `<thead><tr><th>#</th><th>Opponent</th><th>Result</th><th>Opp pass D</th><th>C/A</th><th>Yds</th><th>TD</th><th>INT</th><th>Rtg</th><th>Rush att</th><th>Rush yds</th><th>Rush TD</th></tr></thead>`;
+  const body = rows.map(r => `<tr class="${r.n>upto?"future":""} ${r.n===upto && rows.length>upto?"cut":""}">
+    <td class="num">${r.n}</td>
+    <td>${r.site==="A"?"at ":r.site==="N"?"vs ":""}${esc(r.opp)} ${r.level==="FCS"?'<span class="lvl">FCS</span>':""}${r.site==="N"?' <span class="lvl" title="Neutral site">N</span>':""}${r.note?`<div class="small">${esc(r.note)}</div>`:""}</td>
+    <td>${esc(r.result)}</td>
+    <td class="num">${r.level==="FCS"?"FCS":r.opp_d_rank?ord(r.opp_d_rank):"–"}</td>
+    <td class="num">${r.cmp}/${r.att}</td><td class="num">${r.yds}</td><td class="num">${r.td}</td><td class="num">${r.int}</td>
+    <td class="num">${fmt(r.rating,1)}</td><td class="num">${r.rush_att}</td><td class="num">${r.rush_yds}</td><td class="num">${r.rush_td}</td></tr>`).join("");
+  const line = (label, t) => `<tr><td></td><td>${label}</td><td></td><td></td><td class="num">${t.cmp}/${t.att}</td><td class="num">${fmt(t.yds)}</td><td class="num">${t.td}</td><td class="num">${t.int}</td><td class="num">${fmt(t.rating,1)}</td><td class="num">${t.rush_att}</td><td class="num">${t.rush_yds}</td><td class="num">${t.rush_td}</td></tr>`;
+  const foot = `<tfoot>${line(`${esc(q.short)} total${rows.length>upto?", first "+upto:""}`, q.totals)}${q.season_totals && rows.length>upto ? line(`${q.season} season, all ${rows.length}`, q.season_totals) : ""}</tfoot>`;
+  return head + `<tbody>${body}</tbody>` + foot;
+}
+$("#logs").innerHTML = ALL.map(q => `<div><h3>${un(q.slot, "", `${esc(q.short)} ${q.season}`)} game log</h3><div class="panel tscroll"><table class="log">${logTable(q)}</table></div></div>`).join("");
+$("#oppd-note").textContent = "Opp pass D: " + (M.opp_d_method || "") + ` Rows below the dashed line are games ${CUR.short} has not reached yet.`;
+
+/* ---------- national ---------- */
+{
+  const NT = M.national;
+  $("#nat-lede").innerHTML = `Top five in each category from the full FBS leaderboard, with ${esc(CUR.short)}'s exact national rank. Leaderboards through <b>${dateFmtY(NT.data_through)}</b>${NT.current?", which includes his latest game":". They do not include his latest game yet"}. ${esc(NT.qualifier_note)}`;
+  const fmtV = {yds:v=>fmt(v), td:v=>fmt(v), pct:v=>fmt(v,1)+"%", rating:v=>fmt(v,1), ypa:v=>fmt(v,1)};
+  const hist = NT.rank_history;
+  $("#boards").innerHTML = NT.order.map(cat => {
+    const b = NT.boards[cat], h = b.cur;
+    const cnt = {}; b.top.forEach(r => cnt[r.rank] = (cnt[r.rank]||0)+1);
+    const tieMark = r => cnt[r.rank]>1 ? "T"+r.rank : r.rank;
+    let rows = b.top.map(r => `<tr class="${r.is_cur?"hv":""}"><td class="rk">${tieMark(r)}</td><td>${r.is_cur?"★ ":""}${esc(r.name)}<span class="tm">${esc(r.team)}</span></td><td class="val">${fmtV[cat](r.value)}</td></tr>`).join("");
+    if (!h.in_top) rows += `<tr class="gap"><td colspan="3"></td></tr><tr class="hv"><td class="rk">${h.rank}</td><td>★ ${esc(CUR.name)}<span class="tm">${esc(M.team)}</span></td><td class="val">${fmtV[cat](h.value)}</td></tr>`;
+    const pts = hist.map(e => e.ranks[cat]).filter(v=>v!=null);
+    const trendTxt = pts.length>1 ? (()=>{const d = pts[pts.length-2]-pts[pts.length-1]; return d>0?`up ${d} spot${d>1?"s":""} since last week`:d<0?`down ${-d} spot${d<-1?"s":""} since last week`:"unchanged from last week";})() : "weekly rank chart appears after next week's update";
+    return `<div class="board">
+      <div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px"><h3>${b.label}</h3><span class="rankchip num" title="${esc(CUR.short)}'s national rank">${h.tied?"T":""}${ord(h.rank)}</span></div>
+      <table>${rows}</table>
+      <div class="spark" data-cat="${cat}" aria-label="${esc(CUR.short)}'s weekly national rank in ${b.label}"></div>
+      <div class="foot"><span>${esc(CUR.short)} ${trendTxt}${b.qualified?" · qualified passers only":""}</span><a href="${b.source_url}" target="_blank" rel="noopener">Source</a></div>
+    </div>`;
+  }).join("");
+}
+function drawSparks(){
+  const hist = M.national.rank_history;
+  document.querySelectorAll(".spark").forEach(host => {
+    const cat = host.dataset.cat;
+    const pts = hist.map((e,i) => ({i, y:e.ranks[cat] ?? null, d:e.through})).filter(p=>p.y!=null);
+    host.innerHTML = "";
+    if (pts.length < 2) return;
+    host.insertAdjacentHTML("beforeend", `<div class="small" style="margin:2px 0 4px">${esc(CUR.short)}'s national rank by week</div>`);
+    const W = Math.max(240, host.clientWidth || 280), H = 92, pl = 40, pr = 48, pt = 10, pb = 22;
+    const n = Math.max(2, hist.length), hi = Math.max(10, Math.ceil(Math.max(...pts.map(p=>p.y))/10)*10);
+    const x = i => pl + i/(n-1)*(W-pl-pr), y = r => pt + (r-1)/(hi-1)*(H-pt-pb);
+    const svg = el("svg",{viewBox:`0 0 ${W} ${H}`,width:W,height:H,style:"max-width:100%;height:auto;display:block;overflow:visible",role:"img","aria-label":`${CUR.short}'s weekly national rank: ${pts.map(p=>ord(p.y)+" through "+dateFmt(p.d)).join(", ")}`},host);
+    [1,hi].forEach(r => { el("line",{x1:pl,x2:W-pr,y1:y(r),y2:y(r),class:"gl"},svg); const t=el("text",{x:pl-6,y:y(r)+4,"text-anchor":"end",class:"ax"},svg); t.textContent = ord(r); });
+    hist.forEach((e,i) => { if (i===0 || i===hist.length-1){ const t=el("text",{x:x(i),y:H-4,"text-anchor":i===0&&hist.length>1?"start":"middle",class:"ax"},svg); t.textContent = dateFmt(e.through); } });
+    let d = "", pen = false; hist.forEach((e,i)=>{ const r = e.ranks[cat]; if (r==null){ pen = false; return; } d += (pen?"L":"M") + x(i) + " " + y(r); pen = true; });
+    el("path",{d,fill:"none",stroke:css("--cur"),"stroke-width":2.5,"stroke-linejoin":"round"},svg);
+    pts.forEach(p => el("circle",{cx:x(p.i),cy:y(p.y),r:4,fill:css("--cur"),stroke:css("--surface"),"stroke-width":2},svg));
+    const last = pts[pts.length-1]; const t = el("text",{x:x(last.i)+8,y:y(last.y)+4,class:"lbl",fill:css("--cur"),"font-weight":"700"},svg); t.textContent = ord(last.y);
+  });
+}
+
+/* ---------- heisman QB field ---------- */
+const FD = {
+  tot_yds:{t:"Total yards",dp:0,cum:"cum_tot_yds"}, tot_td:{t:"Total TD",dp:0,cum:"cum_tot_td"},
+  yds:{t:"Pass yards",dp:0,cum:"cum_yds",qb:true}, td:{t:"Pass TD",dp:0,cum:"cum_td",qb:true}, rating:{t:"Rating",dp:1,cum:"cum_rating",qb:true} };
+let fdKey = "tot_yds", fdMode = "cum";
+const fdOff = new Set();
+{
+  const others = M.cohort.qbs.filter(q=>!q.is_cur);
+  $("#field-eyebrow").textContent = `${CUR.short} against the Heisman favorites`;
+  $("#field-lede").textContent = `${M.cohort.rule} Total yards and Total TD count passing, rushing and receiving, so every position compares fairly; the passing tabs show quarterbacks only. ${CUR.short} is in navy, the others gray and labeled at the end of each line. Hover or tap a game number for everyone's value.`;
+  const fdPlayers = [{name:CUR.name, label:`${CUR.name}, ${M.team} · QB`, slot:"cur"}, ...others.map(q=>({name:q.name, label:`${q.name}, ${q.school} · ${q.pos||""}`, slot:"field"}))];
+  $("#fd-legend").innerHTML = `<div class="pills" id="fd-pills" style="padding:2px 0 12px;width:100%">${fdPlayers.map(p=>`<button type="button" class="pc" data-fd="${esc(p.name)}" aria-pressed="true"><span class="pu" style="border-bottom-color:var(--${p.slot})">${esc(p.label)}</span></button>`).join("")}</div>`;
+  $("#fd-legend").addEventListener("click", e => {
+    const b = e.target.closest(".pc"); if (!b) return;
+    const name = b.dataset.fd, on = b.getAttribute("aria-pressed")==="true";
+    b.setAttribute("aria-pressed", String(!on));
+    on ? fdOff.add(name) : fdOff.delete(name);
+    drawField();
+  });
+}
+function drawField(){
+  const d = FD[fdKey], key = fdMode==="cum" ? d.cum : fdKey;
+  const qbs = M.cohort.qbs.filter(q => !d.qb || q.pos==="QB").filter(q => !fdOff.has(q.name));
+  if (!qbs.length) { $("#fd-chart").innerHTML = `<p class="caption" style="padding:20px 4px">All players are toggled off — turn one back on above to see the chart.</p>`; $("#fd-note").textContent = ""; return; }
+  const xMax = Math.max(...qbs.map(q=>q.games.length));
+  const all = qbs.flatMap(q=>q.games.map(g=>g[key])).filter(v=>v!=null);
+  const isR = fdKey==="rating";
+  const hidden = M.cohort.qbs.filter(q => d.qb && q.pos!=="QB").map(q=>q.name);
+  $("#fd-note").textContent = hidden.length ? `Not shown on passing stats: ${hidden.join(", ")} (not a quarterback).` : "";
+  lineChart($("#fd-chart"), {aria:`${d.t} ${fdMode==="cum"?"running total":"per game"} for ${CUR.short} and the Heisman field`, xMax: Math.max(2,xMax),
+    yMin: isR ? Math.floor(Math.min(...all)/20)*20 : 0, yMax: isR ? Math.ceil(Math.max(...all)/20)*20 : undefined,
+    fmtY: v=>fmt(v,0), fmtTip: p => fmt(p.y, d.dp) + (p.opp?` <span class="small">${esc(p.opp)}</span>`:""), padR: 128,
+    series: qbs.map(q => ({name:q.name, color: q.is_cur?css("--cur"):css("--field"), width: q.is_cur?3.5:1.75, z: q.is_cur?2:1,
+      points: q.games.map(g=>({x:g.n, y:g[key], opp:g.opp})), endLabel: q.name.split(" ").slice(-1)[0] + " " + fmt(q.games[q.games.length-1][key], d.dp),
+      labelColor: q.is_cur?css("--cur"):css("--ink-2")}))});
+}
+seg($("#fd-mode"), [["cum","Running total"],["pg","Per game"]], fdMode, k=>{fdMode=k; drawField();});
+seg($("#fd-seg"), Object.entries(FD).map(([k,v])=>[k,v.t]), fdKey, k=>{fdKey=k; drawField();});
+
+/* ---------- odds ---------- */
+{
+  const Hs = M.heisman, books = Hs.books;
+  const hp = Hs.cur;
+  $("#trail-head").textContent = `${CUR.short}'s odds trail`;
+  $("#odds-lede").innerHTML = `Players are ranked by the median implied probability across the books listed. ${hp?`${esc(CUR.short)} is <b class="h">${ord(hp.rank)}</b> in that consensus at about ${fmt(hp.prob*100,1)}%.`:""} ${esc(Hs.note)}${Hs.move?` ${esc(CUR.short)}'s ${esc(Hs.move.book)} line moved from ${odds(Hs.move.from)} to ${odds(Hs.move.to)} on ${dateFmt(Hs.move.date)}.`:""}`;
+  const maxP = Math.max(...Hs.players.map(p=>p.prob));
+  const cnt = {}; Hs.players.forEach(p=>cnt[p.rank]=(cnt[p.rank]||0)+1);
+  const head = `<thead><tr><th>#</th><th>Player</th>${books.map(b=>`<th>${esc(b.book)}<small>${dateFmt(b.as_of)}</small></th>`).join("")}<th>Implied chance<small>median of books</small></th></tr></thead>`;
+  const body = Hs.players.map(p => `<tr class="${p.is_cur?"hv":""}"><td class="num">${cnt[p.rank]>1?"T":""}${p.rank}</td><td>${p.is_cur?"★ ":""}${esc(p.name)} <span class="small">${esc(p.school)} · ${p.pos}</span></td>${books.map(b=>`<td class="num">${odds(p.odds[b.book])}</td>`).join("")}<td class="num"><span class="probbar" style="width:${Math.max(2,p.prob/maxP*70)}px"></span>${fmt(p.prob*100,1)}%</td></tr>`).join("");
+  $("#odds-table").innerHTML = head + `<tbody>${body}</tbody>`;
+  $("#trail").innerHTML = Hs.trail.map(t => `<div class="step"><span>${t.date==="preseason"?"Preseason open":dateFmt(t.date)} · ${esc(t.book)}</span><b class="num">${odds(t.odds)}</b><span>${fmt(100/(t.odds+100)*100,1)}% implied</span></div>`).join("");
+}
+
+/* ---------- notes, sources, footer ---------- */
+{
+  const notes = [
+    `Every comparison lines the seasons up by game number: ${CUR.short}'s first ${N} games of ${CUR.season} against the first ${N} games of ${PREV.map(qlab).join(" and ")}${PREV.length?"":" (no earlier season stored)"}. Completed seasons also show full-season totals in the game logs and pace tiles.`,
+    "Passer rating uses the NCAA formula (8.4 × yards + 330 × TD + 100 × completions − 200 × INT) ÷ attempts, on totals, never an average of game ratings.",
+    "National ranks use competition ranking, so tied players share a rank and the next rank is skipped.",
+    "Heisman odds are as reported by each outlet on the date shown, not live lines.",
+    ...M.caveats
+  ];
+  $("#notes").innerHTML = notes.map(n=>`<li>${esc(n)}</li>`).join("");
+  $("#sources").innerHTML = M.sources.map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("");
+  $("#foot-l").textContent = `Updated ${asof.toLocaleString("en-US",{...TZ,dateStyle:"medium",timeStyle:"short"})} ET · Through game ${N}`;
+}
+
+
+/* ================================================================ site title, tabs, RB / WR / Team */
+const TB = M.tabs, SEASON = TB.site.season;
+$("#site-title").textContent = TB.site.title;
+const TABS = ["qb", "rb", "wr", "team"];
+let curTab = "qb";
+const tabOf = h => TABS.includes(h) ? h : TABS.includes(h.split("-")[0]) ? h.split("-")[0] : "qb";
+const DASH = "7 4", APDASH = "1.5 4";
+const sw = (slot, dash, w=3) => `<svg class="lsw" width="26" height="10" aria-hidden="true"><line x1="2" y1="5" x2="24" y2="5" stroke="var(--${slot})" stroke-width="${w}" stroke-linecap="round"${dash?` stroke-dasharray="${dash}"`:""}/></svg>`;
+const freshLine = f => f && f.checked ? `<p class="fresh">${esc(f.what)}. Last checked ${fmtWhen(f.checked)}.</p>` : "";
+const secHead = (eyebrow, title, extra="") => `<div class="sec-head"><div><div class="eyebrow">${eyebrow}</div><h2>${title}</h2>${extra}</div></div>`;
+const jump = (k, items) => `<nav class="jump" aria-label="Sections">${items.map(([id,t])=>`<a href="#${k}-${id}">${t}</a>`).join("")}</nav>`;
+const pending = T => `<div class="tabhead"><div class="eyebrow">${esc(T.label)} · ${esc(M.team)} football ${SEASON}</div><h2>${esc(T.label)}</h2><p class="lede">${esc(T.message)}</p></div>`;
+const site = s => s==="A" ? "at " : s==="N" ? "vs " : "";
+
+/* ---------- RB / WR ---------- */
+function skillSeries(T, p, key, mode){
+  const ck = T.count[0];
+  return p.rows.map(r => ({x:r.n, opp:r.opp, y: mode==="cum"
+    ? ({yds:r.cum_yds, td:r.cum_td, att:r.cum_n, rec:r.cum_n, ypc:r.cum_per, ypr:r.cum_per, ypg:r.cum_ypg})[key]
+    : ({yds:r.yds, td:r.td, att:r[ck], rec:r[ck], ypc:r.per, ypr:r.per, ypg:r.yds})[key]}));
+}
+const SK = {};
+function renderSkill(k){
+  const T = TB[k], host = $("#tab-"+k);
+  if (T.status !== "ok") { host.innerHTML = pending(T); return; }
+  const P = T.players, N = T.N, cur = P.filter(p=>p.season===SEASON), ck = T.count[0];
+  const lab = p => `${esc(p.short)} <span class="yr">${p.season}</span>`;
+  const legend = `<div class="legend big">${P.map(p=>`<span>${un(p.slot, p.dash?DASH:"", `${esc(p.name)} ${p.season}`)}</span>`).join("")}</div>`;
+  const cmpChips = `<details class="cat" open id="${k}-catchips"><summary>ND players<span class="chev">▾</span></summary><div class="pills">${
+    P.map((p,i)=>`<button type="button" class="pc" data-i="${i}" aria-pressed="true"><span class="pu" style="border-bottom-color:var(--${p.slot})${p.dash?";border-bottom-style:dashed":""}">${esc(p.name)} ${p.season}</span></button>`).join("")
+  }</div></details>${nrHTML(k)}`;
+  // head to head: one row per player, one column per stat
+  const head = `<tr><th>Through ${N} games</th><th>G</th>${T.stats.map(s=>`<th title="${esc(s.label)}">${esc(s.short||s.label)}</th>`).join("")}</tr>`;
+  const body = P.map((p,i) => `<tr class="${i && P[i-1].season!==p.season?"sep":""}"><td class="who">${sw(p.slot, p.dash?DASH:"", 3)} ${lab(p)}</td><td class="num">${p.totals.games}${p.short_of_n?"*":""}</td>${T.h2h.map(h => {
+      const st = h.leaders.includes(i) ? "win" : h.leaders.length && p.slot!=="cur" ? "lose" : "";
+      return `<td class="v num ${st}${p.short_of_n?" short":""}" style="color:var(--${p.slot})"><span${st==="win"?` style="background:var(--${p.slot}-soft)"`:""}>${fmt(p.totals[h.key], h.dp)}</span></td>`; }).join("")}</tr>`).join("");
+  const shortNote = `<p class="caption">${P.some(p=>p.short_of_n) ? `* Fewer than ${N} games: that player's whole season (or season so far) is shown in italics and is left out of the leader boxes.` : ""}<span class="swipe">  Swipe the table sideways for every column.</span></p>`;
+  const fullP = P.filter(p=>p.full);
+  const full = fullP.length ? `<section id="${k}-full">${secHead("Completed seasons", "Full-season totals")}<div class="panel tscroll"><table class="cmp"><tr><th>Player</th><th>G</th>${T.stats.some(s=>s.key===ck)?"":`<th>${esc(T.count[1])}</th>`}${T.stats.map(s=>`<th title="${esc(s.label)}">${esc(s.short||s.label)}</th>`).join("")}</tr>${fullP.map(p=>`<tr><td class="who">${sw(p.slot, p.dash?DASH:"", 3)} ${lab(p)}</td><td class="num">${p.full.games}</td>${T.stats.some(s=>s.key===ck)?"":`<td class="num">${fmt(p.full[ck])}</td>`}${T.stats.map(s=>`<td class="v num" style="color:var(--${p.slot})"><span>${fmt(p.full[s.key], s.dp)}</span></td>`).join("")}</tr>`).join("")}</table></div></section>` : "";
+  // national boards
+  const NT = T.national;
+  let nat = "";
+  if (NT) {
+    const fv = (key, v) => v==null ? "–" : (key==="ypc"||key==="ypr"||key==="ypg") ? fmt(v, key==="ypg"?1:2) : fmt(v);
+    nat = `<section id="${k}-national">${secHead("All FBS players", "National leaderboards", `<p class="lede">Top five in each category from cfbstats.com's full FBS leaderboard, with ${cur.map(p=>esc(p.short)).join(" and ")}'s national ranks. Leaderboards through <b>${dateFmtY(NT.data_through)}</b>.  Per-carry and per-game boards list qualified players only (NCAA minimums).</p>`)}<div class="boards">${NT.boards.map(b => {
+      const cnt = {}; b.top.forEach(r => cnt[r.rank] = (cnt[r.rank]||0)+1);
+      const mine = new Set(b.players.filter(x=>x.rank).map(x=>x.name.toLowerCase()));
+      let rows = b.top.map(r => { const me = r.team===M.team && mine.has(r.name.toLowerCase());
+        return `<tr class="${me?"hv":""}"><td class="rk">${cnt[r.rank]>1?"T":""}${r.rank}</td><td>${me?"★ ":""}${esc(r.name)}<span class="tm">${esc(r.team)}</span></td><td class="val">${fv(b.key, r.value)}</td></tr>`; }).join("");
+      const byRank = (a,b) => ((a.rank==null)-(b.rank==null)) || a.rank-b.rank;
+      const out = b.players.filter(x => !(x.rank && x.rank<=5)).sort(byRank);
+      if (out.length) rows += `<tr class="gap"><td colspan="3"></td></tr>` + out.map(x => `<tr class="hv"><td class="rk">${x.rank||"–"}</td><td>★ ${esc(x.name)}<span class="tm">${esc(M.team)}</span></td><td class="val">${x.rank?fv(b.key, x.value):'<span class="small">not ranked</span>'}</td></tr>`).join("");
+      const chips = [...b.players].sort(byRank).map(x => `<span class="rankchip num" title="${esc(x.short)}'s national rank" style="display:inline-flex;align-items:center;gap:4px">${un("cur", x.dash?DASH:"", `<span class="small" style="font-family:var(--body)">${esc(x.short)}</span>`)} ${x.rank?ord(x.rank):"–"}</span>`).join(" ");
+      return `<div class="board"><div style="display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap"><h3>${esc(b.label)}</h3><span>${chips}</span></div><table>${rows}</table>
+        <div class="spark" data-tab="${k}" data-cat="${b.key}"></div>
+        <div class="foot"><span>${b.qualified?"Qualified players only":"All players"}${b.players.some(x=>!x.rank)?" · not ranked = outside the listed top 100 or not qualified":""}</span><a href="${b.source_url}" target="_blank" rel="noopener">Source</a></div></div>`; }).join("")}</div></section>`;
+  }
+  // game logs
+  const logs = P.map(p => {
+    const tr = p.rows.map(r => `<tr class="${r.n>N?"future":""} ${r.n===N && p.rows.length>N?"cut":""}"><td class="num">${r.n}</td><td>${site(r.site)}${esc(r.opp)}</td><td>${esc(r.result)}</td><td class="num">${r[ck]}</td><td class="num">${r.yds}</td><td class="num">${r.per==null?"–":fmt(r.per,1)}</td><td class="num">${r.td}</td></tr>`).join("");
+    const line = (label, t) => `<tr><td></td><td>${label}</td><td></td><td class="num">${fmt(t[ck])}</td><td class="num">${fmt(t.yds)}</td><td class="num">${t[ck]?fmt(t.yds/t[ck],1):"–"}</td><td class="num">${t.td}</td></tr>`;
+    const foot = line(`${esc(p.short)} total${p.rows.length>N?", first "+N:""}`, p.totals) + (p.full && p.rows.length>N ? line(`${p.season} season, all ${p.games}`, p.full) : "");
+    return `<details class="logd"${p.season===SEASON?" open":""}><summary>${un(p.slot, p.dash?DASH:"", `${esc(p.name)} ${p.season}`)}</summary><div class="tscroll"><table class="log" style="min-width:480px"><thead><tr><th>#</th><th>Opponent</th><th>Result</th><th>${esc(T.count[1])}</th><th>Yds</th><th>Avg</th><th>TD</th></tr></thead><tbody>${tr}</tbody><tfoot>${foot}</tfoot></table></div></details>`;
+  }).join("");
+  const notes = [
+    `Each player's games are the games he played, from his cfbstats.com game log, including games without a ${k==="rb"?"carry":"catch"} (those show as 0).  Game 3 is his third game played.  Head-to-head totals stop at ${N} games, the most any ${SEASON} player has played.`,
+    T.rule,
+    "Game lines come from ESPN box scores; each box score's player lines must add up to the team total in that box score, and each game's carries or catches and TD must match the player's cfbstats game log, before they are stored.",
+    ...P.map(p => `${p.name} (${p.season}): ${p.checked}.`)];
+  host.innerHTML = `<div class="tabhead"><div class="eyebrow">${esc(T.label)} · ${esc(M.team)} football ${SEASON}</div><h2>${esc(T.title)}</h2>${legend}<p class="lede">${esc(T.lede)}</p>${freshLine(T.fresh)}</div>
+    ${jump(k, [["h2h","Head to head"], ...(fullP.length?[["full","Full seasons"]]:[]), ["compare","Compare"], ...(NT?[["national","National"]]:[]), ["games","Game logs"], ["method","Method"]])}
+    <section id="${k}-h2h">${secHead("Same number of games", "Head to head", `<p class="small" style="margin-top:6px"><span class="keychip">Boxed</span> = leader in that column</p>`)}<div class="panel tscroll"><table class="cmp">${head}${body}</table></div>${shortNote}</section>
+    ${full}
+    <section id="${k}-compare">${secHead("Running total or each game, any stat", "Compare chart")}
+      <div class="controls stack" style="margin-bottom:10px"><div class="seg toggle" id="${k}-mode" role="group" aria-label="View: running total or per game"></div><div class="seg chips" id="${k}-seg" role="group" aria-label="Stat"></div></div>
+      <div class="panel">${cmpChips}<div class="chart" id="${k}-chart"></div><p class="caption" id="${k}-cap"></p></div></section>
+    ${nat}
+    <section id="${k}-games">${secHead("Every game, every season", "Game logs")}${logs}</section>
+    <section id="${k}-method">${secHead("How the numbers are built", "Method and sources")}<div class="notes"><div><h3>Notes</h3><ul>${notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul></div><div><h3>Sources</h3><ul>${T.sources.map(s=>`<li><a href="${s.url}" target="_blank" rel="noopener">${esc(s.label)}</a></li>`).join("")}${NT?NT.boards.map(b=>`<li><a href="${b.source_url}" target="_blank" rel="noopener">cfbstats.com: ${SEASON} national ${esc(b.label.toLowerCase())}</a></li>`).join(""):""}<li>ESPN box scores for every ${esc(M.team)} game</li></ul></div></div></section>`;
+  SK[k] = {key: T.chart[0].key, mode: "cum", off: new Set()};
+  seg($(`#${k}-mode`), [["cum","Running total"],["pg","Per game"]], "cum", m=>{SK[k].mode=m; drawSkill(k);});
+  seg($(`#${k}-seg`), T.chart.map(c=>[c.key, c.label]), SK[k].key, v=>{SK[k].key=v; nrRefresh(k, v); drawSkill(k);});
+  nrWire(k, () => SK[k].key, () => drawSkill(k));
+  document.getElementById(`${k}-catchips`).addEventListener("click", e => {
+    const b = e.target.closest(".pc"); if (!b) return;
+    const i = +b.dataset.i, on = b.getAttribute("aria-pressed")==="true";
+    b.setAttribute("aria-pressed", String(!on));
+    on ? SK[k].off.add(i) : SK[k].off.delete(i);
+    drawSkill(k);
+  });
+}
+function drawSkill(k){
+  const T = TB[k]; if (T.status!=="ok") return;
+  const st = SK[k], c = T.chart.find(c=>c.key===st.key), dp = (st.key==="ypc"||st.key==="ypr") ? 2 : st.key==="ypg" ? 1 : 0;
+  const S = T.players.map((p,i) => ({p, i})).filter(({i}) => !st.off.has(i)).map(({p}) => ({p, pts: skillSeries(T, p, st.key, st.mode)}));
+  const X = nrSeries(k, st.key, st.mode);
+  if (!S.length && !X.length) { $(`#${k}-chart`).innerHTML = `<p class="caption" style="padding:20px 4px">All players are toggled off — turn one back on above to see the chart.</p>`; $(`#${k}-cap`).textContent = ""; return; }
+  const all = [...S.flatMap(s=>s.pts), ...X.flatMap(s=>s.points)].map(q=>q.y).filter(v=>v!=null);
+  const m = Math.max(...all, 1), hi = m <= 40 ? Math.max(4, Math.ceil(m/4)*4) : undefined;
+  lineChart($(`#${k}-chart`), {aria:`${c.label}, ${st.mode==="cum"?"running total":"per game"}, ${T.players.map(p=>p.short+" "+p.season).join(", ")}`,
+    xMax: Math.max(2, ...T.players.map(p=>p.rows.length), ...X.map(s=>s.points.length)), marker: T.N, yMin: 0, yMax: hi, padR: X.length?96:64,
+    fmtY: v=>fmt(v, 0), fmtTip: q => fmt(q.y, dp) + (q.opp?` <span class="small">${esc(q.opp)}</span>`:""),
+    series: S.map(({p, pts}) => ({name:`${p.short} ${p.season}`, color: css("--"+p.slot), width: p.slot==="cur"?3.25:2, z: p.slot==="cur"?2:1, dash: p.dash?DASH:"", hollow: p.dash,
+      points: pts, endLabel: `${p.short} ${fmt(pts[pts.length-1].y, dp)}`, labelColor: css("--"+p.slot)})).concat(X)});
+  $(`#${k}-cap`).innerHTML = esc(`${st.mode==="cum" ? (dp ? `${c.label} on season totals after each game` : `Total ${c.label.toLowerCase()} after each game`) : `${c.label} in each game`}.`) + (S.length ? esc(`  Game ${T.N}: ` +
+    S.map(({p, pts}) => `${p.short} ${p.season} ${pts[T.N-1] && pts[T.N-1].y!=null ? fmt(pts[T.N-1].y, dp) : "n/a"}`).join(", ") + ".") : "") + nrCap(X);
+}
+function drawSkillSparks(k){
+  const T = TB[k]; if (T.status!=="ok" || !T.national) return;
+  const hist = T.national.history, cur = T.players.filter(p=>p.season===SEASON);
+  document.querySelectorAll(`.spark[data-tab="${k}"]`).forEach(host => {
+    const cat = host.dataset.cat; host.innerHTML = "";
+    const lines = cur.map(p => ({p, pts: hist.map((e,i)=>({i, y:(e.ranks[p.name]||{})[cat] ?? null, d:e.through})).filter(q=>q.y!=null)}));
+    if (!lines.some(l=>l.pts.length>1)) return;
+    host.insertAdjacentHTML("beforeend", '<div class="small" style="margin:2px 0 4px">National rank by week</div>');
+    const W = Math.max(240, host.clientWidth || 280), H = 92, pl = 40, pr = 48, pt = 10, pb = 22;
+    const n = Math.max(2, hist.length), mx = Math.max(10, Math.ceil(Math.max(...lines.flatMap(l=>l.pts.map(q=>q.y)))/10)*10);
+    const x = i => pl + i/(n-1)*(W-pl-pr), y = r => pt + (r-1)/(mx-1)*(H-pt-pb);
+    const svg = el("svg",{viewBox:`0 0 ${W} ${H}`,width:W,height:H,style:"max-width:100%;height:auto;display:block;overflow:visible",role:"img","aria-label":"Weekly national rank"},host);
+    [1,mx].forEach(r => { el("line",{x1:pl,x2:W-pr,y1:y(r),y2:y(r),class:"gl"},svg); const t=el("text",{x:pl-6,y:y(r)+4,"text-anchor":"end",class:"ax"},svg); t.textContent = ord(r); });
+    hist.forEach((e,i) => { if (i===0 || i===hist.length-1){ const t=el("text",{x:x(i),y:H-4,"text-anchor":i===0?"start":"middle",class:"ax"},svg); t.textContent = dateFmt(e.through); } });
+    lines.forEach(({p, pts}) => { if (!pts.length) return;
+      el("path",{d:pts.map((q,j)=>(j?"L":"M")+x(q.i)+" "+y(q.y)).join(""),fill:"none",stroke:css("--cur"),"stroke-width":2.5,"stroke-dasharray":p.dash?DASH:"none"},svg);
+      const last = pts[pts.length-1]; const t = el("text",{x:x(last.i)+8,y:y(last.y)+4,class:"lbl",fill:css("--cur"),"font-weight":"700"},svg); t.textContent = `${p.short} ${ord(last.y)}`; });
+  });
+}
+
+/* ---------- Team ---------- */
+const TM = {key: "pf", mode: "cum", off: new Set()};
+function teamVal(r, key, mode){ if (mode==="cum") return r.cum[key]; return key==="third_pct" ? r.third_pct : r[key]; }
+function renderTeam(){
+  const T = TB.team, host = $("#tab-team");
+  if (T.status !== "ok") { host.innerHTML = pending(T); return; }
+  const E = T.teams, N = T.N, P = T.poll;
+  const swE = e => sw(e.slot, e.kind==="ap"?APDASH:"", e.kind==="cur"?3.5:e.kind==="ap"?3:2.5);
+  const lab = e => e.kind==="ap" ? `${esc(e.label)}` : `${esc(M.team)} <span class="yr">${e.season}</span>`;
+  const legend = `<div class="legend big">${E.map(e=>`<span>${un(e.slot, e.kind==="ap"?APDASH:"", esc(e.label))}${e.ap_rank?` (AP #${e.ap_rank})`:""}</span>`).join("")}</div>`;
+  const pollTxt = P ? `AP Top 5 from the ${esc(P.name)}${P.week?`, ${esc(P.week)}`:""}, released ${dateFmtY(P.date)}.` : "AP poll not collected yet.";
+  const homeRank = P && P.top.find(t=>t.is_home);
+  const pollChips = P ? `<div class="poll">${P.top.map(t=>`<span>#${t.rank} ${esc(t.name)}${t.record?` (${esc(t.record)})`:""}${t.is_home?" ★":""}</span>`).join("")}</div>` : "";
+  const fv = (key, t, dp) => key==="wins" ? t.record : key==="to_margin" ? (t.to_margin>0?"+":"")+t.to_margin : key==="third_pct" ? fmt(t.third_pct, 1)+"%" : fmt(t[key], dp);
+  const head = `<tr><th>Through ${N} games</th>${T.stats.map(s=>`<th title="${esc(s.label)}">${esc(s.short||s.label)}</th>`).join("")}</tr>`;
+  const body = E.map((e,i) => `<tr class="${i && E[i-1].kind!==e.kind && e.kind==="ap"?"sep":""}"><td class="who">${swE(e)} ${lab(e)}${e.short_of_n?"*":""}</td>${T.h2h.map(h => {
+      const st = h.leaders.includes(i) ? "win" : h.leaders.length && e.slot!=="cur" ? "lose" : "";
+      return `<td class="v num ${st}${e.short_of_n?" short":""}" style="color:var(--${e.slot})"><span${st==="win"?` style="background:var(--${e.slot}-soft)"`:""}>${fv(h.key, e.totals, h.dp)}</span></td>`; }).join("")}</tr>`).join("");
+  const fullE = E.filter(e=>e.full);
+  const full = fullE.length ? `<section id="team-full">${secHead("Completed seasons", "Full-season totals")}<div class="panel tscroll"><table class="cmp"><tr><th>Season</th><th>G</th>${T.stats.map(s=>`<th title="${esc(s.label)}">${esc(s.short||s.label)}</th>`).join("")}</tr>${fullE.map(e=>`<tr><td class="who">${swE(e)} ${lab(e)}</td><td class="num">${e.full.games}</td>${T.stats.map(s=>`<td class="v num" style="color:var(--${e.slot})"><span>${fv(s.key, e.full, s.dp)}</span></td>`).join("")}</tr>`).join("")}</table></div></section>` : "";
+  const logs = E.map(e => {
+    const tr = e.rows.map(r => `<tr class="${r.n>N?"future":""} ${r.n===N && e.rows.length>N?"cut":""}"><td class="num">${r.n}</td><td>${site(r.site)}${esc(r.opp)}</td><td>${esc(r.result)}</td><td class="num">${r.total_yds}</td><td class="num">${r.rush_yds}</td><td class="num">${r.pass_yds}</td><td class="num">${r.to_margin>0?"+":""}${r.to_margin}</td><td class="num">${r.third_conv}/${r.third_att}</td></tr>`).join("");
+    const line = (label, t) => `<tr><td></td><td>${label}</td><td>${t.record}, ${fmt(t.pf)}-${fmt(t.pa)}</td><td class="num">${fmt(t.total_yds)}</td><td class="num">${fmt(t.rush_yds)}</td><td class="num">${fmt(t.pass_yds)}</td><td class="num">${t.to_margin>0?"+":""}${t.to_margin}</td><td class="num">${t.third_conv}/${t.third_att}</td></tr>`;
+    const foot = line(`Total${e.rows.length>N?", first "+N:""}`, e.totals) + (e.full && e.rows.length>N ? line(`${e.season} season, all ${e.games}`, e.full) : "");
+    return `<details class="logd"${e.kind==="cur"?" open":""}><summary>${un(e.slot, e.kind==="ap"?APDASH:"", esc(e.label))}${e.kind==="ap"?` <span class="small" style="font-family:var(--body);text-transform:none;letter-spacing:0">${SEASON}</span>`:""}</summary><div class="tscroll"><table class="log" style="min-width:600px"><thead><tr><th>#</th><th>Opponent</th><th>Result</th><th>Total yds</th><th>Rush yds</th><th>Pass yds</th><th>TO +/-</th><th>3rd down</th></tr></thead><tbody>${tr}</tbody><tfoot>${foot}</tfoot></table></div></details>`;
+  }).join("");
+  const notes = [
+    `Every team's games are numbered in order, so game 3 is each team's third game of its season.  Head-to-head totals stop at ${N} games, ${esc(M.team)}'s ${SEASON} count; a team with fewer games shows its season so far in italics and is left out of the leader boxes.`,
+    "Turnover margin is takeaways (interceptions plus fumbles recovered from the opponent) minus giveaways.  Third-down % is conversions divided by attempts on totals, not an average of games.",
+    "Rows come from ESPN box scores.  Each row must have total yards equal to rushing plus passing, a score that matches ESPN's schedule, and turnovers equal to fumbles lost plus interceptions.  Each season must also match cfbstats.com's season totals once cfbstats has posted the same games.",
+    ...E.map(e => `${e.label}: ${e.check}.${e.record_note?` Note: ${e.record_note}.`:""}`)];
+  host.innerHTML = `<div class="tabhead"><div class="eyebrow">Team · ${esc(M.team)} football ${SEASON}</div><h2>${esc(M.team)} vs the Freeman era and the AP Top 5</h2>${legend}<p class="lede">${esc(T.lede)}</p><p class="small" style="margin-top:8px">${pollTxt}${homeRank?` ${esc(M.team)} is #${homeRank.rank} in that poll, so its own line is the navy one.`:""}</p>${pollChips}${freshLine(T.fresh)}</div>
+    ${jump("team", [["h2h","Head to head"], ...(fullE.length?[["full","Full seasons"]]:[]), ["compare","Compare"], ["games","Game logs"], ["method","Method"]])}
+    <section id="team-h2h">${secHead("Same number of games", "Head to head", `<p class="small" style="margin-top:6px"><span class="keychip">Boxed</span> = leader in that column</p>`)}<div class="panel tscroll"><table class="cmp">${head}${body}</table></div><p class="caption">Pts against: fewer is better.  TO +/- is takeaways minus giveaways.${E.some(e=>e.short_of_n)?`  * Fewer than ${N} games played: shown in italics and left out of the leader boxes.`:""}<span class="swipe">  Swipe the table sideways for every column.</span></p></section>
+    ${full}
+    <section id="team-compare">${secHead("Running total or each game, any stat", "Compare chart")}
+      <div class="controls stack" style="margin-bottom:10px"><div class="seg toggle" id="team-mode" role="group" aria-label="View: running total or per game"></div><div class="seg chips" id="team-seg" role="group" aria-label="Stat"></div></div>
+      <div class="panel"><div class="pills" id="team-catchips" style="padding:2px 0 12px">${E.map((e,i)=>`<button type="button" class="pc" data-i="${i}" aria-pressed="true"><span class="pu" style="border-bottom-color:var(--${e.slot})${e.kind==="ap"?";border-bottom-style:dashed":""}">${esc(e.label)}${e.ap_rank?` (AP #${e.ap_rank})`:""}</span></button>`).join("")}</div><div class="chart" id="team-chart"></div><p class="caption" id="team-cap"></p></div></section>
+    <section id="team-games">${secHead("Every game", "Game logs")}${logs}</section>
+    <section id="team-method">${secHead("How the numbers are built", "Method and sources")}<div class="notes"><div><h3>Notes</h3><ul>${notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul></div><div><h3>Sources</h3><ul><li><a href="${P&&P.source_url||"https://www.espn.com/college-football/rankings"}" target="_blank" rel="noopener">ESPN: AP Top 25</a></li><li>ESPN box scores for every game shown</li>${E.filter(e=>e.url).map(e=>`<li><a href="${e.url}" target="_blank" rel="noopener">cfbstats.com: ${esc(e.kind==="ap"?e.label.replace(/^#\d+ /,""):M.team)} ${e.season} team statistics</a></li>`).join("")}</ul></div></div></section>`;
+  seg($("#team-mode"), [["cum","Running total"],["pg","Per game"]], "cum", m=>{TM.mode=m; drawTeam();});
+  seg($("#team-seg"), T.chart.map(c=>[c.key, c.label]), TM.key, v=>{TM.key=v; drawTeam();});
+  document.getElementById("team-catchips").addEventListener("click", e => {
+    const b = e.target.closest(".pc"); if (!b) return;
+    const i = +b.dataset.i, on = b.getAttribute("aria-pressed")==="true";
+    b.setAttribute("aria-pressed", String(!on));
+    on ? TM.off.add(i) : TM.off.delete(i);
+    drawTeam();
+  });
+}
+function drawTeam(){
+  const T = TB.team; if (T.status!=="ok") return;
+  const c = T.chart.find(c=>c.key===TM.key), mode = TM.key==="wins" ? "cum" : TM.mode, dp = TM.key==="third_pct" ? 1 : 0;
+  const S = T.teams.map(e => ({e, pts: e.rows.map(r => ({x:r.n, opp:r.opp, y: teamVal(r, TM.key, mode)}))})).filter((s, i) => !TM.off.has(i));
+  if (!S.length) { $("#team-chart").innerHTML = `<p class="caption" style="padding:20px 4px">All teams are toggled off — turn one back on above to see the chart.</p>`; $("#team-cap").textContent = ""; return; }
+  const all = S.flatMap(s=>s.pts.map(q=>q.y)).filter(v=>v!=null);
+  let lo = Math.min(0, ...all), hi = Math.max(...all, 1);
+  if (TM.key==="third_pct") { lo = Math.floor(Math.min(...all)/10)*10; hi = Math.ceil(Math.max(...all)/10)*10; if (hi===lo) hi = lo+10; }
+  else if (hi <= 40) hi = Math.max(4, Math.ceil(hi/4)*4);
+  else hi = undefined;
+  if (lo < 0) lo = Math.floor(lo/2)*2;
+  lineChart($("#team-chart"), {aria:`${c.label}, ${mode==="cum"?"running total":"per game"}, ${M.team} by season and the AP Top 5`,
+    xMax: Math.max(2, ...T.teams.map(e=>e.rows.length)), marker: T.N, yMin: lo, yMax: hi, padR: 72,
+    fmtY: v=>fmt(v, 0), fmtTip: q => fmt(q.y, dp) + (TM.key==="third_pct"?"%":"") + (q.opp?` <span class="small">${esc(q.opp)}</span>`:""),
+    series: S.map(({e, pts}) => ({name: e.label, color: css("--"+e.slot), width: e.kind==="cur"?3.5:e.kind==="ap"?2:2.25, z: e.kind==="cur"?3:e.kind==="prev"?2:1,
+      dash: e.kind==="ap"?APDASH:"", r: e.kind==="ap"?2.5:undefined, points: pts, endLabel: `${e.kind==="ap"?e.label.replace(/^(#\d+) .*/, "$1 ")+e.short:"ND "+e.season} ${fmt(pts[pts.length-1].y, dp)}`, labelColor: css("--"+e.slot)}))});
+  $("#team-cap").textContent = `${mode==="cum" ? (TM.key==="third_pct" ? "Third-down % on season totals after each game" : TM.key==="wins" ? "Wins after each game" : `Total ${c.label.toLowerCase()} after each game`) : `${c.label} in each game`}.  Game ${T.N}: ` +
+    S.map(({e, pts}) => `${e.kind==="ap"?e.label:"ND "+e.season} ${pts[T.N-1] && pts[T.N-1].y!=null ? fmt(pts[T.N-1].y, dp) : "n/a"}`).join(", ") + ".";
+}
+
+renderSkill("rb"); renderSkill("wr"); renderTeam();
+function showTab(k, user){
+  curTab = tabOf(k);
+  TABS.forEach(t => { $("#tab-"+t).hidden = t!==curTab; const b = $(`.tabs [data-tab="${t}"]`); b.setAttribute("aria-selected", String(t===curTab)); b.tabIndex = t===curTab ? 0 : -1; });
+  if (user) { history.replaceState(null, "", "#"+curTab); window.scrollTo({top:0}); }
+  drawAll();
+}
+document.querySelector(".tabs").addEventListener("click", e => { const b = e.target.closest("button[data-tab]"); if (b) showTab(b.dataset.tab, true); });
+document.querySelector(".tabs").addEventListener("keydown", e => {
+  if (e.key!=="ArrowRight" && e.key!=="ArrowLeft") return;
+  const i = (TABS.indexOf(curTab) + (e.key==="ArrowRight"?1:TABS.length-1)) % TABS.length; showTab(TABS[i], true); $(`.tabs [data-tab="${TABS[i]}"]`).focus(); });
+addEventListener("hashchange", () => { const k = tabOf(location.hash.slice(1)); if (k!==curTab) showTab(k); });
+
+function drawAll(){ if (curTab==="qb") { drawCompare(); drawSparks(); drawField(); } else if (curTab==="team") drawTeam(); else { drawSkill(curTab); drawSkillSparks(curTab); } }
+showTab(location.hash.slice(1));
+let rt; addEventListener("resize", ()=>{ clearTimeout(rt); rt = setTimeout(drawAll, 120); });
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => { drawAll(); try { if(!localStorage.getItem("qb-theme")) paintThemeBtn(); }catch(e){} });
+new MutationObserver(drawAll).observe(document.documentElement, {attributes:true, attributeFilter:["data-theme"]});
+})();
+</script>

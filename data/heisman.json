@@ -1,0 +1,295 @@
+{
+ "schema_version": 1,
+ "note": "Reported sportsbook odds, not live lines. Each book is shown as of the date its odds were published.",
+ "players": {
+  "Trinidad Chambliss": {
+   "school": "Ole Miss",
+   "pos": "QB"
+  },
+  "Darian Mensah": {
+   "school": "Miami",
+   "pos": "QB"
+  },
+  "Jeremiah Smith": {
+   "school": "Ohio State",
+   "pos": "WR"
+  },
+  "Arch Manning": {
+   "school": "Texas",
+   "pos": "QB"
+  },
+  "Malachi Toney": {
+   "school": "Miami",
+   "pos": "WR"
+  },
+  "Kamario Taylor": {
+   "school": "Mississippi State",
+   "pos": "QB"
+  },
+  "CJ Carr": {
+   "school": "Notre Dame",
+   "pos": "QB"
+  },
+  "Keelon Russell": {
+   "school": "Alabama",
+   "pos": "QB"
+  },
+  "Josh Hoover": {
+   "school": "Indiana",
+   "pos": "QB"
+  },
+  "Julian Sayin": {
+   "school": "Ohio State",
+   "pos": "QB"
+  },
+  "Jayden Maiava": {
+   "school": "USC",
+   "pos": "QB"
+  },
+  "Gunner Stockton": {
+   "school": "Georgia",
+   "pos": "QB"
+  },
+  "Jadan Baugh": {
+   "school": "Florida",
+   "pos": "RB"
+  },
+  "Drew Mestemaker": {
+   "school": "Oklahoma State",
+   "pos": "QB"
+  }
+ },
+ "snapshots": [
+  {
+   "book": "FanDuel",
+   "as_of": "2026-09-20",
+   "outlet": "Sports Illustrated",
+   "url": "https://www.si.com/betting/2026-heisman-trophy-odds-trinidad-chambliss-skyrockets-to-favorite-keelon-russell-kamario-taylor-rising",
+   "odds": {
+    "Trinidad Chambliss": 310,
+    "Darian Mensah": 390,
+    "Jeremiah Smith": 950,
+    "Kamario Taylor": 1100,
+    "Arch Manning": 1200,
+    "Malachi Toney": 1200,
+    "CJ Carr": 1200,
+    "Keelon Russell": 2200,
+    "Josh Hoover": 2500,
+    "Jayden Maiava": 3000,
+    "Julian Sayin": 3000,
+    "Gunner Stockton": 4000
+   }
+  },
+  {
+   "book": "DraftKings",
+   "as_of": "2026-09-20",
+   "outlet": "FOX Sports",
+   "url": "https://www.foxsports.com/stories/college-football/2026-heisman-trophy-odds",
+   "odds": {
+    "Trinidad Chambliss": 300,
+    "Darian Mensah": 360,
+    "Jeremiah Smith": 1000,
+    "Arch Manning": 1200,
+    "Malachi Toney": 1300,
+    "Kamario Taylor": 1400,
+    "CJ Carr": 1500,
+    "Keelon Russell": 2500,
+    "Julian Sayin": 2500,
+    "Josh Hoover": 2500,
+    "Jayden Maiava": 3000,
+    "Gunner Stockton": 3500
+   }
+  },
+  {
+   "book": "DraftKings",
+   "as_of": "2026-09-22",
+   "outlet": "NBC Sports",
+   "url": "https://www.nbcsports.com/betting/college-football/news/2026-heisman-trophy-betting-odds-favorites-contenders-future-picks-for-week-4-including-chambliss-mensah",
+   "odds": {
+    "Darian Mensah": 370,
+    "Trinidad Chambliss": 310,
+    "Jeremiah Smith": 1050,
+    "Arch Manning": 1400,
+    "Malachi Toney": 1300,
+    "Kamario Taylor": 1100,
+    "Josh Hoover": 2500,
+    "CJ Carr": 1500,
+    "Jayden Maiava": 3000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-09-25",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Darian Mensah": 325,
+    "Trinidad Chambliss": 325,
+    "Arch Manning": 1000,
+    "Jeremiah Smith": 1000,
+    "Malachi Toney": 1000,
+    "Kamario Taylor": 1000,
+    "CJ Carr": 1400,
+    "Josh Hoover": 2500,
+    "Keelon Russell": 2500,
+    "Julian Sayin": 3000,
+    "Jayden Maiava": 4000,
+    "Gunner Stockton": 4000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-09-29",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": 275,
+    "Darian Mensah": 400,
+    "Kamario Taylor": 700,
+    "CJ Carr": 1200,
+    "Jadan Baugh": 1200,
+    "Trinidad Chambliss": 1200,
+    "Keelon Russell": 1300,
+    "Malachi Toney": 2500,
+    "Arch Manning": 3000,
+    "Julian Sayin": 3000,
+    "Gunner Stockton": 4000,
+    "Josh Hoover": 5000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-03",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": 100,
+    "Darian Mensah": 400,
+    "Kamario Taylor": 3000,
+    "CJ Carr": 1000,
+    "Jadan Baugh": 5000,
+    "Trinidad Chambliss": 1700,
+    "Keelon Russell": 1000,
+    "Malachi Toney": 2500,
+    "Arch Manning": 3000,
+    "Julian Sayin": 4000,
+    "Gunner Stockton": 3000,
+    "Josh Hoover": 5000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-07",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -120,
+    "Darian Mensah": 500,
+    "CJ Carr": 900,
+    "Keelon Russell": 900,
+    "Trinidad Chambliss": 1700,
+    "Malachi Toney": 3500,
+    "Arch Manning": 3500,
+    "Gunner Stockton": 3500,
+    "Kamario Taylor": 4000,
+    "Julian Sayin": 4000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-08",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -120,
+    "Darian Mensah": 500,
+    "CJ Carr": 900,
+    "Keelon Russell": 700,
+    "Trinidad Chambliss": 1700,
+    "Arch Manning": 3500,
+    "Gunner Stockton": 3500,
+    "Malachi Toney": 3500,
+    "Julian Sayin": 4000,
+    "Kamario Taylor": 4000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-10",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -120,
+    "Darian Mensah": 500,
+    "CJ Carr": 900,
+    "Keelon Russell": 700,
+    "Trinidad Chambliss": 1700,
+    "Arch Manning": 3500,
+    "Gunner Stockton": 3500,
+    "Malachi Toney": 3500,
+    "Julian Sayin": 4000,
+    "Kamario Taylor": 4000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-12",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -220,
+    "CJ Carr": 1200,
+    "Darian Mensah": 1000,
+    "Gunner Stockton": 1500,
+    "Keelon Russell": 1500,
+    "Trinidad Chambliss": 1500,
+    "Julian Sayin": 3500,
+    "Arch Manning": 4000,
+    "Drew Mestemaker": 4000,
+    "Kamario Taylor": 4000,
+    "Malachi Toney": 5000,
+    "Josh Hoover": 5000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-14",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -220,
+    "CJ Carr": 1200,
+    "Darian Mensah": 1000,
+    "Gunner Stockton": 1500,
+    "Keelon Russell": 1500,
+    "Trinidad Chambliss": 1500,
+    "Julian Sayin": 3500,
+    "Arch Manning": 4000,
+    "Drew Mestemaker": 4000,
+    "Kamario Taylor": 4000,
+    "Malachi Toney": 5000,
+    "Josh Hoover": 5000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-17",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -220,
+    "CJ Carr": 1200,
+    "Darian Mensah": 1000,
+    "Gunner Stockton": 1500,
+    "Keelon Russell": 1500,
+    "Trinidad Chambliss": 1500,
+    "Julian Sayin": 3500,
+    "Arch Manning": 4000,
+    "Drew Mestemaker": 4000,
+    "Kamario Taylor": 4000,
+    "Malachi Toney": 5000,
+    "Josh Hoover": 5000
+   }
+  }
+ ]
+}
