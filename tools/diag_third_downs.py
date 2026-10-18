@@ -5,7 +5,8 @@
 
 Prints, per game: ESPN box score (thirdDownEff), ESPN play-by-play (ND offensive scrimmage plays
 that started on 3rd down, with plays wiped out by an accepted penalty listed separately), and
-cfbstats.com's per-game third-down rows where its pages give them; then each source's season
+cfbstats.com's per-game third-down rows where its pages give them, and Notre Dame's official
+stat-crew box scores (fightingirish.com); then each source's season
 total (ESPN team season statistics, cfbstats team page).  Diagnosis only: it writes nothing.
 Needs network (run it in GitHub Actions, like collect.py).
 """
@@ -94,6 +95,30 @@ def main():
                 print(f"-- table {i} ({t.shape[0]}x{t.shape[1]})"); print(t.to_string())
         links = sorted(set(re.findall(r'href="(/%d/[^"]*(?:game|log)[^"]*)"' % s, html or "")))
         if links: print("  game/log links:", links[:40])
+    official(s)
+
+
+def official(season):
+    """Notre Dame's official stat-crew box scores (fightingirish.com, Sidearm): the third-down row of each game."""
+    base = "https://fightingirish.com"
+    print(f"\n== Official box scores: {base}/sports/football/schedule/{season}")
+    try:
+        html = C.get(f"{base}/sports/football/schedule/{season}").text
+    except Exception as e:
+        print(f"  schedule not available ({e})"); return
+    links = []
+    for h in re.findall(r'href="([^"]*boxscore[^"]*)"', html):
+        u = h if h.startswith("http") else base + h
+        if u not in links: links.append(u)
+    print(f"  {len(links)} box score links")
+    for u in links:
+        try:
+            t = C.get(u).text
+        except Exception as e:
+            print(f"  {u}: not available ({e})"); continue
+        txt = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", t))
+        hits = re.findall(r"(3rd|Third)[- ][Dd]own [Cc]onversions?[^0-9]{0,40}(\d+)\s*[-/]\s*(\d+)[^0-9]{0,40}(\d+)\s*[-/]\s*(\d+)", txt)
+        print(f"  {u.rsplit('/', 3)[-3:]}: " + ("; ".join(f"{h[1]}-{h[2]} | {h[3]}-{h[4]}" for h in hits[:2]) if hits else "no third-down row found"))
 
 
 if __name__ == "__main__":
