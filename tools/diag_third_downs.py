@@ -100,12 +100,19 @@ def main():
 
 def official(season):
     """Notre Dame's official stat-crew box scores (fightingirish.com, Sidearm): the third-down row of each game."""
-    base = "https://fightingirish.com"
-    print(f"\n== Official box scores: {base}/sports/football/schedule/{season}")
-    try:
-        html = C.get(f"{base}/sports/football/schedule/{season}").text
-    except Exception as e:
-        print(f"  schedule not available ({e})"); return
+    html, base = None, None
+    for base in ("https://und.com", "https://fightingirish.com", "https://niuhuskies.com"):
+        for path in (f"/sports/football/schedule/{season}", f"/sports/football/schedule/{season}?grid=true", "/sports/football/schedule"):
+            print(f"\n== Official box scores: {base}{path}")
+            try:
+                html = C.get(base + path).text
+            except Exception as e:
+                print(f"  not available ({e})"); continue
+            if "boxscore" in html: break
+            print("  no box score links on this page"); html = None
+        if html and base != "https://niuhuskies.com": break
+        if html: break
+    if not html: return
     links = []
     for h in re.findall(r'href="([^"]*boxscore[^"]*)"', html):
         u = h if h.startswith("http") else base + h
