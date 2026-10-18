@@ -57,6 +57,7 @@
     "Purdue": 120,
     "North Carolina": 61,
     "Stanford": 134,
+    "BYU": 26,
     "Navy": 91
    },
    "source_url": "https://cfbstats.com/2026/leader/national/team/defense/split01/category02/sort01.html"
@@ -665,8 +666,25 @@
     "rush_yds": 41,
     "rush_td": 0,
     "sacks": 0
+   },
+   {
+    "date": "2026-10-17",
+    "espn_event": "401856809",
+    "opp": "BYU",
+    "site": "A",
+    "level": "FBS",
+    "result": "L 24-28",
+    "cmp": 27,
+    "att": 49,
+    "yds": 261,
+    "td": 0,
+    "int": 0,
+    "rush_att": 6,
+    "rush_yds": 13,
+    "rush_td": 0,
+    "sacks": 0
    }
   ],
-  "retrieved_at": "2026-10-17T23:10+00:00"
+  "retrieved_at": "2026-10-18T05:25+00:00"
  }
 }

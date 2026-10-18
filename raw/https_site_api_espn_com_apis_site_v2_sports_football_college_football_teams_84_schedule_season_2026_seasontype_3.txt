@@ -1,0 +1,2 @@
+200
+{"timestamp":"2026-10-18T05:23:44Z","status":"success","season":{"year":2026,"type":2,"name":"Regular Season","displayName":"2026","half":1},"team":{"id":"84","abbreviation":"IU","location":"Indiana","name":"Hoosiers","displayName":"Indiana Hoosiers","clubhouse":"https://www.espn.com/college-football/team/_/id/84/indiana-hoosiers","color":"970310","logo":"https://a.espncdn.com/i/teamlogos/ncaa/500/84.png","recordSummary":"6-1","seasonSummary":"2026","standingSummary":"3rd in Big Ten","groups":{"id":"5","parent":{"id":"80"},"isConference":true}},"events":[]}
