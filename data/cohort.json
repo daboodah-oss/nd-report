@@ -195,6 +195,21 @@
      "rec": 0,
      "rec_yds": 0,
      "rec_td": 0
+    },
+    {
+     "date": "2026-10-17",
+     "opp": "Florida State Seminoles",
+     "result": "W 43-35 2OT",
+     "cmp": 23,
+     "att": 34,
+     "yds": 326,
+     "td": 3,
+     "int": 1,
+     "rush_yds": 6,
+     "rush_td": 0,
+     "rec": 0,
+     "rec_yds": 0,
+     "rec_td": 0
     }
    ]
   },
@@ -410,5 +425,5 @@
    ]
   }
  ],
- "retrieved_at": "2026-10-18T03:57+00:00"
+ "retrieved_at": "2026-10-18T05:31+00:00"
 }

@@ -266,6 +266,34 @@ def season_sums(games):
     return {"games": len(games), **{k: sum(g[k] for g in games) for k in TEAM_KEYS}}
 
 
+# Known source errors: one team, one season, one stat, pinned to the exact disagreeing pair.  Each entry lets
+# that single comparison pass ONLY when ESPN's sum and cfbstats' total are exactly the recorded values; any other
+# value (including a later correction on either side) falls back to the normal exact check.  Like the 0.15 ESPN
+# passer-rating tolerance, this is one comparison only; every other field and season is checked as before.
+SOURCE_EXCEPTIONS = {
+    ("87", "2024", "third_att"): {
+        "espn": 185, "cfbstats": 184,
+        "why": "cfbstats lists Notre Dame 3-of-9 on third down vs Northern Illinois (2024-09-07); the official "
+               "stat-crew box score (niuhuskies.com boxscore 24108: '3rd. Down Conv.' UND 3 of 10), ESPN's box score "
+               "(3-10) and ESPN's play-by-play (10 snaps) all give 10 attempts, so ESPN's 185 is stored"},
+}
+
+
+def apply_exceptions(tid, season, got, want, tag):
+    """Swap in ESPN's value for a pinned known-source-error comparison.  Returns the notes to log and show."""
+    notes = []
+    for (t, s, k), e in SOURCE_EXCEPTIONS.items():
+        if (t, s) != (str(tid), str(season)) or k not in want: continue
+        if got.get(k) == e["espn"] and want[k] == e["cfbstats"]:
+            want[k] = got[k]
+            notes.append(f"{k} {e['espn']} stored from ESPN, cfbstats {e['cfbstats']} (known cfbstats error: {e['why']})")
+            print(f"EXCEPTION applied ({tag}): {notes[-1]}")
+        else:
+            print(f"EXCEPTION not applied ({tag}): {k} ESPN {got.get(k)} / cfbstats {want[k]} is not the recorded pair "
+                  f"{e['espn']} / {e['cfbstats']}; normal exact check")
+    return notes
+
+
 def team_season(x):
     """Store one team's season of box-score rows: {team_id, name, season, games, cfbstats|None, complete}.
     If cfbstats season totals are given they must match the sums exactly, or nothing is stored."""
@@ -276,7 +304,9 @@ def team_season(x):
     cf = x.get("cfbstats")
     if cf:
         got = season_sums(games)
-        diffs = compare(got, cf["totals"], f"team-season {x.get('name')} {season}")
+        want = dict(cf["totals"])
+        exc = apply_exceptions(tid, season, got, want, f"team-season {x.get('name')} {season}")
+        diffs = exc + compare(got, want, f"team-season {x.get('name')} {season}")
     d = load_or("team.json", {"teams": {}, "ap": None})
     t = d["teams"].setdefault(tid, {"name": x.get("name"), "seasons": {}})
     t["name"] = x.get("name") or t.get("name")

@@ -1,0 +1,142 @@
+== ESPN, Notre Dame 2024: box score vs play-by-play (3rd-down scrimmage plays)
+2024-08-31 Texas A&M              event 401628332  box 2-12  pbp plays 12 (minus 0 with an accepted ND penalty = 12)  other: {'Penalty': 2, 'Kickoff': 1, 'Timeout': 1}
+2024-09-07 Northern Illinois      event 401628977  box 3-10  pbp plays 11 (minus 1 with an accepted ND penalty = 10)  other: {'Blocked Field Goal': 1}
+      ND penalty on the play: Q2 5:34 Jeremiyah Love run for 27 yds to the NIU 34 Notre Dame Penalty, Offensive Holding (-10 Yards) to the ND 35
+2024-09-14 Purdue                 event 401628978  box 7-12  pbp plays 12 (minus 0 with an accepted ND penalty = 12)  other: {'Timeout': 1}
+2024-09-21 Miami (OH)             event 401628979  box 5-11  pbp plays 11 (minus 0 with an accepted ND penalty = 11)  other: {'Penalty': 2, 'Timeout': 1}
+2024-09-28 Louisville             event 401628980  box 2-10  pbp plays 10 (minus 0 with an accepted ND penalty = 10)  other: {'Penalty': 1, 'Timeout': 2}
+2024-10-12 Stanford               event 401628981  box 6-11  pbp plays 11 (minus 0 with an accepted ND penalty = 11)  other: {'Timeout': 1, 'Penalty': 1}
+2024-10-19 Georgia Tech           event 401628982  box 4-12  pbp plays 12 (minus 0 with an accepted ND penalty = 12)  other: {'Penalty': 1}
+2024-10-26 Navy                   event 401628983  box 8-13  pbp plays 13 (minus 0 with an accepted ND penalty = 13)  other: {'Penalty': 2, 'Timeout': 1}
+2024-11-09 Florida State          event 401628984  box 5-12  pbp plays 12 (minus 0 with an accepted ND penalty = 12)  other: {}
+2024-11-16 Virginia               event 401628985  box 1-12  pbp plays 12 (minus 0 with an accepted ND penalty = 12)  other: {'Penalty': 2}
+2024-11-23 Army                   event 401640959  box 3-5  pbp plays 5 (minus 0 with an accepted ND penalty = 5)  other: {'Penalty': 1, 'Field Goal Missed': 1}
+2024-11-30 USC                    event 401628571  box 3-9  pbp plays 9 (minus 0 with an accepted ND penalty = 9)  other: {'Penalty': 1}
+2024-12-20 Indiana                event 401677179  box 7-13  pbp plays 13 (minus 0 with an accepted ND penalty = 13)  other: {}
+2025-01-02 Georgia                event 401677184  box 4-14  pbp plays 14 (minus 0 with an accepted ND penalty = 14)  other: {'Timeout': 1}
+2025-01-09 Penn State             event 401677189  box 11-17  pbp plays 17 (minus 0 with an accepted ND penalty = 17)  other: {'Penalty': 2, 'Kickoff': 1, 'Timeout': 3}
+2025-01-20 Ohio State             event 401677192  box 5-12  pbp plays 12 (minus 0 with an accepted ND penalty = 12)  other: {'Kickoff': 1, 'Penalty': 1}
+ESPN box total: 185 attempts, 76 conversions, 16 games
+
+== ESPN team season statistics 2024
+  seasontype=2: thirdDownConvs = 76
+  seasontype=2: thirdDownAttempts = 185
+  seasontype=2: thirdDownConvPct = 41.08
+  seasontype=2: thirdDownEff = 76-185
+  seasontype=3: thirdDownConvs = 76
+  seasontype=3: thirdDownAttempts = 185
+  seasontype=3: thirdDownConvPct = 41.08
+  seasontype=3: thirdDownEff = 76-185
+  seasontype=None: thirdDownConvs = 76
+  seasontype=None: thirdDownAttempts = 185
+  seasontype=None: thirdDownConvPct = 41.08
+  seasontype=None: thirdDownEff = 76-185
+
+== cfbstats 2024 team 513: season totals
+  through 2025-01-20: games 16, third_att 184, third_conv 76
+
+== cfbstats https://cfbstats.com/2024/team/513/thirddown/offense/split.html
+-- table 0 (19x5)
+                   Split   G  Attempts  Conversions Conversion %
+0              All Games  16       184           76        41.30
+1                at Home   7        78           29        37.18
+2   on Road/Neutral Site   9       106           47        44.34
+3                in Wins  14       163           68        41.72
+4              in Losses   2        21            8        38.10
+5         vs. Conference   0         0            0            -
+6     vs. Non-Conference  16       184           76        41.30
+7        vs. Ranked (AP)   5        61           30        49.18
+8      vs. Unranked (AP)  11       123           46        37.40
+9          vs. FBS (I-A)  16       184           76        41.30
+10        vs. FCS (I-AA)   0         0            0            -
+11       vs. FBS Winning  12       137           57        41.61
+12   vs. FBS Non-Winning   4        47           19        40.43
+13       vs. FBS Power 5  12       146           57        39.04
+14   vs. FBS non-Power 5   4        38           19        50.00
+15   in August/September   5        54           19        35.19
+16            in October   3        36           18        50.00
+17           in November   4        38           12        31.58
+18   in December/January   4        56           27        48.21
+  game/log links: ['/2024/team/513/thirddown/defense/gamelog.html', '/2024/team/513/thirddown/offense/gamelog.html']
+
+== cfbstats https://cfbstats.com/2024/team/513/thirddown/offense/gamelog.html
+-- table 0 (18x7)
+                          Date                    Opponent                     Surface                      Result                    Attempts                 Conversions                Conversion %
+0                     08/31/24                 @ Texas A&M                       Grass                     W 23-13                          12                           2                       16.67
+1                     09/07/24           Northern Illinois                        Turf                     L 14-16                           9                           3                       33.33
+2                     09/14/24                    @ Purdue                       Grass                      W 66-7                          12                           7                       58.33
+3                     09/21/24                  Miami (OH)                        Turf                      W 28-3                          11                           5                       45.45
+4                     09/28/24                  Louisville                        Turf                     W 31-24                          10                           2                       20.00
+5                     10/12/24                    Stanford                        Turf                      W 49-7                          11                           6                       54.55
+6                     10/19/24              + Georgia Tech                        Turf                     W 31-13                          12                           4                       33.33
+7                     10/26/24                      + Navy                        Turf                     W 51-14                          13                           8                       61.54
+8                     11/09/24               Florida State                        Turf                      W 52-3                          12                           5                       41.67
+9                     11/16/24                    Virginia                        Turf                     W 35-14                          12                           1                        8.33
+10                    11/23/24                   + 21 Army                       Grass                     W 49-14                           5                           3                       60.00
+11                    11/30/24                       @ USC                       Grass                     W 49-35                           9                           3                       33.33
+12                    12/20/24                  10 Indiana                        Turf                     W 27-17                          13                           7                       53.85
+13                    01/02/25                 + 6 Georgia                        Turf                     W 23-10                          14                           4                       28.57
+14                    01/09/25              + 5 Penn State                       Grass                     W 27-24                          17                          11                       64.71
+15                    01/20/25              + 1 Ohio State                        Turf                     L 23-34                          12                           5                       41.67
+16                         NaN                      Totals                      Totals                      Totals                         184                          76                       41.30
+17  @ : Away, + : Neutral Site  @ : Away, + : Neutral Site  @ : Away, + : Neutral Site  @ : Away, + : Neutral Site  @ : Away, + : Neutral Site  @ : Away, + : Neutral Site  @ : Away, + : Neutral Site
+  game/log links: ['/2024/team/513/thirddown/defense/gamelog.html']
+
+== cfbstats https://cfbstats.com/2024/team/513/gamelog.html
+  https://cfbstats.com/2024/team/513/gamelog.html: not available (404 Client Error: Not Found for url: https://cfbstats.com/2024/team/513/gamelog.html)
+
+== cfbstats https://cfbstats.com/2024/team/513/total/index.html
+-- table 0 (17x11)
+    Unnamed: 0             Name   Yr  Pos   G  Rush Yards  Pass Yards  Plays  Total Yards  Yards/Play  Yards/G
+0          1.0    Riley Leonard   SR   QB  16         906        2861    587         3767        6.42    235.4
+1          2.0   Jeremiyah Love   SO   RB  16        1125           0    163         1125        6.90     70.3
+2          3.0   Jadarian Price   SO   RB  16         746           0    120          746        6.22     46.6
+3          4.0     Steve Angeli   SO   QB  11           9         268     45          277        6.16     25.2
+4          5.0  Aneyas Williams   FR   RB  15         219           0     34          219        6.44     14.6
+5          6.0     Kedren Young   FR   RB   7         116           0     21          116        5.52     16.6
+6          7.0       Devyn Ford   SR   RB  13          55           0     13           55        4.23      4.2
+7          8.0    Tyler Buchner   JR   WR   2           4          23      2           27       13.50     13.5
+8          9.0    Jayden Thomas   JR   WR  16          27           0      3           27        9.00      1.7
+9         10.0    Kenny Minchey   FR   QB   1          12           4      3           16        5.33     16.0
+10        11.0   Davis Sherwood   SR   TE  15           0          14      1           14       14.00      0.9
+11        12.0    Jordan Faison   SO   WR  13          10           0      3           10        3.33      0.8
+12        13.0    Justin Fisher   JR   RB  11           4           0      1            4        4.00      0.4
+13        14.0    Jake Tafelski   SR   RB   7           2           0      1            2        2.00      0.3
+14        15.0             Team  NaN  NaN  16         -20           0     16          -20       -1.25     -1.3
+15         NaN            Total  NaN  NaN  16        3215        3170   1013         6385        6.30    399.1
+16         NaN        Opponents  NaN  NaN  16        2209        2710   1035         4919        4.75    307.4
+  game/log links: ['/2024/team/513/total/defense/gamelog.html', '/2024/team/513/total/offense/gamelog.html']
+
+== Official box scores: https://und.com/sports/football/schedule/2024
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024)
+
+== Official box scores: https://und.com/sports/football/schedule/2024?grid=true
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024?grid=true)
+
+== Official box scores: https://und.com/sports/football/schedule
+  no box score links on this page
+
+== Official box scores: https://fightingirish.com/sports/football/schedule/2024
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024)
+
+== Official box scores: https://fightingirish.com/sports/football/schedule/2024?grid=true
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024?grid=true)
+
+== Official box scores: https://fightingirish.com/sports/football/schedule
+  no box score links on this page
+
+== Official box scores: https://niuhuskies.com/sports/football/schedule/2024
+  13 box score links
+  ['western-illinois', 'boxscore', '24107']: no third-down row found
+  ['notre-dame', 'boxscore', '24108']: no third-down row found
+  ['buffalo', 'boxscore', '24109']: no third-down row found
+  ['north-carolina-state', 'boxscore', '24110']: no third-down row found
+  ['umass', 'boxscore', '24111']: no third-down row found
+  ['bowling-green', 'boxscore', '24112']: no third-down row found
+  ['toledo', 'boxscore', '24113']: no third-down row found
+  ['ball-state', 'boxscore', '24114']: no third-down row found
+  ['western-michigan', 'boxscore', '24115']: no third-down row found
+  ['akron', 'boxscore', '24116']: no third-down row found
+  ['miami', 'boxscore', '24117']: no third-down row found
+  ['central-michigan', 'boxscore', '24118']: no third-down row found
+  ['fresno-state', 'boxscore', '24427']: no third-down row found

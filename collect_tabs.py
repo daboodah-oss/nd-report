@@ -236,6 +236,9 @@ def team_job(C, U, d, keep, tid, name, season, cfb):
     U.team_season({"team_id": tid, "name": name, "season": season, "games": rows, "cfbstats": cf, "check_note": note,
                    "complete": season < C.SEASON, "keep_teams": keep})
     C.log(f"[team] {name} {season}: {len(rows)} games; " + (f"matches cfbstats through {cf['through']}" if cf else note))
+    chk = U.load("team.json")["teams"][tid]["seasons"][str(season)].get("check", "")
+    if "known cfbstats error" in chk:  # a pinned update.SOURCE_EXCEPTIONS entry applied: name it in the run log
+        C.log(f"[team] {name} {season}: EXCEPTION applied: " + chk.split(", except ", 1)[-1])
 
 
 def players(C, U):
