@@ -107,5 +107,36 @@ ESPN box total: 185 attempts, 76 conversions, 16 games
 16         NaN        Opponents  NaN  NaN  16        2209        2710   1035         4919        4.75    307.4
   game/log links: ['/2024/team/513/total/defense/gamelog.html', '/2024/team/513/total/offense/gamelog.html']
 
+== Official box scores: https://und.com/sports/football/schedule/2024
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024)
+
+== Official box scores: https://und.com/sports/football/schedule/2024?grid=true
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024?grid=true)
+
+== Official box scores: https://und.com/sports/football/schedule
+  no box score links on this page
+
 == Official box scores: https://fightingirish.com/sports/football/schedule/2024
-  schedule not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024)
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024)
+
+== Official box scores: https://fightingirish.com/sports/football/schedule/2024?grid=true
+  not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024?grid=true)
+
+== Official box scores: https://fightingirish.com/sports/football/schedule
+  no box score links on this page
+
+== Official box scores: https://niuhuskies.com/sports/football/schedule/2024
+  13 box score links
+  ['western-illinois', 'boxscore', '24107']: no third-down row found
+  ['notre-dame', 'boxscore', '24108']: no third-down row found
+  ['buffalo', 'boxscore', '24109']: no third-down row found
+  ['north-carolina-state', 'boxscore', '24110']: no third-down row found
+  ['umass', 'boxscore', '24111']: no third-down row found
+  ['bowling-green', 'boxscore', '24112']: no third-down row found
+  ['toledo', 'boxscore', '24113']: no third-down row found
+  ['ball-state', 'boxscore', '24114']: no third-down row found
+  ['western-michigan', 'boxscore', '24115']: no third-down row found
+  ['akron', 'boxscore', '24116']: no third-down row found
+  ['miami', 'boxscore', '24117']: no third-down row found
+  ['central-michigan', 'boxscore', '24118']: no third-down row found
+  ['fresno-state', 'boxscore', '24427']: no third-down row found
