@@ -1,0 +1,1645 @@
+200
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-10344841-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-10344841-1');
+</script>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>cfbstats.com - 2026 National Player Leaders</title>
+<link rel="stylesheet" type="text/css" href="/css/cfbstats.css">
+<link rel="stylesheet" type="text/css" href="/css/leader.css">
+<style type="text/css">
+<!--
+table.leaders {width: 100%;}
+table.leaders th.rank {width: 2%;}
+table.leaders th.player-name {width: 18%;}
+table.leaders th.player-team-name {width: 10%;}
+table.leaders th.year {width: 3%;}
+table.leaders th.position {width: 3%;}
+table.leaders th.g {width: 3%;}
+table.leaders th.rec {width: 10%;}
+table.leaders th.rec-yard {width: 11%;}
+table.leaders th.rec-avg {width: 10%;}
+table.leaders th.rec-td {width: 10%;}
+table.leaders th.rec-g {width: 10%;}
+table.leaders th.rec-yard-g {width: 10%;}
+-->
+</style>
+
+<!-- START Drew's Adds -->
+<script type="text/javascript" src="/wp-content/custom-php/jquery/jquery.min.js?version=133"></script>
+<script type="text/javascript" src="/wp-content/custom-php/cfbstats.js"></script>
+<link rel="image_src" type="image/jpeg" href="/wp-content/custom-php/images/socialLogo.png" />
+
+<link rel="stylesheet" href="/wp-content/custom-php/bootstrap/css/bootstrap.min.css?version=1">
+<link rel="stylesheet" href="/wp-content/custom-php/bootstrap/css/bootstrap-theme.min.css?version=1">
+<link rel="stylesheet" href="/wp-content/custom-php/cfbstats.css">
+
+<!-- Start DFP SETUP - Header Tags -->
+<script type='text/javascript'>
+    var gptadslots=[], googletag = googletag || {}; googletag.cmd = googletag.cmd || [];
+    (function(){ var gads = document.createElement('script');
+        gads.async = true; gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+    })();
+</script>
+<script type='text/javascript' src='https://img.bnqt.com/lib/js/sdpdfphelper.js'></script>
+<script type='text/javascript'>
+    googletag.cmd.push(function() {
+        googletag.pubads().enableAsyncRendering(); googletag.pubads().enableSingleRequest();
+        googletag.pubads().setTargeting('title', sdpTargeting.title)
+            .setTargeting('targetPaths', sdpTargeting.targetPaths)
+            .setTargeting('fullPath', sdpTargeting.fullPath)
+            .setTargeting('queryStr', sdpTargeting.queryStr)
+            .setTargeting('domainName', sdpTargeting.domainName);
+    });
+</script>
+<!-- DFP SETUP end -->
+<!-- END Drew's Adds -->
+</head>
+
+<body>
+<div id="wrapper">
+<div id="breadcrumb">
+  <span class="label">You are here:</span>
+  <a href="/">Home</a>
+  <span class="separator">&gt;</span>
+  <a href="/2026/national/index.html">2026 National</a>
+  <span class="separator">&gt;</span>
+  <span class="selected">Receiving - All Games</span>
+</div> <!-- breadcrumb -->
+
+<!-- New navbar, added by Drew -->
+<nav class="navbar navbar-default navbar-static-top navbar-inverse navbar-thin" role="navigation" style="margin-bottom:0px;">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <img src="/wp-content/custom-php/images/__TrackingFootball_Logo_Textmark.svg" style="border:0;margin-top:13px"/>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-nav-thin navbar-right">
+        <li><a href="https://x.com/TrckFootball"><img src="/wp-content/custom-php/images/twitter_icon_24.png" width="14" style="margin-bottom:5px"/> @TrckFootball</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div id="globalHeader">
+  <a id="imagemap" href="/"></a>
+  <ul id="globalNav">
+    <li><a href="/">Home</a></li>
+    <li><a href="/2026/national/index.html">National</a></li>
+    <li><a href="/2026/conference/index.html">Conferences</a></li>
+    <li><a href="/2026/team/index.html">Teams</a></li>
+    <li><a href="/2026/player/index.html">Players</a></li>
+  </ul>
+</div> <!-- globalHeader -->
+<div id="content">
+<?php include('/home/webadmin/cfbstats.com/html/banner.php'); ?>
+<h1 id="pageTitle">2026 National Leaders
+Receiving - All Games
+through 10/16/2026</h1>
+<div id="seasons">
+<ul>
+  <li class="selected">2026</li>
+  <li><a href="/2025/leader/national/player/split01/category03/sort04.html">2025</a></li>
+  <li><a href="/2024/leader/national/player/split01/category03/sort04.html">2024</a></li>
+  <li><a href="/2023/leader/national/player/split01/category03/sort04.html">2023</a></li>
+  <li><a href="/2022/leader/national/player/split01/category03/sort04.html">2022</a></li>
+  <li><a href="/2021/leader/national/player/split01/category03/sort04.html">2021</a></li>
+  <li><a href="/2020/leader/national/player/split01/category03/sort04.html">2020</a></li>
+</ul>
+</div>
+<div class="leaders">
+<table class="leaders">
+  <tr>
+    <th scope="col" class="rank"></th>
+    <th scope="col" class="player-name">Name</th>
+    <th scope="col" class="player-team-name">Team</th>
+    <th scope="col" class="year">Yr</th>
+    <th scope="col" class="position">Pos</th>
+    <th scope="col" class="g">G</th>
+    <th scope="col" class="rec highlight">Rec.</th>
+    <th scope="col" class="rec-yard"><a href="/2026/leader/national/player/split01/category03/sort03.html">Yards</a></th>
+    <th scope="col" class="rec-avg"><a href="/2026/leader/national/player/split01/category03/sort05.html">Avg.</a></th>
+    <th scope="col" class="rec-td"><a href="/2026/leader/national/player/split01/category03/sort06.html">TD</a></th>
+    <th scope="col" class="rec-g"><a href="/2026/leader/national/player/split01/category03/sort02.html">Rec./G</a></th>
+    <th scope="col" class="rec-yard-g"><a href="/2026/leader/national/player/split01/category03/sort01.html">Yards/G</a></th>
+  </tr>
+  <tr>
+  <td>1</td>
+  <td class="player-name"><a href="/2026/player/749/2000598/receiving/split.html">Carlos Hernandez</a></td>
+  <td><a href="/2026/team/749/receiving/offense/split.html">Wk Forest</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>49</td>
+  <td>720</td>
+  <td>14.69</td>
+  <td>4</td>
+  <td>8.2</td>
+  <td>120.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>2</td>
+  <td class="player-name"><a href="/2026/player/518/50312218/receiving/split.html">Jeremiah Smith</a></td>
+  <td><a href="/2026/team/518/receiving/offense/split.html">Ohio State</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>48</td>
+  <td>916</td>
+  <td>19.08</td>
+  <td>11</td>
+  <td>8.0</td>
+  <td>152.7</td>
+  </tr>
+  <tr>
+  <td>2</td>
+  <td class="player-name"><a href="/2026/player/756/50284098/receiving/split.html">Dezmen Roebuck</a></td>
+  <td><a href="/2026/team/756/receiving/offense/split.html">Washington</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>48</td>
+  <td>484</td>
+  <td>10.08</td>
+  <td>3</td>
+  <td>6.9</td>
+  <td>69.1</td>
+  </tr>
+  <tr class="even-row">
+  <td>4</td>
+  <td class="player-name"><a href="/2026/player/301/2001442/receiving/split.html">Collin Dixon</a></td>
+  <td><a href="/2026/team/301/receiving/offense/split.html">Illinois</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>47</td>
+  <td>608</td>
+  <td>12.94</td>
+  <td>9</td>
+  <td>7.8</td>
+  <td>101.3</td>
+  </tr>
+  <tr>
+  <td>5</td>
+  <td class="player-name"><a href="/2026/player/392/50281408/receiving/split.html">Chris Durr Jr.</a></td>
+  <td><a href="/2026/team/392/receiving/offense/split.html">Maryland</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>46</td>
+  <td>476</td>
+  <td>10.35</td>
+  <td>4</td>
+  <td>7.7</td>
+  <td>79.3</td>
+  </tr>
+  <tr class="even-row">
+  <td>6</td>
+  <td class="player-name"><a href="/2026/player/434/2002189/receiving/split.html">Cayden Lee</a></td>
+  <td><a href="/2026/team/434/receiving/offense/split.html">Missouri</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>42</td>
+  <td>616</td>
+  <td>14.67</td>
+  <td>5</td>
+  <td>7.0</td>
+  <td>102.7</td>
+  </tr>
+  <tr>
+  <td>6</td>
+  <td class="player-name"><a href="/2026/player/31/1180365/receiving/split.html">Chris Marshall</a></td>
+  <td><a href="/2026/team/31/receiving/offense/split.html">Arkansas</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>42</td>
+  <td>605</td>
+  <td>14.40</td>
+  <td>2</td>
+  <td>7.0</td>
+  <td>100.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>6</td>
+  <td class="player-name"><a href="/2026/player/51/1177895/receiving/split.html">Gavin Freeman</a></td>
+  <td><a href="/2026/team/51/receiving/offense/split.html">Baylor</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>42</td>
+  <td>479</td>
+  <td>11.40</td>
+  <td>2</td>
+  <td>8.4</td>
+  <td>95.8</td>
+  </tr>
+  <tr>
+  <td>9</td>
+  <td class="player-name"><a href="/2026/player/742/50310486/receiving/split.html">Luke Reynolds</a></td>
+  <td><a href="/2026/team/742/receiving/offense/split.html">Va Tech</a></td>
+  <td>JR</td>
+  <td>TE</td>
+  <td>6</td>
+  <td>41</td>
+  <td>431</td>
+  <td>10.51</td>
+  <td>4</td>
+  <td>6.8</td>
+  <td>71.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>9</td>
+  <td class="player-name"><a href="/2026/player/772/50287926/receiving/split.html">Jonathan Stafford Jr.</a></td>
+  <td><a href="/2026/team/772/receiving/offense/split.html">Western Ky</a></td>
+  <td>FR</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>41</td>
+  <td>369</td>
+  <td>9.00</td>
+  <td>1</td>
+  <td>5.9</td>
+  <td>52.7</td>
+  </tr>
+  <tr>
+  <td>9</td>
+  <td class="player-name"><a href="/2026/player/253/1179842/receiving/split.html">Josh Dallas</a></td>
+  <td><a href="/2026/team/253/receiving/offense/split.html">Ga South</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>41</td>
+  <td>317</td>
+  <td>7.73</td>
+  <td>0</td>
+  <td>5.9</td>
+  <td>45.3</td>
+  </tr>
+  <tr class="even-row">
+  <td>12</td>
+  <td class="player-name"><a href="/2026/player/430/2002349/receiving/split.html">Anthony Evans III</a></td>
+  <td><a href="/2026/team/430/receiving/offense/split.html">Miss St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>40</td>
+  <td>574</td>
+  <td>14.35</td>
+  <td>5</td>
+  <td>8.0</td>
+  <td>114.8</td>
+  </tr>
+  <tr>
+  <td>12</td>
+  <td class="player-name"><a href="/2026/player/229/2001308/receiving/split.html">Kelby Valsin</a></td>
+  <td><a href="/2026/team/229/receiving/offense/split.html">FAU</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>40</td>
+  <td>512</td>
+  <td>12.80</td>
+  <td>5</td>
+  <td>8.0</td>
+  <td>102.4</td>
+  </tr>
+  <tr class="even-row">
+  <td>12</td>
+  <td class="player-name"><a href="/2026/player/742/1202486/receiving/split.html">Que'Sean Brown</a></td>
+  <td><a href="/2026/team/742/receiving/offense/split.html">Va Tech</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>40</td>
+  <td>434</td>
+  <td>10.85</td>
+  <td>2</td>
+  <td>6.7</td>
+  <td>72.3</td>
+  </tr>
+  <tr>
+  <td>15</td>
+  <td class="player-name"><a href="/2026/player/415/50304358/receiving/split.html">Malachi Toney</a></td>
+  <td><a href="/2026/team/415/receiving/offense/split.html">Miami (Fl)</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>39</td>
+  <td>604</td>
+  <td>15.49</td>
+  <td>6</td>
+  <td>7.8</td>
+  <td>120.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>15</td>
+  <td class="player-name"><a href="/2026/player/107/2003289/receiving/split.html">Chase Hendricks</a></td>
+  <td><a href="/2026/team/107/receiving/offense/split.html">California</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>39</td>
+  <td>361</td>
+  <td>9.26</td>
+  <td>2</td>
+  <td>6.5</td>
+  <td>60.2</td>
+  </tr>
+  <tr>
+  <td>17</td>
+  <td class="player-name"><a href="/2026/player/528/50341534/receiving/split.html">Jesse Legree</a></td>
+  <td><a href="/2026/team/528/receiving/offense/split.html">Oregon St</a></td>
+  <td>FR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>38</td>
+  <td>932</td>
+  <td>24.53</td>
+  <td>12</td>
+  <td>6.3</td>
+  <td>155.3</td>
+  </tr>
+  <tr class="even-row">
+  <td>17</td>
+  <td class="player-name"><a href="/2026/player/559/2001503/receiving/split.html">Asaad Waseem</a></td>
+  <td><a href="/2026/team/559/receiving/offense/split.html">Purdue</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>38</td>
+  <td>588</td>
+  <td>15.47</td>
+  <td>1</td>
+  <td>5.4</td>
+  <td>84.0</td>
+  </tr>
+  <tr>
+  <td>17</td>
+  <td class="player-name"><a href="/2026/player/503/1188575/receiving/split.html">DeAree Rogers</a></td>
+  <td><a href="/2026/team/503/receiving/offense/split.html">N Illinois</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>38</td>
+  <td>333</td>
+  <td>8.76</td>
+  <td>2</td>
+  <td>7.6</td>
+  <td>66.6</td>
+  </tr>
+  <tr class="even-row">
+  <td>20</td>
+  <td class="player-name"><a href="/2026/player/688/1127550/receiving/split.html">Umari Hatcher</a></td>
+  <td><a href="/2026/team/688/receiving/offense/split.html">Syracuse</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>37</td>
+  <td>560</td>
+  <td>15.14</td>
+  <td>6</td>
+  <td>7.4</td>
+  <td>112.0</td>
+  </tr>
+  <tr>
+  <td>20</td>
+  <td class="player-name"><a href="/2026/player/630/50311021/receiving/split.html">Carson Clark</a></td>
+  <td><a href="/2026/team/630/receiving/offense/split.html">SJSU</a></td>
+  <td>FR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>37</td>
+  <td>405</td>
+  <td>10.95</td>
+  <td>4</td>
+  <td>6.2</td>
+  <td>67.5</td>
+  </tr>
+  <tr class="even-row">
+  <td>22</td>
+  <td class="player-name"><a href="/2026/player/731/1175612/receiving/split.html">Eli Wood</a></td>
+  <td><a href="/2026/team/731/receiving/offense/split.html">Utah State</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>36</td>
+  <td>472</td>
+  <td>13.11</td>
+  <td>5</td>
+  <td>6.0</td>
+  <td>78.7</td>
+  </tr>
+  <tr>
+  <td>23</td>
+  <td class="player-name"><a href="/2026/player/419/2002440/receiving/split.html">Cam'ron Lacy</a></td>
+  <td><a href="/2026/team/419/receiving/offense/split.html">MTSU</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>35</td>
+  <td>369</td>
+  <td>10.54</td>
+  <td>4</td>
+  <td>5.8</td>
+  <td>61.5</td>
+  </tr>
+  <tr class="even-row">
+  <td>23</td>
+  <td class="player-name"><a href="/2026/player/458/1209071/receiving/split.html">Jaden Barnes</a></td>
+  <td><a href="/2026/team/458/receiving/offense/split.html">Charlotte</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>35</td>
+  <td>343</td>
+  <td>9.80</td>
+  <td>0</td>
+  <td>5.8</td>
+  <td>57.2</td>
+  </tr>
+  <tr>
+  <td>25</td>
+  <td class="player-name"><a href="/2026/player/28/2000413/receiving/split.html">Reed Harris</a></td>
+  <td><a href="/2026/team/28/receiving/offense/split.html">Ariz St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>34</td>
+  <td>590</td>
+  <td>17.35</td>
+  <td>7</td>
+  <td>6.8</td>
+  <td>118.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>25</td>
+  <td class="player-name"><a href="/2026/player/86/1174722/receiving/split.html">Chance Morrow</a></td>
+  <td><a href="/2026/team/86/receiving/offense/split.html">Buffalo</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>34</td>
+  <td>414</td>
+  <td>12.18</td>
+  <td>6</td>
+  <td>5.7</td>
+  <td>69.0</td>
+  </tr>
+  <tr>
+  <td>27</td>
+  <td class="player-name"><a href="/2026/player/587/50312274/receiving/split.html">KJ Duff</a></td>
+  <td><a href="/2026/team/587/receiving/offense/split.html">Rutgers</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>33</td>
+  <td>628</td>
+  <td>19.03</td>
+  <td>7</td>
+  <td>6.6</td>
+  <td>125.6</td>
+  </tr>
+  <tr class="even-row">
+  <td>27</td>
+  <td class="player-name"><a href="/2026/player/231/1127378/receiving/split.html">Maguire Anderson</a></td>
+  <td><a href="/2026/team/231/receiving/offense/split.html">FIU</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>33</td>
+  <td>534</td>
+  <td>16.18</td>
+  <td>4</td>
+  <td>5.5</td>
+  <td>89.0</td>
+  </tr>
+  <tr>
+  <td>27</td>
+  <td class="player-name"><a href="/2026/player/736/2000820/receiving/split.html">Junior Sherrill</a></td>
+  <td><a href="/2026/team/736/receiving/offense/split.html">Vanderbilt</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>33</td>
+  <td>529</td>
+  <td>16.03</td>
+  <td>3</td>
+  <td>5.5</td>
+  <td>88.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>27</td>
+  <td class="player-name"><a href="/2026/player/497/2002927/receiving/split.html">Justin Stevenson</a></td>
+  <td><a href="/2026/team/497/receiving/offense/split.html">N Texas</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>33</td>
+  <td>453</td>
+  <td>13.73</td>
+  <td>5</td>
+  <td>5.5</td>
+  <td>75.5</td>
+  </tr>
+  <tr>
+  <td>27</td>
+  <td class="player-name"><a href="/2026/player/288/2001121/receiving/split.html">Patrick Overmyer</a></td>
+  <td><a href="/2026/team/288/receiving/offense/split.html">Houston</a></td>
+  <td>SR</td>
+  <td>TE</td>
+  <td>6</td>
+  <td>33</td>
+  <td>400</td>
+  <td>12.12</td>
+  <td>6</td>
+  <td>5.5</td>
+  <td>66.7</td>
+  </tr>
+  <tr class="even-row">
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/433/2001072/receiving/split.html">Deuce Alexander</a></td>
+  <td><a href="/2026/team/433/receiving/offense/split.html">Miss</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>32</td>
+  <td>503</td>
+  <td>15.72</td>
+  <td>5</td>
+  <td>6.4</td>
+  <td>100.6</td>
+  </tr>
+  <tr>
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/157/50292529/receiving/split.html">Joseph Williams</a></td>
+  <td><a href="/2026/team/157/receiving/offense/split.html">Colorado</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>32</td>
+  <td>454</td>
+  <td>14.19</td>
+  <td>5</td>
+  <td>6.4</td>
+  <td>90.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/229/1178330/receiving/split.html">Easton Messer</a></td>
+  <td><a href="/2026/team/229/receiving/offense/split.html">FAU</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>32</td>
+  <td>445</td>
+  <td>13.91</td>
+  <td>3</td>
+  <td>6.4</td>
+  <td>89.0</td>
+  </tr>
+  <tr>
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/102/1177975/receiving/split.html">Matt Coleman</a></td>
+  <td><a href="/2026/team/102/receiving/offense/split.html">Sac St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>32</td>
+  <td>454</td>
+  <td>14.19</td>
+  <td>4</td>
+  <td>5.3</td>
+  <td>75.7</td>
+  </tr>
+  <tr class="even-row">
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/463/50312328/receiving/split.html">Kwazi Gilmer</a></td>
+  <td><a href="/2026/team/463/receiving/offense/split.html">Nebraska</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>32</td>
+  <td>418</td>
+  <td>13.06</td>
+  <td>6</td>
+  <td>5.3</td>
+  <td>69.7</td>
+  </tr>
+  <tr>
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/756/50311945/receiving/split.html">Chris Lawson</a></td>
+  <td><a href="/2026/team/756/receiving/offense/split.html">Washington</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>32</td>
+  <td>483</td>
+  <td>15.09</td>
+  <td>2</td>
+  <td>4.6</td>
+  <td>69.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/428/1177591/receiving/split.html">Javon Tracy</a></td>
+  <td><a href="/2026/team/428/receiving/offense/split.html">Minnesota</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>32</td>
+  <td>375</td>
+  <td>11.72</td>
+  <td>1</td>
+  <td>5.3</td>
+  <td>62.5</td>
+  </tr>
+  <tr>
+  <td>32</td>
+  <td class="player-name"><a href="/2026/player/559/1179734/receiving/split.html">Xavier Townsend</a></td>
+  <td><a href="/2026/team/559/receiving/offense/split.html">Purdue</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>32</td>
+  <td>370</td>
+  <td>11.56</td>
+  <td>2</td>
+  <td>4.6</td>
+  <td>52.9</td>
+  </tr>
+  <tr class="even-row">
+  <td>40</td>
+  <td class="player-name"><a href="/2026/player/719/1127323/receiving/split.html">Oran Singleton Jr.</a></td>
+  <td><a href="/2026/team/719/receiving/offense/split.html">Tulsa</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>31</td>
+  <td>387</td>
+  <td>12.48</td>
+  <td>3</td>
+  <td>5.2</td>
+  <td>64.5</td>
+  </tr>
+  <tr>
+  <td>40</td>
+  <td class="player-name"><a href="/2026/player/28/2002441/receiving/split.html">Omarion Miller</a></td>
+  <td><a href="/2026/team/28/receiving/offense/split.html">Ariz St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>31</td>
+  <td>312</td>
+  <td>10.06</td>
+  <td>2</td>
+  <td>6.2</td>
+  <td>62.4</td>
+  </tr>
+  <tr class="even-row">
+  <td>40</td>
+  <td class="player-name"><a href="/2026/player/204/1260870/receiving/split.html">Joshua Long</a></td>
+  <td><a href="/2026/team/204/receiving/offense/split.html">EMU</a></td>
+  <td>JR</td>
+  <td>TE</td>
+  <td>7</td>
+  <td>31</td>
+  <td>282</td>
+  <td>9.10</td>
+  <td>1</td>
+  <td>4.4</td>
+  <td>40.3</td>
+  </tr>
+  <tr>
+  <td>43</td>
+  <td class="player-name"><a href="/2026/player/306/50304327/receiving/split.html">Charlie Becker</a></td>
+  <td><a href="/2026/team/306/receiving/offense/split.html">Indiana</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>30</td>
+  <td>529</td>
+  <td>17.63</td>
+  <td>8</td>
+  <td>5.0</td>
+  <td>88.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>43</td>
+  <td class="player-name"><a href="/2026/player/366/50310539/receiving/split.html">Jalen Mickens</a></td>
+  <td><a href="/2026/team/366/receiving/offense/split.html">La Tech</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>30</td>
+  <td>434</td>
+  <td>14.47</td>
+  <td>3</td>
+  <td>6.0</td>
+  <td>86.8</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/306/50312177/receiving/split.html">Nick Marsh</a></td>
+  <td><a href="/2026/team/306/receiving/offense/split.html">Indiana</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>528</td>
+  <td>18.21</td>
+  <td>6</td>
+  <td>4.8</td>
+  <td>88.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/367/1238909/receiving/split.html">Tre Richardson</a></td>
+  <td><a href="/2026/team/367/receiving/offense/split.html">Louisville</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>445</td>
+  <td>15.34</td>
+  <td>2</td>
+  <td>4.8</td>
+  <td>74.2</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/663/2000365/receiving/split.html">Yamir Knight</a></td>
+  <td><a href="/2026/team/663/receiving/offense/split.html">SMU</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>29</td>
+  <td>367</td>
+  <td>12.66</td>
+  <td>2</td>
+  <td>5.8</td>
+  <td>73.4</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/365/50311659/receiving/split.html">Winston Watkins, Jr.</a></td>
+  <td><a href="/2026/team/365/receiving/offense/split.html">LSU</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>416</td>
+  <td>14.34</td>
+  <td>2</td>
+  <td>4.8</td>
+  <td>69.3</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/30/2001379/receiving/split.html">Hunter Summers</a></td>
+  <td><a href="/2026/team/30/receiving/offense/split.html">Ark St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>408</td>
+  <td>14.07</td>
+  <td>3</td>
+  <td>4.8</td>
+  <td>68.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/334/50310928/receiving/split.html">Kenny Darby</a></td>
+  <td><a href="/2026/team/334/receiving/offense/split.html">Kentucky</a></td>
+  <td>FR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>401</td>
+  <td>13.83</td>
+  <td>3</td>
+  <td>4.8</td>
+  <td>66.8</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/96/1179673/receiving/split.html">Josiah Freeman</a></td>
+  <td><a href="/2026/team/96/receiving/offense/split.html">Fresno St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>396</td>
+  <td>13.66</td>
+  <td>2</td>
+  <td>4.8</td>
+  <td>66.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/37/2002346/receiving/split.html">Keshaun Singleton</a></td>
+  <td><a href="/2026/team/37/receiving/offense/split.html">Auburn</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>29</td>
+  <td>322</td>
+  <td>11.10</td>
+  <td>1</td>
+  <td>5.8</td>
+  <td>64.4</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/288/2002206/receiving/split.html">Amare Thomas</a></td>
+  <td><a href="/2026/team/288/receiving/offense/split.html">Houston</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>361</td>
+  <td>12.45</td>
+  <td>4</td>
+  <td>4.8</td>
+  <td>60.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/428/1216794/receiving/split.html">Noah Jennings</a></td>
+  <td><a href="/2026/team/428/receiving/offense/split.html">Minnesota</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>360</td>
+  <td>12.41</td>
+  <td>1</td>
+  <td>4.8</td>
+  <td>60.0</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/670/2000589/receiving/split.html">Chris Dawn, Jr.</a></td>
+  <td><a href="/2026/team/670/receiving/offense/split.html">Texas St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>348</td>
+  <td>12.00</td>
+  <td>4</td>
+  <td>4.8</td>
+  <td>58.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/277/50359808/receiving/split.html">Kainoa Carvalho</a></td>
+  <td><a href="/2026/team/277/receiving/offense/split.html">Hawai'i</a></td>
+  <td>FR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>335</td>
+  <td>11.55</td>
+  <td>0</td>
+  <td>4.8</td>
+  <td>55.8</td>
+  </tr>
+  <tr>
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/196/2000858/receiving/split.html">Ray Ray Joseph Jr.</a></td>
+  <td><a href="/2026/team/196/receiving/offense/split.html">ECU</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>272</td>
+  <td>9.38</td>
+  <td>3</td>
+  <td>4.8</td>
+  <td>45.3</td>
+  </tr>
+  <tr class="even-row">
+  <td>45</td>
+  <td class="player-name"><a href="/2026/player/277/2002175/receiving/split.html">Tama Uiliata</a></td>
+  <td><a href="/2026/team/277/receiving/offense/split.html">Hawai'i</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>29</td>
+  <td>255</td>
+  <td>8.79</td>
+  <td>1</td>
+  <td>4.8</td>
+  <td>42.5</td>
+  </tr>
+  <tr>
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/664/1237776/receiving/split.html">Mario Sanders</a></td>
+  <td><a href="/2026/team/664/receiving/offense/split.html">USM</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>28</td>
+  <td>404</td>
+  <td>14.43</td>
+  <td>5</td>
+  <td>5.6</td>
+  <td>80.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/698/50311354/receiving/split.html">Ed Small</a></td>
+  <td><a href="/2026/team/698/receiving/offense/split.html">TCU</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>28</td>
+  <td>403</td>
+  <td>14.39</td>
+  <td>1</td>
+  <td>5.6</td>
+  <td>80.6</td>
+  </tr>
+  <tr>
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/107/2000353/receiving/split.html">Ian Strong</a></td>
+  <td><a href="/2026/team/107/receiving/offense/split.html">California</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>396</td>
+  <td>14.14</td>
+  <td>1</td>
+  <td>4.7</td>
+  <td>66.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/513/1205334/receiving/split.html">Jordan Faison</a></td>
+  <td><a href="/2026/team/513/receiving/offense/split.html">Notre Dame</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>387</td>
+  <td>13.82</td>
+  <td>4</td>
+  <td>4.7</td>
+  <td>64.5</td>
+  </tr>
+  <tr>
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/255/50311358/receiving/split.html">Jordan Allen</a></td>
+  <td><a href="/2026/team/255/receiving/offense/split.html">Ga Tech</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>28</td>
+  <td>312</td>
+  <td>11.14</td>
+  <td>1</td>
+  <td>5.6</td>
+  <td>62.4</td>
+  </tr>
+  <tr class="even-row">
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/312/50289551/receiving/split.html">Tony Diaz</a></td>
+  <td><a href="/2026/team/312/receiving/offense/split.html">Iowa</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>329</td>
+  <td>11.75</td>
+  <td>1</td>
+  <td>4.7</td>
+  <td>54.8</td>
+  </tr>
+  <tr>
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/400/1174771/receiving/split.html">T.Y. Harding</a></td>
+  <td><a href="/2026/team/400/receiving/offense/split.html">U Mass</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>327</td>
+  <td>11.68</td>
+  <td>2</td>
+  <td>4.7</td>
+  <td>54.5</td>
+  </tr>
+  <tr class="even-row">
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/128/2002820/receiving/split.html">Josh Derry</a></td>
+  <td><a href="/2026/team/128/receiving/offense/split.html">UCF</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>304</td>
+  <td>10.86</td>
+  <td>2</td>
+  <td>4.7</td>
+  <td>50.7</td>
+  </tr>
+  <tr>
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/624/1183514/receiving/split.html">Grady O'Neill</a></td>
+  <td><a href="/2026/team/624/receiving/offense/split.html">Sam Hou St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>260</td>
+  <td>9.29</td>
+  <td>2</td>
+  <td>4.7</td>
+  <td>43.3</td>
+  </tr>
+  <tr class="even-row">
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/204/1238881/receiving/split.html">Benson Prosper</a></td>
+  <td><a href="/2026/team/204/receiving/offense/split.html">EMU</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>28</td>
+  <td>301</td>
+  <td>10.75</td>
+  <td>1</td>
+  <td>4.0</td>
+  <td>43.0</td>
+  </tr>
+  <tr>
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/334/50304338/receiving/split.html">Willie Rodriguez</a></td>
+  <td><a href="/2026/team/334/receiving/offense/split.html">Kentucky</a></td>
+  <td>JR</td>
+  <td>TE</td>
+  <td>6</td>
+  <td>28</td>
+  <td>219</td>
+  <td>7.82</td>
+  <td>1</td>
+  <td>4.7</td>
+  <td>36.5</td>
+  </tr>
+  <tr class="even-row">
+  <td>59</td>
+  <td class="player-name"><a href="/2026/player/706/2002370/receiving/split.html">David Amador II</a></td>
+  <td><a href="/2026/team/706/receiving/offense/split.html">UTSA</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>28</td>
+  <td>217</td>
+  <td>7.75</td>
+  <td>1</td>
+  <td>4.7</td>
+  <td>36.2</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/521/50212082/receiving/split.html">Wyatt Young</a></td>
+  <td><a href="/2026/team/521/receiving/offense/split.html">Okla St</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>27</td>
+  <td>462</td>
+  <td>17.11</td>
+  <td>4</td>
+  <td>5.4</td>
+  <td>92.4</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/669/1238956/receiving/split.html">Isaiah Myers</a></td>
+  <td><a href="/2026/team/669/receiving/offense/split.html">MO State</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>554</td>
+  <td>20.52</td>
+  <td>5</td>
+  <td>4.5</td>
+  <td>92.3</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/529/1175403/receiving/split.html">Evan Stewart</a></td>
+  <td><a href="/2026/team/529/receiving/offense/split.html">Oregon</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>27</td>
+  <td>352</td>
+  <td>13.04</td>
+  <td>4</td>
+  <td>5.4</td>
+  <td>70.4</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/301/1183509/receiving/split.html">Hudson Clement</a></td>
+  <td><a href="/2026/team/301/receiving/offense/split.html">Illinois</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>404</td>
+  <td>14.96</td>
+  <td>1</td>
+  <td>4.5</td>
+  <td>67.3</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/709/2002016/receiving/split.html">Adjatay Dabbs</a></td>
+  <td><a href="/2026/team/709/receiving/offense/split.html">Toledo</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>402</td>
+  <td>14.89</td>
+  <td>4</td>
+  <td>4.5</td>
+  <td>67.0</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/490/50304380/receiving/split.html">Keenan Jackson</a></td>
+  <td><a href="/2026/team/490/receiving/offense/split.html">NC State</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>400</td>
+  <td>14.81</td>
+  <td>5</td>
+  <td>4.5</td>
+  <td>66.7</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/519/1244181/receiving/split.html">Riley Neer</a></td>
+  <td><a href="/2026/team/519/receiving/offense/split.html">Ohio</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>397</td>
+  <td>14.70</td>
+  <td>5</td>
+  <td>4.5</td>
+  <td>66.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/366/2001402/receiving/split.html">Eli Finley</a></td>
+  <td><a href="/2026/team/366/receiving/offense/split.html">La Tech</a></td>
+  <td>SR</td>
+  <td>TE</td>
+  <td>5</td>
+  <td>27</td>
+  <td>325</td>
+  <td>12.04</td>
+  <td>4</td>
+  <td>5.4</td>
+  <td>65.0</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/331/50293158/receiving/split.html">Wayne Harris</a></td>
+  <td><a href="/2026/team/331/receiving/offense/split.html">Kent State</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>368</td>
+  <td>13.63</td>
+  <td>1</td>
+  <td>4.5</td>
+  <td>61.3</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/657/50285495/receiving/split.html">Kayden Dixon-Wyatt</a></td>
+  <td><a href="/2026/team/657/receiving/offense/split.html">USC</a></td>
+  <td>FR</td>
+  <td>WR</td>
+  <td>7</td>
+  <td>27</td>
+  <td>400</td>
+  <td>14.81</td>
+  <td>4</td>
+  <td>3.9</td>
+  <td>57.1</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/463/50212073/receiving/split.html">Jacory Barney, Jr.</a></td>
+  <td><a href="/2026/team/463/receiving/offense/split.html">Nebraska</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>341</td>
+  <td>12.63</td>
+  <td>2</td>
+  <td>4.5</td>
+  <td>56.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/651/2000746/receiving/split.html">Bryson Rodgers</a></td>
+  <td><a href="/2026/team/651/receiving/offense/split.html">S Florida</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>312</td>
+  <td>11.56</td>
+  <td>2</td>
+  <td>4.5</td>
+  <td>52.0</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/30/2000737/receiving/split.html">Chauncy Cobb</a></td>
+  <td><a href="/2026/team/30/receiving/offense/split.html">Ark St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>307</td>
+  <td>11.37</td>
+  <td>1</td>
+  <td>4.5</td>
+  <td>51.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/204/50211218/receiving/split.html">Harold Mack</a></td>
+  <td><a href="/2026/team/204/receiving/offense/split.html">EMU</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>27</td>
+  <td>300</td>
+  <td>11.11</td>
+  <td>3</td>
+  <td>4.5</td>
+  <td>50.0</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/528/1179465/receiving/split.html">Eric Olsen</a></td>
+  <td><a href="/2026/team/528/receiving/offense/split.html">Oregon St</a></td>
+  <td>SR</td>
+  <td>TE</td>
+  <td>6</td>
+  <td>27</td>
+  <td>280</td>
+  <td>10.37</td>
+  <td>3</td>
+  <td>4.5</td>
+  <td>46.7</td>
+  </tr>
+  <tr class="even-row">
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/669/1179155/receiving/split.html">Jmariyae Robinson</a></td>
+  <td><a href="/2026/team/669/receiving/offense/split.html">MO State</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>27</td>
+  <td>211</td>
+  <td>7.81</td>
+  <td>0</td>
+  <td>5.4</td>
+  <td>42.2</td>
+  </tr>
+  <tr>
+  <td>71</td>
+  <td class="player-name"><a href="/2026/player/253/1122927/receiving/split.html">River Helms</a></td>
+  <td><a href="/2026/team/253/receiving/offense/split.html">Ga South</a></td>
+  <td>SR</td>
+  <td>TE</td>
+  <td>7</td>
+  <td>27</td>
+  <td>293</td>
+  <td>10.85</td>
+  <td>1</td>
+  <td>3.9</td>
+  <td>41.9</td>
+  </tr>
+  <tr class="even-row">
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/521/1178652/receiving/split.html">Justin Bowick</a></td>
+  <td><a href="/2026/team/521/receiving/offense/split.html">Okla St</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>26</td>
+  <td>442</td>
+  <td>17.00</td>
+  <td>5</td>
+  <td>5.2</td>
+  <td>88.4</td>
+  </tr>
+  <tr>
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/457/50312206/receiving/split.html">Jordan Shipp</a></td>
+  <td><a href="/2026/team/457/receiving/offense/split.html">N Carolina</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>26</td>
+  <td>366</td>
+  <td>14.08</td>
+  <td>0</td>
+  <td>5.2</td>
+  <td>73.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/27/50214546/receiving/split.html">Sam Pickett III</a></td>
+  <td><a href="/2026/team/27/receiving/offense/split.html">App St</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>26</td>
+  <td>411</td>
+  <td>15.81</td>
+  <td>4</td>
+  <td>4.3</td>
+  <td>68.5</td>
+  </tr>
+  <tr>
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/796/1179988/receiving/split.html">Tyrell Henry</a></td>
+  <td><a href="/2026/team/796/receiving/offense/split.html">Wisconsin</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>26</td>
+  <td>339</td>
+  <td>13.04</td>
+  <td>1</td>
+  <td>5.2</td>
+  <td>67.8</td>
+  </tr>
+  <tr class="even-row">
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/434/50304512/receiving/split.html">Donovan Olugbode</a></td>
+  <td><a href="/2026/team/434/receiving/offense/split.html">Missouri</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>26</td>
+  <td>407</td>
+  <td>15.65</td>
+  <td>6</td>
+  <td>4.3</td>
+  <td>67.8</td>
+  </tr>
+  <tr>
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/235/50303369/receiving/split.html">Dallas Wilson</a></td>
+  <td><a href="/2026/team/235/receiving/offense/split.html">Florida</a></td>
+  <td>SO</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>26</td>
+  <td>376</td>
+  <td>14.46</td>
+  <td>3</td>
+  <td>4.3</td>
+  <td>62.7</td>
+  </tr>
+  <tr class="even-row">
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/498/2001811/receiving/split.html">Marcellus Jackson</a></td>
+  <td><a href="/2026/team/498/receiving/offense/split.html">La-Monroe</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>26</td>
+  <td>234</td>
+  <td>9.00</td>
+  <td>0</td>
+  <td>5.2</td>
+  <td>46.8</td>
+  </tr>
+  <tr>
+  <td>88</td>
+  <td class="player-name"><a href="/2026/player/102/1204459/receiving/split.html">Onterrio Smith Jr.</a></td>
+  <td><a href="/2026/team/102/receiving/offense/split.html">Sac St</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>26</td>
+  <td>277</td>
+  <td>10.65</td>
+  <td>1</td>
+  <td>4.3</td>
+  <td>46.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>96</td>
+  <td class="player-name"><a href="/2026/player/698/2002308/receiving/split.html">Kari Ashley</a></td>
+  <td><a href="/2026/team/698/receiving/offense/split.html">TCU</a></td>
+  <td>SR</td>
+  <td>TE</td>
+  <td>5</td>
+  <td>25</td>
+  <td>374</td>
+  <td>14.96</td>
+  <td>4</td>
+  <td>5.0</td>
+  <td>74.8</td>
+  </tr>
+  <tr>
+  <td>96</td>
+  <td class="player-name"><a href="/2026/player/522/1177221/receiving/split.html">Isaiah Sategna III</a></td>
+  <td><a href="/2026/team/522/receiving/offense/split.html">Oklahoma</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>25</td>
+  <td>331</td>
+  <td>13.24</td>
+  <td>2</td>
+  <td>5.0</td>
+  <td>66.2</td>
+  </tr>
+  <tr class="even-row">
+  <td>96</td>
+  <td class="player-name"><a href="/2026/player/147/50312074/receiving/split.html">Bryant Wesco, Jr.</a></td>
+  <td><a href="/2026/team/147/receiving/offense/split.html">Clemson</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>25</td>
+  <td>315</td>
+  <td>12.60</td>
+  <td>0</td>
+  <td>5.0</td>
+  <td>63.0</td>
+  </tr>
+  <tr>
+  <td>96</td>
+  <td class="player-name"><a href="/2026/player/180/50292221/receiving/split.html">Sean Wilson</a></td>
+  <td><a href="/2026/team/180/receiving/offense/split.html">Delaware</a></td>
+  <td>JR</td>
+  <td>WR</td>
+  <td>6</td>
+  <td>25</td>
+  <td>339</td>
+  <td>13.56</td>
+  <td>3</td>
+  <td>4.2</td>
+  <td>56.5</td>
+  </tr>
+  <tr class="even-row">
+  <td>96</td>
+  <td class="player-name"><a href="/2026/player/37/1175383/receiving/split.html">Chas Nimrod</a></td>
+  <td><a href="/2026/team/37/receiving/offense/split.html">Auburn</a></td>
+  <td>SR</td>
+  <td>WR</td>
+  <td>5</td>
+  <td>25</td>
+  <td>273</td>
+  <td>10.92</td>
+  <td>2</td>
+  <td>5.0</td>
+  <td>54.6</td>
+  </tr>
+</table>
+</div> <!-- leaders -->
+<div class="note">
+<p></p>
+</div> <!-- note -->
+<div id="footer">
+<p>Copyright � 2006-2026 www.cfbstats.com All rights reserved.</p>
+<p><a href="https://www.trackingfootball.com/site-policies/">Terms of Use/Site Policies</a></p>
+<p id="timestamp">10/17/2026 05:02:17</p>
+<!-- SMG_CFBStats/300x250_1a/sports/general -->
+<div id="usmg_ad__general_sports_300x250_1a">
+<script type='text/javascript'>
+googletag.defineSlot('/7103/SMG_CFBStats/300x250_1a/sports/general', [[300,250],[300,600]], 'usmg_ad__general_sports_300x250_1a').addService(googletag.pubads());
+googletag.enableServices();
+googletag.display('usmg_ad__general_sports_300x250_1a');
+</script>
+</div>
+</div> <!-- footer -->
+</div> <!-- content -->
+<div id="leftColumn">
+<div class="section">
+<ul>
+  <li class="header">Split Stats</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1 selected">All Games</li>
+      <li class="sub1"><a href="/2026/leader/national/player/split02/category03/sort04.html">at Home</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split19/category03/sort04.html">on Road/Neutral Site</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split11/category03/sort04.html">in Wins</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split12/category03/sort04.html">in Losses</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split07/category03/sort04.html">vs. Conference</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split08/category03/sort04.html">vs. Non-Conference</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split13/category03/sort04.html">vs. Ranked (AP)</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split14/category03/sort04.html">vs. Unranked (AP)</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split20/category03/sort04.html">vs. FBS (I-A)</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split21/category03/sort04.html">vs. FCS (I-AA)</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split09/category03/sort04.html">vs. FBS Winning</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split10/category03/sort04.html">vs. FBS Non-Winning</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split24/category03/sort04.html">vs. FBS Power 5</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split25/category03/sort04.html">vs. FBS non-Power 5</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split15/category03/sort04.html">in August/September</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split16/category03/sort04.html">in October</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split17/category03/sort04.html">in November</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/split18/category03/sort04.html">in December/January</a></li>
+    </ul>
+  </li>
+  <li class="top">Situational Stats</li>
+  <li class="">
+    <ul class="sub1">
+      <li class="sub1"><a href="/2026/leader/national/player/situational01/category03/sort01.html">All Plays</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational02/category03/sort01.html">1st Half</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational03/category03/sort01.html">2nd Half/OT</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational04/category03/sort01.html">1st Quarter</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational05/category03/sort01.html">2nd Quarter</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational06/category03/sort01.html">3rd Quarter</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational07/category03/sort01.html">4th Quarter</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational08/category03/sort01.html">Overtime</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational09/category03/sort01.html">1st Down</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational10/category03/sort01.html">2nd Down</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational11/category03/sort01.html">3rd Down</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational12/category03/sort01.html">3rd Down, 1-3 To Go</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational13/category03/sort01.html">3rd Down, 4-6 To Go</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational14/category03/sort01.html">3rd Down, 7-9 To Go</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational15/category03/sort01.html">3rd Down, 10+ To Go</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational16/category03/sort01.html">4th Down</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational17/category03/sort01.html">Own 1 To 20 Yd Ln</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational18/category03/sort01.html">Own 21 To 39 Yd Ln</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational19/category03/sort01.html">Own 40 To Opp 40 Yd Ln</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational20/category03/sort01.html">Opp 39 To 21 Yd Ln</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational21/category03/sort01.html">Opp 20 To 1 Yd Ln (RZ)</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational22/category03/sort01.html">Winning By 15+ Pts</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational23/category03/sort01.html">Winning By 8-14 Pts</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational24/category03/sort01.html">Winning By 1-7 Pts</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational25/category03/sort01.html">Tied</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational26/category03/sort01.html">Losing By 1-7 Pts</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational27/category03/sort01.html">Losing By 8-14 Pts</a></li>
+      <li class="sub1"><a href="/2026/leader/national/player/situational28/category03/sort01.html">Losing By 15+ Pts</a></li>
+    </ul>
+  </li>
+</ul>
+</div> <!-- section -->
+</div> <!-- leftColumn -->
+<div id="wrapperClear"/>
+</div> <!-- wrapper -->
+<!-- Start of ADS -->
+<div id="usmg_ad__main_sports_skin">
+    <script type='text/javascript'>
+        //googletag.defineSlot('/7103/SMG_CFBStats/skin/sports/main', [1,1], 'usmg_ad__main_sports_skin').addService(googletag.pubads());
+        //googletag.enableServices();
+        //googletag.display('usmg_ad__main_sports_skin');
+    </script>
+</div>
+
+<!-- SMG_CFBStats/skin/sports/general -->
+<div id="usmg_ad__general_sports_skin">
+    <script type='text/javascript'>
+        googletag.defineSlot('/7103/SMG_CFBStats/skin/sports/general', [1,1], 'usmg_ad__general_sports_skin').addService(googletag.pubads());
+        googletag.enableServices();
+        googletag.display('usmg_ad__general_sports_skin');
+    </script>
+</div>
+<br/><br/><br/><br/>
+<!-- End of ADS -->
+</body>
+</html>

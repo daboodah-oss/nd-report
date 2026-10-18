@@ -1926,7 +1926,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-17T23:14+00:00",
+     "retrieved_at": "2026-10-18T02:25+00:00",
      "check": "cfbstats season totals matched through 2026-10-16",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     }
@@ -2058,7 +2058,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-17T23:14+00:00",
+     "retrieved_at": "2026-10-18T02:25+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2156,7 +2156,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-17T23:14+00:00",
+     "retrieved_at": "2026-10-18T02:25+00:00",
      "check": "cfbstats season totals matched through 2026-10-16",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
@@ -2288,7 +2288,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-17T23:14+00:00",
+     "retrieved_at": "2026-10-18T02:25+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2420,7 +2420,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-17T23:14+00:00",
+     "retrieved_at": "2026-10-18T02:25+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2481,6 +2481,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-10-17T23:14+00:00"
+  "retrieved_at": "2026-10-18T02:25+00:00"
  }
 }

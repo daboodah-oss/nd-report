@@ -1,5 +1,5 @@
 {
- "at": "2026-10-17T19:14-04:00",
+ "at": "2026-10-17T22:25-04:00",
  "failed": [
   "team"
  ],
@@ -13,8 +13,8 @@
   "[team] Ohio State 2026: 7 games; not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
   "[team] Indiana 2026: 7 games; not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
   "[team] FAILED: team seasons not stored: Notre Dame 2024 (refused)",
-  "[rb] 2024: no Notre Dame box scores stored yet",
-  "[wr] 2024: no Notre Dame box scores stored yet",
+  "[rb] 2024: Notre Dame team season not stored; using this run's ESPN box scores for the player lines",
+  "[wr] 2024: Notre Dame team season not stored; using this run's ESPN box scores for the player lines",
   "[natref] qb: 49 players stored (0 game logs fetched, 49 unchanged)",
   "[natref] rb: 51 players stored (0 game logs fetched, 51 unchanged)",
   "[natref] wr: 54 players stored (0 game logs fetched, 54 unchanged)",
