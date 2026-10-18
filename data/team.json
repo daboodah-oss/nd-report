@@ -2031,9 +2031,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:31+00:00",
-     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
-     "cfbstats_url": null
+     "retrieved_at": "2026-10-18T17:33+00:00",
+     "check": "cfbstats season totals matched through 2026-10-17",
+     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
     "2024": {
      "games": [
@@ -4061,9 +4061,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:31+00:00",
-     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
-     "cfbstats_url": null
+     "retrieved_at": "2026-10-18T17:33+00:00",
+     "check": "cfbstats season totals matched through 2026-10-17",
+     "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
    }
   },
@@ -4176,9 +4176,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:31+00:00",
-     "check": "not cross-checked yet: cfbstats has 5 games through 2026-10-16, ESPN 6",
-     "cfbstats_url": null
+     "retrieved_at": "2026-10-18T17:33+00:00",
+     "check": "cfbstats season totals matched through 2026-10-17",
+     "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
    }
   },
@@ -4308,9 +4308,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:31+00:00",
-     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
-     "cfbstats_url": null
+     "retrieved_at": "2026-10-18T17:33+00:00",
+     "check": "cfbstats season totals matched through 2026-10-17",
+     "cfbstats_url": "https://cfbstats.com/2026/team/518/index.html"
     }
    }
   },
@@ -4440,9 +4440,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:31+00:00",
-     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
-     "cfbstats_url": null
+     "retrieved_at": "2026-10-18T17:33+00:00",
+     "check": "cfbstats season totals matched through 2026-10-17",
+     "cfbstats_url": "https://cfbstats.com/2026/team/306/index.html"
     }
    }
   }
