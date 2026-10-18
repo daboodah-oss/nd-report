@@ -1923,12 +1923,117 @@
          "td": 0
         }
        ]
+      },
+      {
+       "event": "401856809",
+       "date": "2026-10-17",
+       "opp": "BYU",
+       "opp_id": "252",
+       "site": "A",
+       "pf": 24,
+       "pa": 28,
+       "result": "L 24-28",
+       "total_yds": 376,
+       "rush_yds": 115,
+       "pass_yds": 261,
+       "to_lost": 1,
+       "to_gained": 2,
+       "third_conv": 8,
+       "third_att": 19,
+       "rush": [
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 16,
+         "yds": 77,
+         "td": 1
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 5,
+         "yds": 17,
+         "td": 1
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 6,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 8,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 8,
+         "yds": 125,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 6,
+         "yds": 64,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 3,
+         "yds": 31,
+         "td": 0
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 4,
+         "yds": 23,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 3,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5142596",
+         "name": "James Flanigan",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 1,
+         "yds": -5,
+         "td": 0
+        }
+       ]
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T02:25+00:00",
-     "check": "cfbstats season totals matched through 2026-10-16",
-     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
+     "retrieved_at": "2026-10-18T03:57+00:00",
+     "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
+     "cfbstats_url": null
     }
    }
   },
@@ -2058,7 +2163,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T02:25+00:00",
+     "retrieved_at": "2026-10-18T03:57+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2153,12 +2258,29 @@
        "to_gained": 2,
        "third_conv": 4,
        "third_att": 11
+      },
+      {
+       "event": "401858263",
+       "date": "2026-10-17",
+       "opp": "Florida State",
+       "opp_id": "52",
+       "site": "H",
+       "pf": 43,
+       "pa": 35,
+       "result": "W 43-35",
+       "total_yds": 583,
+       "rush_yds": 257,
+       "pass_yds": 326,
+       "to_lost": 1,
+       "to_gained": 2,
+       "third_conv": 8,
+       "third_att": 15
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T02:25+00:00",
-     "check": "cfbstats season totals matched through 2026-10-16",
-     "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
+     "retrieved_at": "2026-10-18T03:57+00:00",
+     "check": "not cross-checked yet: cfbstats has 5 games through 2026-10-16, ESPN 6",
+     "cfbstats_url": null
     }
    }
   },
@@ -2288,7 +2410,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T02:25+00:00",
+     "retrieved_at": "2026-10-18T03:57+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2420,7 +2542,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T02:25+00:00",
+     "retrieved_at": "2026-10-18T03:57+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2481,6 +2603,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-10-18T02:25+00:00"
+  "retrieved_at": "2026-10-18T03:57+00:00"
  }
 }

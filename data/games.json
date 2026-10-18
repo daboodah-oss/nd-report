@@ -1,12 +1,11 @@
 {
  "schema_version": 1,
  "next_game": {
-  "date": "2026-10-17",
-  "opp": "BYU",
-  "site": "A",
+  "date": "2026-10-31",
+  "opp": "Navy",
+  "site": "N",
   "source_url": "https://cfbstats.com/2026/team/513/index.html",
-  "kickoff": "2026-10-17T19:30-04:00",
-  "tv": "ABC"
+  "kickoff": "2026-10-31T12:00-04:00"
  },
  "opp_pass_defense": {
   "method": "Opponent's national rank in passing yards allowed per game (cfbstats.com, FBS). 2025 opponents use final 2025 ranks. 2026 opponents use the current 2026 rank, which moves every week.",
@@ -58,7 +57,7 @@
     "Purdue": 120,
     "North Carolina": 61,
     "Stanford": 134,
-    "BYU": 26
+    "Navy": 91
    },
    "source_url": "https://cfbstats.com/2026/leader/national/team/defense/split01/category02/sort01.html"
   }

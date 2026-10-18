@@ -56,21 +56,22 @@
       "att": 13,
       "yds": 181,
       "td": 2
+     },
+     {
+      "date": "2026-10-17",
+      "event": "401856809",
+      "opp": "BYU",
+      "site": "A",
+      "result": "L 24-28",
+      "att": 5,
+      "yds": 17,
+      "td": 1
      }
     ],
-    "cfbstats_row": {
-     "name": "Jonaz Walton",
-     "pos": "RB",
-     "g": 5,
-     "att": 52,
-     "yds": 409,
-     "td": 2,
-     "cfb_id": "50304155"
-    },
+    "cfbstats_row": null,
     "cfbstats_through": "2026-10-16",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/rushing/index.html",
-    "chosen": "named in roster.json",
-    "check_diff": []
+    "chosen": "named in roster.json"
    },
    {
     "name": "Nolan James, Jr.",
@@ -137,21 +138,22 @@
       "att": 10,
       "yds": 73,
       "td": 2
+     },
+     {
+      "date": "2026-10-17",
+      "event": "401856809",
+      "opp": "BYU",
+      "site": "A",
+      "result": "L 24-28",
+      "att": 16,
+      "yds": 77,
+      "td": 1
      }
     ],
-    "cfbstats_row": {
-     "name": "Nolan James, Jr.",
-     "pos": "RB",
-     "g": 6,
-     "att": 65,
-     "yds": 335,
-     "td": 5,
-     "cfb_id": "50303818"
-    },
+    "cfbstats_row": null,
     "cfbstats_through": "2026-10-16",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/rushing/index.html",
-    "chosen": "named in roster.json",
-    "check_diff": []
+    "chosen": "named in roster.json"
    },
    {
     "name": "Jeremiyah Love",
@@ -798,7 +800,7 @@
     "check_diff": []
    }
   ],
-  "retrieved_at": "2026-10-18T02:25+00:00",
+  "retrieved_at": "2026-10-18T03:57+00:00",
   "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 RB by rushing yards (cfbstats.com)."
  },
  "wr": {
@@ -868,21 +870,22 @@
       "rec": 3,
       "yds": 16,
       "td": 0
+     },
+     {
+      "date": "2026-10-17",
+      "event": "401856809",
+      "opp": "BYU",
+      "site": "A",
+      "result": "L 24-28",
+      "rec": 6,
+      "yds": 64,
+      "td": 0
      }
     ],
-    "cfbstats_row": {
-     "name": "Jordan Faison",
-     "pos": "WR",
-     "g": 6,
-     "rec": 28,
-     "yds": 387,
-     "td": 4,
-     "cfb_id": "1205334"
-    },
+    "cfbstats_row": null,
     "cfbstats_through": "2026-10-16",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/receiving/index.html",
-    "chosen": "named in roster.json",
-    "check_diff": []
+    "chosen": "named in roster.json"
    },
    {
     "name": "Micah Gilbert",
@@ -949,21 +952,22 @@
       "rec": 1,
       "yds": 10,
       "td": 0
+     },
+     {
+      "date": "2026-10-17",
+      "event": "401856809",
+      "opp": "BYU",
+      "site": "A",
+      "result": "L 24-28",
+      "rec": 3,
+      "yds": 31,
+      "td": 0
      }
     ],
-    "cfbstats_row": {
-     "name": "Micah Gilbert",
-     "pos": "WR",
-     "g": 6,
-     "rec": 19,
-     "yds": 378,
-     "td": 2,
-     "cfb_id": "50312208"
-    },
+    "cfbstats_row": null,
     "cfbstats_through": "2026-10-16",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/receiving/index.html",
-    "chosen": "named in roster.json",
-    "check_diff": []
+    "chosen": "named in roster.json"
    },
    {
     "name": "Jordan Faison",
@@ -1613,7 +1617,7 @@
     "check_diff": []
    }
   ],
-  "retrieved_at": "2026-10-18T02:25+00:00",
+  "retrieved_at": "2026-10-18T03:57+00:00",
   "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 WR/TE by receiving yards (cfbstats.com)."
  }
 }
