@@ -1,14 +1,3 @@
-Traceback (most recent call last):
-  File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
-    out = fn(*a, **k)
-          ^^^^^^^^^^^
-  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 335, in <lambda>
-    C.section("team")(lambda: team_seasons(C, U))()
-                              ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 213, in team_seasons
-    if failed: raise ValueError("team seasons not stored: " + "; ".join(failed))
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: team seasons not stored: Notre Dame 2024 (refused)
 [schedule] 2026: 12 games, 6 played
 [schedule] ESPN finals seen: 7, latest 2026-10-17 L 24-28
 [schedule] 2026-10-17 BYU: final from ESPN (L 24-28)
@@ -19,7 +8,10 @@ SKIPPED: snapshot exists for BetMGM 2026-10-17
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Trinidad Chambliss, Keelon Russell
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-10-11 1 Georgia, 2 Notre Dame, 3 Miami, 4 Ohio State, 5 Indiana
-REFUSED: team-season Notre Dame 2024: ESPN box scores disagree with cfbstats season totals {'third_att': (185, 184)} (ESPN, cfbstats)
+EXCEPTION applied (team-season Notre Dame 2024): third_att 185 stored from ESPN, cfbstats 184 (known cfbstats error: cfbstats lists Notre Dame 3-of-9 on third down vs Northern Illinois (2024-09-07); the official stat-crew box score (niuhuskies.com boxscore 24108: '3rd. Down Conv.' UND 3 of 10), ESPN's box score (3-10) and ESPN's play-by-play (10 snaps) all give 10 attempts, so ESPN's 185 is stored)
+STORED team Notre Dame 2024: 16 games
+[team] Notre Dame 2024: 16 games; matches cfbstats through 2025-01-20
+[team] Notre Dame 2024: EXCEPTION applied: third_att 185 stored from ESPN, cfbstats 184 (known cfbstats error: cfbstats lists Notre Dame 3-of-9 on third down vs Northern Illinois (2024-09-07); the official stat-crew box score (niuhuskies.com boxscore 24108: '3rd. Down Conv.' UND 3 of 10), ESPN's box score (3-10) and ESPN's play-by-play (10 snaps) all give 10 attempts, so ESPN's 185 is stored); rushing yards 3,217 in ESPN box scores vs 3,215 on cfbstats; total yards 6,387 in ESPN box scores vs 6,385 on cfbstats
 STORED team Notre Dame 2026: 7 games
 [team] Notre Dame 2026: 7 games; not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7
 STORED team Georgia 2026: 7 games
@@ -30,10 +22,7 @@ STORED team Ohio State 2026: 7 games
 [team] Ohio State 2026: 7 games; not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7
 STORED team Indiana 2026: 7 games
 [team] Indiana 2026: 7 games; not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7
-[team] FAILED: team seasons not stored: Notre Dame 2024 (refused)
-[rb] 2024: Notre Dame team season not stored; using this run's ESPN box scores for the player lines
 STORED rb: Jonaz Walton 2026 (6 g), Nolan James, Jr. 2026 (7 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
-[wr] 2024: Notre Dame team season not stored; using this run's ESPN box scores for the player lines
 STORED wr: Jordan Faison 2026 (7 g), Micah Gilbert 2026 (7 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
 STORED rb national boards through 2026-10-16
 STORED wr national boards through 2026-10-16
@@ -43,4 +32,4 @@ STORED natref qb: 49 players through 2026-10-16
 STORED natref rb: 51 players through 2026-10-16
 [natref] wr: 54 players stored (0 game logs fetched, 54 unchanged)
 STORED natref wr: 54 players through 2026-10-16
-FAILED sections: team
+FAILED sections: none

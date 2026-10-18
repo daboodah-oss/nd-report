@@ -2031,9 +2031,1907 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:29+00:00",
+     "retrieved_at": "2026-10-18T05:31+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
+    },
+    "2024": {
+     "games": [
+      {
+       "event": "401628332",
+       "date": "2024-08-31",
+       "opp": "Texas A&M",
+       "opp_id": "245",
+       "site": "A",
+       "pf": 23,
+       "pa": 13,
+       "result": "W 23-13",
+       "total_yds": 356,
+       "rush_yds": 198,
+       "pass_yds": 158,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 2,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 14,
+         "yds": 91,
+         "td": 1
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 12,
+         "yds": 63,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 8,
+         "yds": 44,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 5,
+         "yds": 62,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 3,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 1,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 2,
+         "yds": 4,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 3,
+         "td": 0
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628977",
+       "date": "2024-09-07",
+       "opp": "Northern Illinois",
+       "opp_id": "2459",
+       "site": "H",
+       "pf": 14,
+       "pa": 16,
+       "result": "L 14-16",
+       "total_yds": 286,
+       "rush_yds": 123,
+       "pass_yds": 163,
+       "to_lost": 2,
+       "to_gained": 0,
+       "third_conv": 3,
+       "third_att": 10,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 11,
+         "yds": 79,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 4,
+         "yds": 24,
+         "td": 0
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 11,
+         "yds": 16,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 5,
+         "yds": 45,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 5,
+         "yds": 41,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 3,
+         "yds": 32,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 2,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 2,
+         "yds": 10,
+         "td": 0
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": -1,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628978",
+       "date": "2024-09-14",
+       "opp": "Purdue",
+       "opp_id": "2509",
+       "site": "A",
+       "pf": 66,
+       "pa": 7,
+       "result": "W 66-7",
+       "total_yds": 578,
+       "rush_yds": 362,
+       "pass_yds": 216,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 7,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 10,
+         "yds": 109,
+         "td": 1
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 11,
+         "yds": 100,
+         "td": 3
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 8,
+         "yds": 86,
+         "td": 1
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 4,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4918099",
+         "name": "Kenny Minchey",
+         "n": 2,
+         "yds": 12,
+         "td": 1
+        },
+        {
+         "id": "4685694",
+         "name": "Steve Angeli",
+         "n": 4,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 2,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 2,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 2,
+         "yds": 47,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 2,
+         "yds": 36,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 3,
+         "yds": 30,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 1,
+         "yds": 28,
+         "td": 1
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 3,
+         "yds": 27,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 2,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 2,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 2,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4429174",
+         "name": "Kevin Bauman",
+         "n": 1,
+         "yds": 8,
+         "td": 1
+        }
+       ]
+      },
+      {
+       "event": "401628979",
+       "date": "2024-09-21",
+       "opp": "Miami (OH)",
+       "opp_id": "193",
+       "site": "H",
+       "pf": 28,
+       "pa": 3,
+       "result": "W 28-3",
+       "total_yds": 428,
+       "rush_yds": 270,
+       "pass_yds": 158,
+       "to_lost": 2,
+       "to_gained": 2,
+       "third_conv": 5,
+       "third_att": 11,
+       "rush": [
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 12,
+         "yds": 143,
+         "td": 2
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 11,
+         "yds": 60,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 6,
+         "yds": 39,
+         "td": 0
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 5,
+         "yds": 21,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 7,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 4,
+         "yds": 60,
+         "td": 1
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 3,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 2,
+         "yds": 15,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 2,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4431213",
+         "name": "Deion Colzie",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628980",
+       "date": "2024-09-28",
+       "opp": "Louisville",
+       "opp_id": "97",
+       "site": "H",
+       "pf": 31,
+       "pa": 24,
+       "result": "W 31-24",
+       "total_yds": 280,
+       "rush_yds": 117,
+       "pass_yds": 163,
+       "to_lost": 2,
+       "to_gained": 3,
+       "third_conv": 2,
+       "third_att": 10,
+       "rush": [
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 13,
+         "yds": 52,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 11,
+         "yds": 34,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 3,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 16,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 4,
+         "yds": 61,
+         "td": 1
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 1,
+         "yds": 34,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 5,
+         "yds": 27,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 17,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 3,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628981",
+       "date": "2024-10-12",
+       "opp": "Stanford",
+       "opp_id": "24",
+       "site": "H",
+       "pf": 49,
+       "pa": 7,
+       "result": "W 49-7",
+       "total_yds": 477,
+       "rush_yds": 229,
+       "pass_yds": 248,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 6,
+       "third_att": 11,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 6,
+         "yds": 53,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 12,
+         "yds": 49,
+         "td": 1
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 7,
+         "yds": 39,
+         "td": 0
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 6,
+         "yds": 31,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 28,
+         "td": 1
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 3,
+         "yds": 20,
+         "td": 0
+        },
+        {
+         "id": "4685694",
+         "name": "Steve Angeli",
+         "n": 2,
+         "yds": 9,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 4,
+         "yds": 85,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 4,
+         "yds": 32,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "5150418",
+         "name": "KK Smith",
+         "n": 1,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 2,
+         "yds": 23,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "4431213",
+         "name": "Deion Colzie",
+         "n": 1,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "4596542",
+         "name": "Pat Coogan",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 1,
+         "yds": 5,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628982",
+       "date": "2024-10-19",
+       "opp": "Georgia Tech",
+       "opp_id": "59",
+       "site": "N",
+       "pf": 31,
+       "pa": 13,
+       "result": "W 31-13",
+       "total_yds": 385,
+       "rush_yds": 168,
+       "pass_yds": 217,
+       "to_lost": 1,
+       "to_gained": 2,
+       "third_conv": 4,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 8,
+         "yds": 69,
+         "td": 0
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 10,
+         "yds": 51,
+         "td": 2
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 14,
+         "yds": 36,
+         "td": 1
+        },
+        {
+         "id": "4426420",
+         "name": "Devyn Ford",
+         "n": 2,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4431513",
+         "name": "Tyler Buchner",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 3,
+         "yds": 57,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 5,
+         "yds": 51,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 3,
+         "yds": 43,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 4,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 1,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 10,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 2,
+         "yds": -1,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628983",
+       "date": "2024-10-26",
+       "opp": "Navy",
+       "opp_id": "2426",
+       "site": "N",
+       "pf": 51,
+       "pa": 14,
+       "result": "W 51-14",
+       "total_yds": 466,
+       "rush_yds": 265,
+       "pass_yds": 201,
+       "to_lost": 0,
+       "to_gained": 6,
+       "third_conv": 8,
+       "third_att": 13,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 12,
+         "yds": 102,
+         "td": 2
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 10,
+         "yds": 83,
+         "td": 1
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 10,
+         "yds": 52,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 5,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 9,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 52,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 2,
+         "yds": 42,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 42,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4880369",
+         "name": "Davis Sherwood",
+         "n": 1,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 2,
+         "yds": 10,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": -2,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401628984",
+       "date": "2024-11-09",
+       "opp": "Florida State",
+       "opp_id": "52",
+       "site": "H",
+       "pf": 52,
+       "pa": 3,
+       "result": "W 52-3",
+       "total_yds": 453,
+       "rush_yds": 201,
+       "pass_yds": 252,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 5,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 7,
+         "yds": 95,
+         "td": 1
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 11,
+         "yds": 70,
+         "td": 2
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 9,
+         "yds": 19,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "5081698",
+         "name": "Justin Fisher",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        },
+        {
+         "id": "4875674",
+         "name": "Jake Tafelski",
+         "n": 1,
+         "yds": 2,
+         "td": 0
+        },
+        {
+         "id": "4685694",
+         "name": "Steve Angeli",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 5,
+         "yds": 66,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 2,
+         "yds": 47,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 2,
+         "yds": 21,
+         "td": 1
+        },
+        {
+         "id": "5081698",
+         "name": "Justin Fisher",
+         "n": 1,
+         "yds": 16,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 1,
+         "yds": 15,
+         "td": 0
+        },
+        {
+         "id": "4875674",
+         "name": "Jake Tafelski",
+         "n": 1,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "4431213",
+         "name": "Deion Colzie",
+         "n": 1,
+         "yds": 7,
+         "td": 1
+        }
+       ]
+      },
+      {
+       "event": "401628985",
+       "date": "2024-11-16",
+       "opp": "Virginia",
+       "opp_id": "258",
+       "site": "H",
+       "pf": 35,
+       "pa": 14,
+       "result": "W 35-14",
+       "total_yds": 448,
+       "rush_yds": 234,
+       "pass_yds": 214,
+       "to_lost": 2,
+       "to_gained": 5,
+       "third_conv": 1,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 16,
+         "yds": 137,
+         "td": 2
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 6,
+         "yds": 44,
+         "td": 0
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 8,
+         "yds": 32,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 7,
+         "yds": 23,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 3,
+         "yds": 41,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 35,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 4,
+         "yds": 34,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 17,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 1,
+         "yds": 16,
+         "td": 0
+        },
+        {
+         "id": "4431213",
+         "name": "Deion Colzie",
+         "n": 2,
+         "yds": 16,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 2,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 2,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 1,
+         "yds": 2,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 2,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401640959",
+       "date": "2024-11-23",
+       "opp": "Army",
+       "opp_id": "349",
+       "site": "N",
+       "pf": 49,
+       "pa": 14,
+       "result": "W 49-14",
+       "total_yds": 464,
+       "rush_yds": 275,
+       "pass_yds": 189,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 3,
+       "third_att": 5,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 7,
+         "yds": 130,
+         "td": 2
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 3,
+         "yds": 62,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 10,
+         "yds": 53,
+         "td": 2
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 8,
+         "yds": 30,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 46,
+         "td": 1
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 4,
+         "yds": 37,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 1,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 2,
+         "yds": 20,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 15,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 12,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 6,
+         "td": 1
+        }
+       ]
+      },
+      {
+       "event": "401628571",
+       "date": "2024-11-30",
+       "opp": "USC",
+       "opp_id": "30",
+       "site": "A",
+       "pf": 49,
+       "pa": 35,
+       "result": "W 49-35",
+       "total_yds": 436,
+       "rush_yds": 258,
+       "pass_yds": 178,
+       "to_lost": 2,
+       "to_gained": 2,
+       "third_conv": 3,
+       "third_att": 9,
+       "rush": [
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 12,
+         "yds": 111,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 13,
+         "yds": 99,
+         "td": 1
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 12,
+         "yds": 50,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 5,
+         "yds": 59,
+         "td": 1
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 3,
+         "yds": 38,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 2,
+         "yds": 22,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 2,
+         "yds": 16,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": -1,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401677179",
+       "date": "2024-12-20",
+       "opp": "Indiana",
+       "opp_id": "84",
+       "site": "H",
+       "pf": 27,
+       "pa": 17,
+       "result": "W 27-17",
+       "total_yds": 394,
+       "rush_yds": 193,
+       "pass_yds": 201,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 13,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 8,
+         "yds": 108,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 11,
+         "yds": 32,
+         "td": 0
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 11,
+         "yds": 30,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 4,
+         "yds": 24,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 7,
+         "yds": 89,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 2,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 2,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 2,
+         "yds": 17,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 4,
+         "yds": 15,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 2,
+         "yds": 13,
+         "td": 1
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 1,
+         "yds": 11,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401677184",
+       "date": "2025-01-02",
+       "opp": "Georgia",
+       "opp_id": "61",
+       "site": "N",
+       "pf": 23,
+       "pa": 10,
+       "result": "W 23-10",
+       "total_yds": 244,
+       "rush_yds": 154,
+       "pass_yds": 90,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 4,
+       "third_att": 14,
+       "rush": [
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 14,
+         "yds": 80,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 10,
+         "yds": 37,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 6,
+         "yds": 19,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 4,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 46,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 3,
+         "yds": 22,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 1,
+         "yds": 13,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 2,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 1,
+         "yds": 4,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 2,
+         "td": 0
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 1,
+         "yds": -8,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401677189",
+       "date": "2025-01-09",
+       "opp": "Penn State",
+       "opp_id": "213",
+       "site": "N",
+       "pf": 27,
+       "pa": 24,
+       "result": "W 27-24",
+       "total_yds": 384,
+       "rush_yds": 117,
+       "pass_yds": 267,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 11,
+       "third_att": 17,
+       "rush": [
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 11,
+         "yds": 46,
+         "td": 1
+        },
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 18,
+         "yds": 35,
+         "td": 1
+        },
+        {
+         "id": "4431600",
+         "name": "Jayden Thomas",
+         "n": 1,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 17,
+         "td": 0
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 7,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "4685694",
+         "name": "Steve Angeli",
+         "n": 2,
+         "yds": -12,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 7,
+         "yds": 105,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 5,
+         "yds": 66,
+         "td": 0
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 5,
+         "yds": 58,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 2,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        }
+       ]
+      },
+      {
+       "event": "401677192",
+       "date": "2025-01-20",
+       "opp": "Ohio State",
+       "opp_id": "194",
+       "site": "N",
+       "pf": 23,
+       "pa": 34,
+       "result": "L 23-34",
+       "total_yds": 308,
+       "rush_yds": 53,
+       "pass_yds": 255,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 5,
+       "third_att": 12,
+       "rush": [
+        {
+         "id": "4683423",
+         "name": "Riley Leonard",
+         "n": 17,
+         "yds": 40,
+         "td": 1
+        },
+        {
+         "id": "4685512",
+         "name": "Jadarian Price",
+         "n": 3,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 4,
+         "yds": 3,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 1,
+         "yds": 1,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 6,
+         "yds": 128,
+         "td": 2
+        },
+        {
+         "id": "4683243",
+         "name": "Mitchell Evans",
+         "n": 4,
+         "yds": 52,
+         "td": 0
+        },
+        {
+         "id": "4431210",
+         "name": "Beaux Collins",
+         "n": 4,
+         "yds": 32,
+         "td": 0
+        },
+        {
+         "id": "4831959",
+         "name": "Eli Raridon",
+         "n": 2,
+         "yds": 20,
+         "td": 0
+        },
+        {
+         "id": "4428025",
+         "name": "Kris Mitchell",
+         "n": 2,
+         "yds": 16,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4870808",
+         "name": "Jeremiyah Love",
+         "n": 2,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4567545",
+         "name": "Jayden Harrison",
+         "n": 1,
+         "yds": -4,
+         "td": 0
+        }
+       ]
+      }
+     ],
+     "complete": true,
+     "retrieved_at": "2026-10-18T05:31+00:00",
+     "check": "cfbstats season totals matched through 2025-01-20, except third_att 185 stored from ESPN, cfbstats 184 (known cfbstats error: cfbstats lists Notre Dame 3-of-9 on third down vs Northern Illinois (2024-09-07); the official stat-crew box score (niuhuskies.com boxscore 24108: '3rd. Down Conv.' UND 3 of 10), ESPN's box score (3-10) and ESPN's play-by-play (10 snaps) all give 10 attempts, so ESPN's 185 is stored); rushing yards 3,217 in ESPN box scores vs 3,215 on cfbstats; total yards 6,387 in ESPN box scores vs 6,385 on cfbstats",
+     "cfbstats_url": "https://cfbstats.com/2024/team/513/index.html"
     }
    }
   },
@@ -2163,7 +4061,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:29+00:00",
+     "retrieved_at": "2026-10-18T05:31+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2278,7 +4176,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:29+00:00",
+     "retrieved_at": "2026-10-18T05:31+00:00",
      "check": "not cross-checked yet: cfbstats has 5 games through 2026-10-16, ESPN 6",
      "cfbstats_url": null
     }
@@ -2410,7 +4308,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:29+00:00",
+     "retrieved_at": "2026-10-18T05:31+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2542,7 +4440,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T05:29+00:00",
+     "retrieved_at": "2026-10-18T05:31+00:00",
      "check": "not cross-checked yet: cfbstats has 6 games through 2026-10-16, ESPN 7",
      "cfbstats_url": null
     }
@@ -2603,6 +4501,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-10-18T05:28+00:00"
+  "retrieved_at": "2026-10-18T05:31+00:00"
  }
 }
