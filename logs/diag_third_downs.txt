@@ -106,3 +106,6 @@ ESPN box total: 185 attempts, 76 conversions, 16 games
 15         NaN            Total  NaN  NaN  16        3215        3170   1013         6385        6.30    399.1
 16         NaN        Opponents  NaN  NaN  16        2209        2710   1035         4919        4.75    307.4
   game/log links: ['/2024/team/513/total/defense/gamelog.html', '/2024/team/513/total/offense/gamelog.html']
+
+== Official box scores: https://fightingirish.com/sports/football/schedule/2024
+  schedule not available (404 Client Error: Not Found for url: https://fightingirish.com/sports/football/schedule/2024)

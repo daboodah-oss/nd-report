@@ -12,8 +12,6 @@ ValueError: team seasons not stored: Notre Dame 2024 (refused)
 [schedule] 2026: 12 games, 6 played
 [schedule] ESPN finals seen: 7, latest 2026-10-17 L 24-28
 [schedule] 2026-10-17 BYU: final from ESPN (L 24-28)
-ADDED Carr ’26 game 7: BYU L 24-28
-[games] added Carr ’26 2026-10-17 BYU L 24-28
 [games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00'}
 UPDATED next game: {'date': '2026-10-31', 'opp': 'Navy', 'site': 'N', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-10-31T12:00-04:00'}
 UPDATED national through 2026-10-16 {'yds': 41, 'td': 7, 'pct': 13, 'rating': 5, 'ypa': 10}
