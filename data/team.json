@@ -2031,7 +2031,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T17:33+00:00",
+     "retrieved_at": "2026-10-18T18:56+00:00",
      "check": "cfbstats season totals matched through 2026-10-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
@@ -4061,7 +4061,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T17:33+00:00",
+     "retrieved_at": "2026-10-18T18:56+00:00",
      "check": "cfbstats season totals matched through 2026-10-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
@@ -4176,7 +4176,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T17:33+00:00",
+     "retrieved_at": "2026-10-18T18:56+00:00",
      "check": "cfbstats season totals matched through 2026-10-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
@@ -4308,199 +4308,182 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T17:33+00:00",
+     "retrieved_at": "2026-10-18T18:56+00:00",
      "check": "cfbstats season totals matched through 2026-10-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/518/index.html"
     }
    }
   },
-  "84": {
-   "name": "Indiana",
+  "252": {
+   "name": "BYU",
    "seasons": {
     "2026": {
      "games": [
       {
-       "event": "401858425",
+       "event": "401856775",
        "date": "2026-09-05",
-       "opp": "North Texas",
-       "opp_id": "249",
+       "opp": "Utah Tech",
+       "opp_id": "3101",
        "site": "H",
-       "pf": 52,
-       "pa": 16,
-       "result": "W 52-16",
+       "pf": 63,
+       "pa": 7,
+       "result": "W 63-7",
+       "total_yds": 521,
+       "rush_yds": 308,
+       "pass_yds": 213,
+       "to_lost": 0,
+       "to_gained": 4,
+       "third_conv": 9,
+       "third_att": 11
+      },
+      {
+       "event": "401856810",
+       "date": "2026-09-12",
+       "opp": "Arizona",
+       "opp_id": "12",
+       "site": "H",
+       "pf": 28,
+       "pa": 17,
+       "result": "W 28-17",
        "total_yds": 365,
-       "rush_yds": 134,
-       "pass_yds": 231,
+       "rush_yds": 148,
+       "pass_yds": 217,
        "to_lost": 0,
        "to_gained": 1,
-       "third_conv": 5,
+       "third_conv": 6,
+       "third_att": 11
+      },
+      {
+       "event": "401856795",
+       "date": "2026-09-19",
+       "opp": "Colorado State",
+       "opp_id": "36",
+       "site": "A",
+       "pf": 41,
+       "pa": 23,
+       "result": "W 41-23",
+       "total_yds": 559,
+       "rush_yds": 332,
+       "pass_yds": 227,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 4,
        "third_att": 9
       },
       {
-       "event": "401858439",
-       "date": "2026-09-12",
-       "opp": "Howard",
-       "opp_id": "47",
-       "site": "H",
-       "pf": 55,
-       "pa": 0,
-       "result": "W 55-0",
-       "total_yds": 505,
-       "rush_yds": 296,
-       "pass_yds": 209,
-       "to_lost": 1,
-       "to_gained": 1,
-       "third_conv": 7,
-       "third_att": 10
-      },
-      {
-       "event": "401858449",
-       "date": "2026-09-19",
-       "opp": "Western Kentucky",
-       "opp_id": "98",
-       "site": "H",
-       "pf": 38,
-       "pa": 0,
-       "result": "W 38-0",
-       "total_yds": 513,
-       "rush_yds": 233,
-       "pass_yds": 280,
-       "to_lost": 0,
-       "to_gained": 1,
-       "third_conv": 2,
-       "third_att": 10
-      },
-      {
-       "event": "401858461",
-       "date": "2026-09-25",
-       "opp": "Northwestern",
-       "opp_id": "77",
-       "site": "H",
-       "pf": 29,
-       "pa": 23,
-       "result": "W 29-23",
-       "total_yds": 472,
-       "rush_yds": 271,
-       "pass_yds": 201,
-       "to_lost": 0,
-       "to_gained": 0,
-       "third_conv": 9,
-       "third_att": 15
-      },
-      {
-       "event": "401858477",
+       "event": "401856818",
        "date": "2026-10-03",
-       "opp": "Rutgers",
-       "opp_id": "164",
+       "opp": "TCU",
+       "opp_id": "2628",
        "site": "A",
-       "pf": 47,
-       "pa": 15,
-       "result": "W 47-15",
-       "total_yds": 593,
-       "rush_yds": 329,
-       "pass_yds": 264,
-       "to_lost": 0,
-       "to_gained": 0,
-       "third_conv": 5,
-       "third_att": 10
-      },
-      {
-       "event": "401858481",
-       "date": "2026-10-10",
-       "opp": "Nebraska",
-       "opp_id": "158",
-       "site": "A",
-       "pf": 20,
-       "pa": 17,
-       "result": "W 20-17",
-       "total_yds": 328,
-       "rush_yds": 65,
-       "pass_yds": 263,
+       "pf": 17,
+       "pa": 10,
+       "result": "W 17-10",
+       "total_yds": 216,
+       "rush_yds": 154,
+       "pass_yds": 62,
        "to_lost": 0,
        "to_gained": 1,
-       "third_conv": 1,
-       "third_att": 10
-      },
-      {
-       "event": "401858488",
-       "date": "2026-10-17",
-       "opp": "Ohio State",
-       "opp_id": "194",
-       "site": "H",
-       "pf": 15,
-       "pa": 19,
-       "result": "L 15-19",
-       "total_yds": 369,
-       "rush_yds": 73,
-       "pass_yds": 296,
-       "to_lost": 2,
-       "to_gained": 2,
        "third_conv": 8,
        "third_att": 16
+      },
+      {
+       "event": "401856826",
+       "date": "2026-10-09",
+       "opp": "Iowa State",
+       "opp_id": "66",
+       "site": "H",
+       "pf": 24,
+       "pa": 10,
+       "result": "W 24-10",
+       "total_yds": 506,
+       "rush_yds": 177,
+       "pass_yds": 329,
+       "to_lost": 1,
+       "to_gained": 0,
+       "third_conv": 4,
+       "third_att": 10
+      },
+      {
+       "event": "401856809",
+       "date": "2026-10-17",
+       "opp": "Notre Dame",
+       "opp_id": "87",
+       "site": "H",
+       "pf": 28,
+       "pa": 24,
+       "result": "W 28-24",
+       "total_yds": 360,
+       "rush_yds": 121,
+       "pass_yds": 239,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 8,
+       "third_att": 12
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-18T17:33+00:00",
+     "retrieved_at": "2026-10-18T18:56+00:00",
      "check": "cfbstats season totals matched through 2026-10-17",
-     "cfbstats_url": "https://cfbstats.com/2026/team/306/index.html"
+     "cfbstats_url": "https://cfbstats.com/2026/team/77/index.html"
     }
    }
   }
  },
  "ap": {
   "poll": "AP Top 25",
-  "week": "Week 7",
-  "headline": "2026 NCAA Football Rankings - AP Poll Week 7",
-  "date": "2026-10-11",
+  "week": "Week 8",
+  "headline": "2026 NCAA Football Rankings - AP Poll Week 8",
+  "date": "2026-10-18",
   "season": 2026,
   "top": [
    {
     "rank": 1,
-    "team_id": "61",
-    "name": "Georgia",
-    "nickname": "Bulldogs",
-    "abbr": "UGA",
-    "record": "6-0",
-    "first_place": 66
-   },
-   {
-    "rank": 2,
-    "team_id": "87",
-    "name": "Notre Dame",
-    "nickname": "Fighting Irish",
-    "abbr": "ND",
-    "record": "6-0",
-    "first_place": 1
-   },
-   {
-    "rank": 3,
     "team_id": "2390",
     "name": "Miami",
     "nickname": "Hurricanes",
     "abbr": "MIA",
-    "record": "5-0",
-    "first_place": 2
+    "record": "6-0",
+    "first_place": 40
    },
    {
-    "rank": 4,
+    "rank": 2,
+    "team_id": "252",
+    "name": "BYU",
+    "nickname": "Cougars",
+    "abbr": "BYU",
+    "record": "6-0",
+    "first_place": 20
+   },
+   {
+    "rank": 3,
     "team_id": "194",
     "name": "Ohio State",
     "nickname": "Buckeyes",
     "abbr": "OSU",
-    "record": "5-1",
+    "record": "6-1",
+    "first_place": 9
+   },
+   {
+    "rank": 4,
+    "team_id": "87",
+    "name": "Notre Dame",
+    "nickname": "Fighting Irish",
+    "abbr": "ND",
+    "record": "6-1",
     "first_place": 0
    },
    {
     "rank": 5,
-    "team_id": "84",
-    "name": "Indiana",
-    "nickname": "Hoosiers",
-    "abbr": "IU",
-    "record": "6-0",
-    "first_place": 1
+    "team_id": "61",
+    "name": "Georgia",
+    "nickname": "Bulldogs",
+    "abbr": "UGA",
+    "record": "6-1",
+    "first_place": 0
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-10-18T05:31+00:00"
+  "retrieved_at": "2026-10-18T18:56+00:00"
  }
 }
