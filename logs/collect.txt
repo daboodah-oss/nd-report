@@ -3,7 +3,7 @@
 [games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00'}
 UPDATED next game: {'date': '2026-10-31', 'opp': 'Navy', 'site': 'N', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-10-31T12:00-04:00'}
 UPDATED national through 2026-10-20 {'yds': 26, 'td': 10, 'pct': 38, 'rating': 21, 'ypa': 29}
-ADDED BetMGM 2026-10-19 Carr ’26: 1400
+SKIPPED: snapshot exists for BetMGM 2026-10-19
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Trinidad Chambliss, Jesse Legree
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-10-18 1 Miami, 2 BYU, 3 Ohio State, 4 Notre Dame, 5 Georgia
@@ -21,10 +21,10 @@ STORED rb: Jonaz Walton 2026 (6 g), Nolan James, Jr. 2026 (7 g), Jeremiyah Love 
 STORED wr: Jordan Faison 2026 (7 g), Micah Gilbert 2026 (7 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
 STORED rb national boards through 2026-10-20
 STORED wr national boards through 2026-10-20
-[natref] qb: 48 players stored (4 game logs fetched, 44 unchanged)
+[natref] qb: 48 players stored (0 game logs fetched, 48 unchanged)
 STORED natref qb: 48 players through 2026-10-20
-[natref] rb: 53 players stored (2 game logs fetched, 51 unchanged)
+[natref] rb: 53 players stored (0 game logs fetched, 53 unchanged)
 STORED natref rb: 53 players through 2026-10-20
-[natref] wr: 55 players stored (3 game logs fetched, 52 unchanged)
+[natref] wr: 55 players stored (0 game logs fetched, 55 unchanged)
 STORED natref wr: 55 players through 2026-10-20
 FAILED sections: none

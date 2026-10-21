@@ -1,5 +1,5 @@
 {
- "at": "2026-10-21T14:55-04:00",
+ "at": "2026-10-21T16:22-04:00",
  "failed": [],
  "log": [
   "[schedule] 2026: 12 games, 7 played",
@@ -10,9 +10,9 @@
   "[team] BYU 2026: 6 games; matches cfbstats through 2026-10-20",
   "[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-20",
   "[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-20",
-  "[natref] qb: 48 players stored (4 game logs fetched, 44 unchanged)",
-  "[natref] rb: 53 players stored (2 game logs fetched, 51 unchanged)",
-  "[natref] wr: 55 players stored (3 game logs fetched, 52 unchanged)",
+  "[natref] qb: 48 players stored (0 game logs fetched, 48 unchanged)",
+  "[natref] rb: 53 players stored (0 game logs fetched, 53 unchanged)",
+  "[natref] wr: 55 players stored (0 game logs fetched, 55 unchanged)",
   "FAILED sections: none"
  ]
 }
