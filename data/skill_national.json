@@ -1,7 +1,7 @@
 {
  "rb": {
   "latest": {
-   "data_through": "2026-10-17",
+   "data_through": "2026-10-20",
    "boards": {
     "yds": {
      "label": "Rushing yards",
@@ -46,7 +46,7 @@
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 74,
+       "rank": 75,
        "value": 426.0,
        "g": 6
       },
@@ -100,7 +100,7 @@
      ],
      "players": {
       "Nolan James, Jr.": {
-       "rank": 31,
+       "rank": 32,
        "value": 6.0,
        "g": 7
       }
@@ -198,7 +198,7 @@
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 70,
+       "rank": 69,
        "value": 71.0,
        "g": 6
       }
@@ -209,7 +209,7 @@
     "Jonaz Walton",
     "Nolan James, Jr."
    ],
-   "retrieved_at": "2026-10-18T22:36+00:00"
+   "retrieved_at": "2026-10-21T18:55+00:00"
   },
   "rank_history": [
    {
@@ -228,12 +228,29 @@
       "ypg": null
      }
     }
+   },
+   {
+    "through": "2026-10-20",
+    "ranks": {
+     "Jonaz Walton": {
+      "yds": 75,
+      "td": null,
+      "ypc": 18,
+      "ypg": 69
+     },
+     "Nolan James, Jr.": {
+      "yds": 82,
+      "td": 32,
+      "ypc": null,
+      "ypg": null
+     }
+    }
    }
   ]
  },
  "wr": {
   "latest": {
-   "data_through": "2026-10-17",
+   "data_through": "2026-10-20",
    "boards": {
     "rec": {
      "label": "Receptions",
@@ -292,7 +309,7 @@
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 45,
+       "rank": 48,
        "value": 34.0,
        "g": 7
       }
@@ -319,24 +336,24 @@
       },
       {
        "rank": 3,
+       "name": "Isaiah Myers",
+       "team": "MO State",
+       "g": 7,
+       "value": 796.0
+      },
+      {
+       "rank": 4,
        "name": "Umari Hatcher",
        "team": "Syracuse",
        "g": 6,
        "value": 784.0
       },
       {
-       "rank": 4,
+       "rank": 5,
        "name": "Malachi Toney",
        "team": "Miami",
        "g": 6,
        "value": 758.0
-      },
-      {
-       "rank": 5,
-       "name": "KJ Duff",
-       "team": "Rutgers",
-       "g": 6,
-       "value": 741.0
       }
      ],
      "players": {
@@ -346,7 +363,7 @@
        "g": 7
       },
       "Micah Gilbert": {
-       "rank": 74,
+       "rank": 76,
        "value": 409.0,
        "g": 7
       }
@@ -523,7 +540,7 @@
     "Jordan Faison",
     "Micah Gilbert"
    ],
-   "retrieved_at": "2026-10-18T22:36+00:00"
+   "retrieved_at": "2026-10-21T18:55+00:00"
   },
   "rank_history": [
    {
@@ -539,6 +556,25 @@
      "Micah Gilbert": {
       "rec": null,
       "yds": 74,
+      "td": null,
+      "ypr": 21,
+      "ypg": 93
+     }
+    }
+   },
+   {
+    "through": "2026-10-20",
+    "ranks": {
+     "Jordan Faison": {
+      "rec": 48,
+      "yds": 51,
+      "td": 42,
+      "ypr": null,
+      "ypg": 70
+     },
+     "Micah Gilbert": {
+      "rec": null,
+      "yds": 76,
       "td": null,
       "ypr": 21,
       "ypg": 93

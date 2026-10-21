@@ -57,6 +57,14 @@
   "Drew Mestemaker": {
    "school": "Oklahoma State",
    "pos": "QB"
+  },
+  "Jesse Legree": {
+   "school": "Oregon State",
+   "pos": "WR"
+  },
+  "Bear Bachmeier": {
+   "school": "BYU",
+   "pos": "QB"
   }
  },
  "snapshots": [
@@ -289,6 +297,26 @@
     "Kamario Taylor": 4000,
     "Malachi Toney": 5000,
     "Josh Hoover": 5000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-19",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -130,
+    "Darian Mensah": 350,
+    "Trinidad Chambliss": 700,
+    "CJ Carr": 1400,
+    "Jesse Legree": 1800,
+    "Malachi Toney": 2200,
+    "Bear Bachmeier": 2500,
+    "Drew Mestemaker": 5000,
+    "Gunner Stockton": 6600,
+    "Jayden Maiava": 8000,
+    "Kamario Taylor": 10000,
+    "Keelon Russell": 10000
    }
   }
  ]

@@ -77,7 +77,7 @@
      "td": 3,
      "cfb_id": "50304155"
     },
-    "cfbstats_through": "2026-10-17",
+    "cfbstats_through": "2026-10-20",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/rushing/index.html",
     "chosen": "named in roster.json",
     "check_diff": []
@@ -168,7 +168,7 @@
      "td": 6,
      "cfb_id": "50303818"
     },
-    "cfbstats_through": "2026-10-17",
+    "cfbstats_through": "2026-10-20",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/rushing/index.html",
     "chosen": "named in roster.json",
     "check_diff": []
@@ -818,7 +818,7 @@
     "check_diff": []
    }
   ],
-  "retrieved_at": "2026-10-18T22:36+00:00",
+  "retrieved_at": "2026-10-21T18:55+00:00",
   "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 RB by rushing yards (cfbstats.com)."
  },
  "wr": {
@@ -909,7 +909,7 @@
      "td": 4,
      "cfb_id": "1205334"
     },
-    "cfbstats_through": "2026-10-17",
+    "cfbstats_through": "2026-10-20",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/receiving/index.html",
     "chosen": "named in roster.json",
     "check_diff": []
@@ -1000,7 +1000,7 @@
      "td": 2,
      "cfb_id": "50312208"
     },
-    "cfbstats_through": "2026-10-17",
+    "cfbstats_through": "2026-10-20",
     "cfbstats_url": "https://cfbstats.com/2026/team/513/receiving/index.html",
     "chosen": "named in roster.json",
     "check_diff": []
@@ -1653,7 +1653,7 @@
     "check_diff": []
    }
   ],
-  "retrieved_at": "2026-10-18T22:36+00:00",
+  "retrieved_at": "2026-10-21T18:55+00:00",
   "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 WR/TE by receiving yards (cfbstats.com)."
  }
 }

@@ -3,7 +3,7 @@
  "source": "cfbstats.com national player leaders, passing, all games (FBS)",
  "qualifier_note": "Completion %, passer rating and yards per attempt require 15 pass attempts per game played and 75% of team games (cfbstats/NCAA rule). Yards and TD have no qualifier.",
  "latest": {
-  "data_through": "2026-10-17",
+  "data_through": "2026-10-20",
   "boards": {
    "yds": {
     "rows": [
@@ -192,10 +192,10 @@
       "g": 6,
       "cmp": 140,
       "att": 192,
-      "yds": 1834,
+      "yds": 1839,
       "td": 16,
       "int": 5,
-      "src_rating": 175.45
+      "src_rating": 175.67
      },
      {
       "name": "Ethan Grunkemeyer",
@@ -209,7 +209,7 @@
       "src_rating": 165.58
      }
     ],
-    "cur_rank": 37,
+    "cur_rank": 38,
     "label": "Completion %",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort03.html",
     "qualified": true
@@ -335,7 +335,7 @@
       "src_rating": 178.48
      }
     ],
-    "cur_rank": 30,
+    "cur_rank": 29,
     "label": "Yards per attempt",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort04.html",
     "qualified": true
@@ -352,7 +352,7 @@
    "int": 1,
    "src_rating": 164.49
   },
-  "retrieved_at": "2026-10-18T22:35+00:00"
+  "retrieved_at": "2026-10-21T18:55+00:00"
  },
  "rank_history": [
   {
@@ -364,6 +364,17 @@
     "pct": 37,
     "rating": 21,
     "ypa": 30
+   }
+  },
+  {
+   "through": "2026-10-20",
+   "games": 7,
+   "ranks": {
+    "yds": 26,
+    "td": 10,
+    "pct": 38,
+    "rating": 21,
+    "ypa": 29
    }
   }
  ]
