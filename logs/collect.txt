@@ -1,30 +1,41 @@
+Traceback (most recent call last):
+  File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
+    out = fn(*a, **k)
+          ^^^^^^^^^^^
+  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 337, in <lambda>
+    C.section("ap_poll")(lambda: ap_poll(C, U))()
+                                 ^^^^^^^^^^^^^
+  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 176, in ap_poll
+    if not r: raise ValueError("no AP poll in ESPN rankings")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: no AP poll in ESPN rankings
 [schedule] 2026: 12 games, 7 played
 [schedule] ESPN finals seen: 7, latest 2026-10-17 L 24-28
-[games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00'}
-UPDATED next game: {'date': '2026-10-31', 'opp': 'Navy', 'site': 'N', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-10-31T12:00-04:00'}
-UPDATED national through 2026-10-20 {'yds': 26, 'td': 10, 'pct': 38, 'rating': 21, 'ypa': 29}
-SKIPPED: snapshot exists for BetMGM 2026-10-19
-UPDATED cohort: Jeremiah Smith, Darian Mensah, Trinidad Chambliss, Jesse Legree
+[games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00', 'tv': 'ABC'}
+UPDATED next game: {'date': '2026-10-31', 'opp': 'Navy', 'site': 'N', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-10-31T12:00-04:00', 'tv': 'ABC'}
+UPDATED national through 2026-10-24 {'yds': 34, 'td': 18, 'pct': 34, 'rating': 17, 'ypa': 26}
+ADDED BetMGM 2026-10-23 Carr ’26: 2000
+UPDATED cohort: Jeremiah Smith, Darian Mensah, Malachi Toney, Trinidad Chambliss
 UPDATED opponent pass-D ranks
-STORED AP Top 25 2026-10-18 1 Miami, 2 BYU, 3 Ohio State, 4 Notre Dame, 5 Georgia
+[ap_poll] FAILED: no AP poll in ESPN rankings
 STORED team Notre Dame 2026: 7 games
-[team] Notre Dame 2026: 7 games; matches cfbstats through 2026-10-20
-STORED team Miami 2026: 6 games
-[team] Miami 2026: 6 games; matches cfbstats through 2026-10-20
-STORED team BYU 2026: 6 games
-[team] BYU 2026: 6 games; matches cfbstats through 2026-10-20
+[team] Notre Dame 2026: 7 games; matches cfbstats through 2026-10-24
+STORED team Miami 2026: 7 games
+[team] Miami 2026: 7 games; matches cfbstats through 2026-10-24
+STORED team BYU 2026: 7 games
+[team] BYU 2026: 7 games; matches cfbstats through 2026-10-24
 STORED team Ohio State 2026: 7 games
-[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-20
+[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-24
 STORED team Georgia 2026: 7 games
-[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-20
+[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-24
 STORED rb: Jonaz Walton 2026 (6 g), Nolan James, Jr. 2026 (7 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
 STORED wr: Jordan Faison 2026 (7 g), Micah Gilbert 2026 (7 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-10-20
-STORED wr national boards through 2026-10-20
-[natref] qb: 48 players stored (0 game logs fetched, 48 unchanged)
-STORED natref qb: 48 players through 2026-10-20
-[natref] rb: 53 players stored (0 game logs fetched, 53 unchanged)
-STORED natref rb: 53 players through 2026-10-20
-[natref] wr: 55 players stored (0 game logs fetched, 55 unchanged)
-STORED natref wr: 55 players through 2026-10-20
-FAILED sections: none
+STORED rb national boards through 2026-10-24
+STORED wr national boards through 2026-10-24
+[natref] qb: 44 players stored (33 game logs fetched, 11 unchanged)
+STORED natref qb: 44 players through 2026-10-24
+[natref] rb: 50 players stored (44 game logs fetched, 6 unchanged)
+STORED natref rb: 50 players through 2026-10-24
+[natref] wr: 51 players stored (36 game logs fetched, 15 unchanged)
+STORED natref wr: 51 players through 2026-10-24
+FAILED sections: ap_poll

@@ -3,7 +3,7 @@
  "source": "cfbstats.com national player leaders, passing, all games (FBS)",
  "qualifier_note": "Completion %, passer rating and yards per attempt require 15 pass attempts per game played and 75% of team games (cfbstats/NCAA rule). Yards and TD have no qualifier.",
  "latest": {
-  "data_through": "2026-10-20",
+  "data_through": "2026-10-24",
   "boards": {
    "yds": {
     "rows": [
@@ -19,51 +19,51 @@
       "src_rating": 176.89
      },
      {
+      "name": "Drew Mestemaker",
+      "team": "Oklahoma State",
+      "g": 7,
+      "cmp": 157,
+      "att": 239,
+      "yds": 2326,
+      "td": 20,
+      "int": 6,
+      "src_rating": 170.03
+     },
+     {
       "name": "Jayden Maiava",
       "team": "USC",
-      "g": 7,
-      "cmp": 152,
-      "att": 224,
-      "yds": 2045,
-      "td": 18,
-      "int": 3,
-      "src_rating": 168.38
-     },
-     {
-      "name": "Julian Sayin",
-      "team": "Ohio State",
-      "g": 7,
-      "cmp": 131,
-      "att": 192,
-      "yds": 2007,
+      "g": 8,
+      "cmp": 183,
+      "att": 274,
+      "yds": 2303,
       "td": 19,
-      "int": 4,
-      "src_rating": 184.53
+      "int": 5,
+      "src_rating": 156.62
      },
      {
-      "name": "Ethan Grunkemeyer",
-      "team": "Virginia Tech",
-      "g": 7,
-      "cmp": 167,
-      "att": 229,
-      "yds": 1984,
-      "td": 15,
-      "int": 2,
-      "src_rating": 165.58
-     },
-     {
-      "name": "Gio Lopez",
-      "team": "Wake Forest",
-      "g": 7,
-      "cmp": 140,
-      "att": 207,
-      "yds": 1947,
+      "name": "John Alan Richter",
+      "team": "Toledo",
+      "g": 8,
+      "cmp": 173,
+      "att": 259,
+      "yds": 2244,
       "td": 17,
-      "int": 1,
-      "src_rating": 172.77
+      "int": 2,
+      "src_rating": 159.7
+     },
+     {
+      "name": "Micah Alejado",
+      "team": "Hawai'i",
+      "g": 8,
+      "cmp": 202,
+      "att": 337,
+      "yds": 2186,
+      "td": 9,
+      "int": 6,
+      "src_rating": 119.68
      }
     ],
-    "cur_rank": 26,
+    "cur_rank": 34,
     "label": "Passing yards",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort08.html"
    },
@@ -81,73 +81,51 @@
       "src_rating": 176.89
      },
      {
-      "name": "Conner Weigman",
-      "team": "Houston",
-      "g": 7,
-      "cmp": 134,
-      "att": 198,
-      "yds": 1771,
-      "td": 20,
-      "int": 2,
-      "src_rating": 174.12
-     },
-     {
-      "name": "Julian Sayin",
-      "team": "Ohio State",
-      "g": 7,
-      "cmp": 131,
-      "att": 192,
-      "yds": 2007,
-      "td": 19,
-      "int": 4,
-      "src_rating": 184.53
-     },
-     {
       "name": "Darian Mensah",
       "team": "Miami",
-      "g": 6,
-      "cmp": 135,
-      "att": 167,
-      "yds": 1764,
-      "td": 18,
-      "int": 1,
-      "src_rating": 203.94
-     },
-     {
-      "name": "Jayden Maiava",
-      "team": "USC",
       "g": 7,
-      "cmp": 152,
-      "att": 224,
-      "yds": 2045,
-      "td": 18,
-      "int": 3,
-      "src_rating": 168.38
+      "cmp": 166,
+      "att": 204,
+      "yds": 2151,
+      "td": 22,
+      "int": 1,
+      "src_rating": 204.55
      },
      {
       "name": "Marcus Stokes",
       "team": "Memphis",
-      "g": 7,
-      "cmp": 121,
-      "att": 181,
-      "yds": 1841,
-      "td": 18,
+      "g": 8,
+      "cmp": 150,
+      "att": 224,
+      "yds": 2161,
+      "td": 21,
       "int": 6,
-      "src_rating": 178.48
+      "src_rating": 173.57
      },
      {
-      "name": "Josh Hoover",
-      "team": "Indiana",
+      "name": "Drew Mestemaker",
+      "team": "Oklahoma State",
       "g": 7,
-      "cmp": 108,
-      "att": 169,
-      "yds": 1660,
-      "td": 18,
-      "int": 0,
-      "src_rating": 181.56
+      "cmp": 157,
+      "att": 239,
+      "yds": 2326,
+      "td": 20,
+      "int": 6,
+      "src_rating": 170.03
+     },
+     {
+      "name": "Conner Weigman",
+      "team": "Houston",
+      "g": 8,
+      "cmp": 153,
+      "att": 233,
+      "yds": 2053,
+      "td": 20,
+      "int": 2,
+      "src_rating": 166.29
      }
     ],
-    "cur_rank": 10,
+    "cur_rank": 18,
     "label": "Passing TD",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort10.html"
    },
@@ -156,13 +134,24 @@
      {
       "name": "Darian Mensah",
       "team": "Miami",
-      "g": 6,
-      "cmp": 135,
-      "att": 167,
-      "yds": 1764,
-      "td": 18,
+      "g": 7,
+      "cmp": 166,
+      "att": 204,
+      "yds": 2151,
+      "td": 22,
       "int": 1,
-      "src_rating": 203.94
+      "src_rating": 204.55
+     },
+     {
+      "name": "Noah Fifita",
+      "team": "Arizona",
+      "g": 7,
+      "cmp": 167,
+      "att": 225,
+      "yds": 2064,
+      "td": 18,
+      "int": 4,
+      "src_rating": 174.11
      },
      {
       "name": "Gunner Stockton",
@@ -176,40 +165,29 @@
       "src_rating": 185.88
      },
      {
-      "name": "Noah Fifita",
-      "team": "Arizona",
-      "g": 6,
-      "cmp": 140,
-      "att": 191,
-      "yds": 1756,
-      "td": 16,
+      "name": "Caden Veltkamp",
+      "team": "FAU",
+      "g": 7,
+      "cmp": 190,
+      "att": 260,
+      "yds": 2084,
+      "td": 18,
       "int": 4,
-      "src_rating": 173.98
+      "src_rating": 160.18
      },
      {
       "name": "Kevin Jennings",
       "team": "SMU",
-      "g": 6,
-      "cmp": 140,
-      "att": 192,
-      "yds": 1839,
-      "td": 16,
-      "int": 5,
-      "src_rating": 175.67
-     },
-     {
-      "name": "Ethan Grunkemeyer",
-      "team": "Virginia Tech",
       "g": 7,
-      "cmp": 167,
-      "att": 229,
-      "yds": 1984,
-      "td": 15,
-      "int": 2,
-      "src_rating": 165.58
+      "cmp": 156,
+      "att": 215,
+      "yds": 2062,
+      "td": 19,
+      "int": 5,
+      "src_rating": 177.63
      }
     ],
-    "cur_rank": 38,
+    "cur_rank": 34,
     "label": "Completion %",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort03.html",
     "qualified": true
@@ -219,13 +197,13 @@
      {
       "name": "Darian Mensah",
       "team": "Miami",
-      "g": 6,
-      "cmp": 135,
-      "att": 167,
-      "yds": 1764,
-      "td": 18,
+      "g": 7,
+      "cmp": 166,
+      "att": 204,
+      "yds": 2151,
+      "td": 22,
       "int": 1,
-      "src_rating": 203.94
+      "src_rating": 204.55
      },
      {
       "name": "Gunner Stockton",
@@ -250,29 +228,29 @@
       "src_rating": 184.53
      },
      {
-      "name": "Josh Hoover",
-      "team": "Indiana",
+      "name": "Kevin Jennings",
+      "team": "SMU",
       "g": 7,
-      "cmp": 108,
-      "att": 169,
-      "yds": 1660,
-      "td": 18,
-      "int": 0,
-      "src_rating": 181.56
+      "cmp": 156,
+      "att": 215,
+      "yds": 2062,
+      "td": 19,
+      "int": 5,
+      "src_rating": 177.63
      },
      {
-      "name": "Marcus Stokes",
-      "team": "Memphis",
+      "name": "Tayven Jackson",
+      "team": "North Texas",
       "g": 7,
-      "cmp": 121,
-      "att": 181,
-      "yds": 1841,
+      "cmp": 160,
+      "att": 221,
+      "yds": 2173,
       "td": 18,
-      "int": 6,
-      "src_rating": 178.48
+      "int": 5,
+      "src_rating": 177.36
      }
     ],
-    "cur_rank": 21,
+    "cur_rank": 17,
     "label": "Passer rating",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort02.html",
     "qualified": true
@@ -282,13 +260,13 @@
      {
       "name": "Darian Mensah",
       "team": "Miami",
-      "g": 6,
-      "cmp": 135,
-      "att": 167,
-      "yds": 1764,
-      "td": 18,
+      "g": 7,
+      "cmp": 166,
+      "att": 204,
+      "yds": 2151,
+      "td": 22,
       "int": 1,
-      "src_rating": 203.94
+      "src_rating": 204.55
      },
      {
       "name": "Julian Sayin",
@@ -300,17 +278,6 @@
       "td": 19,
       "int": 4,
       "src_rating": 184.53
-     },
-     {
-      "name": "Michael Hawkins Jr.",
-      "team": "WVU",
-      "g": 7,
-      "cmp": 83,
-      "att": 144,
-      "yds": 1519,
-      "td": 10,
-      "int": 1,
-      "src_rating": 167.78
      },
      {
       "name": "Lincoln Kienholz",
@@ -324,18 +291,40 @@
       "src_rating": 168.27
      },
      {
-      "name": "Marcus Stokes",
-      "team": "Memphis",
+      "name": "Michael Hawkins Jr.",
+      "team": "WVU",
+      "g": 8,
+      "cmp": 90,
+      "att": 159,
+      "yds": 1598,
+      "td": 11,
+      "int": 2,
+      "src_rating": 161.33
+     },
+     {
+      "name": "Aidan Chiles",
+      "team": "Northwestern",
       "g": 7,
-      "cmp": 121,
-      "att": 181,
-      "yds": 1841,
-      "td": 18,
-      "int": 6,
-      "src_rating": 178.48
+      "cmp": 117,
+      "att": 164,
+      "yds": 1617,
+      "td": 12,
+      "int": 1,
+      "src_rating": 177.09
+     },
+     {
+      "name": "Gunner Stockton",
+      "team": "Georgia",
+      "g": 7,
+      "cmp": 117,
+      "att": 158,
+      "yds": 1570,
+      "td": 16,
+      "int": 4,
+      "src_rating": 185.88
      }
     ],
-    "cur_rank": 29,
+    "cur_rank": 26,
     "label": "Yards per attempt",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort04.html",
     "qualified": true
@@ -352,7 +341,7 @@
    "int": 1,
    "src_rating": 164.49
   },
-  "retrieved_at": "2026-10-21T23:37+00:00"
+  "retrieved_at": "2026-10-25T17:51+00:00"
  },
  "rank_history": [
   {
@@ -367,14 +356,14 @@
    }
   },
   {
-   "through": "2026-10-20",
+   "through": "2026-10-24",
    "games": 7,
    "ranks": {
-    "yds": 26,
-    "td": 10,
-    "pct": 38,
-    "rating": 21,
-    "ypa": 29
+    "yds": 34,
+    "td": 18,
+    "pct": 34,
+    "rating": 17,
+    "ypa": 26
    }
   }
  ]

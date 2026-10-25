@@ -2031,8 +2031,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-21T23:37+00:00",
-     "check": "cfbstats season totals matched through 2026-10-20",
+     "retrieved_at": "2026-10-25T17:51+00:00",
+     "check": "cfbstats season totals matched through 2026-10-24",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
     "2024": {
@@ -4061,8 +4061,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-21T23:37+00:00",
-     "check": "cfbstats season totals matched through 2026-10-20",
+     "retrieved_at": "2026-10-25T17:51+00:00",
+     "check": "cfbstats season totals matched through 2026-10-24",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
    }
@@ -4173,11 +4173,28 @@
        "to_gained": 2,
        "third_conv": 8,
        "third_att": 15
+      },
+      {
+       "event": "401858274",
+       "date": "2026-10-24",
+       "opp": "Pittsburgh",
+       "opp_id": "221",
+       "site": "H",
+       "pf": 52,
+       "pa": 23,
+       "result": "W 52-23",
+       "total_yds": 506,
+       "rush_yds": 119,
+       "pass_yds": 387,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 10,
+       "third_att": 15
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-21T23:37+00:00",
-     "check": "cfbstats season totals matched through 2026-10-20",
+     "retrieved_at": "2026-10-25T17:51+00:00",
+     "check": "cfbstats season totals matched through 2026-10-24",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
    }
@@ -4308,8 +4325,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-21T23:37+00:00",
-     "check": "cfbstats season totals matched through 2026-10-20",
+     "retrieved_at": "2026-10-25T17:51+00:00",
+     "check": "cfbstats season totals matched through 2026-10-24",
      "cfbstats_url": "https://cfbstats.com/2026/team/518/index.html"
     }
    }
@@ -4420,11 +4437,28 @@
        "to_gained": 1,
        "third_conv": 8,
        "third_att": 12
+      },
+      {
+       "event": "401856835",
+       "date": "2026-10-24",
+       "opp": "UCF",
+       "opp_id": "2116",
+       "site": "A",
+       "pf": 31,
+       "pa": 39,
+       "result": "L 31-39",
+       "total_yds": 373,
+       "rush_yds": 116,
+       "pass_yds": 257,
+       "to_lost": 1,
+       "to_gained": 0,
+       "third_conv": 8,
+       "third_att": 17
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-21T23:37+00:00",
-     "check": "cfbstats season totals matched through 2026-10-20",
+     "retrieved_at": "2026-10-25T17:51+00:00",
+     "check": "cfbstats season totals matched through 2026-10-24",
      "cfbstats_url": "https://cfbstats.com/2026/team/77/index.html"
     }
    }

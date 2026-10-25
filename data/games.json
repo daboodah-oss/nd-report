@@ -5,7 +5,8 @@
   "opp": "Navy",
   "site": "N",
   "source_url": "https://cfbstats.com/2026/team/513/index.html",
-  "kickoff": "2026-10-31T12:00-04:00"
+  "kickoff": "2026-10-31T12:00-04:00",
+  "tv": "ABC"
  },
  "opp_pass_defense": {
   "method": "Opponent's national rank in passing yards allowed per game (cfbstats.com, FBS). 2025 opponents use final 2025 ranks. 2026 opponents use the current 2026 rank, which moves every week.",
@@ -49,16 +50,16 @@
    "source_url": "https://cfbstats.com/2025/leader/national/team/defense/split01/category02/sort01.html"
   },
   "2026": {
-   "through": "2026-10-20",
+   "through": "2026-10-24",
    "ranks": {
-    "Wisconsin": 20,
-    "Rice": 37,
-    "Michigan State": 59,
-    "Purdue": 119,
-    "North Carolina": 70,
-    "Stanford": 123,
-    "BYU": 35,
-    "Navy": 114
+    "Wisconsin": 31,
+    "Rice": 67,
+    "Michigan State": 52,
+    "Purdue": 118,
+    "North Carolina": 84,
+    "Stanford": 122,
+    "BYU": 55,
+    "Navy": 123
    },
    "source_url": "https://cfbstats.com/2026/leader/national/team/defense/split01/category02/sort01.html"
   }

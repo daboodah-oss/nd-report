@@ -1,18 +1,21 @@
 {
- "at": "2026-10-21T19:37-04:00",
- "failed": [],
+ "at": "2026-10-25T13:53-04:00",
+ "failed": [
+  "ap_poll"
+ ],
  "log": [
   "[schedule] 2026: 12 games, 7 played",
   "[schedule] ESPN finals seen: 7, latest 2026-10-17 L 24-28",
-  "[games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00'}",
-  "[team] Notre Dame 2026: 7 games; matches cfbstats through 2026-10-20",
-  "[team] Miami 2026: 6 games; matches cfbstats through 2026-10-20",
-  "[team] BYU 2026: 6 games; matches cfbstats through 2026-10-20",
-  "[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-20",
-  "[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-20",
-  "[natref] qb: 48 players stored (0 game logs fetched, 48 unchanged)",
-  "[natref] rb: 53 players stored (0 game logs fetched, 53 unchanged)",
-  "[natref] wr: 55 players stored (0 game logs fetched, 55 unchanged)",
-  "FAILED sections: none"
+  "[games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00', 'tv': 'ABC'}",
+  "[ap_poll] FAILED: no AP poll in ESPN rankings",
+  "[team] Notre Dame 2026: 7 games; matches cfbstats through 2026-10-24",
+  "[team] Miami 2026: 7 games; matches cfbstats through 2026-10-24",
+  "[team] BYU 2026: 7 games; matches cfbstats through 2026-10-24",
+  "[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-24",
+  "[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-24",
+  "[natref] qb: 44 players stored (33 game logs fetched, 11 unchanged)",
+  "[natref] rb: 50 players stored (44 game logs fetched, 6 unchanged)",
+  "[natref] wr: 51 players stored (36 game logs fetched, 15 unchanged)",
+  "FAILED sections: ap_poll"
  ]
 }
