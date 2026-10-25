@@ -21,10 +21,10 @@ STORED rb: Jonaz Walton 2026 (6 g), Nolan James, Jr. 2026 (7 g), Jeremiyah Love 
 STORED wr: Jordan Faison 2026 (7 g), Micah Gilbert 2026 (7 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
 STORED rb national boards through 2026-10-24
 STORED wr national boards through 2026-10-24
-[natref] qb: 44 players stored (0 game logs fetched, 44 unchanged)
+[natref] qb: 44 players stored (2 game logs fetched, 42 unchanged)
 STORED natref qb: 44 players through 2026-10-24
-[natref] rb: 50 players stored (0 game logs fetched, 50 unchanged)
+[natref] rb: 50 players stored (2 game logs fetched, 48 unchanged)
 STORED natref rb: 50 players through 2026-10-24
-[natref] wr: 51 players stored (0 game logs fetched, 51 unchanged)
+[natref] wr: 51 players stored (1 game logs fetched, 50 unchanged)
 STORED natref wr: 51 players through 2026-10-24
 FAILED sections: none

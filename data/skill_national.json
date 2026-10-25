@@ -181,7 +181,7 @@
        "name": "Jackson Gutierrez",
        "team": "Navy",
        "g": 7,
-       "value": 124.57
+       "value": 124.14
       },
       {
        "rank": 5,
@@ -204,7 +204,7 @@
     "Jonaz Walton",
     "Nolan James, Jr."
    ],
-   "retrieved_at": "2026-10-25T19:16+00:00"
+   "retrieved_at": "2026-10-25T22:48+00:00"
   },
   "rank_history": [
    {
@@ -291,6 +291,13 @@
        "rank": 5,
        "name": "Kelby Valsin",
        "team": "FAU",
+       "g": 7,
+       "value": 54.0
+      },
+      {
+       "rank": 5,
+       "name": "Collin Dixon",
+       "team": "Illinois",
        "g": 7,
        "value": 54.0
       },
@@ -521,7 +528,7 @@
     "Jordan Faison",
     "Micah Gilbert"
    ],
-   "retrieved_at": "2026-10-25T19:16+00:00"
+   "retrieved_at": "2026-10-25T22:48+00:00"
   },
   "rank_history": [
    {

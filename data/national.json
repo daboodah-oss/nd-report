@@ -35,10 +35,10 @@
       "g": 8,
       "cmp": 183,
       "att": 274,
-      "yds": 2303,
+      "yds": 2302,
       "td": 19,
       "int": 5,
-      "src_rating": 156.62
+      "src_rating": 156.59
      },
      {
       "name": "John Alan Richter",
@@ -341,7 +341,7 @@
    "int": 1,
    "src_rating": 164.49
   },
-  "retrieved_at": "2026-10-25T19:16+00:00"
+  "retrieved_at": "2026-10-25T22:48+00:00"
  },
  "rank_history": [
   {
