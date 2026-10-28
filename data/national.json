@@ -3,7 +3,7 @@
  "source": "cfbstats.com national player leaders, passing, all games (FBS)",
  "qualifier_note": "Completion %, passer rating and yards per attempt require 15 pass attempts per game played and 75% of team games (cfbstats/NCAA rule). Yards and TD have no qualifier.",
  "latest": {
-  "data_through": "2026-10-24",
+  "data_through": "2026-10-27",
   "boards": {
    "yds": {
     "rows": [
@@ -324,7 +324,7 @@
       "src_rating": 185.88
      }
     ],
-    "cur_rank": 26,
+    "cur_rank": 27,
     "label": "Yards per attempt",
     "source_url": "https://cfbstats.com/2026/leader/national/player/split01/category02/sort04.html",
     "qualified": true
@@ -341,7 +341,7 @@
    "int": 1,
    "src_rating": 164.49
   },
-  "retrieved_at": "2026-10-25T22:48+00:00"
+  "retrieved_at": "2026-10-28T19:52+00:00"
  },
  "rank_history": [
   {
@@ -364,6 +364,17 @@
     "pct": 34,
     "rating": 17,
     "ypa": 26
+   }
+  },
+  {
+   "through": "2026-10-27",
+   "games": 7,
+   "ranks": {
+    "yds": 34,
+    "td": 18,
+    "pct": 34,
+    "rating": 17,
+    "ypa": 27
    }
   }
  ]

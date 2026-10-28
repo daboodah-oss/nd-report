@@ -2,29 +2,29 @@
 [schedule] ESPN finals seen: 7, latest 2026-10-17 L 24-28
 [games] next game kickoff: {'kickoff': '2026-10-31T12:00-04:00', 'tv': 'ABC'}
 UPDATED next game: {'date': '2026-10-31', 'opp': 'Navy', 'site': 'N', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-10-31T12:00-04:00', 'tv': 'ABC'}
-UPDATED national through 2026-10-24 {'yds': 34, 'td': 18, 'pct': 34, 'rating': 17, 'ypa': 26}
-SKIPPED: snapshot exists for BetMGM 2026-10-23
+UPDATED national through 2026-10-27 {'yds': 34, 'td': 18, 'pct': 34, 'rating': 17, 'ypa': 27}
+ADDED BetMGM 2026-10-27 Carr ’26: 2000
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Malachi Toney, Trinidad Chambliss
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-10-25 1 Miami, 2 Ohio State, 3 Georgia, 4 Indiana, 5 Notre Dame
 STORED team Notre Dame 2026: 7 games
-[team] Notre Dame 2026: 7 games; matches cfbstats through 2026-10-24
+[team] Notre Dame 2026: 7 games; matches cfbstats through 2026-10-27
 STORED team Miami 2026: 7 games
-[team] Miami 2026: 7 games; matches cfbstats through 2026-10-24
+[team] Miami 2026: 7 games; matches cfbstats through 2026-10-27
 STORED team Ohio State 2026: 7 games
-[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-24
+[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-27
 STORED team Georgia 2026: 7 games
-[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-24
+[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-27
 STORED team Indiana 2026: 8 games
-[team] Indiana 2026: 8 games; matches cfbstats through 2026-10-24
+[team] Indiana 2026: 8 games; matches cfbstats through 2026-10-27
 STORED rb: Jonaz Walton 2026 (6 g), Nolan James, Jr. 2026 (7 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
 STORED wr: Jordan Faison 2026 (7 g), Micah Gilbert 2026 (7 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-10-24
-STORED wr national boards through 2026-10-24
+STORED rb national boards through 2026-10-27
+STORED wr national boards through 2026-10-27
 [natref] qb: 44 players stored (2 game logs fetched, 42 unchanged)
-STORED natref qb: 44 players through 2026-10-24
-[natref] rb: 50 players stored (2 game logs fetched, 48 unchanged)
-STORED natref rb: 50 players through 2026-10-24
-[natref] wr: 51 players stored (1 game logs fetched, 50 unchanged)
-STORED natref wr: 51 players through 2026-10-24
+STORED natref qb: 44 players through 2026-10-27
+[natref] rb: 50 players stored (1 game logs fetched, 49 unchanged)
+STORED natref rb: 50 players through 2026-10-27
+[natref] wr: 51 players stored (2 game logs fetched, 49 unchanged)
+STORED natref wr: 51 players through 2026-10-27
 FAILED sections: none

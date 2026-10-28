@@ -1,7 +1,7 @@
 {
  "rb": {
   "latest": {
-   "data_through": "2026-10-24",
+   "data_through": "2026-10-27",
    "boards": {
     "yds": {
      "label": "Rushing yards",
@@ -46,7 +46,7 @@
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 92,
+       "rank": 93,
        "value": 426.0,
        "g": 6
       }
@@ -204,7 +204,7 @@
     "Jonaz Walton",
     "Nolan James, Jr."
    ],
-   "retrieved_at": "2026-10-25T22:48+00:00"
+   "retrieved_at": "2026-10-28T19:52+00:00"
   },
   "rank_history": [
    {
@@ -240,12 +240,29 @@
       "ypg": null
      }
     }
+   },
+   {
+    "through": "2026-10-27",
+    "ranks": {
+     "Jonaz Walton": {
+      "yds": 93,
+      "td": null,
+      "ypc": 12,
+      "ypg": 68
+     },
+     "Nolan James, Jr.": {
+      "yds": null,
+      "td": 45,
+      "ypc": null,
+      "ypg": null
+     }
+    }
    }
   ]
  },
  "wr": {
   "latest": {
-   "data_through": "2026-10-24",
+   "data_through": "2026-10-27",
    "boards": {
     "rec": {
      "label": "Receptions",
@@ -311,7 +328,7 @@
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 69,
+       "rank": 71,
        "value": 34.0,
        "g": 7
       }
@@ -352,21 +369,16 @@
       },
       {
        "rank": 5,
-       "name": "Reed Harris",
-       "team": "Arizona State",
-       "g": 7,
-       "value": 800.0
+       "name": "Isaiah Myers",
+       "team": "MO State",
+       "g": 8,
+       "value": 873.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 77,
+       "rank": 78,
        "value": 451.0,
-       "g": 7
-      },
-      "Micah Gilbert": {
-       "rank": 99,
-       "value": 409.0,
        "g": 7
       }
      }
@@ -414,7 +426,7 @@
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 51,
+       "rank": 52,
        "value": 4.0,
        "g": 7
       }
@@ -457,8 +469,8 @@
        "rank": 5,
        "name": "Tim Burns Jr.",
        "team": "Sam Houston",
-       "g": 7,
-       "value": 21.93
+       "g": 8,
+       "value": 21.78
       }
      ],
      "players": {
@@ -512,12 +524,12 @@
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 68,
+       "rank": 69,
        "value": 64.4,
        "g": 7
       },
       "Micah Gilbert": {
-       "rank": 93,
+       "rank": 94,
        "value": 58.4,
        "g": 7
       }
@@ -528,7 +540,7 @@
     "Jordan Faison",
     "Micah Gilbert"
    ],
-   "retrieved_at": "2026-10-25T22:48+00:00"
+   "retrieved_at": "2026-10-28T19:52+00:00"
   },
   "rank_history": [
    {
@@ -566,6 +578,25 @@
       "td": null,
       "ypr": 22,
       "ypg": 93
+     }
+    }
+   },
+   {
+    "through": "2026-10-27",
+    "ranks": {
+     "Jordan Faison": {
+      "rec": 71,
+      "yds": 78,
+      "td": 52,
+      "ypr": null,
+      "ypg": 69
+     },
+     "Micah Gilbert": {
+      "rec": null,
+      "yds": null,
+      "td": null,
+      "ypr": 22,
+      "ypg": 94
      }
     }
    }

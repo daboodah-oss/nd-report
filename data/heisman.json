@@ -65,6 +65,10 @@
   "Bear Bachmeier": {
    "school": "BYU",
    "pos": "QB"
+  },
+  "Sam Leavitt": {
+   "school": "LSU",
+   "pos": "QB"
   }
  },
  "snapshots": [
@@ -337,6 +341,26 @@
     "Jayden Maiava": 10000,
     "Kamario Taylor": 20000,
     "Keelon Russell": 10000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-10-27",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": 110,
+    "Darian Mensah": 300,
+    "Malachi Toney": 350,
+    "Trinidad Chambliss": 2000,
+    "CJ Carr": 2000,
+    "Jesse Legree": 2000,
+    "Gunner Stockton": 6600,
+    "Drew Mestemaker": 6600,
+    "Sam Leavitt": 8000,
+    "Jayden Maiava": 10000,
+    "Keelon Russell": 10000,
+    "Bear Bachmeier": 15000
    }
   }
  ]
