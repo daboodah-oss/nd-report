@@ -1,5 +1,5 @@
 {
- "at": "2026-10-28T15:52-04:00",
+ "at": "2026-10-28T17:20-04:00",
  "failed": [],
  "log": [
   "[schedule] 2026: 12 games, 7 played",
@@ -10,9 +10,9 @@
   "[team] Ohio State 2026: 7 games; matches cfbstats through 2026-10-27",
   "[team] Georgia 2026: 7 games; matches cfbstats through 2026-10-27",
   "[team] Indiana 2026: 8 games; matches cfbstats through 2026-10-27",
-  "[natref] qb: 44 players stored (2 game logs fetched, 42 unchanged)",
-  "[natref] rb: 50 players stored (1 game logs fetched, 49 unchanged)",
-  "[natref] wr: 51 players stored (2 game logs fetched, 49 unchanged)",
+  "[natref] qb: 44 players stored (0 game logs fetched, 44 unchanged)",
+  "[natref] rb: 50 players stored (0 game logs fetched, 50 unchanged)",
+  "[natref] wr: 51 players stored (0 game logs fetched, 51 unchanged)",
   "FAILED sections: none"
  ]
 }
