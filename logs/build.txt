@@ -1,2 +1,2 @@
 OK  games=7  verdict: Through 7 games, Carr ’26 leads Carr ’25's 2025 line in 2 of 5 and Leonard's 2024 line in 5 of 5 headline passing measures. At the same point he is 119 yards behind Carr ’25 but 2 passing TD ahead and 457 yards and 10 passing TD ahead of Leonard.
-    sha256=673b51041144350c  bytes=294502
+    sha256=05f05bf707feb601  bytes=294502
