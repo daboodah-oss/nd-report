@@ -2028,12 +2028,138 @@
          "td": 0
         }
        ]
+      },
+      {
+       "event": "401859185",
+       "date": "2026-10-31",
+       "opp": "Navy",
+       "opp_id": "2426",
+       "site": "N",
+       "pf": 35,
+       "pa": 13,
+       "result": "W 35-13",
+       "total_yds": 426,
+       "rush_yds": 204,
+       "pass_yds": 222,
+       "to_lost": 0,
+       "to_gained": 0,
+       "third_conv": 3,
+       "third_att": 8,
+       "rush": [
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 9,
+         "yds": 107,
+         "td": 2
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 12,
+         "yds": 51,
+         "td": 1
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 29,
+         "td": 0
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 3,
+         "yds": 13,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 2,
+         "yds": 4,
+         "td": 0
+        },
+        {
+         "id": "5160472",
+         "name": "Javian Osborne",
+         "n": 1,
+         "yds": 0,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5164349",
+         "name": "Jerome Bettis Jr.",
+         "n": 6,
+         "yds": 78,
+         "td": 1
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 4,
+         "yds": 46,
+         "td": 0
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 3,
+         "yds": 26,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 2,
+         "yds": 21,
+         "td": 1
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 1,
+         "yds": 21,
+         "td": 0
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 1,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "5210543",
+         "name": "Ian Premer",
+         "n": 1,
+         "yds": 8,
+         "td": 0
+        },
+        {
+         "id": "5218507",
+         "name": "Matt Jeffery",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 1,
+         "yds": 3,
+         "td": 0
+        }
+       ]
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-29T00:24+00:00",
-     "check": "cfbstats season totals matched through 2026-10-27",
-     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
+     "retrieved_at": "2026-10-31T22:53+00:00",
+     "check": "not cross-checked yet: cfbstats has 7 games through 2026-10-30, ESPN 8",
+     "cfbstats_url": null
     },
     "2024": {
      "games": [
@@ -4061,8 +4187,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-29T00:24+00:00",
-     "check": "cfbstats season totals matched through 2026-10-27",
+     "retrieved_at": "2026-10-31T22:53+00:00",
+     "check": "cfbstats season totals matched through 2026-10-30",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
    }
@@ -4193,8 +4319,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-29T00:24+00:00",
-     "check": "cfbstats season totals matched through 2026-10-27",
+     "retrieved_at": "2026-10-31T22:53+00:00",
+     "check": "cfbstats season totals matched through 2026-10-30",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
    }
@@ -4325,8 +4451,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-29T00:24+00:00",
-     "check": "cfbstats season totals matched through 2026-10-27",
+     "retrieved_at": "2026-10-31T22:53+00:00",
+     "check": "cfbstats season totals matched through 2026-10-30",
      "cfbstats_url": "https://cfbstats.com/2026/team/518/index.html"
     }
    }
@@ -4474,8 +4600,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-10-29T00:24+00:00",
-     "check": "cfbstats season totals matched through 2026-10-27",
+     "retrieved_at": "2026-10-31T22:53+00:00",
+     "check": "cfbstats season totals matched through 2026-10-30",
      "cfbstats_url": "https://cfbstats.com/2026/team/306/index.html"
     }
    }
@@ -4535,6 +4661,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-10-29T00:24+00:00"
+  "retrieved_at": "2026-10-31T22:53+00:00"
  }
 }

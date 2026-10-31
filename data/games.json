@@ -1,12 +1,12 @@
 {
  "schema_version": 1,
  "next_game": {
-  "date": "2026-10-31",
-  "opp": "Navy",
-  "site": "N",
+  "date": "2026-11-07",
+  "opp": "Miami (FL)",
+  "site": "H",
   "source_url": "https://cfbstats.com/2026/team/513/index.html",
-  "kickoff": "2026-10-31T12:00-04:00",
-  "tv": "ABC"
+  "kickoff": "2026-11-07T19:30-05:00",
+  "tv": "NBC"
  },
  "opp_pass_defense": {
   "method": "Opponent's national rank in passing yards allowed per game (cfbstats.com, FBS). 2025 opponents use final 2025 ranks. 2026 opponents use the current 2026 rank, which moves every week.",
@@ -50,15 +50,15 @@
    "source_url": "https://cfbstats.com/2025/leader/national/team/defense/split01/category02/sort01.html"
   },
   "2026": {
-   "through": "2026-10-27",
+   "through": "2026-10-30",
    "ranks": {
-    "Wisconsin": 31,
-    "Rice": 66,
-    "Michigan State": 51,
+    "Wisconsin": 32,
+    "Rice": 63,
+    "Michigan State": 50,
     "Purdue": 118,
-    "North Carolina": 83,
+    "North Carolina": 84,
     "Stanford": 122,
-    "BYU": 55,
+    "BYU": 52,
     "Navy": 123
    },
    "source_url": "https://cfbstats.com/2026/leader/national/team/defense/split01/category02/sort01.html"
@@ -684,8 +684,25 @@
     "rush_yds": 13,
     "rush_td": 0,
     "sacks": 0
+   },
+   {
+    "date": "2026-10-31",
+    "espn_event": "401859185",
+    "opp": "Navy",
+    "site": "N",
+    "level": "FBS",
+    "result": "W 35-13",
+    "cmp": 19,
+    "att": 29,
+    "yds": 210,
+    "td": 2,
+    "int": 0,
+    "rush_att": 2,
+    "rush_yds": 4,
+    "rush_td": 0,
+    "sacks": 0
    }
   ],
-  "retrieved_at": "2026-10-18T05:25+00:00"
+  "retrieved_at": "2026-10-31T22:53+00:00"
  }
 }
