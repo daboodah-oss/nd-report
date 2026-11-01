@@ -2,13 +2,13 @@ Traceback (most recent call last):
   File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
     out = fn(*a, **k)
           ^^^^^^^^^^^
-  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 337, in <lambda>
-    C.section("ap_poll")(lambda: ap_poll(C, U))()
-                                 ^^^^^^^^^^^^^
-  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 176, in ap_poll
-    if not r: raise ValueError("no AP poll in ESPN rankings")
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: no AP poll in ESPN rankings
+  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 338, in <lambda>
+    C.section("team")(lambda: team_seasons(C, U))()
+                              ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 213, in team_seasons
+    if failed: raise ValueError("team seasons not stored: " + "; ".join(failed))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: team seasons not stored: Utah 2026 (refused)
 [schedule] 2026: 12 games, 8 played
 [schedule] ESPN finals seen: 8, latest 2026-10-31 W 35-13
 [games] next game kickoff: {'kickoff': '2026-11-07T19:30-05:00', 'tv': 'NBC'}
@@ -17,25 +17,25 @@ UPDATED national through 2026-10-31 {'yds': 36, 'td': 14, 'pct': 35, 'rating': 1
 SKIPPED: snapshot exists for BetMGM 2026-10-30
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Malachi Toney, Jesse Legree
 UPDATED opponent pass-D ranks
-[ap_poll] FAILED: no AP poll in ESPN rankings
+STORED AP Top 25 2026-11-01 1 Miami, 2 Georgia, 3 Utah, 4 Notre Dame, 5 UCLA
 STORED team Notre Dame 2026: 8 games
 [team] Notre Dame 2026: 8 games; matches cfbstats through 2026-10-31
 STORED team Miami 2026: 8 games
 [team] Miami 2026: 8 games; matches cfbstats through 2026-10-31
-STORED team Ohio State 2026: 8 games
-[team] Ohio State 2026: 8 games; matches cfbstats through 2026-10-31
 STORED team Georgia 2026: 8 games
 [team] Georgia 2026: 8 games; matches cfbstats through 2026-10-31
-STORED team Indiana 2026: 9 games
-[team] Indiana 2026: 9 games; matches cfbstats through 2026-10-31
+REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (12, 13)} (ESPN, cfbstats)
+STORED team UCLA 2026: 8 games
+[team] UCLA 2026: 8 games; matches cfbstats through 2026-10-31
+[team] FAILED: team seasons not stored: Utah 2026 (refused)
 STORED rb: Jonaz Walton 2026 (7 g), Nolan James, Jr. 2026 (8 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
 STORED wr: Jordan Faison 2026 (8 g), Micah Gilbert 2026 (8 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
 STORED rb national boards through 2026-10-31
 STORED wr national boards through 2026-10-31
-[natref] qb: 46 players stored (28 game logs fetched, 18 unchanged)
+[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)
 STORED natref qb: 46 players through 2026-10-31
-[natref] rb: 49 players stored (35 game logs fetched, 14 unchanged)
+[natref] rb: 49 players stored (0 game logs fetched, 49 unchanged)
 STORED natref rb: 49 players through 2026-10-31
-[natref] wr: 53 players stored (33 game logs fetched, 20 unchanged)
+[natref] wr: 53 players stored (0 game logs fetched, 53 unchanged)
 STORED natref wr: 53 players through 2026-10-31
-FAILED sections: ap_poll
+FAILED sections: team

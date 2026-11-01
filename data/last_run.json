@@ -1,21 +1,20 @@
 {
- "at": "2026-11-01T14:13-05:00",
+ "at": "2026-11-01T15:50-05:00",
  "failed": [
-  "ap_poll"
+  "team"
  ],
  "log": [
   "[schedule] 2026: 12 games, 8 played",
   "[schedule] ESPN finals seen: 8, latest 2026-10-31 W 35-13",
   "[games] next game kickoff: {'kickoff': '2026-11-07T19:30-05:00', 'tv': 'NBC'}",
-  "[ap_poll] FAILED: no AP poll in ESPN rankings",
   "[team] Notre Dame 2026: 8 games; matches cfbstats through 2026-10-31",
   "[team] Miami 2026: 8 games; matches cfbstats through 2026-10-31",
-  "[team] Ohio State 2026: 8 games; matches cfbstats through 2026-10-31",
   "[team] Georgia 2026: 8 games; matches cfbstats through 2026-10-31",
-  "[team] Indiana 2026: 9 games; matches cfbstats through 2026-10-31",
-  "[natref] qb: 46 players stored (28 game logs fetched, 18 unchanged)",
-  "[natref] rb: 49 players stored (35 game logs fetched, 14 unchanged)",
-  "[natref] wr: 53 players stored (33 game logs fetched, 20 unchanged)",
-  "FAILED sections: ap_poll"
+  "[team] UCLA 2026: 8 games; matches cfbstats through 2026-10-31",
+  "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
+  "[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)",
+  "[natref] rb: 49 players stored (0 game logs fetched, 49 unchanged)",
+  "[natref] wr: 53 players stored (0 game logs fetched, 53 unchanged)",
+  "FAILED sections: team"
  ]
 }

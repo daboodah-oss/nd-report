@@ -838,7 +838,7 @@
     "check_diff": []
    }
   ],
-  "retrieved_at": "2026-11-01T19:12+00:00",
+  "retrieved_at": "2026-11-01T20:50+00:00",
   "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 RB by rushing yards (cfbstats.com)."
  },
  "wr": {
@@ -1693,7 +1693,7 @@
     "check_diff": []
    }
   ],
-  "retrieved_at": "2026-11-01T19:12+00:00",
+  "retrieved_at": "2026-11-01T20:50+00:00",
   "rule": "Current season: players named in roster.json. Earlier seasons: Notre Dame's top 2 WR/TE by receiving yards (cfbstats.com)."
  }
 }
