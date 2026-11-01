@@ -112,6 +112,21 @@
      "rec": 4,
      "rec_yds": 68,
      "rec_td": 1
+    },
+    {
+     "date": "2026-10-31",
+     "opp": "USC Trojans",
+     "result": "L 30-18",
+     "cmp": 0,
+     "att": 0,
+     "yds": 0,
+     "td": 0,
+     "int": 0,
+     "rush_yds": 0,
+     "rush_td": 0,
+     "rec": 10,
+     "rec_yds": 83,
+     "rec_td": 1
     }
    ]
   },
@@ -221,6 +236,21 @@
      "td": 4,
      "int": 0,
      "rush_yds": -12,
+     "rush_td": 0,
+     "rec": 0,
+     "rec_yds": 0,
+     "rec_td": 0
+    },
+    {
+     "date": "2026-10-31",
+     "opp": "North Carolina Tar Heels",
+     "result": "W 38-35",
+     "cmp": 22,
+     "att": 29,
+     "yds": 274,
+     "td": 3,
+     "int": 0,
+     "rush_yds": 36,
      "rush_td": 0,
      "rec": 0,
      "rec_yds": 0,
@@ -338,6 +368,21 @@
      "rec": 16,
      "rec_yds": 194,
      "rec_td": 3
+    },
+    {
+     "date": "2026-10-31",
+     "opp": "North Carolina Tar Heels",
+     "result": "W 38-35",
+     "cmp": 0,
+     "att": 0,
+     "yds": 0,
+     "td": 0,
+     "int": 0,
+     "rush_yds": 11,
+     "rush_td": 0,
+     "rec": 7,
+     "rec_yds": 75,
+     "rec_td": 2
     }
    ]
   },
@@ -451,9 +496,24 @@
      "rec": 8,
      "rec_yds": 108,
      "rec_td": 2
+    },
+    {
+     "date": "2026-10-31",
+     "opp": "Fresno State Bulldogs",
+     "result": "L 38-22",
+     "cmp": 0,
+     "att": 0,
+     "yds": 0,
+     "td": 0,
+     "int": 0,
+     "rush_yds": 0,
+     "rush_td": 0,
+     "rec": 7,
+     "rec_yds": 70,
+     "rec_td": 0
     }
    ]
   }
  ],
- "retrieved_at": "2026-10-31T22:53+00:00"
+ "retrieved_at": "2026-11-01T19:12+00:00"
 }
