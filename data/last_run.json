@@ -1,5 +1,5 @@
 {
- "at": "2026-11-01T18:53-05:00",
+ "at": "2026-11-04T15:56-05:00",
  "failed": [
   "team"
  ],
@@ -7,14 +7,14 @@
   "[schedule] 2026: 12 games, 8 played",
   "[schedule] ESPN finals seen: 8, latest 2026-10-31 W 35-13",
   "[games] next game kickoff: {'kickoff': '2026-11-07T19:30-05:00', 'tv': 'NBC'}",
-  "[team] Notre Dame 2026: 8 games; matches cfbstats through 2026-10-31",
-  "[team] Miami 2026: 8 games; matches cfbstats through 2026-10-31",
-  "[team] Georgia 2026: 8 games; matches cfbstats through 2026-10-31",
-  "[team] UCLA 2026: 8 games; matches cfbstats through 2026-10-31",
+  "[team] Notre Dame 2026: 8 games; matches cfbstats through 2026-11-03",
+  "[team] Miami 2026: 8 games; matches cfbstats through 2026-11-03",
+  "[team] Georgia 2026: 8 games; matches cfbstats through 2026-11-03",
+  "[team] UCLA 2026: 8 games; matches cfbstats through 2026-11-03",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
   "[natref] qb: 46 players stored (1 game logs fetched, 45 unchanged)",
-  "[natref] rb: 49 players stored (0 game logs fetched, 49 unchanged)",
-  "[natref] wr: 53 players stored (0 game logs fetched, 53 unchanged)",
+  "[natref] rb: 50 players stored (3 game logs fetched, 47 unchanged)",
+  "[natref] wr: 53 players stored (3 game logs fetched, 50 unchanged)",
   "FAILED sections: team"
  ]
 }

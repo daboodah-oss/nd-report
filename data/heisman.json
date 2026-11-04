@@ -69,6 +69,14 @@
   "Sam Leavitt": {
    "school": "LSU",
    "pos": "QB"
+  },
+  "Gio Lopez": {
+   "school": "Wake Forest",
+   "pos": "QB"
+  },
+  "Devon Dampier": {
+   "school": "Utah",
+   "pos": "QB"
   }
  },
  "snapshots": [
@@ -381,6 +389,26 @@
     "Jayden Maiava": 10000,
     "Keelon Russell": 10000,
     "Bear Bachmeier": 15000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-11-04",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Darian Mensah": 150,
+    "Jeremiah Smith": 275,
+    "Malachi Toney": 325,
+    "CJ Carr": 1200,
+    "Trinidad Chambliss": 1500,
+    "Gunner Stockton": 5000,
+    "Drew Mestemaker": 5000,
+    "Jesse Legree": 6000,
+    "Gio Lopez": 6600,
+    "Sam Leavitt": 5000,
+    "Devon Dampier": 10000,
+    "Keelon Russell": 10000
    }
   }
  ]
