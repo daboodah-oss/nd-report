@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "next_game": {
-  "date": "2026-11-07",
-  "opp": "Miami (FL)",
+  "date": "2026-11-14",
+  "opp": "Boston College",
   "site": "H",
   "source_url": "https://cfbstats.com/2026/team/513/index.html",
-  "kickoff": "2026-11-07T19:30-05:00",
+  "kickoff": "2026-11-14T15:30-05:00",
   "tv": "NBC"
  },
  "opp_pass_defense": {
@@ -50,16 +50,17 @@
    "source_url": "https://cfbstats.com/2025/leader/national/team/defense/split01/category02/sort01.html"
   },
   "2026": {
-   "through": "2026-11-03",
+   "through": "2026-11-06",
    "ranks": {
-    "Wisconsin": 34,
+    "Wisconsin": 32,
     "Rice": 59,
-    "Michigan State": 49,
-    "Purdue": 111,
-    "North Carolina": 91,
+    "Michigan State": 48,
+    "Purdue": 109,
+    "North Carolina": 90,
     "Stanford": 125,
-    "BYU": 47,
-    "Navy": 121
+    "BYU": 46,
+    "Navy": 121,
+    "Boston College": 33
    },
    "source_url": "https://cfbstats.com/2026/leader/national/team/defense/split01/category02/sort01.html"
   }
@@ -701,8 +702,25 @@
     "rush_yds": 4,
     "rush_td": 0,
     "sacks": 0
+   },
+   {
+    "date": "2026-11-07",
+    "espn_event": "401858291",
+    "opp": "Miami (FL)",
+    "site": "H",
+    "level": "FCS",
+    "result": "W 31-24",
+    "cmp": 29,
+    "att": 40,
+    "yds": 319,
+    "td": 3,
+    "int": 0,
+    "rush_att": 1,
+    "rush_yds": 3,
+    "rush_td": 0,
+    "sacks": 0
    }
   ],
-  "retrieved_at": "2026-10-31T22:53+00:00"
+  "retrieved_at": "2026-11-08T05:09+00:00"
  }
 }

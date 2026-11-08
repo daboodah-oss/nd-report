@@ -1,7 +1,7 @@
 {
  "rb": {
   "latest": {
-   "data_through": "2026-11-03",
+   "data_through": "2026-11-06",
    "boards": {
     "yds": {
      "label": "Rushing yards",
@@ -46,12 +46,12 @@
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 89,
+       "rank": 92,
        "value": 477.0,
        "g": 7
       },
       "Nolan James, Jr.": {
-       "rank": 70,
+       "rank": 73,
        "value": 519.0,
        "g": 8
       }
@@ -102,6 +102,13 @@
        "name": "Jadan Baugh",
        "team": "Florida",
        "g": 8,
+       "value": 13.0
+      },
+      {
+       "rank": 4,
+       "name": "Scottre Humphrey",
+       "team": "New Mexico",
+       "g": 9,
        "value": 13.0
       }
      ],
@@ -210,12 +217,12 @@
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 73,
+       "rank": 72,
        "value": 68.14,
        "g": 7
       },
       "Nolan James, Jr.": {
-       "rank": 82,
+       "rank": 81,
        "value": 64.88,
        "g": 8
       }
@@ -226,7 +233,7 @@
     "Jonaz Walton",
     "Nolan James, Jr."
    ],
-   "retrieved_at": "2026-11-05T01:04+00:00"
+   "retrieved_at": "2026-11-08T05:10+00:00"
   },
   "rank_history": [
    {
@@ -281,19 +288,19 @@
     }
    },
    {
-    "through": "2026-11-03",
+    "through": "2026-11-06",
     "ranks": {
      "Jonaz Walton": {
-      "yds": 89,
+      "yds": 92,
       "td": null,
       "ypc": 21,
-      "ypg": 73
+      "ypg": 72
      },
      "Nolan James, Jr.": {
-      "yds": 70,
+      "yds": 73,
       "td": 26,
       "ypc": 81,
-      "ypg": 82
+      "ypg": 81
      }
     }
    }
@@ -301,7 +308,7 @@
  },
  "wr": {
   "latest": {
-   "data_through": "2026-11-03",
+   "data_through": "2026-11-06",
    "boards": {
     "rec": {
      "label": "Receptions",
@@ -312,8 +319,8 @@
        "rank": 1,
        "name": "Easton Messer",
        "team": "FAU",
-       "g": 8,
-       "value": 74.0
+       "g": 9,
+       "value": 81.0
       },
       {
        "rank": 2,
@@ -324,29 +331,29 @@
       },
       {
        "rank": 3,
+       "name": "Collin Dixon",
+       "team": "Illinois",
+       "g": 9,
+       "value": 68.0
+      },
+      {
+       "rank": 4,
+       "name": "Kelby Valsin",
+       "team": "FAU",
+       "g": 9,
+       "value": 66.0
+      },
+      {
+       "rank": 5,
        "name": "DeAree Rogers",
        "team": "N Illinois",
        "g": 8,
        "value": 64.0
-      },
-      {
-       "rank": 4,
-       "name": "Gavin Freeman",
-       "team": "Baylor",
-       "g": 8,
-       "value": 63.0
-      },
-      {
-       "rank": 5,
-       "name": "Jeremiah Smith",
-       "team": "Ohio State",
-       "g": 8,
-       "value": 62.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 71,
+       "rank": 76,
        "value": 38.0,
        "g": 8
       }
@@ -380,22 +387,22 @@
       },
       {
        "rank": 4,
+       "name": "Easton Messer",
+       "team": "FAU",
+       "g": 9,
+       "value": 983.0
+      },
+      {
+       "rank": 5,
        "name": "Umari Hatcher",
        "team": "Syracuse",
        "g": 8,
        "value": 952.0
-      },
-      {
-       "rank": 5,
-       "name": "Easton Messer",
-       "team": "FAU",
-       "g": 8,
-       "value": 898.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 73,
+       "rank": 79,
        "value": 497.0,
        "g": 8
       }
@@ -429,43 +436,22 @@
       },
       {
        "rank": 4,
-       "name": "Collin Dixon",
-       "team": "Illinois",
-       "g": 8,
-       "value": 10.0
-      },
-      {
-       "rank": 5,
        "name": "Easton Messer",
        "team": "FAU",
-       "g": 8,
-       "value": 9.0
-      },
-      {
-       "rank": 5,
-       "name": "Charlie Becker",
-       "team": "Indiana",
        "g": 9,
-       "value": 9.0
+       "value": 12.0
       },
       {
-       "rank": 5,
-       "name": "KJ Duff",
-       "team": "Rutgers",
-       "g": 8,
-       "value": 9.0
-      },
-      {
-       "rank": 5,
-       "name": "Justin Bowick",
-       "team": "Oklahoma State",
-       "g": 8,
-       "value": 9.0
+       "rank": 4,
+       "name": "Collin Dixon",
+       "team": "Illinois",
+       "g": 9,
+       "value": 12.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 70,
+       "rank": 73,
        "value": 4.0,
        "g": 8
       }
@@ -514,7 +500,7 @@
      ],
      "players": {
       "Micah Gilbert": {
-       "rank": 31,
+       "rank": 32,
        "value": 17.92,
        "g": 8
       }
@@ -557,13 +543,13 @@
        "rank": 5,
        "name": "Easton Messer",
        "team": "FAU",
-       "g": 8,
-       "value": 112.3
+       "g": 9,
+       "value": 109.2
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 77,
+       "rank": 78,
        "value": 62.1,
        "g": 8
       }
@@ -574,7 +560,7 @@
     "Jordan Faison",
     "Micah Gilbert"
    ],
-   "retrieved_at": "2026-11-05T01:04+00:00"
+   "retrieved_at": "2026-11-08T05:10+00:00"
   },
   "rank_history": [
    {
@@ -635,20 +621,20 @@
     }
    },
    {
-    "through": "2026-11-03",
+    "through": "2026-11-06",
     "ranks": {
      "Jordan Faison": {
-      "rec": 71,
-      "yds": 73,
-      "td": 70,
+      "rec": 76,
+      "yds": 79,
+      "td": 73,
       "ypr": null,
-      "ypg": 77
+      "ypg": 78
      },
      "Micah Gilbert": {
       "rec": null,
       "yds": null,
       "td": null,
-      "ypr": 31,
+      "ypr": 32,
       "ypg": null
      }
     }

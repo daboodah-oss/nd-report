@@ -1,20 +1,21 @@
 {
- "at": "2026-11-04T20:04-05:00",
- "failed": [
-  "team"
- ],
+ "at": "2026-11-08T00:10-05:00",
+ "failed": [],
  "log": [
   "[schedule] 2026: 12 games, 8 played",
-  "[schedule] ESPN finals seen: 8, latest 2026-10-31 W 35-13",
-  "[games] next game kickoff: {'kickoff': '2026-11-07T19:30-05:00', 'tv': 'NBC'}",
-  "[team] Notre Dame 2026: 8 games; matches cfbstats through 2026-11-03",
-  "[team] Miami 2026: 8 games; matches cfbstats through 2026-11-03",
-  "[team] Georgia 2026: 8 games; matches cfbstats through 2026-11-03",
-  "[team] UCLA 2026: 8 games; matches cfbstats through 2026-11-03",
-  "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
-  "[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)",
-  "[natref] rb: 50 players stored (0 game logs fetched, 50 unchanged)",
-  "[natref] wr: 53 players stored (0 game logs fetched, 53 unchanged)",
-  "FAILED sections: team"
+  "[schedule] ESPN finals seen: 9, latest 2026-11-07 W 31-24",
+  "[schedule] 2026-11-07 Miami (FL): final from ESPN (W 31-24)",
+  "quick check: new final 2026-11-07 Miami (FL) W 31-24",
+  "[games] added Carr \u201926 2026-11-07 Miami (FL) W 31-24",
+  "[games] next game kickoff: {'kickoff': '2026-11-14T15:30-05:00', 'tv': 'NBC'}",
+  "[team] Notre Dame 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9",
+  "[team] Miami 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9",
+  "[team] Georgia 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9",
+  "[team] Utah 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9",
+  "[team] UCLA 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9",
+  "[natref] qb: 43 players stored (9 game logs fetched, 34 unchanged)",
+  "[natref] rb: 49 players stored (7 game logs fetched, 42 unchanged)",
+  "[natref] wr: 54 players stored (9 game logs fetched, 45 unchanged)",
+  "FAILED sections: none"
  ]
 }

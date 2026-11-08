@@ -1,41 +1,34 @@
-Traceback (most recent call last):
-  File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
-    out = fn(*a, **k)
-          ^^^^^^^^^^^
-  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 338, in <lambda>
-    C.section("team")(lambda: team_seasons(C, U))()
-                              ^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 213, in team_seasons
-    if failed: raise ValueError("team seasons not stored: " + "; ".join(failed))
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-ValueError: team seasons not stored: Utah 2026 (refused)
 [schedule] 2026: 12 games, 8 played
-[schedule] ESPN finals seen: 8, latest 2026-10-31 W 35-13
-[games] next game kickoff: {'kickoff': '2026-11-07T19:30-05:00', 'tv': 'NBC'}
-UPDATED next game: {'date': '2026-11-07', 'opp': 'Miami (FL)', 'site': 'H', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-07T19:30-05:00', 'tv': 'NBC'}
-UPDATED national through 2026-11-03 {'yds': 36, 'td': 14, 'pct': 35, 'rating': 19, 'ypa': 30}
-SKIPPED: snapshot exists for BetMGM 2026-11-04
-UPDATED cohort: Darian Mensah, Jeremiah Smith, Malachi Toney, Trinidad Chambliss
+[schedule] ESPN finals seen: 9, latest 2026-11-07 W 31-24
+[schedule] 2026-11-07 Miami (FL): final from ESPN (W 31-24)
+quick check: new final 2026-11-07 Miami (FL) W 31-24
+ADDED Carr ’26 game 9: Miami (FL) W 31-24
+[games] added Carr ’26 2026-11-07 Miami (FL) W 31-24
+[games] next game kickoff: {'kickoff': '2026-11-14T15:30-05:00', 'tv': 'NBC'}
+UPDATED next game: {'date': '2026-11-14', 'opp': 'Boston College', 'site': 'H', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-14T15:30-05:00', 'tv': 'NBC'}
+UPDATED national through 2026-11-06 {'yds': 39, 'td': 14, 'pct': 34, 'rating': 19, 'ypa': 29}
+ADDED BetMGM 2026-11-05 Carr ’26: 6000
+UPDATED cohort: Jeremiah Smith, Darian Mensah, Trinidad Chambliss, Sam Leavitt
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-11-01 1 Miami, 2 Georgia, 3 Utah, 4 Notre Dame, 5 UCLA
-STORED team Notre Dame 2026: 8 games
-[team] Notre Dame 2026: 8 games; matches cfbstats through 2026-11-03
-STORED team Miami 2026: 8 games
-[team] Miami 2026: 8 games; matches cfbstats through 2026-11-03
-STORED team Georgia 2026: 8 games
-[team] Georgia 2026: 8 games; matches cfbstats through 2026-11-03
-REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (12, 13)} (ESPN, cfbstats)
-STORED team UCLA 2026: 8 games
-[team] UCLA 2026: 8 games; matches cfbstats through 2026-11-03
-[team] FAILED: team seasons not stored: Utah 2026 (refused)
-STORED rb: Jonaz Walton 2026 (7 g), Nolan James, Jr. 2026 (8 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
-STORED wr: Jordan Faison 2026 (8 g), Micah Gilbert 2026 (8 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-11-03
-STORED wr national boards through 2026-11-03
-[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)
-STORED natref qb: 46 players through 2026-11-03
-[natref] rb: 50 players stored (0 game logs fetched, 50 unchanged)
-STORED natref rb: 50 players through 2026-11-03
-[natref] wr: 53 players stored (0 game logs fetched, 53 unchanged)
-STORED natref wr: 53 players through 2026-11-03
-FAILED sections: team
+STORED team Notre Dame 2026: 9 games
+[team] Notre Dame 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9
+STORED team Miami 2026: 9 games
+[team] Miami 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9
+STORED team Georgia 2026: 9 games
+[team] Georgia 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9
+STORED team Utah 2026: 9 games
+[team] Utah 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9
+STORED team UCLA 2026: 9 games
+[team] UCLA 2026: 9 games; not cross-checked yet: cfbstats has 8 games through 2026-11-06, ESPN 9
+STORED rb: Jonaz Walton 2026 (8 g), Nolan James, Jr. 2026 (9 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
+STORED wr: Jordan Faison 2026 (9 g), Micah Gilbert 2026 (9 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
+STORED rb national boards through 2026-11-06
+STORED wr national boards through 2026-11-06
+[natref] qb: 43 players stored (9 game logs fetched, 34 unchanged)
+STORED natref qb: 43 players through 2026-11-06
+[natref] rb: 49 players stored (7 game logs fetched, 42 unchanged)
+STORED natref rb: 49 players through 2026-11-06
+[natref] wr: 54 players stored (9 game logs fetched, 45 unchanged)
+STORED natref wr: 54 players through 2026-11-06
+FAILED sections: none
