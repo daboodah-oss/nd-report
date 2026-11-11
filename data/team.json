@@ -2276,8 +2276,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-08T19:08+00:00",
-     "check": "cfbstats season totals matched through 2026-11-07",
+     "retrieved_at": "2026-11-11T21:32+00:00",
+     "check": "cfbstats season totals matched through 2026-11-10",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
     "2024": {
@@ -4340,8 +4340,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-08T19:08+00:00",
-     "check": "cfbstats season totals matched through 2026-11-07",
+     "retrieved_at": "2026-11-11T21:32+00:00",
+     "check": "cfbstats season totals matched through 2026-11-10",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
    }
@@ -4672,8 +4672,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-08T19:08+00:00",
-     "check": "cfbstats season totals matched through 2026-11-07",
+     "retrieved_at": "2026-11-11T21:32+00:00",
+     "check": "cfbstats season totals matched through 2026-11-10",
      "cfbstats_url": "https://cfbstats.com/2026/team/110/index.html"
     }
    }
@@ -4847,58 +4847,58 @@
  },
  "ap": {
   "poll": "AP Top 25",
-  "week": "Week 10",
-  "headline": "2026 NCAA Football Rankings - AP Poll Week 10",
-  "date": "2026-11-01",
+  "week": "Week 11",
+  "headline": "2026 NCAA Football Rankings - AP Poll Week 11",
+  "date": "2026-11-08",
   "season": 2026,
   "top": [
    {
     "rank": 1,
-    "team_id": "2390",
-    "name": "Miami",
-    "nickname": "Hurricanes",
-    "abbr": "MIA",
-    "record": "8-0",
-    "first_place": 62
-   },
-   {
-    "rank": 2,
     "team_id": "61",
     "name": "Georgia",
     "nickname": "Bulldogs",
     "abbr": "UGA",
-    "record": "7-1",
-    "first_place": 7
+    "record": "8-1",
+    "first_place": 53
    },
    {
-    "rank": 3,
+    "rank": 2,
     "team_id": "254",
     "name": "Utah",
     "nickname": "Utes",
     "abbr": "UTAH",
-    "record": "8-0",
-    "first_place": 1
+    "record": "9-0",
+    "first_place": 12
    },
    {
-    "rank": 4,
+    "rank": 3,
     "team_id": "87",
     "name": "Notre Dame",
     "nickname": "Fighting Irish",
     "abbr": "ND",
-    "record": "7-1",
-    "first_place": 0
+    "record": "8-1",
+    "first_place": 5
    },
    {
-    "rank": 5,
+    "rank": 4,
     "team_id": "26",
     "name": "UCLA",
     "nickname": "Bruins",
     "abbr": "UCLA",
-    "record": "8-0",
+    "record": "9-0",
+    "first_place": 0
+   },
+   {
+    "rank": 5,
+    "team_id": "2390",
+    "name": "Miami",
+    "nickname": "Hurricanes",
+    "abbr": "MIA",
+    "record": "8-1",
     "first_place": 0
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-11-08T05:09+00:00"
+  "retrieved_at": "2026-11-11T21:32+00:00"
  }
 }

@@ -1,2 +1,2 @@
-VALIDATION FAILED - report not written:
-  - cohort Darian Mensah: game log totals disagree with cfbstats
+OK  games=9  verdict: Through 9 games, Carr ’26 leads Carr ’25's 2025 line in 1 of 5 (1 tied) and Leonard's 2024 line in 5 of 5 headline passing measures. At the same point he is 107 yards behind Carr ’25 but 2 passing TD ahead and 593 yards and 12 passing TD ahead of Leonard.
+    sha256=b5b66e62870a6ab2  bytes=318558

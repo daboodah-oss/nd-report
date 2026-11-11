@@ -3,7 +3,7 @@
  "source": "cfbstats.com national player leaders, passing, all games (FBS)",
  "qualifier_note": "Completion %, passer rating and yards per attempt require 15 pass attempts per game played and 75% of team games (cfbstats/NCAA rule). Yards and TD have no qualifier.",
  "latest": {
-  "data_through": "2026-11-07",
+  "data_through": "2026-11-10",
   "boards": {
    "yds": {
     "rows": [
@@ -86,10 +86,10 @@
       "g": 9,
       "cmp": 212,
       "att": 276,
-      "yds": 2701,
+      "yds": 2694,
       "td": 28,
       "int": 2,
-      "src_rating": 191.04
+      "src_rating": 190.83
      },
      {
       "name": "Caden Veltkamp",
@@ -148,10 +148,10 @@
       "g": 9,
       "cmp": 212,
       "att": 276,
-      "yds": 2701,
+      "yds": 2694,
       "td": 28,
       "int": 2,
-      "src_rating": 191.04
+      "src_rating": 190.83
      },
      {
       "name": "Kevin Jennings",
@@ -211,10 +211,10 @@
       "g": 9,
       "cmp": 212,
       "att": 276,
-      "yds": 2701,
+      "yds": 2694,
       "td": 28,
       "int": 2,
-      "src_rating": 191.04
+      "src_rating": 190.83
      },
      {
       "name": "Julian Sayin",
@@ -307,10 +307,10 @@
       "g": 9,
       "cmp": 212,
       "att": 276,
-      "yds": 2701,
+      "yds": 2694,
       "td": 28,
       "int": 2,
-      "src_rating": 191.04
+      "src_rating": 190.83
      },
      {
       "name": "Marcus Stokes",
@@ -352,7 +352,7 @@
    "int": 1,
    "src_rating": 162.76
   },
-  "retrieved_at": "2026-11-08T19:08+00:00"
+  "retrieved_at": "2026-11-11T21:32+00:00"
  },
  "rank_history": [
   {
@@ -390,6 +390,17 @@
   },
   {
    "through": "2026-11-07",
+   "games": 9,
+   "ranks": {
+    "yds": 25,
+    "td": 9,
+    "pct": 25,
+    "rating": 17,
+    "ypa": 28
+   }
+  },
+  {
+   "through": "2026-11-10",
    "games": 9,
    "ranks": {
     "yds": 25,

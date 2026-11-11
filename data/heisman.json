@@ -77,6 +77,10 @@
   "Devon Dampier": {
    "school": "Utah",
    "pos": "QB"
+  },
+  "LaNorris Sellers": {
+   "school": "South Carolina",
+   "pos": "QB"
   }
  },
  "snapshots": [
@@ -428,6 +432,24 @@
     "Sam Leavitt": 50000,
     "Devon Dampier": 125000,
     "Keelon Russell": 150000
+   }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-11-11",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "CJ Carr": 165,
+    "Jeremiah Smith": 300,
+    "Darian Mensah": 300,
+    "Devon Dampier": 1500,
+    "Drew Mestemaker": 1500,
+    "Gunner Stockton": 2500,
+    "Keelon Russell": 3000,
+    "LaNorris Sellers": 5000,
+    "Trinidad Chambliss": 10000,
+    "Sam Leavitt": 15000
    }
   }
  ]
