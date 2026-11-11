@@ -1,5 +1,5 @@
 {
- "at": "2026-11-11T16:32-05:00",
+ "at": "2026-11-11T18:04-05:00",
  "failed": [
   "team"
  ],
@@ -11,9 +11,9 @@
   "[team] Georgia 2026: 9 games; matches cfbstats through 2026-11-10",
   "[team] UCLA 2026: 9 games; matches cfbstats through 2026-11-10",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused); Miami 2026 (refused)",
-  "[natref] qb: 44 players stored (3 game logs fetched, 41 unchanged)",
-  "[natref] rb: 45 players stored (2 game logs fetched, 43 unchanged)",
-  "[natref] wr: 56 players stored (3 game logs fetched, 53 unchanged)",
+  "[natref] qb: 44 players stored (0 game logs fetched, 44 unchanged)",
+  "[natref] rb: 45 players stored (0 game logs fetched, 45 unchanged)",
+  "[natref] wr: 56 players stored (0 game logs fetched, 56 unchanged)",
   "FAILED sections: team"
  ]
 }
