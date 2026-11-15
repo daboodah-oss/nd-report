@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T14:58-05:00",
+ "at": "2026-11-15T16:18-05:00",
  "failed": [
   "heisman",
   "ap_poll",
@@ -16,9 +16,9 @@
   "[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-14",
   "[team] Miami 2026: 10 games; matches cfbstats through 2026-11-14",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
-  "[natref] qb: 46 players stored (36 game logs fetched, 10 unchanged)",
-  "[natref] rb: 43 players stored (38 game logs fetched, 5 unchanged)",
-  "[natref] wr: 52 players stored (42 game logs fetched, 10 unchanged)",
+  "[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)",
+  "[natref] rb: 43 players stored (0 game logs fetched, 43 unchanged)",
+  "[natref] wr: 52 players stored (0 game logs fetched, 52 unchanged)",
   "FAILED sections: heisman, ap_poll, team"
  ]
 }

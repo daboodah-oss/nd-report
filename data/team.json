@@ -2416,7 +2416,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-15T19:57+00:00",
+     "retrieved_at": "2026-11-15T21:18+00:00",
      "check": "cfbstats season totals matched through 2026-11-14",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
@@ -4497,7 +4497,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-15T19:57+00:00",
+     "retrieved_at": "2026-11-15T21:18+00:00",
      "check": "cfbstats season totals matched through 2026-11-14",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
@@ -4680,7 +4680,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-15T19:57+00:00",
+     "retrieved_at": "2026-11-15T21:18+00:00",
      "check": "cfbstats season totals matched through 2026-11-14, except passing yards 3,317 in ESPN box scores vs 3,310 on cfbstats; total yards 5,188 in ESPN box scores vs 5,181 on cfbstats",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
@@ -4863,7 +4863,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-15T19:57+00:00",
+     "retrieved_at": "2026-11-15T21:18+00:00",
      "check": "cfbstats season totals matched through 2026-11-14",
      "cfbstats_url": "https://cfbstats.com/2026/team/110/index.html"
     }
