@@ -1,23 +1,24 @@
 {
- "at": "2026-11-14T22:00-05:00",
+ "at": "2026-11-15T14:58-05:00",
  "failed": [
+  "heisman",
+  "ap_poll",
   "team"
  ],
  "log": [
-  "[schedule] 2026: 12 games, 9 played",
+  "[schedule] 2026: 12 games, 10 played",
   "[schedule] ESPN finals seen: 10, latest 2026-11-14 W 41-7",
-  "[schedule] 2026-11-14 Boston College: final from ESPN (W 41-7)",
-  "quick check: new final 2026-11-14 Boston College W 41-7",
-  "[games] added Carr \u201926 2026-11-14 Boston College W 41-7",
   "[games] next game kickoff: {'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}",
-  "[team] Notre Dame 2026: 10 games; not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10",
-  "[team] Georgia 2026: 10 games; not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10",
-  "[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-13",
-  "[team] Miami 2026: 10 games; not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10",
+  "[heisman] FAILED: only 7 odds rows read from BetMGM",
+  "[ap_poll] FAILED: no AP poll in ESPN rankings",
+  "[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-14",
+  "[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-14",
+  "[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-14",
+  "[team] Miami 2026: 10 games; matches cfbstats through 2026-11-14",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
-  "[natref] qb: 43 players stored (6 game logs fetched, 37 unchanged)",
-  "[natref] rb: 46 players stored (7 game logs fetched, 39 unchanged)",
-  "[natref] wr: 56 players stored (8 game logs fetched, 48 unchanged)",
-  "FAILED sections: team"
+  "[natref] qb: 46 players stored (36 game logs fetched, 10 unchanged)",
+  "[natref] rb: 43 players stored (38 game logs fetched, 5 unchanged)",
+  "[natref] wr: 52 players stored (42 game logs fetched, 10 unchanged)",
+  "FAILED sections: heisman, ap_poll, team"
  ]
 }

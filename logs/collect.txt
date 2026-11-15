@@ -2,6 +2,25 @@ Traceback (most recent call last):
   File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
     out = fn(*a, **k)
           ^^^^^^^^^^^
+  File "/home/runner/work/nd-report/nd-report/collect.py", line 388, in heisman
+    if len(odds) < 8: raise ValueError(f"only {len(odds)} odds rows read from BetMGM")
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: only 7 odds rows read from BetMGM
+Traceback (most recent call last):
+  File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
+    out = fn(*a, **k)
+          ^^^^^^^^^^^
+  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 337, in <lambda>
+    C.section("ap_poll")(lambda: ap_poll(C, U))()
+                                 ^^^^^^^^^^^^^
+  File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 176, in ap_poll
+    if not r: raise ValueError("no AP poll in ESPN rankings")
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: no AP poll in ESPN rankings
+Traceback (most recent call last):
+  File "/home/runner/work/nd-report/nd-report/collect.py", line 85, in run
+    out = fn(*a, **k)
+          ^^^^^^^^^^^
   File "/home/runner/work/nd-report/nd-report/collect_tabs.py", line 338, in <lambda>
     C.section("team")(lambda: team_seasons(C, U))()
                               ^^^^^^^^^^^^^^^^^^
@@ -9,37 +28,33 @@ Traceback (most recent call last):
     if failed: raise ValueError("team seasons not stored: " + "; ".join(failed))
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: team seasons not stored: Utah 2026 (refused)
-[schedule] 2026: 12 games, 9 played
+[schedule] 2026: 12 games, 10 played
 [schedule] ESPN finals seen: 10, latest 2026-11-14 W 41-7
-[schedule] 2026-11-14 Boston College: final from ESPN (W 41-7)
-quick check: new final 2026-11-14 Boston College W 41-7
-ADDED Carr ’26 game 10: Boston College W 41-7
-[games] added Carr ’26 2026-11-14 Boston College W 41-7
 [games] next game kickoff: {'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}
 UPDATED next game: {'date': '2026-11-21', 'opp': 'SMU', 'site': 'H', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}
-UPDATED national through 2026-11-13 {'yds': 26, 'td': 9, 'pct': 24, 'rating': 17, 'ypa': 29}
-ADDED BetMGM 2026-11-14 Carr ’26: 250
+UPDATED national through 2026-11-14 {'yds': 23, 'td': 9, 'pct': 22, 'rating': 16, 'ypa': 25}
+[heisman] FAILED: only 7 odds rows read from BetMGM
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Devon Dampier, Drew Mestemaker
 UPDATED opponent pass-D ranks
-STORED AP Top 25 2026-11-08 1 Georgia, 2 Utah, 3 Notre Dame, 4 UCLA, 5 Miami
+[ap_poll] FAILED: no AP poll in ESPN rankings
 STORED team Notre Dame 2026: 10 games
-[team] Notre Dame 2026: 10 games; not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10
+[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-14
 STORED team Georgia 2026: 10 games
-[team] Georgia 2026: 10 games; not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10
-REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (16, 17)} (ESPN, cfbstats)
+[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-14
+REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (17, 18)} (ESPN, cfbstats)
 STORED team UCLA 2026: 10 games
-[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-13
+[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-14
 STORED team Miami 2026: 10 games
-[team] Miami 2026: 10 games; not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10
+[team] Miami 2026: 10 games; matches cfbstats through 2026-11-14
 [team] FAILED: team seasons not stored: Utah 2026 (refused)
 STORED rb: Jonaz Walton 2026 (9 g), Nolan James, Jr. 2026 (10 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
 STORED wr: Jordan Faison 2026 (10 g), Micah Gilbert 2026 (10 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-11-13
-STORED wr national boards through 2026-11-13
-[natref] qb: 43 players stored (6 game logs fetched, 37 unchanged)
-STORED natref qb: 43 players through 2026-11-13
-[natref] rb: 46 players stored (7 game logs fetched, 39 unchanged)
-STORED natref rb: 46 players through 2026-11-13
-[natref] wr: 56 players stored (8 game logs fetched, 48 unchanged)
-STORED natref wr: 56 players through 2026-11-13
-FAILED sections: team
+STORED rb national boards through 2026-11-14
+STORED wr national boards through 2026-11-14
+[natref] qb: 46 players stored (36 game logs fetched, 10 unchanged)
+STORED natref qb: 46 players through 2026-11-14
+[natref] rb: 43 players stored (38 game logs fetched, 5 unchanged)
+STORED natref rb: 43 players through 2026-11-14
+[natref] wr: 52 players stored (42 game logs fetched, 10 unchanged)
+STORED natref wr: 52 players through 2026-11-14
+FAILED sections: heisman, ap_poll, team

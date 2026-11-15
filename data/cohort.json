@@ -458,6 +458,21 @@
      "rec": 0,
      "rec_yds": 0,
      "rec_td": 0
+    },
+    {
+     "date": "2026-11-14",
+     "opp": "Arizona Wildcats",
+     "result": "W 40-39",
+     "cmp": 13,
+     "att": 25,
+     "yds": 204,
+     "td": 2,
+     "int": 1,
+     "rush_yds": 100,
+     "rush_td": 2,
+     "rec": 0,
+     "rec_yds": 0,
+     "rec_td": 0
     }
    ]
   },
@@ -601,9 +616,24 @@
      "rec": 0,
      "rec_yds": 0,
      "rec_td": 0
+    },
+    {
+     "date": "2026-11-14",
+     "opp": "Texas Tech Red Raiders",
+     "result": "L 52-27",
+     "cmp": 27,
+     "att": 42,
+     "yds": 277,
+     "td": 1,
+     "int": 2,
+     "rush_yds": -8,
+     "rush_td": 1,
+     "rec": 0,
+     "rec_yds": 0,
+     "rec_td": 0
     }
    ]
   }
  ],
- "retrieved_at": "2026-11-15T03:00+00:00"
+ "retrieved_at": "2026-11-15T19:57+00:00"
 }
