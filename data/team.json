@@ -2273,12 +2273,152 @@
          "td": 0
         }
        ]
+      },
+      {
+       "event": "401858294",
+       "date": "2026-11-14",
+       "opp": "Boston College",
+       "opp_id": "103",
+       "site": "H",
+       "pf": 41,
+       "pa": 7,
+       "result": "W 41-7",
+       "total_yds": 500,
+       "rush_yds": 276,
+       "pass_yds": 224,
+       "to_lost": 2,
+       "to_gained": 2,
+       "third_conv": 9,
+       "third_att": 14,
+       "rush": [
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 15,
+         "yds": 141,
+         "td": 1
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 14,
+         "yds": 73,
+         "td": 1
+        },
+        {
+         "id": "5106301",
+         "name": "Kedren Young",
+         "n": 5,
+         "yds": 34,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 1,
+         "yds": 28,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 2,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 3,
+         "yds": -7,
+         "td": 0
+        }
+       ],
+       "rec": [
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 5,
+         "yds": 86,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 2,
+         "yds": 46,
+         "td": 0
+        },
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 5,
+         "yds": 41,
+         "td": 1
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 2,
+         "yds": 14,
+         "td": 0
+        },
+        {
+         "id": "5164349",
+         "name": "Jerome Bettis Jr.",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "5245466",
+         "name": "Bubba Frazier",
+         "n": 1,
+         "yds": 7,
+         "td": 0
+        },
+        {
+         "id": "5079742",
+         "name": "Aneyas Williams",
+         "n": 1,
+         "yds": 6,
+         "td": 0
+        },
+        {
+         "id": "4837392",
+         "name": "Ty Washington",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 1,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 1,
+         "yds": -2,
+         "td": 0
+        }
+       ]
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-12T02:00+00:00",
-     "check": "cfbstats season totals matched through 2026-11-10",
-     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
+     "retrieved_at": "2026-11-15T03:00+00:00",
+     "check": "not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10",
+     "cfbstats_url": null
     },
     "2024": {
      "games": [
@@ -4337,12 +4477,29 @@
        "to_gained": 2,
        "third_conv": 7,
        "third_att": 12
+      },
+      {
+       "event": "401856883",
+       "date": "2026-11-14",
+       "opp": "Missouri",
+       "opp_id": "142",
+       "site": "H",
+       "pf": 48,
+       "pa": 21,
+       "result": "W 48-21",
+       "total_yds": 468,
+       "rush_yds": 182,
+       "pass_yds": 286,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 4,
+       "third_att": 9
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-12T02:00+00:00",
-     "check": "cfbstats season totals matched through 2026-11-10",
-     "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
+     "retrieved_at": "2026-11-15T03:00+00:00",
+     "check": "not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10",
+     "cfbstats_url": null
     }
    }
   },
@@ -4503,12 +4660,29 @@
        "to_gained": 0,
        "third_conv": 6,
        "third_att": 14
+      },
+      {
+       "event": "401858296",
+       "date": "2026-11-14",
+       "opp": "Duke",
+       "opp_id": "150",
+       "site": "H",
+       "pf": 36,
+       "pa": 25,
+       "result": "W 36-25",
+       "total_yds": 532,
+       "rush_yds": 150,
+       "pass_yds": 382,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 6,
+       "third_att": 12
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-08T19:08+00:00",
-     "check": "cfbstats season totals matched through 2026-11-07",
-     "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
+     "retrieved_at": "2026-11-15T03:00+00:00",
+     "check": "not cross-checked yet: cfbstats has 9 games through 2026-11-13, ESPN 10",
+     "cfbstats_url": null
     }
    }
   },
@@ -4669,11 +4843,28 @@
        "to_gained": 1,
        "third_conv": 6,
        "third_att": 13
+      },
+      {
+       "event": "401858526",
+       "date": "2026-11-13",
+       "opp": "Illinois",
+       "opp_id": "356",
+       "site": "H",
+       "pf": 22,
+       "pa": 14,
+       "result": "W 22-14",
+       "total_yds": 361,
+       "rush_yds": 108,
+       "pass_yds": 253,
+       "to_lost": 1,
+       "to_gained": 3,
+       "third_conv": 5,
+       "third_att": 13
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-12T02:00+00:00",
-     "check": "cfbstats season totals matched through 2026-11-10",
+     "retrieved_at": "2026-11-15T03:00+00:00",
+     "check": "cfbstats season totals matched through 2026-11-13",
      "cfbstats_url": "https://cfbstats.com/2026/team/110/index.html"
     }
    }
@@ -4899,6 +5090,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-11-12T02:00+00:00"
+  "retrieved_at": "2026-11-15T03:00+00:00"
  }
 }

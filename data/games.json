@@ -1,11 +1,11 @@
 {
  "schema_version": 1,
  "next_game": {
-  "date": "2026-11-14",
-  "opp": "Boston College",
+  "date": "2026-11-21",
+  "opp": "SMU",
   "site": "H",
   "source_url": "https://cfbstats.com/2026/team/513/index.html",
-  "kickoff": "2026-11-14T15:30-05:00",
+  "kickoff": "2026-11-21T19:30-05:00",
   "tv": "NBC"
  },
  "opp_pass_defense": {
@@ -50,17 +50,18 @@
    "source_url": "https://cfbstats.com/2025/leader/national/team/defense/split01/category02/sort01.html"
   },
   "2026": {
-   "through": "2026-11-10",
+   "through": "2026-11-13",
    "ranks": {
     "Wisconsin": 25,
-    "Rice": 72,
-    "Michigan State": 43,
-    "Purdue": 116,
-    "North Carolina": 91,
+    "Rice": 73,
+    "Michigan State": 42,
+    "Purdue": 117,
+    "North Carolina": 92,
     "Stanford": 126,
-    "BYU": 51,
-    "Navy": 113,
-    "Boston College": 31
+    "BYU": 53,
+    "Navy": 114,
+    "Boston College": 31,
+    "SMU": 41
    },
    "source_url": "https://cfbstats.com/2026/leader/national/team/defense/split01/category02/sort01.html"
   }
@@ -719,8 +720,25 @@
     "rush_yds": 3,
     "rush_td": 0,
     "sacks": 0
+   },
+   {
+    "date": "2026-11-14",
+    "espn_event": "401858294",
+    "opp": "Boston College",
+    "site": "H",
+    "level": "FBS",
+    "result": "W 41-7",
+    "cmp": 20,
+    "att": 28,
+    "yds": 217,
+    "td": 2,
+    "int": 1,
+    "rush_att": 3,
+    "rush_yds": -7,
+    "rush_td": 0,
+    "sacks": 1
    }
   ],
-  "retrieved_at": "2026-11-08T05:09+00:00"
+  "retrieved_at": "2026-11-15T03:00+00:00"
  }
 }
