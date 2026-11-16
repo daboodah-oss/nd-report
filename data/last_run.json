@@ -1,5 +1,5 @@
 {
- "at": "2026-11-15T16:18-05:00",
+ "at": "2026-11-15T19:22-05:00",
  "failed": [
   "heisman",
   "ap_poll",
@@ -11,12 +11,12 @@
   "[games] next game kickoff: {'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}",
   "[heisman] FAILED: only 7 odds rows read from BetMGM",
   "[ap_poll] FAILED: no AP poll in ESPN rankings",
-  "[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-14",
-  "[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-14",
-  "[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-14",
-  "[team] Miami 2026: 10 games; matches cfbstats through 2026-11-14",
+  "[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-15",
+  "[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-15",
+  "[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-15",
+  "[team] Miami 2026: 10 games; matches cfbstats through 2026-11-15",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
-  "[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)",
+  "[natref] qb: 46 players stored (1 game logs fetched, 45 unchanged)",
   "[natref] rb: 43 players stored (0 game logs fetched, 43 unchanged)",
   "[natref] wr: 52 players stored (0 game logs fetched, 52 unchanged)",
   "FAILED sections: heisman, ap_poll, team"

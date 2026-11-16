@@ -32,29 +32,29 @@ ValueError: team seasons not stored: Utah 2026 (refused)
 [schedule] ESPN finals seen: 10, latest 2026-11-14 W 41-7
 [games] next game kickoff: {'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}
 UPDATED next game: {'date': '2026-11-21', 'opp': 'SMU', 'site': 'H', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}
-UPDATED national through 2026-11-14 {'yds': 23, 'td': 9, 'pct': 22, 'rating': 16, 'ypa': 25}
+UPDATED national through 2026-11-15 {'yds': 24, 'td': 9, 'pct': 22, 'rating': 16, 'ypa': 25}
 [heisman] FAILED: only 7 odds rows read from BetMGM
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Devon Dampier, Drew Mestemaker
 UPDATED opponent pass-D ranks
 [ap_poll] FAILED: no AP poll in ESPN rankings
 STORED team Notre Dame 2026: 10 games
-[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-14
+[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-15
 STORED team Georgia 2026: 10 games
-[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-14
+[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-15
 REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (17, 18)} (ESPN, cfbstats)
 STORED team UCLA 2026: 10 games
-[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-14
+[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-15
 STORED team Miami 2026: 10 games
-[team] Miami 2026: 10 games; matches cfbstats through 2026-11-14
+[team] Miami 2026: 10 games; matches cfbstats through 2026-11-15
 [team] FAILED: team seasons not stored: Utah 2026 (refused)
 STORED rb: Jonaz Walton 2026 (9 g), Nolan James, Jr. 2026 (10 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
 STORED wr: Jordan Faison 2026 (10 g), Micah Gilbert 2026 (10 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-11-14
-STORED wr national boards through 2026-11-14
-[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)
-STORED natref qb: 46 players through 2026-11-14
+STORED rb national boards through 2026-11-15
+STORED wr national boards through 2026-11-15
+[natref] qb: 46 players stored (1 game logs fetched, 45 unchanged)
+STORED natref qb: 46 players through 2026-11-15
 [natref] rb: 43 players stored (0 game logs fetched, 43 unchanged)
-STORED natref rb: 43 players through 2026-11-14
+STORED natref rb: 43 players through 2026-11-15
 [natref] wr: 52 players stored (0 game logs fetched, 52 unchanged)
-STORED natref wr: 52 players through 2026-11-14
+STORED natref wr: 52 players through 2026-11-15
 FAILED sections: heisman, ap_poll, team
