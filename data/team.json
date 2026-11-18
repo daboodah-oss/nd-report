@@ -2416,7 +2416,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-18T22:20+00:00",
+     "retrieved_at": "2026-11-18T23:08+00:00",
      "check": "cfbstats season totals matched through 2026-11-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
@@ -4497,7 +4497,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-18T22:20+00:00",
+     "retrieved_at": "2026-11-18T23:08+00:00",
      "check": "cfbstats season totals matched through 2026-11-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
@@ -4680,7 +4680,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-18T22:20+00:00",
+     "retrieved_at": "2026-11-18T23:08+00:00",
      "check": "cfbstats season totals matched through 2026-11-17, except passing yards 3,317 in ESPN box scores vs 3,310 on cfbstats; total yards 5,188 in ESPN box scores vs 5,181 on cfbstats",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
@@ -4863,7 +4863,7 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-18T22:20+00:00",
+     "retrieved_at": "2026-11-18T23:08+00:00",
      "check": "cfbstats season totals matched through 2026-11-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/110/index.html"
     }
@@ -5090,6 +5090,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-11-18T22:20+00:00"
+  "retrieved_at": "2026-11-18T23:08+00:00"
  }
 }
