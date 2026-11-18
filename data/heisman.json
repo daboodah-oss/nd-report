@@ -469,6 +469,22 @@
     "Trinidad Chambliss": 10000,
     "Sam Leavitt": 15000
    }
+  },
+  {
+   "book": "BetMGM",
+   "as_of": "2026-11-18",
+   "outlet": "BetMGM",
+   "url": "https://sports.betmgm.com/en/blog/college-football/heisman-trohpy-odds-favorites-to-win-bm06/",
+   "odds": {
+    "Jeremiah Smith": -160,
+    "Darian Mensah": 375,
+    "Devon Dampier": 600,
+    "CJ Carr": 1200,
+    "Gunner Stockton": 3000,
+    "Keelon Russell": 5000,
+    "Gio Lopez": 15000,
+    "Drew Mestemaker": 15000
+   }
   }
  ]
 }

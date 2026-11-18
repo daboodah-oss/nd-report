@@ -2416,8 +2416,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-16T00:22+00:00",
-     "check": "cfbstats season totals matched through 2026-11-15",
+     "retrieved_at": "2026-11-18T22:20+00:00",
+     "check": "cfbstats season totals matched through 2026-11-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
     "2024": {
@@ -4497,8 +4497,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-16T00:22+00:00",
-     "check": "cfbstats season totals matched through 2026-11-15",
+     "retrieved_at": "2026-11-18T22:20+00:00",
+     "check": "cfbstats season totals matched through 2026-11-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
    }
@@ -4680,8 +4680,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-16T00:22+00:00",
-     "check": "cfbstats season totals matched through 2026-11-15, except passing yards 3,317 in ESPN box scores vs 3,310 on cfbstats; total yards 5,188 in ESPN box scores vs 5,181 on cfbstats",
+     "retrieved_at": "2026-11-18T22:20+00:00",
+     "check": "cfbstats season totals matched through 2026-11-17, except passing yards 3,317 in ESPN box scores vs 3,310 on cfbstats; total yards 5,188 in ESPN box scores vs 5,181 on cfbstats",
      "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
    }
@@ -4863,8 +4863,8 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-16T00:22+00:00",
-     "check": "cfbstats season totals matched through 2026-11-15",
+     "retrieved_at": "2026-11-18T22:20+00:00",
+     "check": "cfbstats season totals matched through 2026-11-17",
      "cfbstats_url": "https://cfbstats.com/2026/team/110/index.html"
     }
    }
@@ -5038,9 +5038,9 @@
  },
  "ap": {
   "poll": "AP Top 25",
-  "week": "Week 11",
-  "headline": "2026 NCAA Football Rankings - AP Poll Week 11",
-  "date": "2026-11-08",
+  "week": "Week 12",
+  "headline": "2026 NCAA Football Rankings - AP Poll Week 12",
+  "date": "2026-11-16",
   "season": 2026,
   "top": [
    {
@@ -5049,8 +5049,8 @@
     "name": "Georgia",
     "nickname": "Bulldogs",
     "abbr": "UGA",
-    "record": "8-1",
-    "first_place": 53
+    "record": "9-1",
+    "first_place": 58
    },
    {
     "rank": 2,
@@ -5058,8 +5058,8 @@
     "name": "Utah",
     "nickname": "Utes",
     "abbr": "UTAH",
-    "record": "9-0",
-    "first_place": 12
+    "record": "10-0",
+    "first_place": 10
    },
    {
     "rank": 3,
@@ -5067,8 +5067,8 @@
     "name": "Notre Dame",
     "nickname": "Fighting Irish",
     "abbr": "ND",
-    "record": "8-1",
-    "first_place": 5
+    "record": "9-1",
+    "first_place": 2
    },
    {
     "rank": 4,
@@ -5076,7 +5076,7 @@
     "name": "UCLA",
     "nickname": "Bruins",
     "abbr": "UCLA",
-    "record": "9-0",
+    "record": "10-0",
     "first_place": 0
    },
    {
@@ -5085,11 +5085,11 @@
     "name": "Miami",
     "nickname": "Hurricanes",
     "abbr": "MIA",
-    "record": "8-1",
+    "record": "9-1",
     "first_place": 0
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-11-15T03:00+00:00"
+  "retrieved_at": "2026-11-18T22:20+00:00"
  }
 }
