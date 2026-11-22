@@ -14,7 +14,7 @@ ValueError: team seasons not stored: Utah 2026 (refused)
 [games] next game kickoff: {'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}
 UPDATED next game: {'date': '2026-11-28', 'opp': 'Syracuse', 'site': 'A', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}
 UPDATED national through 2026-11-21 {'yds': 16, 'td': 10, 'pct': 17, 'rating': 17, 'ypa': 18}
-ADDED BetMGM 2026-11-22 Carr ’26: 3000
+SKIPPED: snapshot exists for BetMGM 2026-11-22
 UPDATED cohort: Jeremiah Smith, Devon Dampier, Darian Mensah, Gio Lopez
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-11-22 1 Georgia, 2 Utah, 3 Notre Dame, 4 Miami, 5 Texas
@@ -32,10 +32,10 @@ STORED rb: Jonaz Walton 2026 (10 g), Nolan James, Jr. 2026 (11 g), Jeremiyah Lov
 STORED wr: Jordan Faison 2026 (11 g), Micah Gilbert 2026 (11 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
 STORED rb national boards through 2026-11-21
 STORED wr national boards through 2026-11-21
-[natref] qb: 44 players stored (37 game logs fetched, 7 unchanged)
+[natref] qb: 44 players stored (0 game logs fetched, 44 unchanged)
 STORED natref qb: 44 players through 2026-11-21
-[natref] rb: 45 players stored (39 game logs fetched, 6 unchanged)
+[natref] rb: 45 players stored (0 game logs fetched, 45 unchanged)
 STORED natref rb: 45 players through 2026-11-21
-[natref] wr: 54 players stored (48 game logs fetched, 6 unchanged)
+[natref] wr: 54 players stored (0 game logs fetched, 54 unchanged)
 STORED natref wr: 54 players through 2026-11-21
 FAILED sections: team
