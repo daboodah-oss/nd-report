@@ -2413,12 +2413,110 @@
          "td": 0
         }
        ]
+      },
+      {
+       "event": "401858307",
+       "date": "2026-11-21",
+       "opp": "SMU",
+       "opp_id": "2567",
+       "site": "H",
+       "pf": 24,
+       "pa": 3,
+       "result": "W 24-3",
+       "total_yds": 464,
+       "rush_yds": 152,
+       "pass_yds": 312,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 5,
+       "third_att": 9,
+       "rush": [
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 15,
+         "yds": 98,
+         "td": 1
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 13,
+         "yds": 49,
+         "td": 0
+        },
+        {
+         "id": "5079369",
+         "name": "CJ Carr",
+         "n": 4,
+         "yds": 5,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 1,
+         "yds": 2,
+         "td": 1
+        }
+       ],
+       "rec": [
+        {
+         "id": "5150424",
+         "name": "Jordan Faison",
+         "n": 7,
+         "yds": 109,
+         "td": 1
+        },
+        {
+         "id": "4870768",
+         "name": "Jaden Greathouse",
+         "n": 1,
+         "yds": 62,
+         "td": 0
+        },
+        {
+         "id": "5079475",
+         "name": "Micah Gilbert",
+         "n": 3,
+         "yds": 58,
+         "td": 0
+        },
+        {
+         "id": "5189515",
+         "name": "Nolan James Jr.",
+         "n": 3,
+         "yds": 31,
+         "td": 0
+        },
+        {
+         "id": "5218514",
+         "name": "Jack Larsen",
+         "n": 1,
+         "yds": 25,
+         "td": 0
+        },
+        {
+         "id": "4870733",
+         "name": "Cooper Flanagan",
+         "n": 3,
+         "yds": 18,
+         "td": 0
+        },
+        {
+         "id": "5159087",
+         "name": "Jonaz Walton",
+         "n": 1,
+         "yds": 9,
+         "td": 0
+        }
+       ]
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-19T01:59+00:00",
-     "check": "cfbstats season totals matched through 2026-11-17",
-     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
+     "retrieved_at": "2026-11-22T05:45+00:00",
+     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
+     "cfbstats_url": null
     },
     "2024": {
      "games": [
@@ -4494,12 +4592,29 @@
        "to_gained": 1,
        "third_conv": 4,
        "third_att": 9
+      },
+      {
+       "event": "401856753",
+       "date": "2026-11-21",
+       "opp": "South Carolina",
+       "opp_id": "2579",
+       "site": "A",
+       "pf": 34,
+       "pa": 6,
+       "result": "W 34-6",
+       "total_yds": 421,
+       "rush_yds": 140,
+       "pass_yds": 281,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 4,
+       "third_att": 9
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-19T01:59+00:00",
-     "check": "cfbstats season totals matched through 2026-11-17",
-     "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
+     "retrieved_at": "2026-11-22T05:45+00:00",
+     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
+     "cfbstats_url": null
     }
    }
   },
@@ -4677,12 +4792,29 @@
        "to_gained": 1,
        "third_conv": 6,
        "third_att": 12
+      },
+      {
+       "event": "401858302",
+       "date": "2026-11-21",
+       "opp": "Virginia Tech",
+       "opp_id": "259",
+       "site": "H",
+       "pf": 28,
+       "pa": 20,
+       "result": "W 28-20",
+       "total_yds": 396,
+       "rush_yds": 155,
+       "pass_yds": 241,
+       "to_lost": 2,
+       "to_gained": 0,
+       "third_conv": 9,
+       "third_att": 14
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-19T01:59+00:00",
-     "check": "cfbstats season totals matched through 2026-11-17, except passing yards 3,317 in ESPN box scores vs 3,310 on cfbstats; total yards 5,188 in ESPN box scores vs 5,181 on cfbstats",
-     "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
+     "retrieved_at": "2026-11-22T05:45+00:00",
+     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
+     "cfbstats_url": null
     }
    }
   },
@@ -4860,12 +4992,29 @@
        "to_gained": 3,
        "third_conv": 5,
        "third_att": 13
+      },
+      {
+       "event": "401858528",
+       "date": "2026-11-21",
+       "opp": "Michigan",
+       "opp_id": "130",
+       "site": "A",
+       "pf": 16,
+       "pa": 18,
+       "result": "L 16-18",
+       "total_yds": 296,
+       "rush_yds": 107,
+       "pass_yds": 189,
+       "to_lost": 3,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 18
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-19T01:59+00:00",
-     "check": "cfbstats season totals matched through 2026-11-17",
-     "cfbstats_url": "https://cfbstats.com/2026/team/110/index.html"
+     "retrieved_at": "2026-11-22T05:45+00:00",
+     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
+     "cfbstats_url": null
     }
    }
   },
@@ -5090,6 +5239,6 @@
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-11-19T01:59+00:00"
+  "retrieved_at": "2026-11-22T05:45+00:00"
  }
 }

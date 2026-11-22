@@ -10,32 +10,36 @@ Traceback (most recent call last):
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ValueError: team seasons not stored: Utah 2026 (refused)
 [schedule] 2026: 12 games, 10 played
-[schedule] ESPN finals seen: 10, latest 2026-11-14 W 41-7
-[games] next game kickoff: {'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}
-UPDATED next game: {'date': '2026-11-21', 'opp': 'SMU', 'site': 'H', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-21T19:30-05:00', 'tv': 'NBC'}
-UPDATED national through 2026-11-17 {'yds': 24, 'td': 9, 'pct': 22, 'rating': 16, 'ypa': 25}
-SKIPPED: snapshot exists for BetMGM 2026-11-18
+[schedule] ESPN finals seen: 11, latest 2026-11-21 W 24-3
+[schedule] 2026-11-21 SMU: final from ESPN (W 24-3)
+quick check: new final 2026-11-21 SMU W 24-3
+ADDED Carr ’26 game 11: SMU W 24-3
+[games] added Carr ’26 2026-11-21 SMU W 24-3
+[games] next game kickoff: {'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}
+UPDATED next game: {'date': '2026-11-28', 'opp': 'Syracuse', 'site': 'A', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}
+UPDATED national through 2026-11-20 {'yds': 24, 'td': 9, 'pct': 21, 'rating': 16, 'ypa': 25}
+ADDED BetMGM 2026-11-20 Carr ’26: 2500
 UPDATED cohort: Jeremiah Smith, Darian Mensah, Devon Dampier, Gunner Stockton
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-11-16 1 Georgia, 2 Utah, 3 Notre Dame, 4 UCLA, 5 Miami
-STORED team Notre Dame 2026: 10 games
-[team] Notre Dame 2026: 10 games; matches cfbstats through 2026-11-17
-STORED team Georgia 2026: 10 games
-[team] Georgia 2026: 10 games; matches cfbstats through 2026-11-17
+STORED team Notre Dame 2026: 11 games
+[team] Notre Dame 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11
+STORED team Georgia 2026: 11 games
+[team] Georgia 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11
 REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (17, 18)} (ESPN, cfbstats)
-STORED team UCLA 2026: 10 games
-[team] UCLA 2026: 10 games; matches cfbstats through 2026-11-17
-STORED team Miami 2026: 10 games
-[team] Miami 2026: 10 games; matches cfbstats through 2026-11-17
+STORED team UCLA 2026: 11 games
+[team] UCLA 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11
+STORED team Miami 2026: 11 games
+[team] Miami 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11
 [team] FAILED: team seasons not stored: Utah 2026 (refused)
-STORED rb: Jonaz Walton 2026 (9 g), Nolan James, Jr. 2026 (10 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
-STORED wr: Jordan Faison 2026 (10 g), Micah Gilbert 2026 (10 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-11-17
-STORED wr national boards through 2026-11-17
-[natref] qb: 46 players stored (0 game logs fetched, 46 unchanged)
-STORED natref qb: 46 players through 2026-11-17
-[natref] rb: 44 players stored (0 game logs fetched, 44 unchanged)
-STORED natref rb: 44 players through 2026-11-17
-[natref] wr: 52 players stored (0 game logs fetched, 52 unchanged)
-STORED natref wr: 52 players through 2026-11-17
+STORED rb: Jonaz Walton 2026 (10 g), Nolan James, Jr. 2026 (11 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
+STORED wr: Jordan Faison 2026 (11 g), Micah Gilbert 2026 (11 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
+STORED rb national boards through 2026-11-20
+STORED wr national boards through 2026-11-20
+[natref] qb: 46 players stored (3 game logs fetched, 43 unchanged)
+STORED natref qb: 46 players through 2026-11-20
+[natref] rb: 45 players stored (5 game logs fetched, 40 unchanged)
+STORED natref rb: 45 players through 2026-11-20
+[natref] wr: 53 players stored (4 game logs fetched, 49 unchanged)
+STORED natref wr: 53 players through 2026-11-20
 FAILED sections: team

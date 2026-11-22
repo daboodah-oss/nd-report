@@ -157,6 +157,21 @@
      "rec": 11,
      "rec_yds": 117,
      "rec_td": 1
+    },
+    {
+     "date": "2026-11-21",
+     "opp": "Nebraska Cornhuskers",
+     "result": "L 31-28",
+     "cmp": 0,
+     "att": 0,
+     "yds": 0,
+     "td": 0,
+     "int": 0,
+     "rush_yds": 0,
+     "rush_td": 0,
+     "rec": 6,
+     "rec_yds": 165,
+     "rec_td": 2
     }
    ]
   },
@@ -311,6 +326,21 @@
      "td": 1,
      "int": 0,
      "rush_yds": 7,
+     "rush_td": 0,
+     "rec": 0,
+     "rec_yds": 0,
+     "rec_td": 0
+    },
+    {
+     "date": "2026-11-21",
+     "opp": "Virginia Tech Hokies",
+     "result": "W 28-20",
+     "cmp": 25,
+     "att": 37,
+     "yds": 241,
+     "td": 0,
+     "int": 2,
+     "rush_yds": 24,
      "rush_td": 0,
      "rec": 0,
      "rec_yds": 0,
@@ -631,9 +661,24 @@
      "rec": 0,
      "rec_yds": 0,
      "rec_td": 0
+    },
+    {
+     "date": "2026-11-21",
+     "opp": "South Carolina Gamecocks",
+     "result": "W 34-6",
+     "cmp": 19,
+     "att": 23,
+     "yds": 281,
+     "td": 1,
+     "int": 0,
+     "rush_yds": 1,
+     "rush_td": 0,
+     "rec": 0,
+     "rec_yds": 0,
+     "rec_td": 0
     }
    ]
   }
  ],
- "retrieved_at": "2026-11-19T01:59+00:00"
+ "retrieved_at": "2026-11-22T05:45+00:00"
 }
