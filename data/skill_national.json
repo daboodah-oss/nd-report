@@ -1,7 +1,7 @@
 {
  "rb": {
   "latest": {
-   "data_through": "2026-11-20",
+   "data_through": "2026-11-21",
    "boards": {
     "yds": {
      "label": "Rushing yards",
@@ -24,36 +24,36 @@
       },
       {
        "rank": 3,
-       "name": "Messiah Burch",
-       "team": "Buffalo",
-       "g": 11,
-       "value": 1310.0
+       "name": "Jackson Gutierrez",
+       "team": "Navy",
+       "g": 10,
+       "value": 1400.0
       },
       {
        "rank": 4,
-       "name": "Dylan Riley",
-       "team": "Boise St",
-       "g": 10,
-       "value": 1291.0
+       "name": "Torrance Burgess Jr.",
+       "team": "Texas St",
+       "g": 11,
+       "value": 1371.0
       },
       {
        "rank": 5,
-       "name": "Torrance Burgess Jr.",
-       "team": "Texas St",
-       "g": 10,
-       "value": 1225.0
+       "name": "Jahiem White",
+       "team": "North Texas",
+       "g": 11,
+       "value": 1366.0
       }
      ],
      "players": {
       "Jonaz Walton": {
        "rank": 67,
-       "value": 655.0,
-       "g": 9
+       "value": 704.0,
+       "g": 10
       },
       "Nolan James, Jr.": {
-       "rank": 70,
-       "value": 644.0,
-       "g": 10
+       "rank": 56,
+       "value": 742.0,
+       "g": 11
       }
      }
     },
@@ -64,45 +64,59 @@
      "top": [
       {
        "rank": 1,
+       "name": "Michael Hawkins Jr.",
+       "team": "WVU",
+       "g": 11,
+       "value": 21.0
+      },
+      {
+       "rank": 2,
+       "name": "Jackson Gutierrez",
+       "team": "Navy",
+       "g": 10,
+       "value": 20.0
+      },
+      {
+       "rank": 2,
        "name": "Nate Sheppard",
        "team": "Duke",
        "g": 11,
        "value": 20.0
       },
       {
-       "rank": 1,
-       "name": "Michael Hawkins Jr.",
-       "team": "WVU",
-       "g": 10,
-       "value": 20.0
-      },
-      {
-       "rank": 3,
-       "name": "Jackson Gutierrez",
-       "team": "Navy",
-       "g": 9,
-       "value": 18.0
-      },
-      {
-       "rank": 3,
+       "rank": 4,
        "name": "Cale Hellums",
        "team": "Army",
-       "g": 9,
+       "g": 10,
        "value": 18.0
       },
       {
        "rank": 5,
        "name": "Jahiem White",
        "team": "North Texas",
-       "g": 10,
+       "g": 11,
+       "value": 16.0
+      },
+      {
+       "rank": 5,
+       "name": "Jadan Baugh",
+       "team": "Florida",
+       "g": 11,
+       "value": 16.0
+      },
+      {
+       "rank": 5,
+       "name": "A'Marion Peterson",
+       "team": "UTSA",
+       "g": 11,
        "value": 16.0
       }
      ],
      "players": {
       "Nolan James, Jr.": {
-       "rank": 18,
-       "value": 10.0,
-       "g": 10
+       "rank": 19,
+       "value": 11.0,
+       "g": 11
       }
      }
     },
@@ -113,45 +127,50 @@
      "top": [
       {
        "rank": 1,
-       "name": "Jaylon Coleman",
-       "team": "Liberty",
-       "g": 10,
-       "value": 9.24
+       "name": "Cole Tabb",
+       "team": "Cincinnati",
+       "g": 11,
+       "value": 8.44
       },
       {
        "rank": 2,
-       "name": "Cole Tabb",
-       "team": "Cincinnati",
-       "g": 10,
-       "value": 9.13
+       "name": "A'Marion Peterson",
+       "team": "UTSA",
+       "g": 11,
+       "value": 8.3
       },
       {
        "rank": 3,
-       "name": "Daniel Bray",
-       "team": "Utah",
+       "name": "Samari Howard",
+       "team": "Army",
        "g": 10,
-       "value": 8.68
+       "value": 7.98
       },
       {
        "rank": 4,
-       "name": "Samari Howard",
-       "team": "Army",
-       "g": 9,
-       "value": 8.56
+       "name": "JJ Garner",
+       "team": "La-Lafytte",
+       "g": 11,
+       "value": 7.84
       },
       {
        "rank": 5,
-       "name": "A'Marion Peterson",
-       "team": "UTSA",
-       "g": 10,
-       "value": 8.24
+       "name": "Jamar Searcy",
+       "team": "Wake Forest",
+       "g": 9,
+       "value": 7.71
       }
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 17,
-       "value": 6.97,
-       "g": 9
+       "rank": 26,
+       "value": 6.58,
+       "g": 10
+      },
+      "Nolan James, Jr.": {
+       "rank": 91,
+       "value": 5.5,
+       "g": 11
       }
      }
     },
@@ -162,50 +181,50 @@
      "top": [
       {
        "rank": 1,
+       "name": "Jackson Gutierrez",
+       "team": "Navy",
+       "g": 10,
+       "value": 140.0
+      },
+      {
+       "rank": 2,
        "name": "Aiden Flora",
        "team": "Iowa State",
        "g": 11,
        "value": 136.91
       },
       {
-       "rank": 2,
+       "rank": 3,
        "name": "Nate Sheppard",
        "team": "Duke",
        "g": 11,
        "value": 130.55
       },
       {
-       "rank": 3,
-       "name": "Dylan Riley",
-       "team": "Boise St",
-       "g": 10,
-       "value": 129.1
-      },
-      {
        "rank": 4,
-       "name": "Jackson Gutierrez",
-       "team": "Navy",
-       "g": 9,
-       "value": 128.78
+       "name": "Torrance Burgess Jr.",
+       "team": "Texas St",
+       "g": 11,
+       "value": 124.64
       },
       {
        "rank": 5,
-       "name": "Torrance Burgess Jr.",
-       "team": "Texas St",
-       "g": 10,
-       "value": 122.5
+       "name": "Jahiem White",
+       "team": "North Texas",
+       "g": 11,
+       "value": 124.18
       }
      ],
      "players": {
       "Jonaz Walton": {
-       "rank": 50,
-       "value": 72.78,
-       "g": 9
+       "rank": 57,
+       "value": 70.4,
+       "g": 10
       },
       "Nolan James, Jr.": {
-       "rank": 75,
-       "value": 64.4,
-       "g": 10
+       "rank": 65,
+       "value": 67.45,
+       "g": 11
       }
      }
     }
@@ -214,7 +233,7 @@
     "Jonaz Walton",
     "Nolan James, Jr."
    ],
-   "retrieved_at": "2026-11-22T05:46+00:00"
+   "retrieved_at": "2026-11-22T20:50+00:00"
   },
   "rank_history": [
    {
@@ -303,19 +322,19 @@
     }
    },
    {
-    "through": "2026-11-20",
+    "through": "2026-11-21",
     "ranks": {
      "Jonaz Walton": {
       "yds": 67,
       "td": null,
-      "ypc": 17,
-      "ypg": 50
+      "ypc": 26,
+      "ypg": 57
      },
      "Nolan James, Jr.": {
-      "yds": 70,
-      "td": 18,
-      "ypc": null,
-      "ypg": 75
+      "yds": 56,
+      "td": 19,
+      "ypc": 91,
+      "ypg": 65
      }
     }
    }
@@ -323,7 +342,7 @@
  },
  "wr": {
   "latest": {
-   "data_through": "2026-11-20",
+   "data_through": "2026-11-21",
    "boards": {
     "rec": {
      "label": "Receptions",
@@ -334,43 +353,43 @@
        "rank": 1,
        "name": "Easton Messer",
        "team": "FAU",
-       "g": 10,
+       "g": 11,
+       "value": 90.0
+      },
+      {
+       "rank": 2,
+       "name": "Kelby Valsin",
+       "team": "FAU",
+       "g": 11,
+       "value": 88.0
+      },
+      {
+       "rank": 3,
+       "name": "Jeremiah Smith",
+       "team": "Ohio State",
+       "g": 11,
        "value": 86.0
       },
       {
-       "rank": 2,
-       "name": "Jeremiah Smith",
-       "team": "Ohio State",
-       "g": 10,
-       "value": 80.0
-      },
-      {
-       "rank": 2,
+       "rank": 3,
        "name": "DeAree Rogers",
        "team": "N Illinois",
-       "g": 10,
-       "value": 80.0
-      },
-      {
-       "rank": 4,
-       "name": "Kelby Valsin",
-       "team": "FAU",
-       "g": 10,
-       "value": 76.0
+       "g": 11,
+       "value": 86.0
       },
       {
        "rank": 5,
        "name": "Gavin Freeman",
        "team": "Baylor",
-       "g": 10,
-       "value": 75.0
+       "g": 11,
+       "value": 81.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 63,
-       "value": 49.0,
-       "g": 10
+       "rank": 50,
+       "value": 56.0,
+       "g": 11
       }
      }
     },
@@ -381,50 +400,50 @@
      "top": [
       {
        "rank": 1,
-       "name": "Jesse Legree",
-       "team": "Oregon State",
-       "g": 10,
-       "value": 1349.0
+       "name": "Jeremiah Smith",
+       "team": "Ohio State",
+       "g": 11,
+       "value": 1482.0
       },
       {
        "rank": 2,
-       "name": "Jeremiah Smith",
-       "team": "Ohio State",
-       "g": 10,
-       "value": 1317.0
+       "name": "Jesse Legree",
+       "team": "Oregon State",
+       "g": 11,
+       "value": 1418.0
       },
       {
        "rank": 3,
        "name": "Umari Hatcher",
        "team": "Syracuse",
-       "g": 10,
-       "value": 1045.0
+       "g": 11,
+       "value": 1257.0
       },
       {
        "rank": 4,
        "name": "Carlos Hernandez",
        "team": "Wake Forest",
-       "g": 10,
-       "value": 1039.0
+       "g": 11,
+       "value": 1184.0
       },
       {
        "rank": 5,
-       "name": "Easton Messer",
-       "team": "FAU",
-       "g": 10,
-       "value": 1033.0
+       "name": "Reed Harris",
+       "team": "Arizona State",
+       "g": 11,
+       "value": 1159.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 68,
-       "value": 615.0,
-       "g": 10
+       "rank": 57,
+       "value": 724.0,
+       "g": 11
       },
       "Micah Gilbert": {
-       "rank": 70,
-       "value": 614.0,
-       "g": 10
+       "rank": 69,
+       "value": 672.0,
+       "g": 11
       }
      }
     },
@@ -435,50 +454,50 @@
      "top": [
       {
        "rank": 1,
-       "name": "Jesse Legree",
-       "team": "Oregon State",
-       "g": 10,
-       "value": 15.0
-      },
-      {
-       "rank": 1,
        "name": "Jeremiah Smith",
        "team": "Ohio State",
-       "g": 10,
+       "g": 11,
+       "value": 17.0
+      },
+      {
+       "rank": 2,
+       "name": "Jesse Legree",
+       "team": "Oregon State",
+       "g": 11,
        "value": 15.0
       },
       {
-       "rank": 3,
+       "rank": 2,
+       "name": "Easton Messer",
+       "team": "FAU",
+       "g": 11,
+       "value": 15.0
+      },
+      {
+       "rank": 4,
        "name": "Malachi Toney",
        "team": "Miami",
        "g": 8,
        "value": 13.0
       },
       {
-       "rank": 3,
-       "name": "Easton Messer",
-       "team": "FAU",
-       "g": 10,
-       "value": 13.0
-      },
-      {
-       "rank": 3,
+       "rank": 4,
        "name": "Collin Dixon",
        "team": "Illinois",
-       "g": 10,
+       "g": 11,
        "value": 13.0
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 43,
-       "value": 6.0,
-       "g": 10
+       "rank": 40,
+       "value": 7.0,
+       "g": 11
       },
       "Micah Gilbert": {
-       "rank": 43,
+       "rank": 51,
        "value": 6.0,
-       "g": 10
+       "g": 11
       }
      }
     },
@@ -489,45 +508,45 @@
      "top": [
       {
        "rank": 1,
-       "name": "Kayden McGee",
-       "team": "UNLV",
+       "name": "Aidan Mizell",
+       "team": "UCLA",
        "g": 9,
-       "value": 22.46
+       "value": 29.83
       },
       {
        "rank": 2,
-       "name": "DJ Epps",
-       "team": "WVU",
+       "name": "Kayden McGee",
+       "team": "UNLV",
        "g": 10,
-       "value": 21.96
+       "value": 22.72
       },
       {
        "rank": 3,
-       "name": "Shamar Porter",
-       "team": "UConn",
-       "g": 10,
-       "value": 21.27
+       "name": "Deondre Johnson",
+       "team": "J'ville St",
+       "g": 11,
+       "value": 22.45
       },
       {
        "rank": 4,
-       "name": "Anthony Eager",
-       "team": "USA",
-       "g": 10,
-       "value": 21.22
+       "name": "Shamar Porter",
+       "team": "UConn",
+       "g": 11,
+       "value": 22.13
       },
       {
        "rank": 5,
-       "name": "Deondre Johnson",
-       "team": "J'ville St",
-       "g": 10,
-       "value": 21.14
+       "name": "Jack Foley",
+       "team": "Wake Forest",
+       "g": 11,
+       "value": 21.45
       }
      ],
      "players": {
       "Micah Gilbert": {
-       "rank": 60,
-       "value": 16.16,
-       "g": 10
+       "rank": 47,
+       "value": 16.39,
+       "g": 11
       }
      }
     },
@@ -538,50 +557,50 @@
      "top": [
       {
        "rank": 1,
-       "name": "Jesse Legree",
-       "team": "Oregon State",
-       "g": 10,
-       "value": 134.9
+       "name": "Jeremiah Smith",
+       "team": "Ohio State",
+       "g": 11,
+       "value": 134.7
       },
       {
        "rank": 2,
-       "name": "Jeremiah Smith",
-       "team": "Ohio State",
-       "g": 10,
-       "value": 131.7
+       "name": "Jesse Legree",
+       "team": "Oregon State",
+       "g": 11,
+       "value": 128.9
       },
       {
        "rank": 3,
-       "name": "Malachi Toney",
-       "team": "Miami",
-       "g": 8,
-       "value": 128.4
+       "name": "Umari Hatcher",
+       "team": "Syracuse",
+       "g": 11,
+       "value": 114.3
       },
       {
        "rank": 4,
-       "name": "Umari Hatcher",
-       "team": "Syracuse",
-       "g": 10,
-       "value": 104.5
+       "name": "Carlos Hernandez",
+       "team": "Wake Forest",
+       "g": 11,
+       "value": 107.6
       },
       {
        "rank": 5,
-       "name": "Carlos Hernandez",
-       "team": "Wake Forest",
-       "g": 10,
-       "value": 103.9
+       "name": "Reed Harris",
+       "team": "Arizona State",
+       "g": 11,
+       "value": 105.4
       }
      ],
      "players": {
       "Jordan Faison": {
-       "rank": 72,
-       "value": 61.5,
-       "g": 10
+       "rank": 56,
+       "value": 65.8,
+       "g": 11
       },
       "Micah Gilbert": {
-       "rank": 74,
-       "value": 61.4,
-       "g": 10
+       "rank": 69,
+       "value": 61.1,
+       "g": 11
       }
      }
     }
@@ -590,7 +609,7 @@
     "Jordan Faison",
     "Micah Gilbert"
    ],
-   "retrieved_at": "2026-11-22T05:46+00:00"
+   "retrieved_at": "2026-11-22T20:50+00:00"
   },
   "rank_history": [
    {
@@ -689,21 +708,21 @@
     }
    },
    {
-    "through": "2026-11-20",
+    "through": "2026-11-21",
     "ranks": {
      "Jordan Faison": {
-      "rec": 63,
-      "yds": 68,
-      "td": 43,
+      "rec": 50,
+      "yds": 57,
+      "td": 40,
       "ypr": null,
-      "ypg": 72
+      "ypg": 56
      },
      "Micah Gilbert": {
       "rec": null,
-      "yds": 70,
-      "td": 43,
-      "ypr": 60,
-      "ypg": 74
+      "yds": 69,
+      "td": 51,
+      "ypr": 47,
+      "ypg": 69
      }
     }
    }

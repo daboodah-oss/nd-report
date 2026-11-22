@@ -1,23 +1,20 @@
 {
- "at": "2026-11-22T00:46-05:00",
+ "at": "2026-11-22T15:52-05:00",
  "failed": [
   "team"
  ],
  "log": [
-  "[schedule] 2026: 12 games, 10 played",
+  "[schedule] 2026: 12 games, 11 played",
   "[schedule] ESPN finals seen: 11, latest 2026-11-21 W 24-3",
-  "[schedule] 2026-11-21 SMU: final from ESPN (W 24-3)",
-  "quick check: new final 2026-11-21 SMU W 24-3",
-  "[games] added Carr \u201926 2026-11-21 SMU W 24-3",
   "[games] next game kickoff: {'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}",
-  "[team] Notre Dame 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-  "[team] Georgia 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-  "[team] UCLA 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-  "[team] Miami 2026: 11 games; not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
+  "[team] Notre Dame 2026: 11 games; matches cfbstats through 2026-11-21",
+  "[team] Georgia 2026: 11 games; matches cfbstats through 2026-11-21",
+  "[team] Miami 2026: 11 games; matches cfbstats through 2026-11-21",
+  "[team] Texas 2026: 11 games; matches cfbstats through 2026-11-21",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
-  "[natref] qb: 46 players stored (3 game logs fetched, 43 unchanged)",
-  "[natref] rb: 45 players stored (5 game logs fetched, 40 unchanged)",
-  "[natref] wr: 53 players stored (4 game logs fetched, 49 unchanged)",
+  "[natref] qb: 44 players stored (37 game logs fetched, 7 unchanged)",
+  "[natref] rb: 45 players stored (39 game logs fetched, 6 unchanged)",
+  "[natref] wr: 54 players stored (48 game logs fetched, 6 unchanged)",
   "FAILED sections: team"
  ]
 }

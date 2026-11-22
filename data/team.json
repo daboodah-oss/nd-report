@@ -2514,9 +2514,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-22T05:45+00:00",
-     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-     "cfbstats_url": null
+     "retrieved_at": "2026-11-22T20:50+00:00",
+     "check": "cfbstats season totals matched through 2026-11-21",
+     "cfbstats_url": "https://cfbstats.com/2026/team/513/index.html"
     },
     "2024": {
      "games": [
@@ -4612,9 +4612,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-22T05:45+00:00",
-     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-     "cfbstats_url": null
+     "retrieved_at": "2026-11-22T20:50+00:00",
+     "check": "cfbstats season totals matched through 2026-11-21",
+     "cfbstats_url": "https://cfbstats.com/2026/team/257/index.html"
     }
    }
   },
@@ -4812,209 +4812,9 @@
       }
      ],
      "complete": false,
-     "retrieved_at": "2026-11-22T05:45+00:00",
-     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-     "cfbstats_url": null
-    }
-   }
-  },
-  "26": {
-   "name": "UCLA",
-   "seasons": {
-    "2026": {
-     "games": [
-      {
-       "event": "401858210",
-       "date": "2026-09-05",
-       "opp": "California",
-       "opp_id": "25",
-       "site": "A",
-       "pf": 45,
-       "pa": 24,
-       "result": "W 45-24",
-       "total_yds": 461,
-       "rush_yds": 277,
-       "pass_yds": 184,
-       "to_lost": 1,
-       "to_gained": 3,
-       "third_conv": 6,
-       "third_att": 11
-      },
-      {
-       "event": "401858443",
-       "date": "2026-09-12",
-       "opp": "San Diego State",
-       "opp_id": "21",
-       "site": "H",
-       "pf": 28,
-       "pa": 10,
-       "result": "W 28-10",
-       "total_yds": 365,
-       "rush_yds": 214,
-       "pass_yds": 151,
-       "to_lost": 1,
-       "to_gained": 1,
-       "third_conv": 4,
-       "third_att": 11
-      },
-      {
-       "event": "401858458",
-       "date": "2026-09-19",
-       "opp": "Purdue",
-       "opp_id": "2509",
-       "site": "H",
-       "pf": 52,
-       "pa": 38,
-       "result": "W 52-38",
-       "total_yds": 645,
-       "rush_yds": 369,
-       "pass_yds": 276,
-       "to_lost": 0,
-       "to_gained": 3,
-       "third_conv": 11,
-       "third_att": 14
-      },
-      {
-       "event": "401858462",
-       "date": "2026-09-26",
-       "opp": "Maryland",
-       "opp_id": "120",
-       "site": "A",
-       "pf": 54,
-       "pa": 3,
-       "result": "W 54-3",
-       "total_yds": 475,
-       "rush_yds": 266,
-       "pass_yds": 209,
-       "to_lost": 2,
-       "to_gained": 5,
-       "third_conv": 2,
-       "third_att": 10
-      },
-      {
-       "event": "401858484",
-       "date": "2026-10-10",
-       "opp": "Oregon",
-       "opp_id": "2483",
-       "site": "A",
-       "pf": 17,
-       "pa": 15,
-       "result": "W 17-15",
-       "total_yds": 345,
-       "rush_yds": 140,
-       "pass_yds": 205,
-       "to_lost": 3,
-       "to_gained": 7,
-       "third_conv": 4,
-       "third_att": 16
-      },
-      {
-       "event": "401858494",
-       "date": "2026-10-17",
-       "opp": "Wisconsin",
-       "opp_id": "275",
-       "site": "H",
-       "pf": 17,
-       "pa": 7,
-       "result": "W 17-7",
-       "total_yds": 384,
-       "rush_yds": 120,
-       "pass_yds": 264,
-       "to_lost": 2,
-       "to_gained": 0,
-       "third_conv": 13,
-       "third_att": 20
-      },
-      {
-       "event": "401858499",
-       "date": "2026-10-24",
-       "opp": "Michigan State",
-       "opp_id": "127",
-       "site": "H",
-       "pf": 28,
-       "pa": 10,
-       "result": "W 28-10",
-       "total_yds": 443,
-       "rush_yds": 245,
-       "pass_yds": 198,
-       "to_lost": 2,
-       "to_gained": 3,
-       "third_conv": 6,
-       "third_att": 16
-      },
-      {
-       "event": "401858508",
-       "date": "2026-10-31",
-       "opp": "Nevada",
-       "opp_id": "2440",
-       "site": "H",
-       "pf": 27,
-       "pa": 0,
-       "result": "W 27-0",
-       "total_yds": 303,
-       "rush_yds": 125,
-       "pass_yds": 178,
-       "to_lost": 0,
-       "to_gained": 4,
-       "third_conv": 5,
-       "third_att": 13
-      },
-      {
-       "event": "401858512",
-       "date": "2026-11-07",
-       "opp": "Minnesota",
-       "opp_id": "135",
-       "site": "A",
-       "pf": 34,
-       "pa": 20,
-       "result": "W 34-20",
-       "total_yds": 466,
-       "rush_yds": 163,
-       "pass_yds": 303,
-       "to_lost": 2,
-       "to_gained": 1,
-       "third_conv": 6,
-       "third_att": 13
-      },
-      {
-       "event": "401858526",
-       "date": "2026-11-13",
-       "opp": "Illinois",
-       "opp_id": "356",
-       "site": "H",
-       "pf": 22,
-       "pa": 14,
-       "result": "W 22-14",
-       "total_yds": 361,
-       "rush_yds": 108,
-       "pass_yds": 253,
-       "to_lost": 1,
-       "to_gained": 3,
-       "third_conv": 5,
-       "third_att": 13
-      },
-      {
-       "event": "401858528",
-       "date": "2026-11-21",
-       "opp": "Michigan",
-       "opp_id": "130",
-       "site": "A",
-       "pf": 16,
-       "pa": 18,
-       "result": "L 16-18",
-       "total_yds": 296,
-       "rush_yds": 107,
-       "pass_yds": 189,
-       "to_lost": 3,
-       "to_gained": 1,
-       "third_conv": 7,
-       "third_att": 18
-      }
-     ],
-     "complete": false,
-     "retrieved_at": "2026-11-22T05:45+00:00",
-     "check": "not cross-checked yet: cfbstats has 10 games through 2026-11-20, ESPN 11",
-     "cfbstats_url": null
+     "retrieved_at": "2026-11-22T20:50+00:00",
+     "check": "cfbstats season totals matched through 2026-11-21, except passing yards 3,558 in ESPN box scores vs 3,551 on cfbstats; total yards 5,584 in ESPN box scores vs 5,577 on cfbstats",
+     "cfbstats_url": "https://cfbstats.com/2026/team/415/index.html"
     }
    }
   },
@@ -5183,13 +4983,213 @@
      "cfbstats_url": null
     }
    }
+  },
+  "251": {
+   "name": "Texas",
+   "seasons": {
+    "2026": {
+     "games": [
+      {
+       "event": "401856667",
+       "date": "2026-09-05",
+       "opp": "Texas State",
+       "opp_id": "326",
+       "site": "H",
+       "pf": 59,
+       "pa": 7,
+       "result": "W 59-7",
+       "total_yds": 516,
+       "rush_yds": 156,
+       "pass_yds": 360,
+       "to_lost": 1,
+       "to_gained": 3,
+       "third_conv": 11,
+       "third_att": 15
+      },
+      {
+       "event": "401856682",
+       "date": "2026-09-12",
+       "opp": "Ohio State",
+       "opp_id": "194",
+       "site": "H",
+       "pf": 24,
+       "pa": 23,
+       "result": "W 24-23",
+       "total_yds": 336,
+       "rush_yds": 141,
+       "pass_yds": 195,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 9,
+       "third_att": 16
+      },
+      {
+       "event": "401856693",
+       "date": "2026-09-19",
+       "opp": "UTSA",
+       "opp_id": "2636",
+       "site": "H",
+       "pf": 30,
+       "pa": 6,
+       "result": "W 30-6",
+       "total_yds": 400,
+       "rush_yds": 231,
+       "pass_yds": 169,
+       "to_lost": 0,
+       "to_gained": 1,
+       "third_conv": 7,
+       "third_att": 17
+      },
+      {
+       "event": "401856704",
+       "date": "2026-09-26",
+       "opp": "Tennessee",
+       "opp_id": "2633",
+       "site": "A",
+       "pf": 20,
+       "pa": 17,
+       "result": "W 20-17",
+       "total_yds": 262,
+       "rush_yds": 61,
+       "pass_yds": 201,
+       "to_lost": 2,
+       "to_gained": 0,
+       "third_conv": 3,
+       "third_att": 12
+      },
+      {
+       "event": "401856717",
+       "date": "2026-10-10",
+       "opp": "Oklahoma",
+       "opp_id": "201",
+       "site": "N",
+       "pf": 24,
+       "pa": 27,
+       "result": "L 24-27",
+       "total_yds": 382,
+       "rush_yds": 122,
+       "pass_yds": 260,
+       "to_lost": 2,
+       "to_gained": 0,
+       "third_conv": 3,
+       "third_att": 14
+      },
+      {
+       "event": "401856724",
+       "date": "2026-10-17",
+       "opp": "Florida",
+       "opp_id": "57",
+       "site": "H",
+       "pf": 24,
+       "pa": 27,
+       "result": "L 24-27",
+       "total_yds": 278,
+       "rush_yds": 105,
+       "pass_yds": 173,
+       "to_lost": 1,
+       "to_gained": 0,
+       "third_conv": 2,
+       "third_att": 10
+      },
+      {
+       "event": "401856732",
+       "date": "2026-10-24",
+       "opp": "Ole Miss",
+       "opp_id": "145",
+       "site": "H",
+       "pf": 34,
+       "pa": 27,
+       "result": "W 34-27",
+       "total_yds": 419,
+       "rush_yds": 207,
+       "pass_yds": 212,
+       "to_lost": 3,
+       "to_gained": 3,
+       "third_conv": 3,
+       "third_att": 13
+      },
+      {
+       "event": "401856737",
+       "date": "2026-10-31",
+       "opp": "Mississippi State",
+       "opp_id": "344",
+       "site": "H",
+       "pf": 31,
+       "pa": 3,
+       "result": "W 31-3",
+       "total_yds": 280,
+       "rush_yds": 60,
+       "pass_yds": 220,
+       "to_lost": 1,
+       "to_gained": 1,
+       "third_conv": 6,
+       "third_att": 14
+      },
+      {
+       "event": "401856743",
+       "date": "2026-11-07",
+       "opp": "Missouri",
+       "opp_id": "142",
+       "site": "A",
+       "pf": 34,
+       "pa": 20,
+       "result": "W 34-20",
+       "total_yds": 401,
+       "rush_yds": 104,
+       "pass_yds": 297,
+       "to_lost": 2,
+       "to_gained": 1,
+       "third_conv": 6,
+       "third_att": 13
+      },
+      {
+       "event": "401856885",
+       "date": "2026-11-14",
+       "opp": "LSU",
+       "opp_id": "99",
+       "site": "A",
+       "pf": 22,
+       "pa": 21,
+       "result": "W 22-21",
+       "total_yds": 273,
+       "rush_yds": 99,
+       "pass_yds": 174,
+       "to_lost": 3,
+       "to_gained": 3,
+       "third_conv": 7,
+       "third_att": 17
+      },
+      {
+       "event": "401856755",
+       "date": "2026-11-21",
+       "opp": "Arkansas",
+       "opp_id": "8",
+       "site": "H",
+       "pf": 45,
+       "pa": 3,
+       "result": "W 45-3",
+       "total_yds": 448,
+       "rush_yds": 116,
+       "pass_yds": 332,
+       "to_lost": 0,
+       "to_gained": 2,
+       "third_conv": 6,
+       "third_att": 11
+      }
+     ],
+     "complete": false,
+     "retrieved_at": "2026-11-22T20:50+00:00",
+     "check": "cfbstats season totals matched through 2026-11-21",
+     "cfbstats_url": "https://cfbstats.com/2026/team/703/index.html"
+    }
+   }
   }
  },
  "ap": {
   "poll": "AP Top 25",
-  "week": "Week 12",
-  "headline": "2026 NCAA Football Rankings - AP Poll Week 12",
-  "date": "2026-11-16",
+  "week": "Week 13",
+  "headline": "2026 NCAA Football Rankings - AP Poll Week 13",
+  "date": "2026-11-22",
   "season": 2026,
   "top": [
    {
@@ -5198,8 +5198,8 @@
     "name": "Georgia",
     "nickname": "Bulldogs",
     "abbr": "UGA",
-    "record": "9-1",
-    "first_place": 58
+    "record": "10-1",
+    "first_place": 56
    },
    {
     "rank": 2,
@@ -5207,8 +5207,8 @@
     "name": "Utah",
     "nickname": "Utes",
     "abbr": "UTAH",
-    "record": "10-0",
-    "first_place": 10
+    "record": "11-0",
+    "first_place": 12
    },
    {
     "rank": 3,
@@ -5216,29 +5216,29 @@
     "name": "Notre Dame",
     "nickname": "Fighting Irish",
     "abbr": "ND",
-    "record": "9-1",
-    "first_place": 2
+    "record": "10-1",
+    "first_place": 1
    },
    {
     "rank": 4,
-    "team_id": "26",
-    "name": "UCLA",
-    "nickname": "Bruins",
-    "abbr": "UCLA",
-    "record": "10-0",
-    "first_place": 0
-   },
-   {
-    "rank": 5,
     "team_id": "2390",
     "name": "Miami",
     "nickname": "Hurricanes",
     "abbr": "MIA",
-    "record": "9-1",
+    "record": "10-1",
+    "first_place": 0
+   },
+   {
+    "rank": 5,
+    "team_id": "251",
+    "name": "Texas",
+    "nickname": "Longhorns",
+    "abbr": "TEX",
+    "record": "9-2",
     "first_place": 0
    }
   ],
   "source_url": "https://www.espn.com/college-football/rankings",
-  "retrieved_at": "2026-11-22T05:45+00:00"
+  "retrieved_at": "2026-11-22T20:50+00:00"
  }
 }
