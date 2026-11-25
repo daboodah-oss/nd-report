@@ -13,29 +13,29 @@ ValueError: team seasons not stored: Utah 2026 (refused)
 [schedule] ESPN finals seen: 11, latest 2026-11-21 W 24-3
 [games] next game kickoff: {'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}
 UPDATED next game: {'date': '2026-11-28', 'opp': 'Syracuse', 'site': 'A', 'source_url': 'https://cfbstats.com/2026/team/513/index.html', 'kickoff': '2026-11-28T12:00-05:00', 'tv': 'ABC'}
-UPDATED national through 2026-11-21 {'yds': 16, 'td': 10, 'pct': 17, 'rating': 17, 'ypa': 18}
-SKIPPED: snapshot exists for BetMGM 2026-11-22
+UPDATED national through 2026-11-24 {'yds': 16, 'td': 10, 'pct': 17, 'rating': 17, 'ypa': 18}
+ADDED BetMGM 2026-11-25 Carr ’26: 5000
 UPDATED cohort: Jeremiah Smith, Devon Dampier, Darian Mensah, Gio Lopez
 UPDATED opponent pass-D ranks
 STORED AP Top 25 2026-11-22 1 Georgia, 2 Utah, 3 Notre Dame, 4 Miami, 5 Texas
 STORED team Notre Dame 2026: 11 games
-[team] Notre Dame 2026: 11 games; matches cfbstats through 2026-11-21
+[team] Notre Dame 2026: 11 games; matches cfbstats through 2026-11-24
 STORED team Georgia 2026: 11 games
-[team] Georgia 2026: 11 games; matches cfbstats through 2026-11-21
+[team] Georgia 2026: 11 games; matches cfbstats through 2026-11-24
 REFUSED: team-season Utah 2026: ESPN box scores disagree with cfbstats season totals {'to_gained': (19, 20)} (ESPN, cfbstats)
 STORED team Miami 2026: 11 games
-[team] Miami 2026: 11 games; matches cfbstats through 2026-11-21
+[team] Miami 2026: 11 games; matches cfbstats through 2026-11-24
 STORED team Texas 2026: 11 games
-[team] Texas 2026: 11 games; matches cfbstats through 2026-11-21
+[team] Texas 2026: 11 games; matches cfbstats through 2026-11-24
 [team] FAILED: team seasons not stored: Utah 2026 (refused)
 STORED rb: Jonaz Walton 2026 (10 g), Nolan James, Jr. 2026 (11 g), Jeremiyah Love 2025 (12 g), Jadarian Price 2025 (12 g), Jeremiyah Love 2024 (16 g), Jadarian Price 2024 (16 g)
 STORED wr: Jordan Faison 2026 (11 g), Micah Gilbert 2026 (11 g), Jordan Faison 2025 (12 g), Malachi Fields 2025 (12 g), Jaden Greathouse 2024 (16 g), Beaux Collins 2024 (16 g)
-STORED rb national boards through 2026-11-21
-STORED wr national boards through 2026-11-21
+STORED rb national boards through 2026-11-24
+STORED wr national boards through 2026-11-24
 [natref] qb: 44 players stored (0 game logs fetched, 44 unchanged)
-STORED natref qb: 44 players through 2026-11-21
-[natref] rb: 45 players stored (0 game logs fetched, 45 unchanged)
-STORED natref rb: 45 players through 2026-11-21
-[natref] wr: 54 players stored (0 game logs fetched, 54 unchanged)
-STORED natref wr: 54 players through 2026-11-21
+STORED natref qb: 44 players through 2026-11-24
+[natref] rb: 45 players stored (3 game logs fetched, 42 unchanged)
+STORED natref rb: 45 players through 2026-11-24
+[natref] wr: 55 players stored (2 game logs fetched, 53 unchanged)
+STORED natref wr: 55 players through 2026-11-24
 FAILED sections: team
