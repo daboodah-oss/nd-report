@@ -1,5 +1,5 @@
 {
- "at": "2026-11-25T18:18-05:00",
+ "at": "2026-11-25T19:41-05:00",
  "failed": [
   "team"
  ],
@@ -13,8 +13,8 @@
   "[team] Texas 2026: 11 games; matches cfbstats through 2026-11-24",
   "[team] FAILED: team seasons not stored: Utah 2026 (refused)",
   "[natref] qb: 44 players stored (0 game logs fetched, 44 unchanged)",
-  "[natref] rb: 45 players stored (3 game logs fetched, 42 unchanged)",
-  "[natref] wr: 55 players stored (2 game logs fetched, 53 unchanged)",
+  "[natref] rb: 45 players stored (0 game logs fetched, 45 unchanged)",
+  "[natref] wr: 55 players stored (0 game logs fetched, 55 unchanged)",
   "FAILED sections: team"
  ]
 }
